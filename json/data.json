@@ -1,0 +1,2384 @@
+[
+	{
+		"idol_name": "마노",
+		"eng_name": "mano",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "mano_p_ssr0"
+				},
+				{
+					"card_name": "ほわっとスマイル",
+					"card_addr": "mano_p_ssr1"
+				},
+				{
+					"card_name": "ハ♡トフェルトゥギフト",
+					"card_addr": "mano_p_ssr2"
+				},
+				{
+					"card_name": "はじけてスマイル",
+					"card_addr": "mano_p_ssr3"
+				},
+				{
+					"card_name": "深染め、いろみぐさ",
+					"card_addr": "mano_p_ssr4"
+				},
+				{
+					"card_name": "ソラを跳ね",
+					"card_addr": "mano_p_ssr5"
+				},
+				{
+					"card_name": "花風Smiley",
+					"card_addr": "mano_p_ssr6"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "mano_p_sr0"
+				},
+				{
+					"card_name": "ナチュラルモード",
+					"card_addr": "mano_p_sr1"
+				},
+				{
+					"card_name": "ぐうぜんBOOKS",
+					"card_addr": "mano_p_sr2"
+				},
+				{
+					"card_name": "しじまに華ひととき",
+					"card_addr": "mano_p_sr3"
+				},
+				{
+					"card_name": "花結びゆくゆく",
+					"card_addr": "mano_p_sr4"
+				},
+				{
+					"card_name": "一番星の魔法",
+					"card_addr": "mano_p_sr5"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "トリプルイルミネーション",
+					"card_addr": "mano_s_ssr1"
+				},
+				{
+					"card_name": "お揃いスナップ",
+					"card_addr": "mano_s_ssr2"
+				},
+				{
+					"card_name": "スプラッシュビート",
+					"card_addr": "mano_s_ssr3"
+				},
+				{
+					"card_name": "はじまりのエピローグ",
+					"card_addr": "mano_s_ssr4"
+				},
+				{
+					"card_name": "冬街イルミネート",
+					"card_addr": "mano_s_ssr5"
+				},
+				{
+					"card_name": "駅線上の日常",
+					"card_addr": "mano_s_ssr6"
+				},
+				{
+					"card_name": "つむぎ、まばゆく。星屑たち",
+					"card_addr": "mano_s_ssr7"
+				},
+				{
+					"card_name": "こころ、えんにならんで",
+					"card_addr": "mano_s_ssr8"
+				},
+				{
+					"card_name": "泡沫の石たちに乾杯",
+					"card_addr": "mano_s_ssr9"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "天然色ピクニック",
+					"card_addr": "mano_s_sr1"
+				},
+				{
+					"card_name": "音、雨、パシャ、リ",
+					"card_addr": "mano_s_sr2"
+				},
+				{
+					"card_name": "by to illuminate",
+					"card_addr": "mano_s_sr3"
+				},
+				{
+					"card_name": "まわる音色、君色のかおり",
+					"card_addr": "mano_s_sr4"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "mano_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "mano_s_r0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "히오리",
+		"eng_name": "hiori",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "hiori_p_ssr0"
+				},
+				{
+					"card_name": "柔らかな微笑み",
+					"card_addr": "hiori_p_ssr1"
+				},
+				{
+					"card_name": "淡雪の戯れ",
+					"card_addr": "hiori_p_ssr2"
+				},
+				{
+					"card_name": "伸ばす手に乗せるのは",
+					"card_addr": "hiori_p_ssr3"
+				},
+				{
+					"card_name": "清閑に息をひそめて",
+					"card_addr": "hiori_p_ssr4"
+				},
+				{
+					"card_name": "黒百合前で待ち合わせ",
+					"card_addr": "hiori_p_ssr5"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "hiori_p_sr0"
+				},
+				{
+					"card_name": "手作りの心遣い",
+					"card_addr": "hiori_p_sr1"
+				},
+				{
+					"card_name": "マフラー直して、心は解けて",
+					"card_addr": "hiori_p_sr2"
+				},
+				{
+					"card_name": "落下予測地点",
+					"card_addr": "hiori_p_sr3"
+				},
+				{
+					"card_name": "インビジブルタイム",
+					"card_addr": "hiori_p_sr4"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "みんなと結んだもの",
+					"card_addr": "hiori_s_ssr1"
+				},
+				{
+					"card_name": "風野署長の一日勤務回想録",
+					"card_addr": "hiori_s_ssr2"
+				},
+				{
+					"card_name": "星合アステリズム",
+					"card_addr": "hiori_s_ssr3"
+				},
+				{
+					"card_name": "星掬い藍仰ぐ",
+					"card_addr": "hiori_s_ssr4"
+				},
+				{
+					"card_name": "宝石色のしおり",
+					"card_addr": "hiori_s_ssr5"
+				},
+				{
+					"card_name": "水面を仰いで海の底",
+					"card_addr": "hiori_s_ssr6"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "克服の特訓",
+					"card_addr": "hiori_s_sr1"
+				},
+				{
+					"card_name": "遊び疲れて……",
+					"card_addr": "hiori_s_sr2"
+				},
+				{
+					"card_name": "魔法の階段を上って……",
+					"card_addr": "hiori_s_sr3"
+				},
+				{
+					"card_name": "RPGのススメ",
+					"card_addr": "hiori_s_sr4"
+				},
+				{
+					"card_name": "クローズ・トゥ・ユー",
+					"card_addr": "hiori_s_sr5"
+				},
+				{
+					"card_name": "幾星霜の先に",
+					"card_addr": "hiori_s_sr6"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "hiori_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "hiori_s_r0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "메구루",
+		"eng_name": "meguru",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "meguru_p_ssr0"
+				},
+				{
+					"card_name": "金色の元気いっぱいガール",
+					"card_addr": "meguru_p_ssr1"
+				},
+				{
+					"card_name": "夏に恋するピチカート！",
+					"card_addr": "meguru_p_ssr2"
+				},
+				{
+					"card_name": "シュカのまにまに",
+					"card_addr": "meguru_p_ssr3"
+				},
+				{
+					"card_name": "日々を紡ぐインヴェルノ",
+					"card_addr": "meguru_p_ssr4"
+				},
+				{
+					"card_name": "アイの誓い",
+					"card_addr": "meguru_p_ssr5"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "meguru_p_sr0"
+				},
+				{
+					"card_name": "キネマ・リリックで夢見て",
+					"card_addr": "meguru_p_sr1"
+				},
+				{
+					"card_name": "小さな夜のトロイメライ",
+					"card_addr": "meguru_p_sr2"
+				},
+				{
+					"card_name": "チエルアルコは流星の",
+					"card_addr": "meguru_p_sr3"
+				},
+				{
+					"card_name": "ハロー・ワールド",
+					"card_addr": "meguru_p_sr4"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "スタァライトショウタイム",
+					"card_addr": "meguru_s_ssr1"
+				},
+				{
+					"card_name": "キャプテン★パンプキン",
+					"card_addr": "meguru_s_ssr2"
+				},
+				{
+					"card_name": "花笑み咲匂う",
+					"card_addr": "meguru_s_ssr3"
+				},
+				{
+					"card_name": "ああひかりよ",
+					"card_addr": "meguru_s_ssr4"
+				},
+				{
+					"card_name": "アップ・トゥ・ユー",
+					"card_addr": "meguru_s_ssr5"
+				},
+				{
+					"card_name": "ハッピー・バレンタイン？",
+					"card_addr": "meguru_s_ssr6"
+				},
+				{
+					"card_name": "Scoop up Scraps",
+					"card_addr": "meguru_s_ssr7"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "友情の花吹雪",
+					"card_addr": "meguru_s_sr1"
+				},
+				{
+					"card_name": "友達という灯り",
+					"card_addr": "meguru_s_sr2"
+				},
+				{
+					"card_name": "アイムカミングスーン",
+					"card_addr": "meguru_s_sr3"
+				},
+				{
+					"card_name": "サンシャインシエスタ！",
+					"card_addr": "meguru_s_sr4"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "meguru_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "meguru_s_r0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "코가네",
+		"eng_name": "kogane",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "kogane_p_ssr0"
+				},
+				{
+					"card_name": "ばりうまかブルース",
+					"card_addr": "kogane_p_ssr1"
+				},
+				{
+					"card_name": "月の浜辺で待っとって",
+					"card_addr": "kogane_p_ssr2"
+				},
+				{
+					"card_name": "風吹く丘にはよ来んね",
+					"card_addr": "kogane_p_ssr3"
+				},
+				{
+					"card_name": "うちのリボンは恋結び",
+					"card_addr": "kogane_p_ssr4"
+				},
+				{
+					"card_name": "心の鐘が鳴っとるけん",
+					"card_addr": "kogane_p_ssr5"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "kogane_p_sr0"
+				},
+				{
+					"card_name": "ばってん長崎恋岬",
+					"card_addr": "kogane_p_sr1"
+				},
+				{
+					"card_name": "ビ～♡バップ海岸",
+					"card_addr": "kogane_p_sr2"
+				},
+				{
+					"card_name": "は～と♡に火をつけて",
+					"card_addr": "kogane_p_sr3"
+				},
+				{
+					"card_name": "猫道カントリー",
+					"card_addr": "kogane_p_sr4"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "ふっふ～ん、ふふ～ん♪",
+					"card_addr": "kogane_s_ssr1"
+				},
+				{
+					"card_name": "これ、なんの話～？",
+					"card_addr": "kogane_s_ssr2"
+				},
+				{
+					"card_name": "SIDE：K",
+					"card_addr": "kogane_s_ssr3"
+				},
+				{
+					"card_name": "夏、どがんね～？",
+					"card_addr": "kogane_s_ssr4"
+				},
+				{
+					"card_name": "晴れ、よかばい～！",
+					"card_addr": "kogane_s_ssr5"
+				},
+				{
+					"card_name": "会いに行かんば～！",
+					"card_addr": "kogane_s_ssr6"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "やけん、なんの話～！？",
+					"card_addr": "kogane_s_sr1"
+				},
+				{
+					"card_name": "と～りゃんせ！",
+					"card_addr": "kogane_s_sr2"
+				},
+				{
+					"card_name": "秋、どがんね～？",
+					"card_addr": "kogane_s_sr3"
+				},
+				{
+					"card_name": "冬、どがんね～？",
+					"card_addr": "kogane_s_sr4"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "kogane_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "kogane_s_r0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "마미미",
+		"eng_name": "mamimi",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "mamimi_p_ssr0"
+				},
+				{
+					"card_name": "トリッキーナイト",
+					"card_addr": "mamimi_p_ssr1"
+				},
+				{
+					"card_name": "摩的・アンチテーゼ",
+					"card_addr": "mamimi_p_ssr2"
+				},
+				{
+					"card_name": "パープル・ミラージュ",
+					"card_addr": "mamimi_p_ssr3"
+				},
+				{
+					"card_name": "フィドル・ファドル",
+					"card_addr": "mamimi_p_ssr4"
+				},
+				{
+					"card_name": "真・TRAVELER",
+					"card_addr": "mamimi_p_ssr5"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "mamimi_p_sr0"
+				},
+				{
+					"card_name": "裏腹あまのじゃく",
+					"card_addr": "mamimi_p_sr1"
+				},
+				{
+					"card_name": "夕つ方まみみチック",
+					"card_addr": "mamimi_p_sr2"
+				},
+				{
+					"card_name": "そのまみみ無気力につき",
+					"card_addr": "mamimi_p_sr3"
+				},
+				{
+					"card_name": "FANCY 24g",
+					"card_addr": "mamimi_p_sr4"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "ゴシックデコレーション",
+					"card_addr": "mamimi_s_ssr1"
+				},
+				{
+					"card_name": "闇鍋上等",
+					"card_addr": "mamimi_s_ssr2"
+				},
+				{
+					"card_name": "夜夜中ワンダーラスト",
+					"card_addr": "mamimi_s_ssr3"
+				},
+				{
+					"card_name": "きまぐれのめぐみ",
+					"card_addr": "mamimi_s_ssr4"
+				},
+				{
+					"card_name": "デタラメハッシュタグ",
+					"card_addr": "mamimi_s_ssr5"
+				},
+				{
+					"card_name": "スプリング・フィッシュ",
+					"card_addr": "mamimi_s_ssr6"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "カラフルポップMIX",
+					"card_addr": "mamimi_s_sr1"
+				},
+				{
+					"card_name": "アーリー・ナチュラリィ",
+					"card_addr": "mamimi_s_sr2"
+				},
+				{
+					"card_name": "イン・ザ・ピンク",
+					"card_addr": "mamimi_s_sr3"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "mamimi_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "mamimi_s_r0"
+				}
+			],
+			"S_N": [
+				{
+					"card_name": "アイドルのたまご",
+					"card_addr": "mamimi_s_n0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "사쿠야",
+		"eng_name": "sakuya",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "sakuya_p_ssr0"
+				},
+				{
+					"card_name": "紺碧のボーダーライン",
+					"card_addr": "sakuya_p_ssr1"
+				},
+				{
+					"card_name": "1/60・NaturalHeart",
+					"card_addr": "sakuya_p_ssr2"
+				},
+				{
+					"card_name": "幸福のリズム",
+					"card_addr": "sakuya_p_ssr3"
+				},
+				{
+					"card_name": "海と太陽のプロメッサ",
+					"card_addr": "sakuya_p_ssr4"
+				},
+				{
+					"card_name": "乙女と交わすTrick",
+					"card_addr": "sakuya_p_ssr5"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "sakuya_p_sr0"
+				},
+				{
+					"card_name": "秘めやかファンサービス",
+					"card_addr": "sakuya_p_sr1"
+				},
+				{
+					"card_name": "ふれあい、おもいあい",
+					"card_addr": "sakuya_p_sr2"
+				},
+				{
+					"card_name": "雪染めロマンティカ",
+					"card_addr": "sakuya_p_sr3"
+				},
+				{
+					"card_name": "真紅一輪",
+					"card_addr": "sakuya_p_sr4"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "指先の煌めき",
+					"card_addr": "sakuya_s_ssr1"
+				},
+				{
+					"card_name": "街角フラワーガーデン",
+					"card_addr": "sakuya_s_ssr2"
+				},
+				{
+					"card_name": "月映えのソワレ",
+					"card_addr": "sakuya_s_ssr3"
+				},
+				{
+					"card_name": "prince×princess",
+					"card_addr": "sakuya_s_ssr4"
+				},
+				{
+					"card_name": "シー・イズ",
+					"card_addr": "sakuya_s_ssr5"
+				},
+				{
+					"card_name": "あのねが言える場所",
+					"card_addr": "sakuya_s_ssr6"
+				},
+				{
+					"card_name": "それは途中の１ページ",
+					"card_addr": "sakuya_s_ssr7"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "雲間のモーメント",
+					"card_addr": "sakuya_s_sr1"
+				},
+				{
+					"card_name": "マジカル＊スカイレース",
+					"card_addr": "sakuya_s_sr2"
+				},
+				{
+					"card_name": "咲耶と摩美々のぶらり旅",
+					"card_addr": "sakuya_s_sr3"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "sakuya_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "sakuya_s_r0"
+				}
+			],
+			"S_N": [
+				{
+					"card_name": "アイドルのたまご",
+					"card_addr": "sakuya_s_n0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "유이카",
+		"eng_name": "yuika",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "yuika_p_ssr0"
+				},
+				{
+					"card_name": "お試し／みつゴコロ",
+					"card_addr": "yuika_p_ssr1"
+				},
+				{
+					"card_name": "それなら目をつぶりましょう",
+					"card_addr": "yuika_p_ssr2"
+				},
+				{
+					"card_name": "NOT≠EQUAL",
+					"card_addr": "yuika_p_ssr3"
+				},
+				{
+					"card_name": "く　ら　く　ら",
+					"card_addr": "yuika_p_ssr4"
+				},
+				{
+					"card_name": "雨に祝福",
+					"card_addr": "yuika_p_ssr5"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "yuika_p_sr0"
+				},
+				{
+					"card_name": "カラフルメタモルフォーゼ",
+					"card_addr": "yuika_p_sr1"
+				},
+				{
+					"card_name": "雨色、上機嫌",
+					"card_addr": "yuika_p_sr2"
+				},
+				{
+					"card_name": "お願い、ただの少女がいい",
+					"card_addr": "yuika_p_sr3"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "等身大のレイニーデイ",
+					"card_addr": "yuika_s_ssr1"
+				},
+				{
+					"card_name": "ハロー、私の「いつも通り」",
+					"card_addr": "yuika_s_ssr2"
+				},
+				{
+					"card_name": "賑やか四畳半",
+					"card_addr": "yuika_s_ssr3"
+				},
+				{
+					"card_name": "プレゼントなら両手いっぱい",
+					"card_addr": "yuika_s_ssr4"
+				},
+				{
+					"card_name": "おはようと日向に手を振る",
+					"card_addr": "yuika_s_ssr5"
+				},
+				{
+					"card_name": "リ・リフレクション",
+					"card_addr": "yuika_s_ssr6"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "輪になって",
+					"card_addr": "yuika_s_sr1"
+				},
+				{
+					"card_name": "メロウビート・スローダウン",
+					"card_addr": "yuika_s_sr2"
+				},
+				{
+					"card_name": "SIDE：Y",
+					"card_addr": "yuika_s_sr3"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "yuika_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "yuika_s_r0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "키리코",
+		"eng_name": "kiriko",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "kiriko_p_ssr0"
+				},
+				{
+					"card_name": "霧・音・燦・燦",
+					"card_addr": "kiriko_p_ssr1"
+				},
+				{
+					"card_name": "夕・音・鳴・鳴",
+					"card_addr": "kiriko_p_ssr2"
+				},
+				{
+					"card_name": "菜・菜・輪・舞",
+					"card_addr": "kiriko_p_ssr3"
+				},
+				{
+					"card_name": "鱗・鱗・謹・賀",
+					"card_addr": "kiriko_p_ssr4"
+				},
+				{
+					"card_name": "琴・禽・空・華",
+					"card_addr": "kiriko_p_ssr5"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "kiriko_p_sr0"
+				},
+				{
+					"card_name": "包・帯・組・曲",
+					"card_addr": "kiriko_p_sr1"
+				},
+				{
+					"card_name": "伝・伝・心・音",
+					"card_addr": "kiriko_p_sr2"
+				},
+				{
+					"card_name": "白・白・白・祈",
+					"card_addr": "kiriko_p_sr3"
+				},
+				{
+					"card_name": "天・天・白・布",
+					"card_addr": "kiriko_p_sr4"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "霧・霧・奇・譚",
+					"card_addr": "kiriko_s_ssr1"
+				},
+				{
+					"card_name": "娘・娘・謹・賀",
+					"card_addr": "kiriko_s_ssr2"
+				},
+				{
+					"card_name": "潜・潜・夏・娘",
+					"card_addr": "kiriko_s_ssr3"
+				},
+				{
+					"card_name": "奇・綺・甘・甘",
+					"card_addr": "kiriko_s_ssr4"
+				},
+				{
+					"card_name": "数・数・娘・娘",
+					"card_addr": "kiriko_s_ssr5"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "綿毛ノ想",
+					"card_addr": "kiriko_s_sr1"
+				},
+				{
+					"card_name": "娘・娘・金・魚",
+					"card_addr": "kiriko_s_sr2"
+				},
+				{
+					"card_name": "我・思・君・思",
+					"card_addr": "kiriko_s_sr3"
+				},
+				{
+					"card_name": "君・空・我・空",
+					"card_addr": "kiriko_s_sr4"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "kiriko_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "kiriko_s_r0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "카호",
+		"eng_name": "kaho",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "kaho_p_ssr0"
+				},
+				{
+					"card_name": "第2形態アーマードタイプ",
+					"card_addr": "kaho_p_ssr1"
+				},
+				{
+					"card_name": "新装備・バブルバスター！",
+					"card_addr": "kaho_p_ssr2"
+				},
+				{
+					"card_name": "潮騒のシーショア",
+					"card_addr": "kaho_p_ssr3"
+				},
+				{
+					"card_name": "エクストリーム・ブレイク！",
+					"card_addr": "kaho_p_ssr4"
+				},
+				{
+					"card_name": "日刊ウィズ・ユー！",
+					"card_addr": "kaho_p_ssr5"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "kaho_p_sr0"
+				},
+				{
+					"card_name": "マメ丸と一緒！",
+					"card_addr": "kaho_p_sr1"
+				},
+				{
+					"card_name": "デコって！ハッピークッキー",
+					"card_addr": "kaho_p_sr2"
+				},
+				{
+					"card_name": "キャッチ・ザ・フォール！",
+					"card_addr": "kaho_p_sr3"
+				},
+				{
+					"card_name": "窓辺・サイレントタイム",
+					"card_addr": "kaho_p_sr4"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "ヒーローインザパーク",
+					"card_addr": "kaho_s_ssr1"
+				},
+				{
+					"card_name": "鉄板★絶品★海の家",
+					"card_addr": "kaho_s_ssr2"
+				},
+				{
+					"card_name": "雨のち、マイヒーロー",
+					"card_addr": "kaho_s_ssr3"
+				},
+				{
+					"card_name": "ナツイロ☆アフタースクール",
+					"card_addr": "kaho_s_ssr4"
+				},
+				{
+					"card_name": "続！（完全）燃焼",
+					"card_addr": "kaho_s_ssr5"
+				},
+				{
+					"card_name": "反撃の狼煙をあげよ！",
+					"card_addr": "kaho_s_ssr6"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "放課後スノーガールズ！",
+					"card_addr": "kaho_s_sr1"
+				},
+				{
+					"card_name": "無敵の証！五紋章！",
+					"card_addr": "kaho_s_sr2"
+				},
+				{
+					"card_name": "ホーカゴ・ア・ゴーゴー！",
+					"card_addr": "kaho_s_sr3"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "kaho_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "kaho_s_r0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "치요코",
+		"eng_name": "chiyoko",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "chiyoko_p_ssr0"
+				},
+				{
+					"card_name": "チョコ色×きらきらロマン",
+					"card_addr": "chiyoko_p_ssr1"
+				},
+				{
+					"card_name": "あそ→と♡ちよこれいと",
+					"card_addr": "chiyoko_p_ssr2"
+				},
+				{
+					"card_name": "かきまぜたら＊ミルク",
+					"card_addr": "chiyoko_p_ssr3"
+				},
+				{
+					"card_name": "You’re My Dream",
+					"card_addr": "chiyoko_p_ssr4"
+				},
+				{
+					"card_name": "プリティ・スイート",
+					"card_addr": "chiyoko_p_ssr5"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "chiyoko_p_sr0"
+				},
+				{
+					"card_name": "純真チョコレート",
+					"card_addr": "chiyoko_p_sr1"
+				},
+				{
+					"card_name": "よろしく♡めしませっ",
+					"card_addr": "chiyoko_p_sr2"
+				},
+				{
+					"card_name": "錯覚・Darling",
+					"card_addr": "chiyoko_p_sr3"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "放課後★肝試しパニック",
+					"card_addr": "chiyoko_s_ssr1"
+				},
+				{
+					"card_name": "桜餅マスター……？",
+					"card_addr": "chiyoko_s_ssr2"
+				},
+				{
+					"card_name": "紅蘭偉魔空珠に挑め！",
+					"card_addr": "chiyoko_s_ssr3"
+				},
+				{
+					"card_name": "おあがり←くらいまっくす",
+					"card_addr": "chiyoko_s_ssr4"
+				},
+				{
+					"card_name": "kimagure全力ビート！",
+					"card_addr": "chiyoko_s_ssr5"
+				},
+				{
+					"card_name": "code:SH☆☆TING star!",
+					"card_addr": "chiyoko_s_ssr6"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "迷走チョコロード",
+					"card_addr": "chiyoko_s_sr1"
+				},
+				{
+					"card_name": "Best☆Great☆サマー！",
+					"card_addr": "chiyoko_s_sr2"
+				},
+				{
+					"card_name": "ぐるもこ・まふ×２",
+					"card_addr": "chiyoko_s_sr3"
+				},
+				{
+					"card_name": "茜色セレンディピティ",
+					"card_addr": "chiyoko_s_sr4"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "chiyoko_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "chiyoko_s_r0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "쥬리",
+		"eng_name": "juri",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "juri_p_ssr0"
+				},
+				{
+					"card_name": "ラムネ色の覚悟",
+					"card_addr": "juri_p_ssr1"
+				},
+				{
+					"card_name": "とびっきりジンジャー",
+					"card_addr": "juri_p_ssr2"
+				},
+				{
+					"card_name": "曲がり角のランウェイ",
+					"card_addr": "juri_p_ssr3"
+				},
+				{
+					"card_name": "誰が為シンパシー",
+					"card_addr": "juri_p_ssr4"
+				},
+				{
+					"card_name": "秋陽のスケッチ",
+					"card_addr": "juri_p_ssr5"
+				},
+				{
+					"card_name": "I・OWE・U",
+					"card_addr": "juri_p_ssr6"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "juri_p_sr0"
+				},
+				{
+					"card_name": "バッドガールの羽ばたき",
+					"card_addr": "juri_p_sr1"
+				},
+				{
+					"card_name": "オフデーゲーム",
+					"card_addr": "juri_p_sr2"
+				},
+				{
+					"card_name": "STARTRAIN",
+					"card_addr": "juri_p_sr3"
+				},
+				{
+					"card_name": "夏服にWIND YOU！",
+					"card_addr": "juri_p_sr4"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "未知なるFROZEN",
+					"card_addr": "juri_s_ssr1"
+				},
+				{
+					"card_name": "スリープオーバーベイビー",
+					"card_addr": "juri_s_ssr2"
+				},
+				{
+					"card_name": "坂道だらけのこの街で",
+					"card_addr": "juri_s_ssr3"
+				},
+				{
+					"card_name": "SPACE WHAT？",
+					"card_addr": "juri_s_ssr4"
+				},
+				{
+					"card_name": "モーニング・グロウリー？",
+					"card_addr": "juri_s_ssr5"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "意地っ張りサンセット",
+					"card_addr": "juri_s_sr1"
+				},
+				{
+					"card_name": "3名様極楽旅行記",
+					"card_addr": "juri_s_sr2"
+				},
+				{
+					"card_name": "グッド・ラック・ボール",
+					"card_addr": "juri_s_sr3"
+				},
+				{
+					"card_name": "晴れ待ちのひと時",
+					"card_addr": "juri_s_sr4"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "juri_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "juri_s_r0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "린제",
+		"eng_name": "rinze",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "rinze_p_ssr0"
+				},
+				{
+					"card_name": "杜野 凛世の印象派",
+					"card_addr": "rinze_p_ssr1"
+				},
+				{
+					"card_name": "凛世花伝",
+					"card_addr": "rinze_p_ssr2"
+				},
+				{
+					"card_name": "水色感情",
+					"card_addr": "rinze_p_ssr3"
+				},
+				{
+					"card_name": "十二月短篇",
+					"card_addr": "rinze_p_ssr4"
+				},
+				{
+					"card_name": "われにかへれ",
+					"card_addr": "rinze_p_ssr5"
+				},
+				{
+					"card_name": "ロー・ポジション",
+					"card_addr": "rinze_p_ssr6"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "rinze_p_sr0"
+				},
+				{
+					"card_name": "想ひいろは",
+					"card_addr": "rinze_p_sr1"
+				},
+				{
+					"card_name": "凛凛、凛世",
+					"card_addr": "rinze_p_sr2"
+				},
+				{
+					"card_name": "微熱風鈴",
+					"card_addr": "rinze_p_sr3"
+				},
+				{
+					"card_name": "ふらここのうた",
+					"card_addr": "rinze_p_sr4"
+				},
+				{
+					"card_name": "階段式純情昇降機",
+					"card_addr": "rinze_p_sr5"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "ふれんど日和",
+					"card_addr": "rinze_s_ssr1"
+				},
+				{
+					"card_name": "凛世夕町物語",
+					"card_addr": "rinze_s_ssr2"
+				},
+				{
+					"card_name": "常夏CLIMAX",
+					"card_addr": "rinze_s_ssr3"
+				},
+				{
+					"card_name": "夜明けの晩に",
+					"card_addr": "rinze_s_ssr4"
+				},
+				{
+					"card_name": "日を食んで、夜を啜って",
+					"card_addr": "rinze_s_ssr5"
+				},
+				{
+					"card_name": "祝唄-hogiuta-",
+					"card_addr": "rinze_s_ssr6"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "百色ふぉとぐらふ",
+					"card_addr": "rinze_s_sr1"
+				},
+				{
+					"card_name": "をとめ大学",
+					"card_addr": "rinze_s_sr2"
+				},
+				{
+					"card_name": "をとめ辞典",
+					"card_addr": "rinze_s_sr3"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "rinze_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "rinze_s_r0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "나츠하",
+		"eng_name": "natsuha",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "natsuha_p_ssr0"
+				},
+				{
+					"card_name": "アルティメットマーメイド",
+					"card_addr": "natsuha_p_ssr1"
+				},
+				{
+					"card_name": "メイドインナツハ",
+					"card_addr": "natsuha_p_ssr2"
+				},
+				{
+					"card_name": "Ring a bell",
+					"card_addr": "natsuha_p_ssr3"
+				},
+				{
+					"card_name": "♡AKQJ10",
+					"card_addr": "natsuha_p_ssr4"
+				},
+				{
+					"card_name": "cheer+",
+					"card_addr": "natsuha_p_ssr5"
+				},
+				{
+					"card_name": "夏は来ぬ",
+					"card_addr": "natsuha_p_ssr6"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "natsuha_p_sr0"
+				},
+				{
+					"card_name": "ストイックトレーニング",
+					"card_addr": "natsuha_p_sr1"
+				},
+				{
+					"card_name": "カトレアの花言葉",
+					"card_addr": "natsuha_p_sr2"
+				},
+				{
+					"card_name": "鳥籠をひらいて",
+					"card_addr": "natsuha_p_sr3"
+				},
+				{
+					"card_name": "風がかけていくように",
+					"card_addr": "natsuha_p_sr4"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "熱血指導！",
+					"card_addr": "natsuha_s_ssr1"
+				},
+				{
+					"card_name": "遊びも本気で",
+					"card_addr": "natsuha_s_ssr2"
+				},
+				{
+					"card_name": "＃ナッツ・チョコジェリー",
+					"card_addr": "natsuha_s_ssr3"
+				},
+				{
+					"card_name": "月刊CLIMAX",
+					"card_addr": "natsuha_s_ssr4"
+				},
+				{
+					"card_name": "Sr×Ba×Cu＝",
+					"card_addr": "natsuha_s_ssr5"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "虹待ちレインドロップ",
+					"card_addr": "natsuha_s_sr1"
+				},
+				{
+					"card_name": "紅いろは、白",
+					"card_addr": "natsuha_s_sr2"
+				},
+				{
+					"card_name": "スタンド・バイ",
+					"card_addr": "natsuha_s_sr3"
+				},
+				{
+					"card_name": "夢追いランナバウト",
+					"card_addr": "natsuha_s_sr4"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "natsuha_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "natsuha_s_r0"
+				}
+			],
+			"S_N": [
+				{
+					"card_name": "アイドルのたまご",
+					"card_addr": "natsuha_s_n0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "아마나",
+		"eng_name": "amana",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "amana_p_ssr0"
+				},
+				{
+					"card_name": "スタンバイオッケー",
+					"card_addr": "amana_p_ssr1"
+				},
+				{
+					"card_name": "ゆらゆらアクアリウム",
+					"card_addr": "amana_p_ssr2"
+				},
+				{
+					"card_name": "ないしょのスイーツ",
+					"card_addr": "amana_p_ssr3"
+				},
+				{
+					"card_name": "お散歩サンライト",
+					"card_addr": "amana_p_ssr4"
+				},
+				{
+					"card_name": "叶えて☆ゴールドフィッシュ",
+					"card_addr": "amana_p_ssr5"
+				},
+				{
+					"card_name": "約束ペタル",
+					"card_addr": "amana_p_ssr6"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "amana_p_sr0"
+				},
+				{
+					"card_name": "似合うかな？",
+					"card_addr": "amana_p_sr1"
+				},
+				{
+					"card_name": "甜花ちゃんといっしょ☆",
+					"card_addr": "amana_p_sr2"
+				},
+				{
+					"card_name": "ふたつの雨",
+					"card_addr": "amana_p_sr3"
+				},
+				{
+					"card_name": "見つけたい、だけど……",
+					"card_addr": "amana_p_sr4"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "幸せのりんご飴",
+					"card_addr": "amana_s_ssr1"
+				},
+				{
+					"card_name": "まだ……寝ないから……",
+					"card_addr": "amana_s_ssr2"
+				},
+				{
+					"card_name": "お菓子なティータイム",
+					"card_addr": "amana_s_ssr3"
+				},
+				{
+					"card_name": "ハッピーの答えはどこに？",
+					"card_addr": "amana_s_ssr4"
+				},
+				{
+					"card_name": "Cherry Jelly",
+					"card_addr": "amana_s_ssr5"
+				},
+				{
+					"card_name": "スペンサー家の日常",
+					"card_addr": "amana_s_ssr6"
+				},
+				{
+					"card_name": "ever-",
+					"card_addr": "amana_s_ssr7"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "秘密のがんばり",
+					"card_addr": "amana_s_sr1"
+				},
+				{
+					"card_name": "光の想い出",
+					"card_addr": "amana_s_sr2"
+				},
+				{
+					"card_name": "冬の日の『贈り物』",
+					"card_addr": "amana_s_sr3"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "amana_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "amana_s_r0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "텐카",
+		"eng_name": "tenka",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "tenka_p_ssr0"
+				},
+				{
+					"card_name": "事務所。静寂。大輪の華",
+					"card_addr": "tenka_p_ssr1"
+				},
+				{
+					"card_name": "好きなものはなんですか？",
+					"card_addr": "tenka_p_ssr2"
+				},
+				{
+					"card_name": "I♡DOLL",
+					"card_addr": "tenka_p_ssr3"
+				},
+				{
+					"card_name": "四夜一夜物語",
+					"card_addr": "tenka_p_ssr4"
+				},
+				{
+					"card_name": "BON・BON・DAY！",
+					"card_addr": "tenka_p_ssr5"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "tenka_p_sr0"
+				},
+				{
+					"card_name": "秘密のだらだらタイム",
+					"card_addr": "tenka_p_sr1"
+				},
+				{
+					"card_name": "シンメトリー・プールサイド",
+					"card_addr": "tenka_p_sr2"
+				},
+				{
+					"card_name": "氷上バンビーナ",
+					"card_addr": "tenka_p_sr3"
+				},
+				{
+					"card_name": "お日様染めのマリーナ",
+					"card_addr": "tenka_p_sr4"
+				},
+				{
+					"card_name": "ストライク狙って",
+					"card_addr": "tenka_p_sr5"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "彩りファッションドール",
+					"card_addr": "tenka_s_ssr1"
+				},
+				{
+					"card_name": "身支度はお任せ☆",
+					"card_addr": "tenka_s_ssr2"
+				},
+				{
+					"card_name": "かしまし、みっつの願いごと",
+					"card_addr": "tenka_s_ssr3"
+				},
+				{
+					"card_name": "トゥインクル・トゥインクル",
+					"card_addr": "tenka_s_ssr4"
+				},
+				{
+					"card_name": "見果てぬ先のアヴァロン",
+					"card_addr": "tenka_s_ssr5"
+				},
+				{
+					"card_name": "リトル・スターズ",
+					"card_addr": "tenka_s_ssr6"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "アイ・セーブ・ユー",
+					"card_addr": "tenka_s_sr1"
+				},
+				{
+					"card_name": "楽園に背く",
+					"card_addr": "tenka_s_sr2"
+				},
+				{
+					"card_name": "Summer for Us",
+					"card_addr": "tenka_s_sr3"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "tenka_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "tenka_s_r0"
+				}
+			],
+			"S_N": [
+				{
+					"card_name": "アイドルのたまご",
+					"card_addr": "tenka_s_n0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "치유키",
+		"eng_name": "chiyuki",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "chiyuki_p_ssr0"
+				},
+				{
+					"card_name": "マイ・ピュア・ロマンス",
+					"card_addr": "chiyuki_p_ssr1"
+				},
+				{
+					"card_name": "シークレット・ヒロイン",
+					"card_addr": "chiyuki_p_ssr2"
+				},
+				{
+					"card_name": "サマーハニー・シーズン",
+					"card_addr": "chiyuki_p_ssr3"
+				},
+				{
+					"card_name": "はるかぜまち、1番地",
+					"card_addr": "chiyuki_p_ssr4"
+				},
+				{
+					"card_name": "秋空と紅葉",
+					"card_addr": "chiyuki_p_ssr5"
+				},
+				{
+					"card_name": "ハッピー・アイ・スクリーム",
+					"card_addr": "chiyuki_p_ssr6"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "chiyuki_p_sr0"
+				},
+				{
+					"card_name": "マイフェイバリット",
+					"card_addr": "chiyuki_p_sr1"
+				},
+				{
+					"card_name": "一夏一刻物語",
+					"card_addr": "chiyuki_p_sr2"
+				},
+				{
+					"card_name": "よそゆき顔のセレナーデ",
+					"card_addr": "chiyuki_p_sr3"
+				},
+				{
+					"card_name": "ワン・モア・フラワリング",
+					"card_addr": "chiyuki_p_sr4"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "先生のお時間",
+					"card_addr": "chiyuki_s_ssr1"
+				},
+				{
+					"card_name": "永遠のCarol",
+					"card_addr": "chiyuki_s_ssr2"
+				},
+				{
+					"card_name": "トキ・メキ・タコさん",
+					"card_addr": "chiyuki_s_ssr3"
+				},
+				{
+					"card_name": "ウォーム・スノウ",
+					"card_addr": "chiyuki_s_ssr4"
+				},
+				{
+					"card_name": "ドゥワッチャラブ！",
+					"card_addr": "chiyuki_s_ssr5"
+				},
+				{
+					"card_name": "夏空への挑戦",
+					"card_addr": "chiyuki_s_ssr6"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "ブルーミングハート",
+					"card_addr": "chiyuki_s_sr1"
+				},
+				{
+					"card_name": "こころに恋",
+					"card_addr": "chiyuki_s_sr2"
+				},
+				{
+					"card_name": "RELAXIN",
+					"card_addr": "chiyuki_s_sr3"
+				},
+				{
+					"card_name": "好き、っていうのはね",
+					"card_addr": "chiyuki_s_sr4"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "chiyuki_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "chiyuki_s_r0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "아사히",
+		"eng_name": "asahi",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "asahi_p_ssr0"
+				},
+				{
+					"card_name": "ジャンプ！スタッグ！！！",
+					"card_addr": "asahi_p_ssr1"
+				},
+				{
+					"card_name": "空と青とアイツ",
+					"card_addr": "asahi_p_ssr2"
+				},
+				{
+					"card_name": "不機嫌なテーマパーク",
+					"card_addr": "asahi_p_ssr3"
+				},
+				{
+					"card_name": "Housekeeping!",
+					"card_addr": "asahi_p_ssr4"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "asahi_p_sr0"
+				},
+				{
+					"card_name": "さかさま世界",
+					"card_addr": "asahi_p_sr1"
+				},
+				{
+					"card_name": "かしゃーんとがらがら",
+					"card_addr": "asahi_p_sr2"
+				},
+				{
+					"card_name": "はり・はり",
+					"card_addr": "asahi_p_sr3"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "プレゼン・バトン！",
+					"card_addr": "asahi_s_ssr1"
+				},
+				{
+					"card_name": "あめ、ゆき、はれ",
+					"card_addr": "asahi_s_ssr2"
+				},
+				{
+					"card_name": "今日の手は空を切らない",
+					"card_addr": "asahi_s_ssr3"
+				},
+				{
+					"card_name": "ゴースト・サイド！",
+					"card_addr": "asahi_s_ssr4"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "腹が減っては遊びはできぬ",
+					"card_addr": "asahi_s_sr1"
+				},
+				{
+					"card_name": "花火の夜に……",
+					"card_addr": "asahi_s_sr2"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "asahi_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "asahi_s_r0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "후유코",
+		"eng_name": "fuyuko",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "fuyuko_p_ssr0"
+				},
+				{
+					"card_name": "オ♡フ♡レ♡コ",
+					"card_addr": "fuyuko_p_ssr1"
+				},
+				{
+					"card_name": "アンシーン・ダブルキャスト",
+					"card_addr": "fuyuko_p_ssr2"
+				},
+				{
+					"card_name": "starring F",
+					"card_addr": "fuyuko_p_ssr3"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "fuyuko_p_sr0"
+				},
+				{
+					"card_name": "ザ・冬優子イズム",
+					"card_addr": "fuyuko_p_sr1"
+				},
+				{
+					"card_name": "水×天カイヤナイト",
+					"card_addr": "fuyuko_p_sr2"
+				},
+				{
+					"card_name": "はるさき可憐花",
+					"card_addr": "fuyuko_p_sr3"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "スパイシーベリィデコレイト",
+					"card_addr": "fuyuko_s_ssr1"
+				},
+				{
+					"card_name": "ノー墨・勝者フェイス",
+					"card_addr": "fuyuko_s_ssr2"
+				},
+				{
+					"card_name": "＠ストーリィズ",
+					"card_addr": "fuyuko_s_ssr3"
+				},
+				{
+					"card_name": "×トリック／〇＿＿＿＿",
+					"card_addr": "fuyuko_s_ssr4"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "(ノージャンル)グラヴィティ",
+					"card_addr": "fuyuko_s_sr1"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "fuyuko_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "fuyuko_s_r0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "메이",
+		"eng_name": "mei",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "mei_p_ssr0"
+				},
+				{
+					"card_name": "ちょっとあげる～",
+					"card_addr": "mei_p_ssr1"
+				},
+				{
+					"card_name": "メイ・ビー",
+					"card_addr": "mei_p_ssr2"
+				},
+				{
+					"card_name": "シャッターチャンス！？",
+					"card_addr": "mei_p_ssr3"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "mei_p_sr0"
+				},
+				{
+					"card_name": "気になる！？染めちゃう！？",
+					"card_addr": "mei_p_sr1"
+				},
+				{
+					"card_name": "てへっ♪",
+					"card_addr": "mei_p_sr2"
+				},
+				{
+					"card_name": "ご褒美、いるよね♪",
+					"card_addr": "mei_p_sr3"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "なるんじゃん？",
+					"card_addr": "mei_s_ssr1"
+				},
+				{
+					"card_name": "うち来る～！？",
+					"card_addr": "mei_s_ssr2"
+				},
+				{
+					"card_name": "エンジョイ！パーティ",
+					"card_addr": "mei_s_ssr3"
+				},
+				{
+					"card_name": "いるっしょ！",
+					"card_addr": "mei_s_ssr4"
+				},
+				{
+					"card_name": "よしよし♪",
+					"card_addr": "mei_s_ssr5"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "和泉流・書道心得",
+					"card_addr": "mei_s_sr1"
+				},
+				{
+					"card_name": "+『α』",
+					"card_addr": "mei_s_sr2"
+				},
+				{
+					"card_name": "イケてた！？",
+					"card_addr": "mei_s_sr3"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "mei_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "mei_s_r0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "토오루",
+		"eng_name": "toru",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "toru_p_ssr0"
+				},
+				{
+					"card_name": "10個、光",
+					"card_addr": "toru_p_ssr1"
+				},
+				{
+					"card_name": "途方もない午後",
+					"card_addr": "toru_p_ssr2"
+				},
+				{
+					"card_name": "つづく、",
+					"card_addr": "toru_p_ssr3"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "toru_p_sr0"
+				},
+				{
+					"card_name": "まわるものについて",
+					"card_addr": "toru_p_sr1"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "ハウー・アー・UFO",
+					"card_addr": "toru_s_ssr1"
+				},
+				{
+					"card_name": "pooool",
+					"card_addr": "toru_s_ssr2"
+				},
+				{
+					"card_name": "がんばれ！ ノロマ号",
+					"card_addr": "toru_s_ssr3"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "かっとばし党の逆襲",
+					"card_addr": "toru_s_sr1"
+				},
+				{
+					"card_name": "faaaar",
+					"card_addr": "toru_s_sr2"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "toru_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "toru_s_r0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "마도카",
+		"eng_name": "madoka",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "madoka_p_ssr0"
+				},
+				{
+					"card_name": "カラカラカラ",
+					"card_addr": "madoka_p_ssr1"
+				},
+				{
+					"card_name": "ギンコ・ビローバ",
+					"card_addr": "madoka_p_ssr2"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "madoka_p_sr0"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "游魚",
+					"card_addr": "madoka_s_ssr1"
+				},
+				{
+					"card_name": "UNTITLED",
+					"card_addr": "madoka_s_ssr2"
+				},
+				{
+					"card_name": "雨情",
+					"card_addr": "madoka_s_ssr3"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "閑話",
+					"card_addr": "madoka_s_sr1"
+				},
+				{
+					"card_name": "Feb.",
+					"card_addr": "madoka_s_sr2"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "madoka_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "madoka_s_r0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "코이토",
+		"eng_name": "koito",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "koito_p_ssr0"
+				},
+				{
+					"card_name": "ポシェットの中には",
+					"card_addr": "koito_p_ssr1"
+				},
+				{
+					"card_name": "おみくじ結びますか",
+					"card_addr": "koito_p_ssr2"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "koito_p_sr0"
+				},
+				{
+					"card_name": "はれのひ喫茶店",
+					"card_addr": "koito_p_sr1"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "パーティのやくそく",
+					"card_addr": "koito_s_ssr1"
+				},
+				{
+					"card_name": "思い出にもならない",
+					"card_addr": "koito_s_ssr2"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "きせつはアイスクリン",
+					"card_addr": "koito_s_sr1"
+				},
+				{
+					"card_name": "しかえし優等生",
+					"card_addr": "koito_s_sr2"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "koito_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "koito_s_r0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "히나나",
+		"eng_name": "hinana",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "hinana_p_ssr0"
+				},
+				{
+					"card_name": "HAPPY-!NG",
+					"card_addr": "hinana_p_ssr1"
+				},
+				{
+					"card_name": "♡LOG",
+					"card_addr": "hinana_p_ssr2"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "hinana_p_sr0"
+				},
+				{
+					"card_name": "#SS",
+					"card_addr": "hinana_p_sr1"
+				},
+				{
+					"card_name": "Makeup♡Box",
+					"card_addr": "hinana_p_sr2"
+				}
+			],
+			"S_SSR": [
+				{
+					"card_name": "ROOKIE!",
+					"card_addr": "hinana_s_ssr1"
+				}
+			],
+			"S_SR": [
+				{
+					"card_name": "PEEPS!",
+					"card_addr": "hinana_s_sr1"
+				}
+			],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "hinana_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "hinana_s_r0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "니치카",
+		"eng_name": "nichika",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "nichika_p_ssr0"
+				},
+				{
+					"card_name": "♡まっクろはムウサぎ♡",
+					"card_addr": "nichika_p_ssr1"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "nichika_p_sr0"
+				}
+			],
+			"S_SSR": [],
+			"S_SR": [],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "nichika_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "nichika_s_r0"
+				}
+			]
+		}
+	},
+	{
+		"idol_name": "미코토",
+		"eng_name": "mikoto",
+		"card_data": {
+			"P_SSR": [
+				{
+					"card_name": "アイドルロード",
+					"card_addr": "mikoto_p_ssr0"
+				},
+				{
+					"card_name": "ROUNDLY",
+					"card_addr": "mikoto_p_ssr1"
+				}
+			],
+			"P_SR": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "mikoto_p_sr0"
+				}
+			],
+			"S_SSR": [],
+			"S_SR": [],
+			"P_R": [
+				{
+					"card_name": "白いツバサ",
+					"card_addr": "mikoto_p_r0"
+				}
+			],
+			"S_R": [
+				{
+					"card_name": "283プロのヒナ",
+					"card_addr": "mikoto_s_r0"
+				}
+			]
+		}
+	}
+]

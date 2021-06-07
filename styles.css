@@ -1,0 +1,30 @@
+div {
+  margin: 10px 0px;
+}
+
+fieldset {
+  border: 1px solid black
+}
+
+.type_header {
+  text-align: center;
+}
+
+.selected_idol_char_view {
+  height: 100px;
+  text-align: center;
+}
+
+.idol_view {
+  width: 96px;
+  height: 96px;
+  margin: 0px;
+}
+
+.dialogWindow {
+  width: 500px;
+}
+
+.dialogImg {
+  margin: 0px 5px;
+}

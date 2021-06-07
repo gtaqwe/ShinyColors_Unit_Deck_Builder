@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="styles.css">
+	<title>Card Table</title>
+</head>
+
+<body>
+	<fieldset style="display: inline-flex;">
+		<div id="pdSelDiv">
+			<h3 class="type_header">Produce</h3>
+			<input type="button" id="idolCharBtn_Produce" value="아이돌 선택" style="width: 96px;"/>
+			<input type="button" id="idolCardBtn_Produce" value="카드 선택" style="visibility: hidden;" />
+			<br>
+			<div id="selectedIdolCharViewDiv_Produce" class="selected_idol_char_view"></div>
+		</div>
+	</fieldset>
+
+	<br><br>
+
+	<fieldset style="display: inline-flex;">
+		<div id="spSelDiv_1">
+			<h3 class="type_header">Support</h3>
+			<input type="button" id="idolCharBtn_Support_1" value="아이돌 선택" style="width: 96px;"/>
+			<input type="button" id="idolCardBtn_Support_1" value="카드 선택" value="카드 선택" style="visibility: hidden;" />
+			<br>
+			<div id="selectedIdolCharViewDiv_Support_1" class="selected_idol_char_view"></div>
+		</div>
+	</fieldset>
+
+	<fieldset style="display: inline-flex;">
+		<div id="spSelDiv_2">
+				<h3 class="type_header">Support</h3>
+				<input type="button" id="idolCharBtn_Support_2" value="아이돌 선택" style="width: 96px;"/>
+				<input type="button" id="idolCardBtn_Support_2" value="카드 선택" value="카드 선택" style="visibility: hidden;" />
+				<br>
+				<div id="selectedIdolCharViewDiv_Support_2" class="selected_idol_char_view"></div>
+		</div>
+	</fieldset>
+
+	<fieldset style="display: inline-flex;">
+		<div id="spSelDiv_3">
+				<h3 class="type_header">Support</h3>
+				<input type="button" id="idolCharBtn_Support_3" value="아이돌 선택" style="width: 96px;"/>
+				<input type="button" id="idolCardBtn_Support_3" value="카드 선택" value="카드 선택" style="visibility: hidden;" />
+				<br>
+				<div id="selectedIdolCharViewDiv_Support_3" class="selected_idol_char_view"></div>
+		</div>
+	</fieldset>
+
+	<fieldset style="display: inline-flex;">
+		<div id="spSelDiv_4">
+				<h3 class="type_header">Support</h3>
+				<input type="button" id="idolCharBtn_Support_4" value="아이돌 선택" style="width: 96px;"/>
+				<input type="button" id="idolCardBtn_Support_4" value="카드 선택" value="카드 선택" style="visibility: hidden;" />
+				<br>
+				<div id="selectedIdolCharViewDiv_Support_4" class="selected_idol_char_view"></div>
+		</div>
+	</fieldset>
+
+	<fieldset style="display: inline-flex;">
+		<div id="spSelDiv_5">
+				<h3 class="type_header">Guest</h3>
+				<input type="button" id="idolCharBtn_Support_5" value="아이돌 선택" style="width: 96px;"/>
+				<input type="button" id="idolCardBtn_Support_5" value="카드 선택" value="카드 선택" style="visibility: hidden;" />
+				<br>
+				<div id="selectedIdolCharViewDiv_Support_5" class="selected_idol_char_view"></div>
+		</div>
+	</fieldset>
+
+	<div id="idolDialogDiv" class="dialogWindow" style="display: none; text-align: center;"></div>
+	<div id="cardDialogDiv" class="dialogWindow" style="display: none;"></div>
+
+	<div>
+		<input type="button" value="Deck Capture" onclick="captureScreen('PRODUCE_DECK')" class="Capturebutton">
+	</div>
+
+	<div id="PRODUCE_DECK" style="width:max-content; display: flex;">
+		<div id="selectedIdolView_0" class="idol_view" style="display: inline-block;"></div>
+		<div id="selectedIdolView_1" class="idol_view" style="display: inline-block;"></div>
+		<div id="selectedIdolView_2" class="idol_view" style="display: inline-block;"></div>
+		<div id="selectedIdolView_3" class="idol_view" style="display: inline-block;"></div>
+		<div id="selectedIdolView_4" class="idol_view" style="display: inline-block;"></div>
+		<div id="selectedIdolView_5" class="idol_view" style="display: inline-block;"></div>
+	</div>
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+	<script src="IndexScripts.js"></script>
+
+</body>
+
+</html>
