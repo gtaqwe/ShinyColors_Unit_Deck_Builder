@@ -6,6 +6,10 @@ fieldset {
   border: 1px solid black
 }
 
+input[type="button"] {
+  height : 40px
+}
+
 .type_header {
   text-align: center;
 }
