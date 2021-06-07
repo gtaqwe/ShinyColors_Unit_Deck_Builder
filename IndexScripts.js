@@ -83,6 +83,10 @@ function viewIdol(parentObj, obj, divId, cardType, offset) {
         //     }
         // }
     });
+
+    $(".ui-widget-overlay").click (function () {
+        $(idolDialogDivId).dialog("close");
+    });
 }
 
 function setCardList(divId, name, idolIdx, cardType, offset) {
@@ -172,6 +176,10 @@ function viewCard(parentObj, obj, cardType, offset) {
         //         $(this).dialog("close");
         //     }
         // }
+    });
+
+    $(".ui-widget-overlay").click (function () {
+        $(cardDialogDivId).dialog("close");
     });
 }
 
