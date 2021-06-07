@@ -9,6 +9,11 @@
 </head>
 
 <body>
+	<div id="idolDialogDiv" class="dialogWindow" style="display: none; text-align: center;"></div>
+	<div id="cardDialogDiv" class="dialogWindow" style="display: none;"></div>
+
+	<h1>Produce Deck</h1>
+
 	<fieldset style="display: inline-flex;">
 		<div id="pdSelDiv">
 			<h3 class="type_header">Produce</h3>
@@ -22,63 +27,61 @@
 	<br><br>
 
 	<fieldset style="display: inline-flex;">
-		<div id="spSelDiv_1">
+		<div>
 			<h3 class="type_header">Support</h3>
 			<input type="button" id="idolCharBtn_Support_1" value="아이돌 선택""/>
-			<input type="button" id="idolCardBtn_Support_1" value="카드 선택" value="카드 선택" style="visibility: hidden;" />
+			<input type="button" id="idolCardBtn_Support_1" value="카드 선택" style="visibility: hidden;" />
 			<br>
 			<div id="selectedIdolCharViewDiv_Support_1" class="selected_idol_char_view"></div>
 		</div>
 	</fieldset>
 
 	<fieldset style="display: inline-flex;">
-		<div id="spSelDiv_2">
+		<div>
 				<h3 class="type_header">Support</h3>
 				<input type="button" id="idolCharBtn_Support_2" value="아이돌 선택""/>
-				<input type="button" id="idolCardBtn_Support_2" value="카드 선택" value="카드 선택" style="visibility: hidden;" />
+				<input type="button" id="idolCardBtn_Support_2" value="카드 선택" style="visibility: hidden;" />
 				<br>
 				<div id="selectedIdolCharViewDiv_Support_2" class="selected_idol_char_view"></div>
 		</div>
 	</fieldset>
 
 	<fieldset style="display: inline-flex;">
-		<div id="spSelDiv_3">
+		<div>
 				<h3 class="type_header">Support</h3>
 				<input type="button" id="idolCharBtn_Support_3" value="아이돌 선택""/>
-				<input type="button" id="idolCardBtn_Support_3" value="카드 선택" value="카드 선택" style="visibility: hidden;" />
+				<input type="button" id="idolCardBtn_Support_3" value="카드 선택" style="visibility: hidden;" />
 				<br>
 				<div id="selectedIdolCharViewDiv_Support_3" class="selected_idol_char_view"></div>
 		</div>
 	</fieldset>
 
 	<fieldset style="display: inline-flex;">
-		<div id="spSelDiv_4">
+		<div>
 				<h3 class="type_header">Support</h3>
 				<input type="button" id="idolCharBtn_Support_4" value="아이돌 선택""/>
-				<input type="button" id="idolCardBtn_Support_4" value="카드 선택" value="카드 선택" style="visibility: hidden;" />
+				<input type="button" id="idolCardBtn_Support_4" value="카드 선택" style="visibility: hidden;" />
 				<br>
 				<div id="selectedIdolCharViewDiv_Support_4" class="selected_idol_char_view"></div>
 		</div>
 	</fieldset>
 
 	<fieldset style="display: inline-flex;">
-		<div id="spSelDiv_5">
+		<div>
 				<h3 class="type_header">Guest</h3>
 				<input type="button" id="idolCharBtn_Support_5" value="아이돌 선택""/>
-				<input type="button" id="idolCardBtn_Support_5" value="카드 선택" value="카드 선택" style="visibility: hidden;" />
+				<input type="button" id="idolCardBtn_Support_5" value="카드 선택" style="visibility: hidden;" />
 				<br>
 				<div id="selectedIdolCharViewDiv_Support_5" class="selected_idol_char_view"></div>
 		</div>
 	</fieldset>
 
-	<div id="idolDialogDiv" class="dialogWindow" style="display: none; text-align: center;"></div>
-	<div id="cardDialogDiv" class="dialogWindow" style="display: none;"></div>
-
 	<div>
-		<input type="button" value="Deck Capture" onclick="captureScreen('PRODUCE_DECK')" class="Capturebutton">
+		<input type="button" value="Deck Capture" onclick="captureScreen('PRODUCE_DECK', 'Produce')" class="Capturebutton">
 	</div>
 
 	<fieldset style="width:max-content;">
+		<legend>Produce Deck</legend>
 		<div id="PRODUCE_DECK" style="width:max-content; display: flex;">
 			<div id="selectedIdolView_0" class="idol_view" style="display: inline-block;"></div>
 			<div id="selectedIdolView_1" class="idol_view" style="display: inline-block;"></div>
@@ -89,7 +92,76 @@
 		</div>
 	</fieldset>
 
+	<!--------------------------------------------------------------------------->
+	<hr style="margin: 50px 0px;">
+	<!--------------------------------------------------------------------------->
 
+	<h1>Fes Deck</h1>
+
+	<fieldset style="display: inline-flex;">
+			<div>
+				<h3 class="type_header">Leader</h3>
+				<input type="button" id="idolCharBtn_Leader" value="아이돌 선택""/>
+				<input type="button" id="idolCardBtn_Leader" value="카드 선택" style="visibility: hidden;" />
+				<br>
+				<div id="selectedIdolCharViewDiv_Leader" class="selected_idol_char_view"></div>
+			</div>
+		</fieldset>
+	
+		<fieldset style="display: inline-flex;">
+			<div>
+					<h3 class="type_header">Vocal</h3>
+					<input type="button" id="idolCharBtn_Vocal" value="아이돌 선택""/>
+					<input type="button" id="idolCardBtn_Vocal" value="카드 선택" style="visibility: hidden;" />
+					<br>
+					<div id="selectedIdolCharViewDiv_Vocal" class="selected_idol_char_view"></div>
+			</div>
+		</fieldset>
+	
+		<fieldset style="display: inline-flex;">
+			<div>
+					<h3 class="type_header">Center</h3>
+					<input type="button" id="idolCharBtn_Center" value="아이돌 선택""/>
+					<input type="button" id="idolCardBtn_Center" value="카드 선택" style="visibility: hidden;" />
+					<br>
+					<div id="selectedIdolCharViewDiv_Center" class="selected_idol_char_view"></div>
+			</div>
+		</fieldset>
+	
+		<fieldset style="display: inline-flex;">
+			<div>
+					<h3 class="type_header">Dance</h3>
+					<input type="button" id="idolCharBtn_Dance" value="아이돌 선택""/>
+					<input type="button" id="idolCardBtn_Dance" value="카드 선택" style="visibility: hidden;" />
+					<br>
+					<div id="selectedIdolCharViewDiv_Dance" class="selected_idol_char_view"></div>
+			</div>
+		</fieldset>
+	
+		<fieldset style="display: inline-flex;">
+			<div>
+					<h3 class="type_header">Visual</h3>
+					<input type="button" id="idolCharBtn_Visual" value="아이돌 선택""/>
+					<input type="button" id="idolCardBtn_Visual" value="카드 선택" style="visibility: hidden;" />
+					<br>
+					<div id="selectedIdolCharViewDiv_Visual" class="selected_idol_char_view"></div>
+			</div>
+		</fieldset>
+
+		<div>
+			<input type="button" value="Deck Capture" onclick="captureScreen('FES_DECK', 'Fes')" class="Capturebutton">
+		</div>
+
+		<fieldset style="width:max-content;">
+			<legend>Fes Deck</legend>
+			<div id="FES_DECK" style="width:max-content; display: flex;">
+				<div id="selectedIdolView_Leader" class="idol_view" style="display: inline-block;"></div>
+				<div id="selectedIdolView_Vocal" class="idol_view" style="display: inline-block;"></div>
+				<div id="selectedIdolView_Center" class="idol_view" style="display: inline-block;"></div>
+				<div id="selectedIdolView_Dance" class="idol_view" style="display: inline-block;"></div>
+				<div id="selectedIdolView_Visual" class="idol_view" style="display: inline-block;"></div>
+			</div>
+		</fieldset>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
