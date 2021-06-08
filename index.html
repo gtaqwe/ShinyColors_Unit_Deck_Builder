@@ -27,7 +27,7 @@
 	<br><br>
 
 	<fieldset style="display: inline-flex;">
-		<div>
+		<div id="test">
 			<h3 class="type_header">Support</h3>
 			<input type="button" id="idolCharBtn_Support_1" value="아이돌 선택""/>
 			<input type="button" id="idolCardBtn_Support_1" value="카드 선택" style="visibility: hidden;" />
@@ -77,6 +77,17 @@
 	</fieldset>
 
 	<div>
+		<div style="display: flex;">
+			<span id="convertSpan" style="margin:5px 10px;">
+				<label class="switch">
+					<input type="checkbox" id="insightConvertBtn"
+						onchange="convertInsightImg($('#insightConvertBtn').is(':checked'))">
+					<span class="slider round"></span>
+				</label>
+	
+				<span>히라메키 표시</span>
+			</span>
+		</div>
 		<input type="button" value="Deck Capture" onclick="captureScreen('PRODUCE_DECK', 'Produce')" class="Capturebutton">
 	</div>
 
@@ -99,79 +110,79 @@
 	<h1>Fes Deck</h1>
 
 	<fieldset style="display: inline-flex;">
-			<div>
-				<h3 class="type_header">Leader</h3>
-				<input type="button" id="idolCharBtn_Leader" value="아이돌 선택""/>
-				<input type="button" id="idolCardBtn_Leader" value="카드 선택" style="visibility: hidden;" />
-				<br>
-				<div id="selectedIdolCharViewDiv_Leader" class="selected_idol_char_view"></div>
-			</div>
-		</fieldset>
-	
-		<fieldset style="display: inline-flex;">
-			<div>
-				<h3 class="type_header">Vocal</h3>
-				<input type="button" id="idolCharBtn_Vocal" value="아이돌 선택""/>
-				<input type="button" id="idolCardBtn_Vocal" value="카드 선택" style="visibility: hidden;" />
-				<br>
-				<div id="selectedIdolCharViewDiv_Vocal" class="selected_idol_char_view"></div>
-			</div>
-		</fieldset>
-	
-		<fieldset style="display: inline-flex;">
-			<div>
-				<h3 class="type_header">Center</h3>
-				<input type="button" id="idolCharBtn_Center" value="아이돌 선택""/>
-				<input type="button" id="idolCardBtn_Center" value="카드 선택" style="visibility: hidden;" />
-				<br>
-				<div id="selectedIdolCharViewDiv_Center" class="selected_idol_char_view"></div>
-			</div>
-		</fieldset>
-	
-		<fieldset style="display: inline-flex;">
-			<div>
-				<h3 class="type_header">Dance</h3>
-				<input type="button" id="idolCharBtn_Dance" value="아이돌 선택""/>
-				<input type="button" id="idolCardBtn_Dance" value="카드 선택" style="visibility: hidden;" />
-				<br>
-				<div id="selectedIdolCharViewDiv_Dance" class="selected_idol_char_view"></div>
-			</div>
-		</fieldset>
-	
-		<fieldset style="display: inline-flex;">
-			<div>
-				<h3 class="type_header">Visual</h3>
-				<input type="button" id="idolCharBtn_Visual" value="아이돌 선택""/>
-				<input type="button" id="idolCardBtn_Visual" value="카드 선택" style="visibility: hidden;" />
-				<br>
-				<div id="selectedIdolCharViewDiv_Visual" class="selected_idol_char_view"></div>
-			</div>
-		</fieldset>
-
 		<div>
-			<input type="button" value="Deck Capture" onclick="captureScreen('FES_DECK', 'Fes')" class="Capturebutton">
-		
-			<span id="convertSpan" style="margin:5px 10px;">
-				<label class="switch">
-					<input type="checkbox" id="fesImgConvertBtn" checked
-						onchange="convertFesImg($('#fesImgConvertBtn').is(':checked'))">
-					<span class="slider round"></span>
-				</label>
-
-				<span id="toggleStr"></span>
-			</span>
+			<h3 class="type_header">Leader</h3>
+			<input type="button" id="idolCharBtn_Leader" value="아이돌 선택""/>
+			<input type="button" id="idolCardBtn_Leader" value="카드 선택" style="visibility: hidden;" />
+			<br>
+			<div id="selectedIdolCharViewDiv_Leader" class="selected_idol_char_view"></div>
 		</div>
+	</fieldset>
 
-		<fieldset style="width:max-content;">
-			<legend>Fes Deck</legend>
-			<div id="FES_DECK" style="width:max-content; display: flex;">
-				<div id="selectedIdolView_Leader" class="idol_view" style="display: inline-block;"></div>
-				<div id="selectedIdolView_Vocal" class="idol_view" style="display: inline-block;"></div>
-				<div id="selectedIdolView_Center" class="idol_view" style="display: inline-block;"></div>
-				<div id="selectedIdolView_Dance" class="idol_view" style="display: inline-block;"></div>
-				<div id="selectedIdolView_Visual" class="idol_view" style="display: inline-block;"></div>
-			</div>
-		</fieldset>
+	<fieldset style="display: inline-flex;">
+		<div>
+			<h3 class="type_header">Vocal</h3>
+			<input type="button" id="idolCharBtn_Vocal" value="아이돌 선택""/>
+			<input type="button" id="idolCardBtn_Vocal" value="카드 선택" style="visibility: hidden;" />
+			<br>
+			<div id="selectedIdolCharViewDiv_Vocal" class="selected_idol_char_view"></div>
+		</div>
+	</fieldset>
+
+	<fieldset style="display: inline-flex;">
+		<div>
+			<h3 class="type_header">Center</h3>
+			<input type="button" id="idolCharBtn_Center" value="아이돌 선택""/>
+			<input type="button" id="idolCardBtn_Center" value="카드 선택" style="visibility: hidden;" />
+			<br>
+			<div id="selectedIdolCharViewDiv_Center" class="selected_idol_char_view"></div>
+		</div>
+	</fieldset>
+
+	<fieldset style="display: inline-flex;">
+		<div>
+			<h3 class="type_header">Dance</h3>
+			<input type="button" id="idolCharBtn_Dance" value="아이돌 선택""/>
+			<input type="button" id="idolCardBtn_Dance" value="카드 선택" style="visibility: hidden;" />
+			<br>
+			<div id="selectedIdolCharViewDiv_Dance" class="selected_idol_char_view"></div>
+		</div>
+	</fieldset>
+
+	<fieldset style="display: inline-flex;">
+		<div>
+			<h3 class="type_header">Visual</h3>
+			<input type="button" id="idolCharBtn_Visual" value="아이돌 선택""/>
+			<input type="button" id="idolCardBtn_Visual" value="카드 선택" style="visibility: hidden;" />
+			<br>
+			<div id="selectedIdolCharViewDiv_Visual" class="selected_idol_char_view"></div>
+		</div>
+	</fieldset>
+
+	<div>
+		<input type="button" value="Deck Capture" onclick="captureScreen('FES_DECK', 'Fes')" class="Capturebutton">
+	
+		<span id="convertSpan" style="margin:5px 10px;">
+			<label class="switch">
+				<input type="checkbox" id="fesImgConvertBtn" checked
+					onchange="convertFesImg($('#fesImgConvertBtn').is(':checked'))">
+				<span class="slider round"></span>
+			</label>
+
+			<span id="toggleStr"></span>
+		</span>
+	</div>
+
+	<fieldset style="width:max-content;">
+		<legend>Fes Deck</legend>
+		<div id="FES_DECK" style="width:max-content; display: flex;">
+			<div id="selectedIdolView_Leader" class="idol_view" style="display: inline-block;"></div>
+			<div id="selectedIdolView_Vocal" class="idol_view" style="display: inline-block;"></div>
+			<div id="selectedIdolView_Center" class="idol_view" style="display: inline-block;"></div>
+			<div id="selectedIdolView_Dance" class="idol_view" style="display: inline-block;"></div>
+			<div id="selectedIdolView_Visual" class="idol_view" style="display: inline-block;"></div>
+		</div>
+	</fieldset>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>

@@ -58,64 +58,84 @@ function getJSON(jsonFile) {
     }
 }
 
-function viewIdol(parentObj, obj, divId, cardType, offset) {
-    
+function viewIdol(parentObj, obj, divId, cardType, offset) {    
     $(idolDialogDivId).html("")
     for (var idolIdx = 0; idolIdx < obj.length; idolIdx++) {
         var idolName = obj[idolIdx]["eng_name"]
-        var parameter = "'#" + divId + "', '" + idolName + "', " + idolIdx + ", '" + cardType + "', " + offset
-        $(idolDialogDivId).append($('<img>',
+        var idolInsight = obj[idolIdx]["insight"]
+
+        var parameter = "'#" + divId + "', '" + idolName + "', '" + idolInsight + "', " + idolIdx + ", '" + cardType + "', " + offset     
+            
+        $(idolDialogDivId).append($('<div>',
             {
-                id: "idol_" + idolName,
-                src: "./img/idol/" + idolName + ".png",
-                width: "100px",
-                height: "100px",
-                class: "dialogImg",
+                id: "idolDiv_" + idolName,
+                style: "display:inline-flex;position: relative;",
                 onclick:"setCardList(" + parameter + ")"
             }))
-    }
 
+        $("#idolDiv_" + idolName).append($('<img>', {
+            id: "idol_" + idolName,
+            src: "./img/idol/" + idolName + ".png",
+            width: "100px",
+            height: "100px",
+            class: "dialogImg",
+        }))
+
+        var insightChk = $('#insightConvertBtn').is(':checked')
+        if (cardType == "S" && insightChk == true) $("#idolDiv_" + idolName).append($('<img>', pasteInsightImg(idolInsight)))
+    }
+    
     $(idolDialogDivId).dialog({
         modal: true,
         title: "아이돌 선택",
-        position: { my: "left top", at: "center", of: parentObj },
+        position: { my: "left top", at: "center", of: parentObj, collision: "fit" },
         width: "600px",
-        // buttons: {
-        //     "Cancel": function () {
-        //         $(this).dialog("close")
-        //     }
-        // }
     });
+    $(idolDialogDivId).dialog("open")
 
     $(".ui-widget-overlay").click (function () {
         $(idolDialogDivId).dialog("close");
     });
 }
 
-function setCardList(divId, name, idolIdx, cardType, offset) {
+function pasteIdolImg(name, insight) {
+    return {
+        name: name,
+        insight: insight,
+        src: "./img/idol/" + name + ".png",
+        width: "96px",
+        height: "96px"
+    }
+}
+
+function pasteInsightImg(insight) {
+    return {
+        src: "./img/assets/" + insight + "_Insight.png",
+        style: "position: absolute; width: 35px; height: 35px; bottom: 0px; right: 0px;"
+    }
+}
+
+function setCardList(divId, name, insight, idolIdx, cardType, offset) {
     var selDivId = divId
-    $(selDivId).html($('<img>',
-        {
-            src: "./img/idol/" + name + ".png",
-            width: "96px",
-            height: "96px"
-        }))
+    $(selDivId).html($('<img>', pasteIdolImg(name, insight)))
     $(idolDialogDivId).dialog("close")
 
     if (cardType == "P") {
         $("#idolCardBtn_Produce").click(function () { viewCard(this, jsonData[idolIdx], cardType, offset) })
         $("#idolCardBtn_Produce").css('visibility', 'visible')
     }
-    else if (cardType == "S") {
+    else if (cardType == "S") {        
         $("#idolCardBtn_Support_" + offset).click(function () { viewCard(this, jsonData[idolIdx], cardType, offset) })
         $("#idolCardBtn_Support_" + offset).css('visibility', 'visible')
+
+        var insightChk = $('#insightConvertBtn').is(':checked')
+        if(insightChk == true) $('#selectedIdolCharViewDiv_Support_' + offset).append($('<img>', pasteInsightImg(insight)))
     }
     else {
         $("#idolCardBtn_" + FES_POSITION[offset]).click(function () { viewCard(this, jsonData[idolIdx], cardType, offset) })
         $("#idolCardBtn_" + FES_POSITION[offset]).css('visibility', 'visible')
     }    
 }
-
 
 function viewCard(parentObj, obj, cardType, offset) {
     var type_list
@@ -143,9 +163,7 @@ function viewCard(parentObj, obj, cardType, offset) {
 
     $(cardDialogDivId).html("")
     for (var typeIdx = 0; typeIdx < type_list.length; typeIdx++) {
-        if (obj["card_data"][type_list[typeIdx]] == undefined) {
-            continue
-        }
+        if (obj["card_data"][type_list[typeIdx]] == undefined) continue
 
         var cardList = obj["card_data"][type_list[typeIdx]]
         var cardLen = obj["card_data"][type_list[typeIdx]].length
@@ -178,13 +196,8 @@ function viewCard(parentObj, obj, cardType, offset) {
     $(cardDialogDivId).dialog({
         modal: true,
         title: "카드 선택 (" + obj["idol_name"] + ")",
-        position: { my: "left top", at: "center", of: parentObj },
-        width: "600px",
-        // buttons: {
-        //     "Cancel": function () {
-        //         $(this).dialog("close");
-        //     }
-        // }
+        position: { my: "left top", at: "center", of: parentObj, collision: "fit" },
+        width: "600px"
     });
 
     $(".ui-widget-overlay").click (function () {
@@ -217,6 +230,26 @@ function convertFesDeckImg(fesChk) {
                 imgUrl = imgUrl.replace("card_fes/", "card/")
             }
             $('#selectedIdolView_' + FES_POSITION[i]).children('img').attr("src", imgUrl)
+        }
+    }
+}
+
+function convertInsightImg(insightChk) {
+    for (var i = 0, offset =1 ; i < 5; i++, offset++) {
+        var imgCode = $('#selectedIdolCharViewDiv_Support_' + offset).children('img')
+
+        if (imgCode.length > 0) {
+            var idolName = imgCode.attr("name")
+            var insight = imgCode.attr("insight")
+
+            $('#selectedIdolCharViewDiv_Support_' + offset).html('')
+            if (insightChk == true) {
+                $('#selectedIdolCharViewDiv_Support_' + offset).append($('<img>', pasteIdolImg(idolName, insight)))
+                $('#selectedIdolCharViewDiv_Support_' + offset).append($('<img>', pasteInsightImg(insight)))
+            }
+            else {
+                $('#selectedIdolCharViewDiv_Support_' + offset).append($('<img>', pasteIdolImg(idolName, insight)))
+            }
         }
     }
 }

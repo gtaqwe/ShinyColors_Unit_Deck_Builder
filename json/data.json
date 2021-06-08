@@ -2,6 +2,7 @@
 	{
 		"idol_name": "마노",
 		"eng_name": "mano",
+		"insight": "Vocal",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -132,6 +133,7 @@
 	{
 		"idol_name": "히오리",
 		"eng_name": "hiori",
+		"insight": "Visual",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -250,6 +252,7 @@
 	{
 		"idol_name": "메구루",
 		"eng_name": "meguru",
+		"insight": "Dance",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -364,6 +367,7 @@
 	{
 		"idol_name": "코가네",
 		"eng_name": "kogane",
+		"insight": "Mental",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -474,6 +478,7 @@
 	{
 		"idol_name": "마미미",
 		"eng_name": "mamimi",
+		"insight": "Visual",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -586,6 +591,7 @@
 	{
 		"idol_name": "사쿠야",
 		"eng_name": "sakuya",
+		"insight": "Visual",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -702,6 +708,7 @@
 	{
 		"idol_name": "유이카",
 		"eng_name": "yuika",
+		"insight": "Dance",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -804,6 +811,7 @@
 	{
 		"idol_name": "키리코",
 		"eng_name": "kiriko",
+		"insight": "Vocal",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -910,6 +918,7 @@
 	{
 		"idol_name": "카호",
 		"eng_name": "kaho",
+		"insight": "Vocal",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -1016,6 +1025,7 @@
 	{
 		"idol_name": "치요코",
 		"eng_name": "chiyoko",
+		"insight": "Mental",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -1122,6 +1132,7 @@
 	{
 		"idol_name": "쥬리",
 		"eng_name": "juri",
+		"insight": "Dance",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -1232,6 +1243,7 @@
 	{
 		"idol_name": "린제",
 		"eng_name": "rinze",
+		"insight": "Dance",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -1346,6 +1358,7 @@
 	{
 		"idol_name": "나츠하",
 		"eng_name": "natsuha",
+		"insight": "Mental",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -1462,6 +1475,7 @@
 	{
 		"idol_name": "아마나",
 		"eng_name": "amana",
+		"insight": "Visual",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -1576,6 +1590,7 @@
 	{
 		"idol_name": "텐카",
 		"eng_name": "tenka",
+		"insight": "Visual",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -1692,6 +1707,7 @@
 	{
 		"idol_name": "치유키",
 		"eng_name": "chiyuki",
+		"insight": "Vocal",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -1806,6 +1822,7 @@
 	{
 		"idol_name": "아사히",
 		"eng_name": "asahi",
+		"insight": "Dance",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -1892,6 +1909,7 @@
 	{
 		"idol_name": "후유코",
 		"eng_name": "fuyuko",
+		"insight": "Vocal",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -1970,6 +1988,7 @@
 	{
 		"idol_name": "메이",
 		"eng_name": "mei",
+		"insight": "Mental",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -2060,6 +2079,7 @@
 	{
 		"idol_name": "토오루",
 		"eng_name": "toru",
+		"insight": "Visual",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -2130,6 +2150,7 @@
 	{
 		"idol_name": "마도카",
 		"eng_name": "madoka",
+		"insight": "Vocal",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -2192,6 +2213,7 @@
 	{
 		"idol_name": "코이토",
 		"eng_name": "koito",
+		"insight": "Mental",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -2254,6 +2276,7 @@
 	{
 		"idol_name": "히나나",
 		"eng_name": "hinana",
+		"insight": "Dance",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -2312,6 +2335,7 @@
 	{
 		"idol_name": "니치카",
 		"eng_name": "nichika",
+		"insight": "Dance",
 		"card_data": {
 			"P_SSR": [
 				{
@@ -2348,6 +2372,7 @@
 	{
 		"idol_name": "미코토",
 		"eng_name": "mikoto",
+		"insight": "Visual",
 		"card_data": {
 			"P_SSR": [
 				{

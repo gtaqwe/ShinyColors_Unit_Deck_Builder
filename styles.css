@@ -17,6 +17,7 @@ input[type="button"] {
 .selected_idol_char_view {
   height: 100px;
   text-align: center;
+  position: relative;
 }
 
 .idol_view {
