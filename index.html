@@ -150,6 +150,16 @@
 
 		<div>
 			<input type="button" value="Deck Capture" onclick="captureScreen('FES_DECK', 'Fes')" class="Capturebutton">
+		
+			<span id="convertSpan" style="margin:5px 10px;">
+				<label class="switch">
+					<input type="checkbox" id="fesImgConvertBtn" checked
+						onchange="convertFesImg($('#fesImgConvertBtn').is(':checked'))">
+					<span class="slider round"></span>
+				</label>
+
+				<span id="toggleStr"></span>
+			</span>
 		</div>
 
 		<fieldset style="width:max-content;">

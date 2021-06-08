@@ -30,6 +30,9 @@ async function init() {
     $("#idolCharBtn_Center").click(function () { viewIdol(this, jsonData, "selectedIdolCharViewDiv_Center", "F", 2) })
     $("#idolCharBtn_Dance").click(function () { viewIdol(this, jsonData, "selectedIdolCharViewDiv_Dance", "F", 3) })
     $("#idolCharBtn_Visual").click(function () { viewIdol(this, jsonData, "selectedIdolCharViewDiv_Visual", "F", 4) })
+
+    var fesChk = $('#fesImgConvertBtn').is(':checked')
+    convertFesImg(fesChk)
 }
 
 function getJSON(jsonFile) {
@@ -110,13 +113,14 @@ function setCardList(divId, name, idolIdx, cardType, offset) {
     else {
         $("#idolCardBtn_" + FES_POSITION[offset]).click(function () { viewCard(this, jsonData[idolIdx], cardType, offset) })
         $("#idolCardBtn_" + FES_POSITION[offset]).css('visibility', 'visible')
-    }
-    
+    }    
 }
+
 
 function viewCard(parentObj, obj, cardType, offset) {
     var type_list
     var divOffset
+    var imgPath
 
     if (cardType == "P" || cardType == "F") {
         type_list = P_TYPE_LIST
@@ -127,9 +131,14 @@ function viewCard(parentObj, obj, cardType, offset) {
 
     if (cardType == "P" || cardType == "S") {
         divOffset = offset
+        imgPath = "card/"
     }
-    else {
+    else {        
         divOffset = FES_POSITION[offset]
+        var fesChk = $('#fesImgConvertBtn').is(':checked')
+        if (fesChk == true) imgPath = "card_fes/"
+        else imgPath = "card/"
+        
     }
 
     $(cardDialogDivId).html("")
@@ -146,7 +155,7 @@ function viewCard(parentObj, obj, cardType, offset) {
             $(cardDialogDivId).append($('<img>',
                 {
                     id: cardList[i]["card_addr"],
-                    src: "./img/card/" + cardList[i]["card_addr"] + ".png",
+                    src: "./img/" + imgPath + cardList[i]["card_addr"] + ".png",
                     width: "auto",
                     height: "auto",
                     class: "dialogImg"
@@ -155,7 +164,7 @@ function viewCard(parentObj, obj, cardType, offset) {
                 var selDivId = "#selectedIdolView_" + divOffset
                 $(selDivId).html($('<img>',
                     {
-                        src: "./img/card/" + this.id + ".png",
+                        src: "./img/" + imgPath  + this.id + ".png",
                         width: "96px",
                         height: "96px"
                     }))
@@ -181,6 +190,35 @@ function viewCard(parentObj, obj, cardType, offset) {
     $(".ui-widget-overlay").click (function () {
         $(cardDialogDivId).dialog("close");
     });
+}
+
+function convertFesImg(fesChk) {
+    getToggleString(fesChk)
+    convertFesDeckImg(fesChk)
+}
+
+function getToggleString(fesChk) {
+    if (fesChk == true) {
+        $("#toggleStr").html("페스");
+    }
+    else {
+        $("#toggleStr").html("사복");
+    }
+}
+
+function convertFesDeckImg(fesChk) {
+    for (var i = 0; i < FES_POSITION.length; i++) {
+        var imgUrl = $('#selectedIdolView_' + FES_POSITION[i]).children('img').attr("src")
+        if (imgUrl != undefined) {
+            if (fesChk == true) {
+                imgUrl = imgUrl.replace("card/", "card_fes/")
+            }
+            else {
+                imgUrl = imgUrl.replace("card_fes/", "card/")
+            }
+            $('#selectedIdolView_' + FES_POSITION[i]).children('img').attr("src", imgUrl)
+        }
+    }
 }
 
 //////////////////////////////////////////////////
