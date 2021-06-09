@@ -91,7 +91,6 @@ function viewIdol(parentObj, obj, divId, cardType, offset) {
         position: { my: "left top", at: "center", of: parentObj, collision: "fit" },
         width: "600px",
     });
-    $(idolDialogDivId).dialog("open")
 
     $(".ui-widget-overlay").click (function () {
         $(idolDialogDivId).dialog("close");
@@ -121,23 +120,26 @@ function setCardList(divId, name, insight, idolIdx, cardType, offset) {
     $(idolDialogDivId).dialog("close")
 
     if (cardType == "P") {
-        $("#idolCardBtn_Produce").click(function () { viewCard(this, jsonData[idolIdx], cardType, offset) })
+        setCardDialog(jsonData[idolIdx], cardType, offset)
+        $("#idolCardBtn_Produce").click(function () { viewCardDialog(this, jsonData[idolIdx]) })
         $("#idolCardBtn_Produce").css('visibility', 'visible')
     }
-    else if (cardType == "S") {        
-        $("#idolCardBtn_Support_" + offset).click(function () { viewCard(this, jsonData[idolIdx], cardType, offset) })
+    else if (cardType == "S") {      
+        setCardDialog(jsonData[idolIdx], cardType, offset)
+        $("#idolCardBtn_Support_" + offset).click(function () { viewCardDialog(this, jsonData[idolIdx]) })
         $("#idolCardBtn_Support_" + offset).css('visibility', 'visible')
 
         var insightChk = $('#insightConvertBtn').is(':checked')
         if(insightChk == true) $('#selectedIdolCharViewDiv_Support_' + offset).append($('<img>', pasteInsightImg(insight)))
     }
     else {
-        $("#idolCardBtn_" + FES_POSITION[offset]).click(function () { viewCard(this, jsonData[idolIdx], cardType, offset) })
+        setCardDialog(jsonData[idolIdx], cardType, offset)
+        $("#idolCardBtn_" + FES_POSITION[offset]).click(function () { viewCardDialog(this, jsonData[idolIdx]) })
         $("#idolCardBtn_" + FES_POSITION[offset]).css('visibility', 'visible')
     }    
 }
 
-function viewCard(parentObj, obj, cardType, offset) {
+function setCardDialog(obj, cardType, offset) {
     var type_list
     var divOffset
     var imgPath
@@ -192,7 +194,10 @@ function viewCard(parentObj, obj, cardType, offset) {
 
         if (typeIdx + 1 < type_list.length) {$(cardDialogDivId).append("<hr>")}
     }
+}
 
+function viewCardDialog(parentObj, obj) {
+    
     $(cardDialogDivId).dialog({
         modal: true,
         title: "카드 선택 (" + obj["idol_name"] + ")",
