@@ -194,7 +194,7 @@ function viewCardDialog(parentObj, obj, cardType, offset) {
 
     $(cardDialogDivId).dialog({
         modal: true,
-        title: "카드 선택 (" + obj["idol_name"] + ")",        
+        title: "카드 선택",        
         position: { my: "left top", at: "center", of: parentObj, collision: "fit" },
         width: 600
     });
