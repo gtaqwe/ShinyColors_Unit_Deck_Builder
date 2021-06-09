@@ -120,12 +120,10 @@ function setCardList(divId, name, insight, idolIdx, cardType, offset) {
     $(idolDialogDivId).dialog("close")
 
     if (cardType == "P") {
-        // setCardDialog(jsonData[idolIdx], cardType, offset)
         $("#idolCardBtn_Produce").click(function () { viewCardDialog(this, jsonData[idolIdx], cardType, offset) })
         $("#idolCardBtn_Produce").css('visibility', 'visible')
     }
-    else if (cardType == "S") {      
-        // setCardDialog(jsonData[idolIdx], cardType, offset)
+    else if (cardType == "S") {
         $("#idolCardBtn_Support_" + offset).click(function () { viewCardDialog(this, jsonData[idolIdx], cardType, offset) })
         $("#idolCardBtn_Support_" + offset).css('visibility', 'visible')
 
@@ -133,68 +131,10 @@ function setCardList(divId, name, insight, idolIdx, cardType, offset) {
         if(insightChk == true) $('#selectedIdolCharViewDiv_Support_' + offset).append($('<img>', pasteInsightImg(insight)))
     }
     else {
-        // setCardDialog(jsonData[idolIdx], cardType, offset)
         $("#idolCardBtn_" + FES_POSITION[offset]).click(function () { viewCardDialog(this, jsonData[idolIdx], cardType, offset) })
         $("#idolCardBtn_" + FES_POSITION[offset]).css('visibility', 'visible')
     }    
 }
-
-// function setCardDialog(obj, cardType, offset) {
-//     var type_list
-//     var divOffset
-//     var imgPath
-
-//     if (cardType == "P" || cardType == "F") {
-//         type_list = P_TYPE_LIST
-//     }
-//     else {
-//         type_list = S_TYPE_LIST
-//     }
-
-//     if (cardType == "P" || cardType == "S") {
-//         divOffset = offset
-//         imgPath = "card/"
-//     }
-//     else {        
-//         divOffset = FES_POSITION[offset]
-//         var fesChk = $('#fesImgConvertBtn').is(':checked')
-//         if (fesChk == true) imgPath = "card_fes/"
-//         else imgPath = "card/"
-        
-//     }
-
-//     $(cardDialogDivId).html("")
-//     for (var typeIdx = 0; typeIdx < type_list.length; typeIdx++) {
-//         if (obj["card_data"][type_list[typeIdx]] == undefined) continue
-
-//         var cardList = obj["card_data"][type_list[typeIdx]]
-//         var cardLen = obj["card_data"][type_list[typeIdx]].length
-
-//         $(cardDialogDivId).append("<h3 style='margin: 10px 0px'>" + type_list[typeIdx].split("_")[1] + "</h3>")
-//         for (var i = 0; i < cardLen; i++) {
-//             $(cardDialogDivId).append($('<img>',
-//                 {
-//                     id: cardList[i]["card_addr"],
-//                     src: "./img/" + imgPath + cardList[i]["card_addr"] + ".png",
-//                     width: "auto",
-//                     height: "auto",
-//                     class: "dialogImg"
-//                 }))
-//             $("#" + cardList[i]["card_addr"]).click(function () {
-//                 var selDivId = "#selectedIdolView_" + divOffset
-//                 $(selDivId).html($('<img>',
-//                     {
-//                         src: "./img/" + imgPath  + this.id + ".png",
-//                         width: "96px",
-//                         height: "96px"
-//                     }))
-//                 $(cardDialogDivId).dialog("close")
-//             })
-//         }
-
-//         if (typeIdx + 1 < type_list.length) {$(cardDialogDivId).append("<hr>")}
-//     }
-// }
 
 function viewCardDialog(parentObj, obj, cardType, offset) {
     var type_list
@@ -254,9 +194,9 @@ function viewCardDialog(parentObj, obj, cardType, offset) {
 
     $(cardDialogDivId).dialog({
         modal: true,
-        title: "카드 선택 (" + obj["idol_name"] + ")",
+        title: "카드 선택 (" + obj["idol_name"] + ")",        
         position: { my: "left top", at: "center", of: parentObj, collision: "fit" },
-        width: "600px"
+        width: 600
     });
 
     $(".ui-widget-overlay").click (function () {
