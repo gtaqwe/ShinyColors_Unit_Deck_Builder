@@ -1498,6 +1498,9 @@
 				},
 				{
 					"card_addr": "asahi_s_sr2"
+				},
+				{
+					"card_addr": "asahi_s_sr3"
 				}
 			],
 			"P_R": [
@@ -1593,6 +1596,9 @@
 				},
 				{
 					"card_addr": "mei_p_ssr3"
+				},
+				{
+					"card_addr": "mei_p_ssr4"
 				}
 			],
 			"P_SR": [
