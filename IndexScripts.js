@@ -3,6 +3,7 @@ const S_TYPE_LIST = ["S_SSR", "S_SR", "S_R", "S_N"]
 const FES_POSITION = ["Leader", "Vocal", "Center", "Dance", "Visual"]
 const cardDialogDivId = "#cardDialogDiv"
 const idolDialogDivId = "#idolDialogDiv"
+const spaceSize = 3
 var jsonData
 
 // document.body.addEventListener("onload", init());
@@ -33,6 +34,12 @@ async function init() {
 
     var fesChk = $('#fesImgConvertBtn').is(':checked')
     convertFesImg(fesChk)
+
+    var pDeckSpaceVal = $(':radio[name="p_deck_space"]:checked').val()
+    var fDeckSpaceVal = $(':radio[name="f_deck_space"]:checked').val()
+
+    setDeckSpace("P", pDeckSpaceVal)
+    setDeckSpace("F", fDeckSpaceVal)
 }
 
 function getJSON(jsonFile) {
@@ -249,6 +256,29 @@ function convertInsightImg(insightChk) {
             else {
                 $('#selectedIdolCharViewDiv_Support_' + offset).append($('<img>', pasteIdolImg(idolName, insight)))
             }
+        }
+    }
+}
+
+function setDeckSpace(deckType, spaceType) {
+    var spaceAry
+
+    if (deckType == "P"){
+        if (spaceType == "1") spaceAry = [0,0,0,0,0]
+        else if (spaceType == "2") spaceAry = [1,1,1,1,1]
+        else spaceAry = [1,0,0,0,0]
+
+        for (var i = 0; i < spaceAry.length; i++) {
+            $("#p_space_div_" + (i + 1)).css("margin","0px " + (spaceAry[i] * spaceSize) + "px")
+        }
+    }
+    else {
+        if (spaceType == "1") spaceAry = [0,0,0,0]
+        else spaceAry = [1,1,1,1]
+
+
+        for (var i = 0; i < spaceAry.length; i++) {
+            $("#f_space_div_" + (i + 1)).css("margin","0px " + (spaceAry[i] * spaceSize) + "px")
         }
     }
 }

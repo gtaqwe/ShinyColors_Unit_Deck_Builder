@@ -88,17 +88,42 @@
 				<span>히라메키 표시</span>
 			</span>
 		</div>
-		<input type="button" value="Deck Capture" onclick="captureScreen('PRODUCE_DECK', 'Produce')" class="Capturebutton">
+
+		<input type="button" value="Deck Capture" onclick="captureScreen('PRODUCE_DECK', 'Produce')">
+
+		<div style="display: inline-block;">
+			<fieldset style="width:max-content;">
+			<legend>구분 여백 표시</legend>
+
+			<input type="radio" id="p_deck_space1"
+				name="p_deck_space" value=1 onclick="setDeckSpace('P', $('#p_deck_space1').val())" checked>
+			<label for="p_deck_space1">구분 없음</label>
+		
+			<input type="radio" id="p_deck_space2"
+				name="p_deck_space" value=2 onclick="setDeckSpace('P', $('#p_deck_space2').val())">
+			<label for="p_deck_space2">전체 구분</label>
+		
+			<input type="radio" id="p_deck_space3"
+				name="p_deck_space" value=3 onclick="setDeckSpace('P', $('#p_deck_space3').val())">
+			<label for="p_deck_space3">PS 구분</label>
+
+			</fieldset>
+		</div>
 	</div>
 
 	<fieldset style="width:max-content;">
 		<legend>Produce Deck</legend>
 		<div id="PRODUCE_DECK" style="width:max-content; display: flex;">
 			<div id="selectedIdolView_0" class="idol_view" style="display: inline-block;"></div>
+			<div id="p_space_div_1"></div>
 			<div id="selectedIdolView_1" class="idol_view" style="display: inline-block;"></div>
+			<div id="p_space_div_2"></div>
 			<div id="selectedIdolView_2" class="idol_view" style="display: inline-block;"></div>
+			<div id="p_space_div_3"></div>
 			<div id="selectedIdolView_3" class="idol_view" style="display: inline-block;"></div>
+			<div id="p_space_div_4"></div>
 			<div id="selectedIdolView_4" class="idol_view" style="display: inline-block;"></div>
+			<div id="p_space_div_5"></div>
 			<div id="selectedIdolView_5" class="idol_view" style="display: inline-block;"></div>
 		</div>
 	</fieldset>
@@ -159,7 +184,7 @@
 		</div>
 	</fieldset>
 
-	<div>
+	<div style="display: inline-block;">
 		<input type="button" value="Deck Capture" onclick="captureScreen('FES_DECK', 'Fes')" class="Capturebutton">
 	
 		<span id="convertSpan" style="margin:5px 10px;">
@@ -173,13 +198,32 @@
 		</span>
 	</div>
 
+	<div style="display: inline-block;">
+		<fieldset style="width:max-content;">
+		<legend>구분 여백 표시</legend>
+
+		<input type="radio" id="f_deck_space1"
+			name="f_deck_space" value=1 onclick="setDeckSpace('F', $('#f_deck_space1').val())" checked>
+		<label for="f_deck_space1">구분 없음</label>
+	
+		<input type="radio" id="f_deck_space2"
+			name="f_deck_space" value=2 onclick="setDeckSpace('F', $('#f_deck_space2').val())">
+		<label for="f_deck_space2">포지션 구분</label>
+		
+		</fieldset>
+	</div>
+
 	<fieldset style="width:max-content;">
 		<legend>Fes Deck</legend>
 		<div id="FES_DECK" style="width:max-content; display: flex;">
 			<div id="selectedIdolView_Leader" class="idol_view" style="display: inline-block;"></div>
+			<div id="f_space_div_1"></div>
 			<div id="selectedIdolView_Vocal" class="idol_view" style="display: inline-block;"></div>
+			<div id="f_space_div_2"></div>
 			<div id="selectedIdolView_Center" class="idol_view" style="display: inline-block;"></div>
+			<div id="f_space_div_3"></div>
 			<div id="selectedIdolView_Dance" class="idol_view" style="display: inline-block;"></div>
+			<div id="f_space_div_4"></div>
 			<div id="selectedIdolView_Visual" class="idol_view" style="display: inline-block;"></div>
 		</div>
 	</fieldset>
