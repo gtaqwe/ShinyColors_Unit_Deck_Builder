@@ -219,6 +219,9 @@
 				},
 				{
 					"card_addr": "meguru_p_ssr5"
+				},
+				{
+					"card_addr": "meguru_p_ssr6"
 				}
 			],
 			"P_SR": [
@@ -680,6 +683,9 @@
 				},
 				{
 					"card_addr": "kiriko_p_sr4"
+				},
+				{
+					"card_addr": "kiriko_p_sr5"
 				}
 			],
 			"S_SSR": [
@@ -1916,7 +1922,11 @@
 					"card_addr": "mikoto_p_sr0"
 				}
 			],
-			"S_SSR": [],
+			"S_SSR": [
+				{
+					"card_addr": "mikoto_s_ssr1"
+				}
+			],
 			"S_SR": [],
 			"P_R": [
 				{
