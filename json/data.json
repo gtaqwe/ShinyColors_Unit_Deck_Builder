@@ -74,6 +74,9 @@
 				},
 				{
 					"card_addr": "mano_s_ssr9"
+				},
+				{
+					"card_addr": "mano_s_ssr10"
 				}
 			],
 			"S_SR": [
@@ -1883,6 +1886,9 @@
 				},
 				{
 					"card_addr": "nichika_p_ssr1"
+				},
+				{
+					"card_addr": "nichika_p_ssr2"
 				}
 			],
 			"P_SR": [
@@ -1925,6 +1931,9 @@
 			"S_SSR": [
 				{
 					"card_addr": "mikoto_s_ssr1"
+				},
+				{
+					"card_addr": "mikoto_s_ssr2"
 				}
 			],
 			"S_SR": [],
