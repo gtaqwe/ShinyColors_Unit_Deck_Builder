@@ -409,6 +409,9 @@
 				},
 				{
 					"card_addr": "mamimi_p_ssr5"
+				},
+				{
+					"card_addr": "mamimi_p_ssr6"
 				}
 			],
 			"P_SR": [
@@ -814,6 +817,9 @@
 				},
 				{
 					"card_addr": "kaho_s_sr3"
+				},
+				{
+					"card_addr": "kaho_s_sr4"
 				}
 			],
 			"P_R": [
@@ -1709,6 +1715,9 @@
 				},
 				{
 					"card_addr": "toru_p_sr1"
+				},
+				{
+					"card_addr": "toru_p_sr2"
 				}
 			],
 			"S_SSR": [

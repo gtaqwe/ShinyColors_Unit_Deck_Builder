@@ -8,49 +8,49 @@ var jsonData;
 
 // document.body.addEventListener("onload", init());
 
-$().ready(function() {
+$().ready(function () {
   init();
 });
 
 async function init() {
-  await getJSON("json/data.json").then(function(resp) {
+  await getJSON("json/data.json").then(function (resp) {
     jsonData = JSON.parse(resp);
   });
 
   // Produce Deck
-  $("#idolCharBtn_Produce").click(function() {
+  $("#idolCharBtn_Produce").click(function () {
     viewIdol(this, jsonData, "selectedIdolCharViewDiv_Produce", "P", 0);
   });
-  $("#idolCharBtn_Support_1").click(function() {
+  $("#idolCharBtn_Support_1").click(function () {
     viewIdol(this, jsonData, "selectedIdolCharViewDiv_Support_1", "S", 1);
   });
-  $("#idolCharBtn_Support_2").click(function() {
+  $("#idolCharBtn_Support_2").click(function () {
     viewIdol(this, jsonData, "selectedIdolCharViewDiv_Support_2", "S", 2);
   });
-  $("#idolCharBtn_Support_3").click(function() {
+  $("#idolCharBtn_Support_3").click(function () {
     viewIdol(this, jsonData, "selectedIdolCharViewDiv_Support_3", "S", 3);
   });
-  $("#idolCharBtn_Support_4").click(function() {
+  $("#idolCharBtn_Support_4").click(function () {
     viewIdol(this, jsonData, "selectedIdolCharViewDiv_Support_4", "S", 4);
   });
-  $("#idolCharBtn_Support_5").click(function() {
+  $("#idolCharBtn_Support_5").click(function () {
     viewIdol(this, jsonData, "selectedIdolCharViewDiv_Support_5", "S", 5);
   });
 
   // Fes Deck
-  $("#idolCharBtn_Leader").click(function() {
+  $("#idolCharBtn_Leader").click(function () {
     viewIdol(this, jsonData, "selectedIdolCharViewDiv_Leader", "F", 0);
   });
-  $("#idolCharBtn_Vocal").click(function() {
+  $("#idolCharBtn_Vocal").click(function () {
     viewIdol(this, jsonData, "selectedIdolCharViewDiv_Vocal", "F", 1);
   });
-  $("#idolCharBtn_Center").click(function() {
+  $("#idolCharBtn_Center").click(function () {
     viewIdol(this, jsonData, "selectedIdolCharViewDiv_Center", "F", 2);
   });
-  $("#idolCharBtn_Dance").click(function() {
+  $("#idolCharBtn_Dance").click(function () {
     viewIdol(this, jsonData, "selectedIdolCharViewDiv_Dance", "F", 3);
   });
-  $("#idolCharBtn_Visual").click(function() {
+  $("#idolCharBtn_Visual").click(function () {
     viewIdol(this, jsonData, "selectedIdolCharViewDiv_Visual", "F", 4);
   });
 
@@ -66,10 +66,10 @@ async function init() {
 
 function getJSON(jsonFile) {
   try {
-    return new Promise(function(resolve, reject) {
+    return new Promise(function (resolve, reject) {
       var request = new XMLHttpRequest();
       request.open("GET", jsonFile, true);
-      request.onload = function() {
+      request.onload = function () {
         if (request.status == 200) {
           resolve(request.responseText);
         } else {
@@ -77,7 +77,7 @@ function getJSON(jsonFile) {
         }
       };
 
-      request.onerror = function() {
+      request.onerror = function () {
         reject(Error("Error fetching data."));
       };
       request.send();
@@ -111,7 +111,7 @@ function viewIdol(parentObj, obj, divId, cardType, offset) {
       $("<div>", {
         id: "idolDiv_" + idolNameSrc,
         style: "display:inline-flex;position: relative;",
-        onclick: "setCardList(" + parameter + ")"
+        onclick: "setCardList(" + parameter + ")",
       })
     );
 
@@ -121,7 +121,7 @@ function viewIdol(parentObj, obj, divId, cardType, offset) {
         src: "./img/idol/" + idolNameSrc + ".png",
         width: "100px",
         height: "100px",
-        class: "dialogImg"
+        class: "dialogImg",
       })
     );
 
@@ -134,10 +134,10 @@ function viewIdol(parentObj, obj, divId, cardType, offset) {
     modal: true,
     title: "아이돌 선택",
     position: { my: "left top", at: "center", of: parentObj, collision: "fit" },
-    width: "600px"
+    width: "600px",
   });
 
-  $(".ui-widget-overlay").click(function() {
+  $(".ui-widget-overlay").click(function () {
     $(idolDialogDivId).dialog("close");
   });
 }
@@ -148,14 +148,14 @@ function pasteIdolImg(name, insight) {
     insight: insight,
     src: "./img/idol/" + name + ".png",
     width: "96px",
-    height: "96px"
+    height: "96px",
   };
 }
 
 function pasteInsightImg(insight) {
   return {
     src: "./img/assets/" + insight + "_Insight.png",
-    style: "position: absolute; width: 35px; height: 35px; bottom: 0px; right: 0px;"
+    style: "position: absolute; width: 35px; height: 35px; bottom: 0px; right: 0px;",
   };
 }
 
@@ -165,12 +165,12 @@ function setCardList(divId, name, insight, idolIdx, cardType, offset) {
   $(idolDialogDivId).dialog("close");
 
   if (cardType == "P") {
-    $("#idolCardBtn_Produce").click(function() {
+    $("#idolCardBtn_Produce").click(function () {
       viewCardDialog(this, jsonData[idolIdx], cardType, offset);
     });
     $("#idolCardBtn_Produce").css("visibility", "visible");
   } else if (cardType == "S") {
-    $("#idolCardBtn_Support_" + offset).click(function() {
+    $("#idolCardBtn_Support_" + offset).click(function () {
       viewCardDialog(this, jsonData[idolIdx], cardType, offset);
     });
     $("#idolCardBtn_Support_" + offset).css("visibility", "visible");
@@ -179,7 +179,7 @@ function setCardList(divId, name, insight, idolIdx, cardType, offset) {
     if (insightChk == true)
       $("#selectedIdolCharViewDiv_Support_" + offset).append($("<img>", pasteInsightImg(insight)));
   } else {
-    $("#idolCardBtn_" + FES_POSITION[offset]).click(function() {
+    $("#idolCardBtn_" + FES_POSITION[offset]).click(function () {
       viewCardDialog(this, jsonData[idolIdx], cardType, offset);
     });
     $("#idolCardBtn_" + FES_POSITION[offset]).css("visibility", "visible");
@@ -222,18 +222,20 @@ function viewCardDialog(parentObj, obj, cardType, offset) {
         $("<img>", {
           id: cardList[i]["card_addr"],
           src: "./img/" + imgPath + cardList[i]["card_addr"] + ".png",
-          width: "auto",
-          height: "auto",
-          class: "dialogImg"
+          width: "96px",
+          height: "96px",
+          class: "dialogImg",
+          onerror: "this.src='./img/assets/Blank_Idol.png'",
         })
       );
-      $("#" + cardList[i]["card_addr"]).click(function() {
+      $("#" + cardList[i]["card_addr"]).click(function () {
         var selDivId = "#selectedIdolView_" + divOffset;
         $(selDivId).html(
           $("<img>", {
             src: "./img/" + imgPath + this.id + ".png",
             width: "96px",
-            height: "96px"
+            height: "96px",
+            onerror: "this.src='./img/assets/Blank_Idol.png'",
           })
         );
         $(cardDialogDivId).dialog("close");
@@ -249,10 +251,10 @@ function viewCardDialog(parentObj, obj, cardType, offset) {
     modal: true,
     title: "카드 선택",
     position: { my: "left top", at: "center", of: parentObj, collision: "fit" },
-    width: 600
+    width: 600,
   });
 
-  $(".ui-widget-overlay").click(function() {
+  $(".ui-widget-overlay").click(function () {
     $(cardDialogDivId).dialog("close");
   });
 }
@@ -341,8 +343,8 @@ function captureScreen(frameId, fName) {
 
   html2canvas(document.querySelector("#" + frameId), {
     scrollY: -window.scrollY,
-    scrollX: -window.scrollX
-  }).then(canvas => {
+    scrollX: -window.scrollX,
+  }).then((canvas) => {
     downloadURI(canvas.toDataURL("image/png"), captureName);
   });
 }
