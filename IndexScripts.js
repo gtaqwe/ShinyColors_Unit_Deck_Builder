@@ -338,12 +338,15 @@ function setDeckSpace(deckType, spaceType) {
 
 //////////////////////////////////////////////////
 
-function captureScreen(frameId, fName) {
-  var captureName = fName + "_Deck.png";
+function captureScreen(frameId, fName, scale) {
+  var captureName = `${fName}_Deck_x${scale}.png`;
+
+  imgScale = window.devicePixelRatio * scale;
 
   html2canvas(document.querySelector("#" + frameId), {
     scrollY: -window.scrollY,
     scrollX: -window.scrollX,
+    scale: imgScale,
   }).then((canvas) => {
     downloadURI(canvas.toDataURL("image/png"), captureName);
   });
