@@ -130,6 +130,9 @@
 				},
 				{
 					"card_addr": "hiori_p_ssr5"
+				},
+				{
+					"card_addr": "hiori_p_ssr6"
 				}
 			],
 			"P_SR": [
@@ -1262,6 +1265,9 @@
 				},
 				{
 					"card_addr": "amana_s_ssr7"
+				},
+				{
+					"card_addr": "amana_s_ssr8"
 				}
 			],
 			"S_SR": [
@@ -1593,6 +1599,9 @@
 				},
 				{
 					"card_addr": "fuyuko_s_ssr4"
+				},
+				{
+					"card_addr": "fuyuko_s_ssr5"
 				}
 			],
 			"S_SR": [
@@ -1771,6 +1780,9 @@
 			"P_SR": [
 				{
 					"card_addr": "madoka_p_sr0"
+				},
+				{
+					"card_addr": "madoka_p_sr1"
 				}
 			],
 			"S_SSR": [
