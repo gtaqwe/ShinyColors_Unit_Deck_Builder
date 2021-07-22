@@ -46,6 +46,147 @@ async function init() {
 
   setDeckSpace("P", pDeckSpaceVal);
   setDeckSpace("F", fDeckSpaceVal);
+
+  // Query Parameter
+  var deckQueryObj = getQuery();
+  if (deckQueryObj !== undefined) {
+    setQueryImgs(deckQueryObj);
+  }
+}
+
+/**
+ * URL의 쿼리를 Object형식으로 취득
+ * ~~/?a=a1&b=ab2 -> {a: a1, b: ab2}
+ */
+function getQuery() {
+  var url = document.location.href;
+  if (url.indexOf("?") == -1) return;
+
+  var qs = url.substring(url.indexOf("?") + 1).split("&");
+  for (var i = 0, result = {}; i < qs.length; i++) {
+    qs[i] = qs[i].split("=");
+    result[qs[i][0]] = decodeURIComponent(qs[i][1]);
+  }
+  return result;
+}
+
+/**
+ * 쿼리로 받은 덱 데이터를 표시
+ */
+function setQueryImgs(deckQueryObj) {
+  // 프로듀스 덱 쿼리
+  var produceQuery = [
+    { value: deckQueryObj.p, type: "p", offset: 0 },
+    { value: deckQueryObj.s1, type: "s", offset: 1 },
+    { value: deckQueryObj.s2, type: "s", offset: 2 },
+    { value: deckQueryObj.s3, type: "s", offset: 3 },
+    { value: deckQueryObj.s4, type: "s", offset: 4 },
+    { value: deckQueryObj.s5, type: "s", offset: 5 },
+  ];
+
+  // 페스 덱 쿼리
+  var fesQuery = [
+    { value: deckQueryObj.le, type: "p", offset: 0 },
+    { value: deckQueryObj.vo, type: "p", offset: 1 },
+    { value: deckQueryObj.ce, type: "p", offset: 2 },
+    { value: deckQueryObj.da, type: "p", offset: 3 },
+    { value: deckQueryObj.vi, type: "p", offset: 4 },
+  ];
+
+  produceQuery.forEach((query) => {
+    if (query.value === undefined) return;
+    if (query.value.indexOf("_") == -1) return;
+
+    splitedValue = query.value.split("_");
+    cardAddr = `${splitedValue[0]}_${query.type}_${splitedValue[1]}`;
+    setSelectCard(`#selectedIdolView_${query.offset}`, "card/", cardAddr);
+  });
+
+  fesQuery.forEach((query) => {
+    if (query.value === undefined) return;
+    if (query.value.indexOf("_") == -1) return;
+
+    splitedValue = query.value.split("_");
+    cardAddr = `${splitedValue[0]}_${query.type}_${splitedValue[1]}`;
+    setSelectCard(`#selectedIdolView_${FES_POSITION[query.offset]}`, "card_fes/", cardAddr);
+  });
+}
+
+/**
+ * 덱 URL 표시
+ */
+function viewDeckUrl(labelId, produceChk = false, fesChk = false) {
+  var url = document.location.href;
+  if (url.indexOf("?") != -1) {
+    url = url.substring(0, url.indexOf("?"));
+  }
+  url = `${url}?`;
+  if (produceChk == true) {
+    url += getProduceDeckUrl();
+  }
+  if (fesChk == true) {
+    url += getFesDeckUrl();
+  }
+
+  // URL의 마지막에 있는「&」삭제
+  if (url.slice(-1) == "&") {
+    url = url.substr(0, url.length - 1);
+  }
+
+  $(labelId).text(url);
+}
+
+/**
+ * 프로듀스 덱의 URL 취득
+ */
+function getProduceDeckUrl() {
+  var queryUrl = "";
+  var produceQuery = ["p", "s1", "s2", "s3", "s4", "s5"];
+  produceQuery.forEach((pos, offset) => {
+    var cardPath = $(`#selectedIdolView_${offset}`)
+      // 이미지 주소 취득
+      .children("img")
+      .attr("src");
+    if (cardPath === undefined) return;
+    // 「/」로 나눈 수 가장 마지막 파일명만 취득
+    var splitedCardAddr = cardPath
+      .split("/")
+      .slice(-1)[0]
+      // 확장자를 제외한 파일명 취득
+      .split(".")[0]
+      // 파일명 분리
+      .split("_");
+
+    queryUrl += `${pos}=${splitedCardAddr[0]}_${splitedCardAddr[2]}&`;
+  });
+
+  return queryUrl;
+}
+
+/**
+ * 페스 덱의 URL 취득
+ */
+function getFesDeckUrl() {
+  var queryUrl = "";
+  var fesQuery = ["le", "vo", "ce", "da", "vi"];
+  fesQuery.forEach((pos, offset) => {
+    var cardPath = $(`#selectedIdolView_${FES_POSITION[offset]}`)
+      // 이미지 주소 취득
+      .children("img")
+      .attr("src");
+    if (cardPath === undefined) return;
+    // 「/」로 나눈 수 가장 마지막 파일명만 취득
+    var splitedCardAddr = cardPath
+      .split("/")
+      .slice(-1)[0]
+      // 확장자를 제외한 파일명 취득
+      .split(".")[0]
+      // 파일명 분리
+      .split("_");
+
+    queryUrl += `${pos}=${splitedCardAddr[0]}_${splitedCardAddr[2]}&`;
+  });
+  return queryUrl;
 }
 
 /**
@@ -157,10 +298,13 @@ function getInsightImg(insight) {
  * 선택 할 수 있도록 카드 다이얼로그를 전개
  */
 function viewCard(divId, name, insight, idolIdx, cardType, offset) {
-  // 1. 먼저 선택한 아이돌의 카드를 세팅
-  setCardList(divId, name, insight, idolIdx, cardType, offset);
+  // 1. 아이돌 이미지 세팅
+  setIdolImg(divId, name, insight);
 
-  // 2. 세팅 후 자동으로 카드 선택 버튼을 클릭 동작을 행한다
+  // 2. 선택한 아이돌의 카드를 세팅
+  setCardList(insight, idolIdx, cardType, offset);
+
+  // 3. 세팅 후 자동으로 카드 선택 버튼을 클릭
   if (cardType == "P") {
     $(`#idolCardBtn_Produce`).click();
   } else if (cardType == "S") {
@@ -171,6 +315,13 @@ function viewCard(divId, name, insight, idolIdx, cardType, offset) {
 }
 
 /**
+ * 지정한 위치에 아이돌 이미지와 히라메키 이미지를 세팅
+ */
+function setIdolImg(divId, name, insight) {
+  $(divId).html($("<img>", getIdolImg(name, insight)));
+}
+
+/**
  * 아이돌 선택시 카드 선택 버튼의 동작을 세팅
  * 카드 종류는 (프로듀스, 서포트, 페스) 3종류로 처리
  *
@@ -178,9 +329,7 @@ function viewCard(divId, name, insight, idolIdx, cardType, offset) {
  * 2. 숨겨놓았던 카드 선택 버튼을 표시
  * 3. 히라메키 표시 설정에 따라 선택한 서포터 아이돌 칸(다이얼로그가 아님)에 히라메키 아이콘을 표시
  */
-function setCardList(divId, name, insight, idolIdx, cardType, offset) {
-  var selDivId = divId;
-  $(selDivId).html($("<img>", getIdolImg(name, insight)));
+function setCardList(insight, idolIdx, cardType, offset) {
   $(idolDialogDivId).dialog("close");
 
   // 프로듀스 카드의 경우

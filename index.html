@@ -191,6 +191,25 @@
       </div>
     </fieldset>
 
+    <div>
+      <div>
+        <input
+          type="button"
+          value="Deck URL (Produce)"
+          onclick="viewDeckUrl('#PRODUCE_DECK_URL', true, false)"
+        />
+        <input
+          type="button"
+          value="Deck URL (Produce + Fes)"
+          onclick="viewDeckUrl('#PRODUCE_DECK_URL', true, true)"
+        />
+      </div>
+      <fieldset style="width: max-content">
+        <legend>Produce Deck URL</legend>
+        <div id="PRODUCE_DECK_URL"></div>
+      </fieldset>
+    </div>
+
     <!--------------------------------------------------------------------------->
     <hr style="margin: 50px 0px" />
     <!--------------------------------------------------------------------------->
@@ -258,13 +277,12 @@
         class="Capturebutton"
       />
 
-      <div style="display: inline-block">
-        <input
-          type="button"
-          value="Deck Capture (x2)"
-          onclick="captureScreen('FES_DECK', 'Fes', 2)"
-          class="Capturebutton"
-        />
+      <input
+        type="button"
+        value="Deck Capture (x2)"
+        onclick="captureScreen('FES_DECK', 'Fes', 2)"
+        class="Capturebutton"
+      />
 
       <span id="convertSpan" style="margin: 5px 10px">
         <label class="switch">
@@ -320,6 +338,25 @@
         <div id="selectedIdolView_Visual" class="idol_view" style="display: inline-block"></div>
       </div>
     </fieldset>
+
+    <div>
+      <div>
+        <input
+          type="button"
+          value="Deck URL (Fes)"
+          onclick="viewDeckUrl('#FES_DECK_URL', false, true)"
+        />
+        <input
+          type="button"
+          value="Deck URL (Produce + Fes)"
+          onclick="viewDeckUrl('#FES_DECK_URL', true, true)"
+        />
+      </div>
+      <fieldset style="width: max-content">
+        <legend>Fes Deck URL</legend>
+        <div id="FES_DECK_URL"></div>
+      </fieldset>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
