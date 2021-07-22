@@ -98,7 +98,8 @@ function setQueryImgs(deckQueryObj) {
     if (query.value.indexOf("_") == -1) return;
 
     splitedValue = query.value.split("_");
-    cardAddr = `${splitedValue[0]}_${query.type}_${splitedValue[1]}`;
+    var idolName = jsonData[splitedValue[0] - 1].idol_en_name.toLowerCase();
+    cardAddr = `${idolName}_${query.type}_${splitedValue[1]}`;
     setSelectCard(`#selectedIdolView_${query.offset}`, "card/", cardAddr);
   });
 
@@ -107,7 +108,8 @@ function setQueryImgs(deckQueryObj) {
     if (query.value.indexOf("_") == -1) return;
 
     splitedValue = query.value.split("_");
-    cardAddr = `${splitedValue[0]}_${query.type}_${splitedValue[1]}`;
+    var idolName = jsonData[splitedValue[0] - 1].idol_en_name.toLowerCase();
+    cardAddr = `${idolName}_${query.type}_${splitedValue[1]}`;
     setSelectCard(`#selectedIdolView_${FES_POSITION[query.offset]}`, "card_fes/", cardAddr);
   });
 }
@@ -157,7 +159,10 @@ function getProduceDeckUrl() {
       // 파일명 분리
       .split("_");
 
-    queryUrl += `${pos}=${splitedCardAddr[0]}_${splitedCardAddr[2]}&`;
+    jsonData.forEach((idol, idx) => {
+      if (idol.idol_en_name.toLowerCase() != splitedCardAddr[0]) return;
+      queryUrl += `${pos}=${idx + 1}_${splitedCardAddr[2]}&`;
+    });
   });
 
   return queryUrl;
@@ -184,7 +189,10 @@ function getFesDeckUrl() {
       // 파일명 분리
       .split("_");
 
-    queryUrl += `${pos}=${splitedCardAddr[0]}_${splitedCardAddr[2]}&`;
+    jsonData.forEach((idol, idx) => {
+      if (idol.idol_en_name.toLowerCase() != splitedCardAddr[0]) return;
+      queryUrl += `${pos}=${idx + 1}_${splitedCardAddr[2]}&`;
+    });
   });
   return queryUrl;
 }
