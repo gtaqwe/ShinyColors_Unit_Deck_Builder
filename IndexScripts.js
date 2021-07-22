@@ -6,8 +6,6 @@ const idolDialogDivId = "#idolDialogDiv";
 const spaceSize = 3;
 var jsonData;
 
-// document.body.addEventListener("onload", init());
-
 $().ready(function () {
   init();
 });
@@ -19,40 +17,25 @@ async function init() {
   });
 
   // Produce Deck
+  // Produce Position
   $("#idolCharBtn_Produce").click(function () {
     viewIdolDialog(this, jsonData, "selectedIdolCharViewDiv_Produce", "P", 0);
   });
-  $("#idolCharBtn_Support_1").click(function () {
-    viewIdolDialog(this, jsonData, "selectedIdolCharViewDiv_Support_1", "S", 1);
-  });
-  $("#idolCharBtn_Support_2").click(function () {
-    viewIdolDialog(this, jsonData, "selectedIdolCharViewDiv_Support_2", "S", 2);
-  });
-  $("#idolCharBtn_Support_3").click(function () {
-    viewIdolDialog(this, jsonData, "selectedIdolCharViewDiv_Support_3", "S", 3);
-  });
-  $("#idolCharBtn_Support_4").click(function () {
-    viewIdolDialog(this, jsonData, "selectedIdolCharViewDiv_Support_4", "S", 4);
-  });
-  $("#idolCharBtn_Support_5").click(function () {
-    viewIdolDialog(this, jsonData, "selectedIdolCharViewDiv_Support_5", "S", 5);
-  });
+
+  // Support Position
+  [...Array(5).keys()]
+    .map((v) => v + 1)
+    .forEach((pos) => {
+      $(`#idolCharBtn_Support_${pos}`).click(function () {
+        viewIdolDialog(this, jsonData, `selectedIdolCharViewDiv_Support_${pos}`, "S", pos);
+      });
+    });
 
   // Fes Deck
-  $("#idolCharBtn_Leader").click(function () {
-    viewIdolDialog(this, jsonData, "selectedIdolCharViewDiv_Leader", "F", 0);
-  });
-  $("#idolCharBtn_Vocal").click(function () {
-    viewIdolDialog(this, jsonData, "selectedIdolCharViewDiv_Vocal", "F", 1);
-  });
-  $("#idolCharBtn_Center").click(function () {
-    viewIdolDialog(this, jsonData, "selectedIdolCharViewDiv_Center", "F", 2);
-  });
-  $("#idolCharBtn_Dance").click(function () {
-    viewIdolDialog(this, jsonData, "selectedIdolCharViewDiv_Dance", "F", 3);
-  });
-  $("#idolCharBtn_Visual").click(function () {
-    viewIdolDialog(this, jsonData, "selectedIdolCharViewDiv_Visual", "F", 4);
+  FES_POSITION.forEach((pos, idx) => {
+    $(`#idolCharBtn_${pos}`).click(function () {
+      viewIdolDialog(this, jsonData, `selectedIdolCharViewDiv_${pos}`, "F", idx);
+    });
   });
 
   var fesChk = $("#fesImgConvertBtn").is(":checked");
@@ -98,39 +81,28 @@ function getJSON(jsonFile) {
 function viewIdolDialog(parentObj, obj, divId, cardType, offset) {
   $(idolDialogDivId).html("");
   for (var idolIdx = 0; idolIdx < obj.length; idolIdx++) {
+    // 파일명이 모두 소문자 영문이기 때문에 영문명을 모두 소문자로
+    // Mano -> mano
     var idolNameSrc = obj[idolIdx]["idol_en_name"].toLowerCase();
     var idolInsight = obj[idolIdx]["insight"];
 
-    var parameter =
-      "'#" +
-      divId +
-      "', '" +
-      idolNameSrc +
-      "', '" +
-      idolInsight +
-      "', " +
-      idolIdx +
-      ", '" +
-      cardType +
-      "', " +
-      offset;
+    var parameter = `'#${divId}', '${idolNameSrc}', '${idolInsight}', ${idolIdx}, '${cardType}', ${offset}`;
 
     // 아이돌 목록 다이얼로그 표시
     // 아이돌 선택시, 해당 아이돌의 카드 목록 전개하도록 세팅
     $(idolDialogDivId).append(
       $("<div>", {
-        id: "idolDiv_" + idolNameSrc,
+        id: `idolDiv_${idolNameSrc}`,
         style: "display:inline-flex;position: relative;",
-        onclick: "viewCard(" + parameter + ")",
-        // onclick: "setCardList(" + parameter + ")",
+        onclick: `viewCard(${parameter})`,
       })
     );
 
     // 아이돌 이미지 세팅
-    $("#idolDiv_" + idolNameSrc).append(
+    $(`#idolDiv_${idolNameSrc}`).append(
       $("<img>", {
-        id: "idol_" + idolNameSrc,
-        src: "./img/idol/" + idolNameSrc + ".png",
+        id: `idol_${idolNameSrc}`,
+        src: `./img/idol/${idolNameSrc}.png`,
         width: "100px",
         height: "100px",
         class: "dialogImg",
@@ -141,7 +113,7 @@ function viewIdolDialog(parentObj, obj, divId, cardType, offset) {
     // 서포터 아이돌 목록에 히라메키 아이콘을 표시
     var insightChk = $("#insightConvertBtn").is(":checked");
     if (cardType == "S" && insightChk == true)
-      $("#idolDiv_" + idolNameSrc).append($("<img>", getInsightImg(idolInsight)));
+      $(`#idolDiv_${idolNameSrc}`).append($("<img>", getInsightImg(idolInsight)));
   }
 
   // 다이얼로그 세팅
@@ -164,7 +136,7 @@ function getIdolImg(name, insight) {
   return {
     name: name,
     insight: insight,
-    src: "./img/idol/" + name + ".png",
+    src: `./img/idol/${name}.png`,
     width: "96px",
     height: "96px",
   };
@@ -175,7 +147,7 @@ function getIdolImg(name, insight) {
  */
 function getInsightImg(insight) {
   return {
-    src: "./img/assets/" + insight + "_Insight.png",
+    src: `./img/assets/${insight}_Insight.png`,
     style: "position: absolute; width: 35px; height: 35px; bottom: 0px; right: 0px;",
   };
 }
@@ -190,11 +162,11 @@ function viewCard(divId, name, insight, idolIdx, cardType, offset) {
 
   // 2. 세팅 후 자동으로 카드 선택 버튼을 클릭 동작을 행한다
   if (cardType == "P") {
-    $("#idolCardBtn_Produce").click();
+    $(`#idolCardBtn_Produce`).click();
   } else if (cardType == "S") {
-    $("#idolCardBtn_Support_" + offset).click();
+    $(`#idolCardBtn_Support_${offset}`).click();
   } else {
-    $("#idolCardBtn_" + FES_POSITION[offset]).click();
+    $(`#idolCardBtn_${FES_POSITION[offset]}`).click();
   }
 }
 
@@ -220,22 +192,22 @@ function setCardList(divId, name, insight, idolIdx, cardType, offset) {
   }
   // 서포터 카드의 경우
   else if (cardType == "S") {
-    $("#idolCardBtn_Support_" + offset).click(function () {
+    $(`#idolCardBtn_Support_${offset}`).click(function () {
       viewCardDialog(this, jsonData[idolIdx], cardType, offset);
     });
-    $("#idolCardBtn_Support_" + offset).css("visibility", "visible");
+    $(`#idolCardBtn_Support_${offset}`).css("visibility", "visible");
 
     var insightChk = $("#insightConvertBtn").is(":checked");
     if (insightChk == true) {
-      $("#selectedIdolCharViewDiv_Support_" + offset).append($("<img>", getInsightImg(insight)));
+      $(`#selectedIdolCharViewDiv_Support_${offset}`).append($("<img>", getInsightImg(insight)));
     }
   }
   // 페스 카드의 경우
   else {
-    $("#idolCardBtn_" + FES_POSITION[offset]).click(function () {
+    $(`#idolCardBtn_${FES_POSITION[offset]}`).click(function () {
       viewCardDialog(this, jsonData[idolIdx], cardType, offset);
     });
-    $("#idolCardBtn_" + FES_POSITION[offset]).css("visibility", "visible");
+    $(`#idolCardBtn_${FES_POSITION[offset]}`).css("visibility", "visible");
   }
 }
 
@@ -257,6 +229,8 @@ function viewCardDialog(parentObj, obj, cardType, offset) {
   }
 
   // 2. 카드의 위치(포지션)와 이미지 경로를 설정 (페스 카드의 경우, 사복과 페스 설정에 따라 경로 설정)
+  // 사복 (P, S) : "card/"
+  // 페스 (P) : "card_fes/"
   if (cardType == "P" || cardType == "S") {
     divOffset = offset;
     imgPath = "card/";
@@ -273,19 +247,18 @@ function viewCardDialog(parentObj, obj, cardType, offset) {
     if (obj["card_data"][type_list[typeIdx]] == undefined) continue;
 
     var cardList = obj["card_data"][type_list[typeIdx]];
-    var cardLen = obj["card_data"][type_list[typeIdx]].length;
 
     $(cardDialogDivId).append(
-      "<h3 style='margin: 10px 0px'>" + type_list[typeIdx].split("_")[1] + "</h3>"
+      `<h3 style='margin: 10px 0px'>${type_list[typeIdx].split("_")[1]}</h3>`
     );
 
-    for (var i = 0; i < cardLen; i++) {
+    cardList.forEach((card) => {
       // 카드 목록의 이미지 설정
       // 카드 이미지가 없는 경우 「Blank_Idol.png」을 표시
       $(cardDialogDivId).append(
         $("<img>", {
-          id: cardList[i]["card_addr"],
-          src: "./img/" + imgPath + cardList[i]["card_addr"] + ".png",
+          id: card.card_addr,
+          src: `./img/${imgPath}${card.card_addr}.png`,
           width: "96px",
           height: "96px",
           class: "dialogImg",
@@ -294,12 +267,12 @@ function viewCardDialog(parentObj, obj, cardType, offset) {
       );
 
       // 카드 선택시 덱에 입력
-      $("#" + cardList[i]["card_addr"]).click(function () {
-        var selDivId = "#selectedIdolView_" + divOffset;
+      $(`#${card.card_addr}`).click(function () {
+        var selDivId = `#selectedIdolView_${divOffset}`;
         setSelectCard(selDivId, imgPath, this.id);
         $(cardDialogDivId).dialog("close");
       });
-    }
+    });
 
     // 각 등급별 구분 라인 추가
     if (typeIdx + 1 < type_list.length) {
@@ -326,7 +299,7 @@ function viewCardDialog(parentObj, obj, cardType, offset) {
 function setSelectCard(divId, imgPath, cardAddr) {
   $(divId).html(
     $("<img>", {
-      src: "./img/" + imgPath + cardAddr + ".png",
+      src: `./img/${imgPath}${cardAddr}.png`,
       width: "96px",
       height: "96px",
       onerror: "this.src='./img/assets/Blank_Idol.png'",
@@ -357,42 +330,38 @@ function getToggleString(fesChk) {
  * 페스와 사복 아이콘 표시 설정에 따라 이미지를 변경
  */
 function convertFesDeckImg(fesChk) {
-  for (var i = 0; i < FES_POSITION.length; i++) {
-    var imgUrl = $("#selectedIdolView_" + FES_POSITION[i])
-      .children("img")
-      .attr("src");
+  FES_POSITION.forEach((pos) => {
+    var imgUrl = $(`#selectedIdolView_${pos}`).children("img").attr("src");
     if (imgUrl != undefined) {
       if (fesChk == true) {
         imgUrl = imgUrl.replace("card/", "card_fes/");
       } else {
         imgUrl = imgUrl.replace("card_fes/", "card/");
       }
-      $("#selectedIdolView_" + FES_POSITION[i])
-        .children("img")
-        .attr("src", imgUrl);
+      $(`#selectedIdolView_${pos}`).children("img").attr("src", imgUrl);
     }
-  }
+  });
 }
 
 /**
  * 서포터 아이돌 이미지에 히라메키 아이콘 표시 설정
  */
 function convertInsightImg(insightChk) {
-  for (var i = 0, offset = 1; i < 5; i++, offset++) {
-    var imgCode = $("#selectedIdolCharViewDiv_Support_" + offset).children("img");
+  for (var offset = 1; offset <= 5; offset++) {
+    var imgCode = $(`#selectedIdolCharViewDiv_Support_${offset}`).children("img");
 
     if (imgCode.length > 0) {
       var idolNameSrc = imgCode.attr("name");
       var insight = imgCode.attr("insight");
 
-      $("#selectedIdolCharViewDiv_Support_" + offset).html("");
+      $(`#selectedIdolCharViewDiv_Support_${offset}`).html("");
       if (insightChk == true) {
-        $("#selectedIdolCharViewDiv_Support_" + offset).append(
+        $(`#selectedIdolCharViewDiv_Support_${offset}`).append(
           $("<img>", getIdolImg(idolNameSrc, insight))
         );
-        $("#selectedIdolCharViewDiv_Support_" + offset).append($("<img>", getInsightImg(insight)));
+        $(`#selectedIdolCharViewDiv_Support_${offset}`).append($("<img>", getInsightImg(insight)));
       } else {
-        $("#selectedIdolCharViewDiv_Support_" + offset).append(
+        $(`#selectedIdolCharViewDiv_Support_${offset}`).append(
           $("<img>", getIdolImg(idolNameSrc, insight))
         );
       }
@@ -411,16 +380,16 @@ function setDeckSpace(deckType, spaceType) {
     else if (spaceType == "2") spaceAry = [1, 1, 1, 1, 1];
     else spaceAry = [1, 0, 0, 0, 0];
 
-    for (var i = 0; i < spaceAry.length; i++) {
-      $("#p_space_div_" + (i + 1)).css("margin", "0px " + spaceAry[i] * spaceSize + "px");
-    }
+    spaceAry.forEach((space, i) => {
+      $(`#p_space_div_${i + 1}`).css("margin", `0px ${space * spaceSize}px`);
+    });
   } else {
     if (spaceType == "1") spaceAry = [0, 0, 0, 0];
     else spaceAry = [1, 1, 1, 1];
 
-    for (var i = 0; i < spaceAry.length; i++) {
-      $("#f_space_div_" + (i + 1)).css("margin", "0px " + spaceAry[i] * spaceSize + "px");
-    }
+    spaceAry.forEach((space, i) => {
+      $(`#f_space_div_${i + 1}`).css("margin", `0px ${space * spaceSize}px`);
+    });
   }
 }
 
@@ -432,9 +401,10 @@ function setDeckSpace(deckType, spaceType) {
 function captureScreen(frameId, fName, scale) {
   var captureName = `${fName}_Deck_x${scale}.png`;
 
+  // 이미지 배율 설정
   imgScale = window.devicePixelRatio * scale;
 
-  html2canvas(document.querySelector("#" + frameId), {
+  html2canvas(document.querySelector(`#${frameId}`), {
     scrollY: -window.scrollY,
     scrollX: -window.scrollX,
     scale: imgScale,
