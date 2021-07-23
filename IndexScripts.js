@@ -5,6 +5,7 @@ const cardDialogDivId = "#cardDialogDiv";
 const idolDialogDivId = "#idolDialogDiv";
 const spaceSize = 3;
 var jsonData;
+var viewLanguage;
 
 $().ready(function () {
   init();
@@ -38,20 +39,32 @@ async function init() {
     });
   });
 
-  var fesChk = $("#fesImgConvertBtn").is(":checked");
-  convertFesImg(fesChk);
+  // Query Parameter
+  var queryObj = getQuery();
+  if (queryObj !== undefined) {
+    setQueryImgs(queryObj);
+  }
 
+  // 언어 설정
+  viewLanguage = getLanguage();
+  if (queryObj !== undefined && queryObj.lang !== undefined && queryObj.lang !== "") {
+    if (queryObj.lang in $.lang) {
+      viewLanguage = queryObj.lang;
+      $("#languageSetting").css("display", "inline");
+    }
+  }
+  setLanguage(viewLanguage);
+  $("#languageSelect").val(viewLanguage).prop("selected", true);
+
+  // 기타 옵션 설정
   var pDeckSpaceVal = $(':radio[name="p_deck_space"]:checked').val();
   var fDeckSpaceVal = $(':radio[name="f_deck_space"]:checked').val();
 
   setDeckSpace("P", pDeckSpaceVal);
   setDeckSpace("F", fDeckSpaceVal);
 
-  // Query Parameter
-  var deckQueryObj = getQuery();
-  if (deckQueryObj !== undefined) {
-    setQueryImgs(deckQueryObj);
-  }
+  var fesChk = $("#fesImgConvertBtn").is(":checked");
+  convertFesImg(fesChk);
 }
 
 /**
@@ -73,24 +86,24 @@ function getQuery() {
 /**
  * 쿼리로 받은 덱 데이터를 표시
  */
-function setQueryImgs(deckQueryObj) {
+function setQueryImgs(queryObj) {
   // 프로듀스 덱 쿼리
   var produceQuery = [
-    { value: deckQueryObj.p, type: "p", offset: 0 },
-    { value: deckQueryObj.s1, type: "s", offset: 1 },
-    { value: deckQueryObj.s2, type: "s", offset: 2 },
-    { value: deckQueryObj.s3, type: "s", offset: 3 },
-    { value: deckQueryObj.s4, type: "s", offset: 4 },
-    { value: deckQueryObj.s5, type: "s", offset: 5 },
+    { value: queryObj.p, type: "p", offset: 0 },
+    { value: queryObj.s1, type: "s", offset: 1 },
+    { value: queryObj.s2, type: "s", offset: 2 },
+    { value: queryObj.s3, type: "s", offset: 3 },
+    { value: queryObj.s4, type: "s", offset: 4 },
+    { value: queryObj.s5, type: "s", offset: 5 },
   ];
 
   // 페스 덱 쿼리
   var fesQuery = [
-    { value: deckQueryObj.le, type: "p", offset: 0 },
-    { value: deckQueryObj.vo, type: "p", offset: 1 },
-    { value: deckQueryObj.ce, type: "p", offset: 2 },
-    { value: deckQueryObj.da, type: "p", offset: 3 },
-    { value: deckQueryObj.vi, type: "p", offset: 4 },
+    { value: queryObj.le, type: "p", offset: 0 },
+    { value: queryObj.vo, type: "p", offset: 1 },
+    { value: queryObj.ce, type: "p", offset: 2 },
+    { value: queryObj.da, type: "p", offset: 3 },
+    { value: queryObj.vi, type: "p", offset: 4 },
   ];
 
   produceQuery.forEach((query) => {
@@ -112,6 +125,39 @@ function setQueryImgs(deckQueryObj) {
     cardAddr = `${idolName}_${query.type}_${splitedValue[1]}`;
     setSelectCard(`#selectedIdolView_${FES_POSITION[query.offset]}`, "card_fes/", cardAddr);
   });
+}
+
+/**
+ * 브라우저 언어 설정 Return
+ */
+function getLanguage() {
+  return (navigator.language || navigator.userLanguage).substr(0, 2);
+}
+
+function setLanguage(currLang) {
+  $("[data-lang]").each(function () {
+    console.log();
+    if ($(this).attr("type") == "button") {
+      $(this).val($.lang[currLang][$(this).data("lang")]);
+    } else {
+      $(this).html($.lang[currLang][$(this).data("lang")]);
+    }
+  });
+}
+
+function setLanguageById(currLang, id, str) {
+  $(id).html($.lang[currLang][str]);
+}
+
+function getLanguageStringByData(currLang, str) {
+  return $.lang[currLang][str];
+}
+
+function changeLanguage() {
+  viewLanguage = $("#languageSelect").val();
+  setLanguage(viewLanguage);
+  var fesChk = $("#fesImgConvertBtn").is(":checked");
+  getToggleString(fesChk);
 }
 
 /**
@@ -286,10 +332,11 @@ function viewIdolDialog(parentObj, obj, divId, cardType, offset) {
       $(`#idolDiv_${idolNameSrc}`).append($("<img>", getInsightImg(idolInsight)));
   }
 
+  var dialogTitle = getLanguageStringByData(viewLanguage, "selectIdol");
   // 다이얼로그 세팅
   $(idolDialogDivId).dialog({
     modal: true,
-    title: "아이돌 선택",
+    title: dialogTitle,
     position: { my: "left top", at: "center", of: parentObj, collision: "fit" },
     width: "600px",
   });
@@ -458,10 +505,12 @@ function viewCardDialog(parentObj, obj, cardType, offset) {
     }
   }
 
+  var dialogTitle = getLanguageStringByData(viewLanguage, "selectCard");
+
   // 다이얼로그 세팅
   $(cardDialogDivId).dialog({
     modal: true,
-    title: "카드 선택",
+    title: dialogTitle,
     position: { my: "left top", at: "center", of: parentObj, collision: "fit" },
     width: 600,
   });
@@ -497,11 +546,15 @@ function convertFesImg(fesChk) {
  * 페스와 사복 토글의 텍스트 표시
  */
 function getToggleString(fesChk) {
+  var str;
   if (fesChk == true) {
-    $("#toggleStr").html("페스");
+    str = "fes";
+    // $("#toggleStr").html("페스");
   } else {
-    $("#toggleStr").html("사복");
+    str = "casual";
+    // $("#toggleStr").html("사복");
   }
+  setLanguageById(viewLanguage, "#toggleStr", str);
 }
 
 /**
