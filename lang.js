@@ -3,7 +3,7 @@ $.lang = {};
 $.lang.ko = {
   selectIdol: "아이돌 선택",
   selectCard: "카드 선택",
-  showInsight: "히라메키",
+  showInsight: "히라메키 표시",
   fes: "페스",
   casual: "사복",
   insertSpace: "구분 여백 삽입",
