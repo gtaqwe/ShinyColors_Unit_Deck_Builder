@@ -6,7 +6,7 @@ $.lang.ko = {
   showInsight: "히라메키 표시",
   fes: "페스",
   casual: "사복",
-  insertSpace: "구분 여백 구분",
+  insertSpace: "구분 여백 표시",
   noSpace: "구분 없음",
   allSpace: "전체 구분",
   psSpace: "PS 구분",
