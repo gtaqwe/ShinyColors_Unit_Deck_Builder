@@ -136,7 +136,6 @@ function getLanguage() {
 
 function setLanguage(currLang) {
   $("[data-lang]").each(function () {
-    console.log();
     if ($(this).attr("type") == "button") {
       $(this).val($.lang[currLang][$(this).data("lang")]);
     } else {
