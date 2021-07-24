@@ -75,7 +75,7 @@ async function init() {
 
 /**
  * URL의 쿼리를 Object형식으로 취득
- * ~~/?a=a1&b=ab2 -> {a: a1, b: ab2}
+ * ?a=a1&b=ab2 -> {a: a1, b: ab2}
  */
 function getQuery() {
   var url = document.location.href;
@@ -112,15 +112,21 @@ function setQueryImgs(queryObj) {
     { value: queryObj.vi, type: "p", offset: 4 },
   ];
 
+  // 프로듀스덱 세팅
   produceQuery.forEach((query) => {
     if (query.value === undefined) return;
     if (query.value.indexOf("_") == -1) return;
 
+    // splitedValue의 구성
+    // 0:아이돌 번호 (1:마노, 2:히오리, ...)
+    // 1:등급과 순번 (ssr1, ssr2, sr1, ..)
+    // 2:특훈 (1, 2,...)
     splitedValue = query.value.split("_");
     var idolName = jsonData[splitedValue[0] - 1].idol_en_name.toLowerCase();
     cardAddr = `${idolName}_${query.type}_${splitedValue[1]}`;
     setSelectCard(`#selectedIdolView_${query.offset}`, "card/", cardAddr);
 
+    // 특훈 쿼리가 없는 경우 무시
     if (splitedValue.length >= 3) {
       // 특훈 쿼리가 숫자가 아닐 경우 0으로 세팅
       // aaa -> 0
@@ -138,15 +144,21 @@ function setQueryImgs(queryObj) {
     }
   });
 
+  // 파라미터에 특훈 표시가 있는 경우의 처리
   if (queryObj.st !== undefined) {
     $("#specialTrainingConvertBtn").prop("checked", true);
     convertSpecialTrainingImg($("#specialTrainingConvertBtn").is(":checked"));
   }
 
+  // 페스덱 세팅
   fesQuery.forEach((query) => {
     if (query.value === undefined) return;
     if (query.value.indexOf("_") == -1) return;
 
+    // splitedValue의 구성
+    // 0:아이돌 번호 (1:마노, 2:히오리, ...)
+    // 1:등급과 순번 (ssr1, ssr2, sr1, ..)
+    // 페스덱은 특훈 쿼리가 없음
     splitedValue = query.value.split("_");
     var idolName = jsonData[splitedValue[0] - 1].idol_en_name.toLowerCase();
     cardAddr = `${idolName}_${query.type}_${splitedValue[1]}`;
@@ -161,8 +173,12 @@ function getLanguage() {
   return (navigator.language || navigator.userLanguage).substr(0, 2);
 }
 
+/**
+ * 각 문자열을 입력 받은 언어에 맞게 매핑해서 설정
+ */
 function setLanguage(currLang) {
   $("[data-lang]").each(function () {
+    // 버튼의 경우 value값을 변경
     if ($(this).attr("type") == "button") {
       $(this).val($.lang[currLang][$(this).data("lang")]);
     } else {
@@ -171,14 +187,16 @@ function setLanguage(currLang) {
   });
 }
 
-function setLanguageById(currLang, id, str) {
-  $(id).html($.lang[currLang][str]);
-}
-
+/**
+ * 지정한 문자열에 매핑되는 문자열을 Return
+ */
 function getLanguageStringByData(currLang, str) {
   return $.lang[currLang][str];
 }
 
+/**
+ * 페이지 전체 표시 언어 변경
+ */
 function changeLanguage() {
   viewLanguage = $("#languageSelect").val();
   setLanguage(viewLanguage);
@@ -187,13 +205,21 @@ function changeLanguage() {
 }
 
 /**
- * 덱 URL 표시
+ * 덱 URL을 표시
+ * 1. 쿼리 파라미터를 제외한 현재 URL만 취득
+ * 2. 프로듀스덱 및 페스덱의 파라미터를 URL에 추가
+ * 3. 특훈 상태 표시 여부를 URL에 추가
+ * 4. URL의 마지막에 「&」가 있는 경우 마지막의 「&」를 삭제
+ * 5. URL을 표시
  */
 function viewDeckUrl(labelId, produceChk = false, fesChk = false) {
+  // 1. 쿼리 파라미터를 제외한 현재 URL만 취득
   var url = document.location.href;
   if (url.indexOf("?") != -1) {
     url = url.substring(0, url.indexOf("?"));
   }
+
+  // 2. 프로듀스덱 및 페스덱의 파라미터를 URL에 추가
   url = `${url}?`;
   if (produceChk == true) {
     url += getProduceDeckUrl();
@@ -202,25 +228,31 @@ function viewDeckUrl(labelId, produceChk = false, fesChk = false) {
     url += getFesDeckUrl();
   }
 
+  // 3. 특훈 상태 표시 여부를 URL에 추가
   if ($("#specialTrainingConvertBtn").is(":checked")) {
     url += "st&";
   }
 
-  // URL의 마지막에 있는「&」삭제
+  // 4. URL의 마지막에 「&」가 있는 경우 마지막의 「&」를 삭제
   if (url.slice(-1) == "&") {
     url = url.substr(0, url.length - 1);
   }
 
+  // 5. URL을 표시
   $(labelId).text(url);
 }
 
 /**
  * 프로듀스 덱의 URL 취득
+ * 1. 편성되어 있는 이미지들의 src로부터 쿼리 파라미터를 조합
+ * 2. 특훈 데이터를 취득
+ * 3. 일치하는 아이돌명을 확인 후 쿼리를 조합
  */
 function getProduceDeckUrl() {
   var queryUrl = "";
   var produceQuery = ["p", "s1", "s2", "s3", "s4", "s5"];
   produceQuery.forEach((pos, offset) => {
+    // 1. 편성되어 있는 이미지들의 src로부터 쿼리 파라미터를 조합
     var cardPath = $(`#selectedIdolView_${offset}`)
       // 이미지 주소 취득
       .children("img")
@@ -235,8 +267,10 @@ function getProduceDeckUrl() {
       // 파일명 분리
       .split("_");
 
+    // 2. 특훈 데이터를 취득
     var specialTraining = $(`#specialTrainingInput_${offset}`).val();
 
+    // 3. 일치하는 아이돌명을 확인 후 쿼리를 조합
     jsonData.forEach((idol, idx) => {
       if (idol.idol_en_name.toLowerCase() != splitedCardAddr[0]) return;
       queryUrl += `${pos}=${idx + 1}_${splitedCardAddr[2]}_${specialTraining}&`;
@@ -248,11 +282,14 @@ function getProduceDeckUrl() {
 
 /**
  * 페스 덱의 URL 취득
+ * 1. 편성되어 있는 이미지들의 src로부터 쿼리 파라미터를 조합
+ * 2. 일치하는 아이돌명을 확인 후 쿼리를 조합
  */
 function getFesDeckUrl() {
   var queryUrl = "";
   var fesQuery = ["le", "vo", "ce", "da", "vi"];
   fesQuery.forEach((pos, offset) => {
+    // 1. 편성되어 있는 이미지들의 src로부터 쿼리 파라미터를 조합
     var cardPath = $(`#selectedIdolView_${FES_POSITION[offset]}`)
       // 이미지 주소 취득
       .children("img")
@@ -267,6 +304,7 @@ function getFesDeckUrl() {
       // 파일명 분리
       .split("_");
 
+    // 2. 일치하는 아이돌명을 확인 후 쿼리를 조합
     jsonData.forEach((idol, idx) => {
       if (idol.idol_en_name.toLowerCase() != splitedCardAddr[0]) return;
       queryUrl += `${pos}=${idx + 1}_${splitedCardAddr[2]}&`;
@@ -406,8 +444,8 @@ function getInsightImg(insight) {
  * 선택 할 수 있도록 카드 다이얼로그를 전개
  */
 function viewCard(divId, name, insight, idolIdx, cardType, offset) {
-  // 1. 아이돌 이미지 세팅
-  setIdolImg(divId, name, insight);
+  // 1. 지정한 위치에 아이돌 이미지와 히라메키 이미지를 세팅
+  $(divId).html($("<img>", getIdolImg(name, insight)));
 
   // 2. 선택한 아이돌의 카드를 세팅
   setCardList(insight, idolIdx, cardType, offset);
@@ -420,13 +458,6 @@ function viewCard(divId, name, insight, idolIdx, cardType, offset) {
   } else {
     $(`#idolCardBtn_${FES_POSITION[offset]}`).click();
   }
-}
-
-/**
- * 지정한 위치에 아이돌 이미지와 히라메키 이미지를 세팅
- */
-function setIdolImg(divId, name, insight) {
-  $(divId).html($("<img>", getIdolImg(name, insight)));
 }
 
 /**
@@ -577,9 +608,15 @@ function setSelectCard(divId, imgPath, cardAddr) {
   }
 }
 
+/**
+ * 특훈 표시 변경
+ */
 function convertSpecialTrainingImg(stChk) {
   [...Array(6).keys()].forEach((num) => {
     // 특훈 표시
+    // 1. 각 위치의 Div의 세팅 수정
+    // 2. 선택된 카드가 없다면 해당 위치의 특훈 설정은 비활성화
+    // 3. 특훈 이미지들을 모두 보이도록 설정
     if (stChk == true) {
       $(`#selectedIdolView_${num}`).attr("class", "idol_view_st");
       if ($(`#selectedIdolView_${num}_card`).length > 0) {
@@ -588,6 +625,9 @@ function convertSpecialTrainingImg(stChk) {
       $(".specialTrainingStar").css("visibility", "visible");
     }
     // 특훈 비표시
+    // 1. 각 위치의 Div의 세팅 수정
+    // 2. 해당 위치의 특훈 설정을 비활성화
+    // 3. 특훈 이미지들을 모두 보이지 않도록 설정
     else {
       $(`#selectedIdolView_${num}`).attr("class", "idol_view");
       $(`#specialTrainingInput_${num}`).prop("disabled", true);
@@ -596,6 +636,9 @@ function convertSpecialTrainingImg(stChk) {
   });
 }
 
+/**
+ * 지정한 위치의 카드에 특훈 데이터를 표시
+ */
 function setSpecialTraining(pos, starNum) {
   var divId = `#selectedIdolView_${pos}`;
   var starPos = {
@@ -605,7 +648,10 @@ function setSpecialTraining(pos, starNum) {
     4: { bottom: 70, right: 84 },
   };
 
+  // 기존의 특훈 이미지는 삭제
   $(`#specialTrainingStar_${pos}`).remove();
+
+  // 카드 이미지를 설정하지 않은 경우 0으로 고정 후 종료
   if ($(`${divId}_card`).length == 0) {
     $(`#specialTrainingInput_${pos}`).val(0);
     return;
@@ -616,8 +662,11 @@ function setSpecialTraining(pos, starNum) {
   setStarNum = setStarNum > 4 ? 4 : setStarNum;
   setStarNum = setStarNum < 0 ? 0 : setStarNum;
 
+  // Input 폼에 보정된 특훈 수를 입력
   $(`#specialTrainingInput_${pos}`).val(setStarNum);
 
+  // 특훈 수가 1이상인 경우
+  // 해당 위치의 카드에 특훈 이미지를 표시
   if (setStarNum > 0) {
     $(divId).append(
       $("<img>", {
@@ -632,6 +681,9 @@ function setSpecialTraining(pos, starNum) {
   }
 }
 
+/**
+ * 특훈 수 변경 버튼의 처리
+ */
 function setSpecialTrainingCount(pos, num) {
   if ($(`#specialTrainingInput_${pos}`).is(":disabled") != true) {
     var newVal = Number($(`#specialTrainingInput_${pos}`).val()) + num;
@@ -660,7 +712,7 @@ function getToggleString(fesChk) {
     str = "casual";
     // $("#toggleStr").html("사복");
   }
-  setLanguageById(viewLanguage, "#toggleStr", str);
+  $("#toggleStr").html(getLanguageStringByData(viewLanguage, str));
 }
 
 /**
