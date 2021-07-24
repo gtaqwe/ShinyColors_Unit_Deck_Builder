@@ -558,9 +558,11 @@ function setSelectCard(divId, imgPath, cardAddr) {
 
   var offset = divId.split("_")[1];
   if (offset in [...Array(6).keys()].map((v) => `${v}`)) {
+    setSpecialTraining(offset, $(`#specialTrainingInput_${offset}`).val());
     if ($("#specialTrainingConvertBtn").is(":checked") == true) {
       $(`#specialTrainingInput_${offset}`).prop("disabled", false);
     }
+    convertSpecialTrainingImg($("#specialTrainingConvertBtn").is(":checked"));
   }
 }
 
