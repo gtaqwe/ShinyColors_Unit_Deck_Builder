@@ -12,6 +12,7 @@ $.lang.ko = {
   psSpace: "PS 구분",
   posSpace: "포지션 구분",
   showSpecialTraining: "특훈 표시",
+  specialTrainingSetting: "특훈 설정",
 };
 
 $.lang.ja = {
@@ -26,4 +27,5 @@ $.lang.ja = {
   psSpace: "PSの間",
   posSpace: "ポジションの間",
   showSpecialTraining: "特訓表示",
+  specialTrainingSetting: "特訓設定",
 };
