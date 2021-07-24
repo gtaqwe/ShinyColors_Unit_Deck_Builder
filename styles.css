@@ -26,6 +26,12 @@ input[type="button"] {
   margin: 0px;
 }
 
+.idol_view_st {
+  width: 102px;
+  height: 96px;
+  margin: 0px;
+}
+
 .dialogWindow {
   width: 500px;
 }

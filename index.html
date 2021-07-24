@@ -152,7 +152,7 @@
     <!-- Options -->
     <div>
       <div style="display: flex">
-        <span id="convertSpan" style="margin: 5px 10px">
+        <span style="margin: 5px 10px">
           <label class="switch">
             <input
               type="checkbox"
@@ -215,7 +215,7 @@
 
     <fieldset style="width: max-content">
       <legend>Produce Deck</legend>
-      <div id="PRODUCE_DECK" style="width: max-content; display: flex">
+      <div id="PRODUCE_DECK" style="width: max-content; display: flex; text-align: right">
         <div id="selectedIdolView_0" class="idol_view" style="display: inline-block"></div>
         <div id="p_space_div_1"></div>
         <div id="selectedIdolView_1" class="idol_view" style="display: inline-block"></div>
@@ -229,6 +229,82 @@
         <div id="selectedIdolView_5" class="idol_view" style="display: inline-block"></div>
       </div>
     </fieldset>
+
+    <div style="display: flex">
+      <input
+        id="specialTrainingInput_0"
+        type="number"
+        style="width: 50px; margin: 0px 10px"
+        min="0"
+        max="4"
+        value="0"
+        disabled
+        onchange="setSpecialTraining(0, $(this).val())"
+      />
+      <input
+        id="specialTrainingInput_1"
+        type="number"
+        style="width: 50px; margin: 0px 10px"
+        min="0"
+        max="4"
+        value="0"
+        disabled
+        onchange="setSpecialTraining(1, $(this).val())"
+      />
+      <input
+        id="specialTrainingInput_2"
+        type="number"
+        style="width: 50px; margin: 0px 10px"
+        min="0"
+        max="4"
+        value="0"
+        disabled
+        onchange="setSpecialTraining(2, $(this).val())"
+      />
+      <input
+        id="specialTrainingInput_3"
+        type="number"
+        style="width: 50px; margin: 0px 10px"
+        min="0"
+        max="4"
+        value="0"
+        disabled
+        onchange="setSpecialTraining(3, $(this).val())"
+      />
+      <input
+        id="specialTrainingInput_4"
+        type="number"
+        style="width: 50px; margin: 0px 10px"
+        min="0"
+        max="4"
+        value="0"
+        disabled
+        onchange="setSpecialTraining(4, $(this).val())"
+      />
+      <input
+        id="specialTrainingInput_5"
+        type="number"
+        style="width: 50px; margin: 0px 10px"
+        min="0"
+        max="4"
+        value="0"
+        disabled
+        onchange="setSpecialTraining(5, $(this).val())"
+      />
+
+      <span style="margin: 5px 10px">
+        <label class="switch">
+          <input
+            type="checkbox"
+            id="specialTrainingConvertBtn"
+            onchange="convertSpecialTrainingImg($('#specialTrainingConvertBtn').is(':checked'))"
+          />
+          <span class="slider round"></span>
+        </label>
+
+        <span data-lang="showSpecialTraining">특훈 표시</span>
+      </span>
+    </div>
 
     <div>
       <div>

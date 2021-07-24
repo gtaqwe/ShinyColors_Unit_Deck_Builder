@@ -39,6 +39,10 @@ async function init() {
     });
   });
 
+  [...Array(6).keys()].forEach((num) => {
+    $(`#specialTrainingInput_${num}`).val(0);
+  });
+
   // Query Parameter
   var queryObj = getQuery();
   if (queryObj !== undefined) {
@@ -56,15 +60,16 @@ async function init() {
   setLanguage(viewLanguage);
   $("#languageSelect").val(viewLanguage).prop("selected", true);
 
-  // 기타 옵션 설정
+  // 기타 옵션 초기화 설정
+  convertSpecialTrainingImg($("#specialTrainingConvertBtn").is(":checked"));
+
   var pDeckSpaceVal = $(':radio[name="p_deck_space"]:checked').val();
   var fDeckSpaceVal = $(':radio[name="f_deck_space"]:checked').val();
 
   setDeckSpace("P", pDeckSpaceVal);
   setDeckSpace("F", fDeckSpaceVal);
 
-  var fesChk = $("#fesImgConvertBtn").is(":checked");
-  convertFesImg(fesChk);
+  convertFesImg($("#fesImgConvertBtn").is(":checked"));
 }
 
 /**
@@ -114,6 +119,22 @@ function setQueryImgs(queryObj) {
     var idolName = jsonData[splitedValue[0] - 1].idol_en_name.toLowerCase();
     cardAddr = `${idolName}_${query.type}_${splitedValue[1]}`;
     setSelectCard(`#selectedIdolView_${query.offset}`, "card/", cardAddr);
+
+    if (splitedValue.length >= 3) {
+      // 특훈 쿼리가 숫자가 아닐 경우 0으로 세팅
+      // aaa -> 0
+      var stNum = isNaN(splitedValue[2]) ? 0 : splitedValue[2];
+
+      // 특훈 쿼리가 0보다 작을 경우 0으로 세팅
+      // -1 -> 0
+      stNum = stNum < 0 ? 0 : stNum;
+
+      // 특훈 쿼리가 4보다 클 경우 4로 세팅
+      // 10 -> 4
+      stNum = stNum > 4 ? 4 : stNum;
+      $(`#specialTrainingInput_${query.offset}`).val(stNum);
+      setSpecialTraining(query.offset, stNum);
+    }
   });
 
   fesQuery.forEach((query) => {
@@ -204,9 +225,11 @@ function getProduceDeckUrl() {
       // 파일명 분리
       .split("_");
 
+    var specialTraining = $(`#specialTrainingInput_${offset}`).val();
+
     jsonData.forEach((idol, idx) => {
       if (idol.idol_en_name.toLowerCase() != splitedCardAddr[0]) return;
-      queryUrl += `${pos}=${idx + 1}_${splitedCardAddr[2]}&`;
+      queryUrl += `${pos}=${idx + 1}_${splitedCardAddr[2]}_${specialTraining}&`;
     });
   });
 
@@ -525,12 +548,67 @@ function viewCardDialog(parentObj, obj, cardType, offset) {
 function setSelectCard(divId, imgPath, cardAddr) {
   $(divId).html(
     $("<img>", {
+      id: `${divId.replace("#", "")}_card`,
       src: `./img/${imgPath}${cardAddr}.png`,
       width: "96px",
       height: "96px",
       onerror: "this.src='./img/assets/Blank_Idol.png'",
     })
   );
+
+  var offset = divId.split("_")[1];
+  if (offset in [...Array(6).keys()].map((v) => `${v}`)) {
+    if ($("#specialTrainingConvertBtn").is(":checked") == true) {
+      $(`#specialTrainingInput_${offset}`).prop("disabled", false);
+    }
+  }
+}
+
+function convertSpecialTrainingImg(stChk) {
+  [...Array(6).keys()].forEach((num) => {
+    // 특훈 표시
+    if (stChk == true) {
+      $(`#selectedIdolView_${num}`).attr("class", "idol_view_st");
+      if ($(`#selectedIdolView_${num}_card`).length > 0) {
+        $(`#specialTrainingInput_${num}`).prop("disabled", false);
+      }
+      $(".specialTrainingStar").css("visibility", "visible");
+    }
+    // 특훈 비표시
+    else {
+      $(`#selectedIdolView_${num}`).attr("class", "idol_view");
+      $(`#specialTrainingInput_${num}`).prop("disabled", true);
+      $(".specialTrainingStar").css("visibility", "hidden");
+    }
+  });
+}
+
+function setSpecialTraining(pos, starNum) {
+  var divId = `#selectedIdolView_${pos}`;
+  var starPos = {
+    1: { bottom: 22, right: 85 },
+    2: { bottom: 37, right: 85 },
+    3: { bottom: 53, right: 85 },
+    4: { bottom: 70, right: 84 },
+  };
+
+  $(`#specialTrainingStar_${pos}`).remove();
+  if ($(`${divId}_card`).length == 0) {
+    $(`#specialTrainingInput_${pos}`).val(0);
+    return;
+  }
+  if (starNum > 0) {
+    $(divId).append(
+      $("<img>", {
+        id: `specialTrainingStar_${pos}`,
+        src: `./img/assets/star${starNum}.png`,
+        class: "specialTrainingStar",
+      })
+        .css("position", "relative")
+        .css("bottom", `${starPos[starNum].bottom}px`)
+        .css("right", `${starPos[starNum].right}px`)
+    );
+  }
 }
 
 /**
