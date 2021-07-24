@@ -39,6 +39,7 @@ async function init() {
     });
   });
 
+  // 특훈 초기화
   [...Array(6).keys()].forEach((num) => {
     $(`#specialTrainingInput_${num}`).val(0);
   });
@@ -137,6 +138,11 @@ function setQueryImgs(queryObj) {
     }
   });
 
+  if (queryObj.st !== undefined) {
+    $("#specialTrainingConvertBtn").prop("checked", true);
+    convertSpecialTrainingImg($("#specialTrainingConvertBtn").is(":checked"));
+  }
+
   fesQuery.forEach((query) => {
     if (query.value === undefined) return;
     if (query.value.indexOf("_") == -1) return;
@@ -194,6 +200,10 @@ function viewDeckUrl(labelId, produceChk = false, fesChk = false) {
   }
   if (fesChk == true) {
     url += getFesDeckUrl();
+  }
+
+  if ($("#specialTrainingConvertBtn").is(":checked")) {
+    url += "st&";
   }
 
   // URL의 마지막에 있는「&」삭제
