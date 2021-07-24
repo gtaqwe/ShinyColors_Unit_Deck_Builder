@@ -556,6 +556,7 @@ function setSelectCard(divId, imgPath, cardAddr) {
     })
   );
 
+  // 카드의 특훈 설정이 가능하도록 설정 및 설정되어 있는 특훈을 적용
   var offset = divId.split("_")[1];
   if (offset in [...Array(6).keys()].map((v) => `${v}`)) {
     setSpecialTraining(offset, $(`#specialTrainingInput_${offset}`).val());
@@ -599,17 +600,33 @@ function setSpecialTraining(pos, starNum) {
     $(`#specialTrainingInput_${pos}`).val(0);
     return;
   }
-  if (starNum > 0) {
+
+  // 0 <= starNum <= 4 가 되도록 조정
+  var setStarNum = starNum;
+  setStarNum = setStarNum > 4 ? 4 : setStarNum;
+  setStarNum = setStarNum < 0 ? 0 : setStarNum;
+
+  $(`#specialTrainingInput_${pos}`).val(setStarNum);
+
+  if (setStarNum > 0) {
     $(divId).append(
       $("<img>", {
         id: `specialTrainingStar_${pos}`,
-        src: `./img/assets/star${starNum}.png`,
+        src: `./img/assets/star${setStarNum}.png`,
         class: "specialTrainingStar",
       })
         .css("position", "relative")
-        .css("bottom", `${starPos[starNum].bottom}px`)
-        .css("right", `${starPos[starNum].right}px`)
+        .css("bottom", `${starPos[setStarNum].bottom}px`)
+        .css("right", `${starPos[setStarNum].right}px`)
     );
+  }
+}
+
+function setSpecialTrainingCount(pos, num) {
+  if ($(`#specialTrainingInput_${pos}`).is(":disabled") != true) {
+    var newVal = Number($(`#specialTrainingInput_${pos}`).val()) + num;
+    $(`#specialTrainingInput_${pos}`).val(newVal);
+    setSpecialTraining(pos, newVal);
   }
 }
 

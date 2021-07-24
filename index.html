@@ -231,79 +231,129 @@
     </fieldset>
 
     <div style="display: flex">
-      <input
-        id="specialTrainingInput_0"
-        type="number"
-        style="width: 50px; margin: 0px 10px"
-        min="0"
-        max="4"
-        value="0"
-        disabled
-        onchange="setSpecialTraining(0, $(this).val())"
-      />
-      <input
-        id="specialTrainingInput_1"
-        type="number"
-        style="width: 50px; margin: 0px 10px"
-        min="0"
-        max="4"
-        value="0"
-        disabled
-        onchange="setSpecialTraining(1, $(this).val())"
-      />
-      <input
-        id="specialTrainingInput_2"
-        type="number"
-        style="width: 50px; margin: 0px 10px"
-        min="0"
-        max="4"
-        value="0"
-        disabled
-        onchange="setSpecialTraining(2, $(this).val())"
-      />
-      <input
-        id="specialTrainingInput_3"
-        type="number"
-        style="width: 50px; margin: 0px 10px"
-        min="0"
-        max="4"
-        value="0"
-        disabled
-        onchange="setSpecialTraining(3, $(this).val())"
-      />
-      <input
-        id="specialTrainingInput_4"
-        type="number"
-        style="width: 50px; margin: 0px 10px"
-        min="0"
-        max="4"
-        value="0"
-        disabled
-        onchange="setSpecialTraining(4, $(this).val())"
-      />
-      <input
-        id="specialTrainingInput_5"
-        type="number"
-        style="width: 50px; margin: 0px 10px"
-        min="0"
-        max="4"
-        value="0"
-        disabled
-        onchange="setSpecialTraining(5, $(this).val())"
-      />
+      <div class="number-input" style="margin: 10px; display: flex; flex-direction: column">
+        <button
+          id="specialTrainingInput_plus_0"
+          class="plus"
+          onclick="setSpecialTrainingCount(0, 1)"
+        ></button>
+        <input
+          id="specialTrainingInput_0"
+          type="number"
+          min="0"
+          max="4"
+          value="0"
+          disabled
+          onchange="setSpecialTraining(0, $(this).val())"
+        /><button
+          id="specialTrainingInput_minus_0"
+          onclick="setSpecialTrainingCount(0, -1)"
+        ></button>
+      </div>
+      <div class="number-input" style="margin: 10px; display: flex; flex-direction: column">
+        <button
+          id="specialTrainingInput_plus_1"
+          class="plus"
+          onclick="setSpecialTrainingCount(1, 1)"
+        ></button>
+        <input
+          id="specialTrainingInput_1"
+          type="number"
+          min="0"
+          max="4"
+          value="0"
+          disabled
+          onchange="setSpecialTraining(1, $(this).val())"
+        /><button
+          id="specialTrainingInput_minus_1"
+          onclick="setSpecialTrainingCount(1, -1)"
+        ></button>
+      </div>
+      <div class="number-input" style="margin: 10px; display: flex; flex-direction: column">
+        <button
+          id="specialTrainingInput_plus_2"
+          class="plus"
+          onclick="setSpecialTrainingCount(2, 1)"
+        ></button>
+        <input
+          id="specialTrainingInput_2"
+          type="number"
+          min="0"
+          max="4"
+          value="0"
+          disabled
+          onchange="setSpecialTraining(2, $(this).val())"
+        /><button
+          id="specialTrainingInput_minus_2"
+          onclick="setSpecialTrainingCount(2, -1)"
+        ></button>
+      </div>
+      <div class="number-input" style="margin: 10px; display: flex; flex-direction: column">
+        <button
+          id="specialTrainingInput_plus_3"
+          class="plus"
+          onclick="setSpecialTrainingCount(3, 1)"
+        ></button>
+        <input
+          id="specialTrainingInput_3"
+          type="number"
+          min="0"
+          max="4"
+          value="0"
+          disabled
+          onchange="setSpecialTraining(3, $(this).val())"
+        />
+        <button id="specialTrainingInput_minus_3" onclick="setSpecialTrainingCount(3, -1)"></button>
+      </div>
+      <div class="number-input" style="margin: 10px; display: flex; flex-direction: column">
+        <button
+          id="specialTrainingInput_plus_4"
+          class="plus"
+          onclick="setSpecialTrainingCount(4, 1)"
+        ></button>
+        <input
+          id="specialTrainingInput_4"
+          type="number"
+          min="0"
+          max="4"
+          value="0"
+          disabled
+          onchange="setSpecialTraining(4, $(this).val())"
+        />
+        <button id="specialTrainingInput_minus_4" onclick="setSpecialTrainingCount(4, -1)"></button>
+      </div>
+      <div class="number-input" style="margin: 10px; display: flex; flex-direction: column">
+        <button
+          id="specialTrainingInput_plus_5"
+          class="plus"
+          onclick="setSpecialTrainingCount(5, 1)"
+        ></button>
+        <input
+          id="specialTrainingInput_5"
+          type="number"
+          min="0"
+          max="4"
+          value="0"
+          disabled
+          onchange="setSpecialTraining(5, $(this).val())"
+        />
+        <button id="specialTrainingInput_minus_5" onclick="setSpecialTrainingCount(5, -1)"></button>
+      </div>
 
-      <span style="margin: 5px 10px">
-        <label class="switch">
-          <input
-            type="checkbox"
-            id="specialTrainingConvertBtn"
-            onchange="convertSpecialTrainingImg($('#specialTrainingConvertBtn').is(':checked'))"
-          />
-          <span class="slider round"></span>
-        </label>
+      <div>
+        <span style="margin: 5px 10px">
+          <label class="switch">
+            <input
+              type="checkbox"
+              id="specialTrainingConvertBtn"
+              onchange="convertSpecialTrainingImg($('#specialTrainingConvertBtn').is(':checked'))"
+            />
+            <span class="slider round"></span>
+          </label>
 
-        <span data-lang="showSpecialTraining">특훈 표시</span>
-      </span>
+          <span data-lang="showSpecialTraining">특훈 표시</span>
+        </span>
+      </div>
     </div>
 
     <div>
