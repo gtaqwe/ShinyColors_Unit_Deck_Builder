@@ -6,6 +6,7 @@ const idolDialogDivId = "#idolDialogDiv";
 const spaceSize = 3;
 var jsonData;
 var viewLanguage;
+const defalutLanguage = "ko";
 
 $().ready(function () {
   init();
@@ -52,6 +53,11 @@ async function init() {
 
   // 언어 설정
   viewLanguage = getLanguage();
+
+  // 지원하는 언어가 아닌 경우 한국어로 표시
+  if (!(viewLanguage in $.lang)) viewLanguage = defalutLanguage;
+
+  // 수동으로 언어 설정시 선택한 언어로 표시
   if (queryObj !== undefined && queryObj.lang !== undefined && queryObj.lang !== "") {
     if (queryObj.lang in $.lang) {
       viewLanguage = queryObj.lang;
