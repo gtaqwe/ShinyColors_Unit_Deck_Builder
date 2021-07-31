@@ -130,7 +130,7 @@ function setQueryImgs(queryObj) {
     splitedValue = query.value.split("_");
     var idolName = jsonData[splitedValue[0] - 1].idol_en_name.toLowerCase();
     cardAddr = `${idolName}_${query.type}_${splitedValue[1]}`;
-    setSelectCard(`#selectedIdolView_${query.offset}`, "card/", cardAddr);
+    setSelectCard(`#selectedIdolView_${query.offset}`, "icon/", cardAddr);
 
     // 특훈 쿼리가 없는 경우 무시
     if (splitedValue.length >= 3) {
@@ -168,7 +168,7 @@ function setQueryImgs(queryObj) {
     splitedValue = query.value.split("_");
     var idolName = jsonData[splitedValue[0] - 1].idol_en_name.toLowerCase();
     cardAddr = `${idolName}_${query.type}_${splitedValue[1]}`;
-    setSelectCard(`#selectedIdolView_${FES_POSITION[query.offset]}`, "card_fes/", cardAddr);
+    setSelectCard(`#selectedIdolView_${FES_POSITION[query.offset]}`, "icon_fes/", cardAddr);
   });
 }
 
@@ -523,16 +523,16 @@ function viewCardDialog(parentObj, obj, cardType, offset) {
   }
 
   // 2. 카드의 위치(포지션)와 이미지 경로를 설정 (페스 카드의 경우, 사복과 페스 설정에 따라 경로 설정)
-  // 사복 (P, S) : "card/"
-  // 페스 (P) : "card_fes/"
+  // 사복 (P, S) : "icon/"
+  // 페스 (P) : "icon_fes/"
   if (cardType == "P" || cardType == "S") {
     divOffset = offset;
-    imgPath = "card/";
+    imgPath = "icon/";
   } else {
     divOffset = FES_POSITION[offset];
     var fesChk = $("#fesImgConvertBtn").is(":checked");
-    if (fesChk == true) imgPath = "card_fes/";
-    else imgPath = "card/";
+    if (fesChk == true) imgPath = "icon_fes/";
+    else imgPath = "icon/";
   }
 
   // 3. 카드 목록 다이얼로그 표시
@@ -729,9 +729,9 @@ function convertFesDeckImg(fesChk) {
     var imgUrl = $(`#selectedIdolView_${pos}`).children("img").attr("src");
     if (imgUrl != undefined) {
       if (fesChk == true) {
-        imgUrl = imgUrl.replace("card/", "card_fes/");
+        imgUrl = imgUrl.replace("icon/", "icon_fes/");
       } else {
-        imgUrl = imgUrl.replace("card_fes/", "card/");
+        imgUrl = imgUrl.replace("icon_fes/", "icon/");
       }
       $(`#selectedIdolView_${pos}`).children("img").attr("src", imgUrl);
     }

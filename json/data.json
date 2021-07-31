@@ -360,6 +360,9 @@
 				},
 				{
 					"card_addr": "kogane_s_ssr6"
+				},
+				{
+					"card_addr": "kogane_s_ssr7"
 				}
 			],
 			"S_SR": [
@@ -1165,6 +1168,9 @@
 				},
 				{
 					"card_addr": "natsuha_s_ssr5"
+				},
+				{
+					"card_addr": "natsuha_s_ssr6"
 				}
 			],
 			"S_SR": [
@@ -1571,6 +1577,9 @@
 				},
 				{
 					"card_addr": "fuyuko_p_ssr3"
+				},
+				{
+					"card_addr": "fuyuko_p_ssr4"
 				}
 			],
 			"P_SR": [
