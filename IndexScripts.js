@@ -150,6 +150,16 @@ function setQueryImgs(queryObj) {
     }
   });
 
+  // 덱 표시 위치 이동
+  if (queryObj.show == "pd") {
+    var pdOffset = $("#PRODUCE_DECK_FIELD").offset();
+    $("html, body").animate({ scrollTop: pdOffset.top }, 400);
+  }
+  if (queryObj.show == "fes") {
+    var fesOffset = $("#FES_DECK_FIELD").offset();
+    $("html, body").animate({ scrollTop: fesOffset.top }, 400);
+  }
+
   // 파라미터에 특훈 표시가 있는 경우의 처리
   if (queryObj.st !== undefined) {
     $("#specialTrainingConvertBtn").prop("checked", true);
@@ -214,9 +224,10 @@ function changeLanguage() {
  * 덱 URL을 표시
  * 1. 쿼리 파라미터를 제외한 현재 URL만 취득
  * 2. 프로듀스덱 및 페스덱의 파라미터를 URL에 추가
- * 3. 특훈 상태 표시 여부를 URL에 추가
- * 4. URL의 마지막에 「&」가 있는 경우 마지막의 「&」를 삭제
- * 5. URL을 표시
+ * 3. 각 덱의 화면을 표시하도록 화면 이동
+ * 4. 특훈 상태 표시 여부를 URL에 추가
+ * 5. URL의 마지막에 「&」가 있는 경우 마지막의 「&」를 삭제
+ * 6. URL을 표시
  */
 function viewDeckUrl(labelId, produceChk = false, fesChk = false) {
   // 1. 쿼리 파라미터를 제외한 현재 URL만 취득
@@ -234,17 +245,26 @@ function viewDeckUrl(labelId, produceChk = false, fesChk = false) {
     url += getFesDeckUrl();
   }
 
-  // 3. 특훈 상태 표시 여부를 URL에 추가
+  // 3. 각 덱의 화면을 표시하도록 화면 이동
+  // 프로듀스덱 URL만 생성시 프로듀스덱을 표시
+  // 페스덱 URL만생성시 페스덱을 표시
+  if (produceChk == true && fesChk == false) {
+    url += "show=pd&";
+  } else if (produceChk == false && fesChk == true) {
+    url += "show=fes&";
+  }
+
+  // 4. 특훈 상태 표시 여부를 URL에 추가
   if ($("#specialTrainingConvertBtn").is(":checked")) {
     url += "st&";
   }
 
-  // 4. URL의 마지막에 「&」가 있는 경우 마지막의 「&」를 삭제
+  // 5. URL의 마지막에 「&」가 있는 경우 마지막의 「&」를 삭제
   if (url.slice(-1) == "&") {
     url = url.substr(0, url.length - 1);
   }
 
-  // 5. URL을 표시
+  // 6. URL을 표시
   $(labelId).text(url);
 }
 
