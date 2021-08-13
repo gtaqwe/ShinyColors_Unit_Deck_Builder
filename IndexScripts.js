@@ -45,6 +45,27 @@ async function init() {
     $(`#specialTrainingInput_${num}`).val(0);
   });
 
+  // 프로듀스덱 리셋버튼 설정
+  $("#pDeckReset").click(function () {
+    const pDeckCardPosAry = [...Array(5).keys()];
+    viewReset(pDeckCardPosAry.map((v) => `${v}_card`));
+
+    // 특훈 초기화
+    pDeckCardPosAry.forEach((pos) => {
+      $(`#specialTrainingInput_${pos}`).val(0);
+      setSpecialTraining(pos, $(`#specialTrainingInput_${pos}`).val());
+    });
+    // 특훈 설정 비활성화
+    // 현재 설정상태를 변경 후 원래대로 복구
+    convertSpecialTrainingImg(!$("#specialTrainingConvertBtn").is(":checked"));
+    convertSpecialTrainingImg($("#specialTrainingConvertBtn").is(":checked"));
+  });
+
+  // 페스덱 리셋버튼 설정
+  $("#fDeckReset").click(function () {
+    viewReset(FES_POSITION.map((v) => `${v}_card`));
+  });
+
   // Query Parameter
   var queryObj = getQuery();
   if (queryObj !== undefined) {
@@ -77,6 +98,13 @@ async function init() {
   setDeckSpace("F", fDeckSpaceVal);
 
   convertFesImg($("#fesImgConvertBtn").is(":checked"));
+}
+
+function viewReset(posAry) {
+  posAry.forEach((pos) => {
+    console.log(pos);
+    $(`#selectedIdolView_${pos}`).remove();
+  });
 }
 
 /**
