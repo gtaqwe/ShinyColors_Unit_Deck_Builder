@@ -47,7 +47,7 @@ async function init() {
 
   // 프로듀스덱 리셋버튼 설정
   $("#pDeckReset").click(function () {
-    const pDeckCardPosAry = [...Array(5).keys()];
+    const pDeckCardPosAry = [...Array(6).keys()];
     viewReset(pDeckCardPosAry.map((v) => `${v}_card`));
 
     // 특훈 초기화
@@ -102,7 +102,6 @@ async function init() {
 
 function viewReset(posAry) {
   posAry.forEach((pos) => {
-    console.log(pos);
     $(`#selectedIdolView_${pos}`).remove();
   });
 }
