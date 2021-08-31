@@ -1543,6 +1543,9 @@
 				},
 				{
 					"card_addr": "asahi_s_ssr4"
+				},
+				{
+					"card_addr": "asahi_s_ssr5"
 				}
 			],
 			"S_SR": [
@@ -1793,6 +1796,9 @@
 				},
 				{
 					"card_addr": "madoka_p_ssr2"
+				},
+				{
+					"card_addr": "madoka_p_ssr3"
 				}
 			],
 			"P_SR": [
@@ -1865,6 +1871,9 @@
 				},
 				{
 					"card_addr": "koito_s_ssr2"
+				},
+				{
+					"card_addr": "koito_s_ssr3"
 				}
 			],
 			"S_SR": [
