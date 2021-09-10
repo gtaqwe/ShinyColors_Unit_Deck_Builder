@@ -512,6 +512,9 @@
 				},
 				{
 					"card_addr": "sakuya_p_ssr5"
+				},
+				{
+					"card_addr": "sakuya_p_ssr6"
 				}
 			],
 			"P_SR": [
@@ -1446,6 +1449,9 @@
 				},
 				{
 					"card_addr": "chiyuki_p_sr4"
+				},
+				{
+					"card_addr": "chiyuki_p_sr5"
 				}
 			],
 			"S_SSR": [
@@ -1974,7 +1980,11 @@
 					"card_addr": "nichika_p_sr1"
 				}
 			],
-			"S_SSR": [],
+			"S_SSR": [
+				{
+					"card_addr": "nichika_s_ssr1"
+				}
+			],
 			"S_SR": [],
 			"P_R": [
 				{
