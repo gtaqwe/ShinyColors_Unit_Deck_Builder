@@ -4,8 +4,8 @@ $.lang.ko = {
   selectIdol: "아이돌 선택",
   selectCard: "카드 선택",
   showInsight: "히라메키 표시",
-  fes: "페스",
-  casual: "사복",
+  fesIcon: "아이콘 (페스)",
+  casualIcon: "아이콘 (사복)",
   insertSpace: "구분 여백 표시",
   noSpace: "구분 없음",
   allSpace: "전체 구분",
@@ -13,14 +13,15 @@ $.lang.ko = {
   posSpace: "포지션 구분",
   showSpecialTraining: "특훈 표시",
   specialTrainingSetting: "특훈 설정",
+  showPosition: "포지션 표시",
 };
 
 $.lang.ja = {
   selectIdol: "アイドル選択",
   selectCard: "カード選択",
   showInsight: "ひらめき表示",
-  fes: "フェス",
-  casual: "私服",
+  fesIcon: "アイコン（フェス）",
+  casualIcon: "アイコン（私服）",
   insertSpace: "スペース挿入",
   noSpace: "なし",
   allSpace: "すべて",
@@ -28,4 +29,5 @@ $.lang.ja = {
   posSpace: "ポジションの間",
   showSpecialTraining: "特訓表示",
   specialTrainingSetting: "特訓設定",
+  showPosition: "ポジション表示",
 };

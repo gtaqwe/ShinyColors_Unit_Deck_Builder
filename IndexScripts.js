@@ -98,6 +98,7 @@ async function init() {
   setDeckSpace("F", fDeckSpaceVal);
 
   convertFesImg($("#fesImgConvertBtn").is(":checked"));
+  setPosImg($("#posImgConvertBtn").is(":checked"));
 }
 
 function viewReset(posAry) {
@@ -650,6 +651,8 @@ function setSelectCard(divId, imgPath, cardAddr) {
     })
   );
 
+  setPosImg($("#posImgConvertBtn").is(":checked"));
+
   // 카드의 특훈 설정이 가능하도록 설정 및 설정되어 있는 특훈을 적용
   var offset = divId.split("_")[1];
   if (offset in [...Array(6).keys()].map((v) => `${v}`)) {
@@ -754,15 +757,45 @@ function convertFesImg(fesChk) {
 }
 
 /**
+ * 포지션 이미지 설정
+ */
+function setPosImg(posChk) {
+  if (posChk) {
+    FES_POSITION.forEach((pos) => {
+      if (
+        $(`#selectedIdolView_${pos}_card`).length > 0 &&
+        $(`#selectedIdolView_${pos}_pos`).length == 0
+      ) {
+        $(`#selectedIdolView_${pos}`).append(
+          $("<img>", {
+            id: `selectedIdolView_${pos}_pos`,
+            src: `./img/assets/${pos}_Position.png`,
+            width: "26px",
+            height: "26px",
+          })
+            .css("position", "relative")
+            .css("bottom", `97px`)
+            .css("left", `3px`)
+        );
+      }
+    });
+  } else {
+    FES_POSITION.forEach((pos) => {
+      $(`#selectedIdolView_${pos}_pos`).remove();
+    });
+  }
+}
+
+/**
  * 페스와 사복 토글의 텍스트 표시
  */
 function getToggleString(fesChk) {
   var str;
   if (fesChk == true) {
-    str = "fes";
+    str = "fesIcon";
     // $("#toggleStr").html("페스");
   } else {
-    str = "casual";
+    str = "casualIcon";
     // $("#toggleStr").html("사복");
   }
   $("#toggleStr").html(getLanguageStringByData(viewLanguage, str));
@@ -773,14 +806,14 @@ function getToggleString(fesChk) {
  */
 function convertFesDeckImg(fesChk) {
   FES_POSITION.forEach((pos) => {
-    var imgUrl = $(`#selectedIdolView_${pos}`).children("img").attr("src");
+    var imgUrl = $(`#selectedIdolView_${pos}_card`).attr("src");
     if (imgUrl != undefined) {
       if (fesChk == true) {
         imgUrl = imgUrl.replace("icon/", "icon_fes/");
       } else {
         imgUrl = imgUrl.replace("icon_fes/", "icon/");
       }
-      $(`#selectedIdolView_${pos}`).children("img").attr("src", imgUrl);
+      $(`#selectedIdolView_${pos}_card`).attr("src", imgUrl);
     }
   });
 }
