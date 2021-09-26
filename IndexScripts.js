@@ -761,15 +761,23 @@ function convertFesImg(fesChk) {
  */
 function setPosImg(posChk) {
   if (posChk) {
+    // 포지션 아이콘 종류 선택 활성화
+    $("#posIcon1").prop("disabled", false);
+    $("#posIcon2").prop("disabled", false);
+
+    posIconType = $(`input[name="posIcon"]:checked`).val();
+
     FES_POSITION.forEach((pos) => {
       if (
+        // 해당위치에 카드를 이미 선택 & 포지션 표시가 되어있지 않은 경우
         $(`#selectedIdolView_${pos}_card`).length > 0 &&
         $(`#selectedIdolView_${pos}_pos`).length == 0
       ) {
+        // 포지션 아이콘을 표시
         $(`#selectedIdolView_${pos}`).append(
           $("<img>", {
             id: `selectedIdolView_${pos}_pos`,
-            src: `./img/assets/${pos}_Position.png`,
+            src: `./img/assets/${pos}_Position_${posIconType}.png`,
             width: "26px",
             height: "26px",
           })
@@ -780,10 +788,30 @@ function setPosImg(posChk) {
       }
     });
   } else {
+    // 포지션 아이콘 종류 선택 비활성화
+    $("#posIcon1").prop("disabled", true);
+    $("#posIcon2").prop("disabled", true);
+
+    // 포지션 표시를 끈 경우 포지션 div 삭제
     FES_POSITION.forEach((pos) => {
       $(`#selectedIdolView_${pos}_pos`).remove();
     });
   }
+}
+
+/**
+ * 포지션 아이콘 표시 설정에 따라 아이콘을 변경
+ */
+function convertPosIcon() {
+  posIconType = $(`input[name="posIcon"]:checked`).val();
+  FES_POSITION.forEach((pos) => {
+    if ($(`#selectedIdolView_${pos}_pos`).attr("src") != undefined) {
+      $(`#selectedIdolView_${pos}_pos`).attr(
+        "src",
+        `./img/assets/${pos}_Position_${posIconType}.png`
+      );
+    }
+  });
 }
 
 /**

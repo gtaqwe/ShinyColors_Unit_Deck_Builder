@@ -174,18 +174,22 @@
         </label>
       </div>
 
-      <input
-        type="button"
-        value="Deck Capture (x1)"
-        onclick="captureScreen('PRODUCE_DECK', 'Produce', 1)"
-      />
+      <!-- 캡쳐 -->
+      <div style="display: inline-block">
+        <input
+          type="button"
+          value="Deck Capture (x1)"
+          onclick="captureScreen('PRODUCE_DECK', 'Produce', 1)"
+        />
 
-      <input
-        type="button"
-        value="Deck Capture (x2)"
-        onclick="captureScreen('PRODUCE_DECK', 'Produce', 2)"
-      />
+        <input
+          type="button"
+          value="Deck Capture (x2)"
+          onclick="captureScreen('PRODUCE_DECK', 'Produce', 2)"
+        />
+      </div>
 
+      <!-- 아이콘간 여백 설정 -->
       <div style="display: inline-block">
         <fieldset style="width: max-content">
           <legend data-lang="insertSpace">구분 여백 표시</legend>
@@ -221,6 +225,7 @@
       </div>
     </div>
 
+    <!-- 덱 표시 -->
     <div>
       <fieldset id="PRODUCE_DECK_FIELD" style="width: max-content">
         <legend>Produce Deck</legend>
@@ -240,6 +245,7 @@
       </fieldset>
     </div>
 
+    <!-- 리셋 -->
     <div><input type="button" id="pDeckReset" value="Deck Reset" /></div>
 
     <div>
@@ -382,6 +388,7 @@
       </fieldset>
     </div>
 
+    <!-- URL표시 -->
     <div>
       <div>
         <input
@@ -510,7 +517,7 @@
       </label>
     </div>
 
-    <!-- 포지션 -->
+    <!-- 포지션 표시 -->
     <div>
       <label style="margin: 5px 10px">
         <label class="switch">
@@ -524,8 +531,30 @@
 
         <span data-lang="showPosition">포지션 표시</span>
       </label>
+
+      <input
+        type="radio"
+        id="posIcon1"
+        name="posIcon"
+        value="1"
+        onclick="convertPosIcon()"
+        checked
+        disabled
+      />
+      <label for="posIcon1">Type 1</label>
+
+      <input
+        type="radio"
+        id="posIcon2"
+        name="posIcon"
+        value="2"
+        onclick="convertPosIcon()"
+        disabled
+      />
+      <label for="posIcon2">Type 2</label>
     </div>
 
+    <!-- 캡쳐버튼 -->
     <div style="display: inline-block">
       <input
         type="button"
@@ -542,6 +571,7 @@
       />
     </div>
 
+    <!-- 아이콘간 여백 설정 -->
     <div style="display: inline-block">
       <fieldset style="width: max-content">
         <legend data-lang="insertSpace">구분 여백 표시</legend>
@@ -567,6 +597,7 @@
       </fieldset>
     </div>
 
+    <!-- 덱 표시 -->
     <fieldset id="FES_DECK_FIELD" style="width: max-content">
       <legend>Fes Deck</legend>
       <div id="FES_DECK" style="width: max-content; display: flex">
@@ -582,8 +613,10 @@
       </div>
     </fieldset>
 
+    <!-- 리셋 -->
     <div><input type="button" id="fDeckReset" value="Deck Reset" /></div>
 
+    <!-- URL표시 -->
     <div>
       <div>
         <input

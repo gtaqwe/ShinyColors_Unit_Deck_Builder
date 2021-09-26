@@ -14,6 +14,7 @@ $.lang.ko = {
   showSpecialTraining: "특훈 표시",
   specialTrainingSetting: "특훈 설정",
   showPosition: "포지션 표시",
+  posIcon: "포지션 아이콘",
 };
 
 $.lang.ja = {
@@ -30,4 +31,5 @@ $.lang.ja = {
   showSpecialTraining: "特訓表示",
   specialTrainingSetting: "特訓設定",
   showPosition: "ポジション表示",
+  posIcon: "ポジションアイコン",
 };
