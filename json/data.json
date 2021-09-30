@@ -170,6 +170,9 @@
 				},
 				{
 					"card_addr": "hiori_s_ssr6"
+				},
+				{
+					"card_addr": "hiori_s_ssr7"
 				}
 			],
 			"S_SR": [
@@ -1094,6 +1097,9 @@
 				},
 				{
 					"card_addr": "rinze_s_ssr6"
+				},
+				{
+					"card_addr": "rinze_s_ssr7"
 				}
 			],
 			"S_SR": [
@@ -1923,6 +1929,9 @@
 				},
 				{
 					"card_addr": "hinana_p_ssr2"
+				},
+				{
+					"card_addr": "hinana_p_ssr3"
 				}
 			],
 			"P_SR": [
@@ -1989,6 +1998,9 @@
 			"S_SSR": [
 				{
 					"card_addr": "nichika_s_ssr1"
+				},
+				{
+					"card_addr": "nichika_s_ssr2"
 				}
 			],
 			"S_SR": [],
