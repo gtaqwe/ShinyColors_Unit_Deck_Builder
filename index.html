@@ -519,39 +519,36 @@
 
     <!-- 포지션 표시 -->
     <div>
-      <label style="margin: 5px 10px">
-        <label class="switch">
-          <input
-            type="checkbox"
-            id="posImgConvertBtn"
-            onchange="setPosImg($('#posImgConvertBtn').is(':checked'))"
-          />
-          <span class="slider round"></span>
-        </label>
+      <fieldset style="width: max-content">
+        <legend data-lang="showPosition">포지션 표시</legend>
+        <input
+          type="radio"
+          id="fesPosIcon0"
+          name="fesPosIcon"
+          value="0"
+          onclick="setFesPosIcon()"
+          checked
+        />
+        <label for="fesPosIcon0">None</label>
 
-        <span data-lang="showPosition">포지션 표시</span>
-      </label>
+        <input
+          type="radio"
+          id="fesPosIcon1"
+          name="fesPosIcon"
+          value="1"
+          onclick="setFesPosIcon()"
+        />
+        <label for="fesPosIcon1">Type 1</label>
 
-      <input
-        type="radio"
-        id="posIcon1"
-        name="posIcon"
-        value="1"
-        onclick="convertPosIcon()"
-        checked
-        disabled
-      />
-      <label for="posIcon1">Type 1</label>
-
-      <input
-        type="radio"
-        id="posIcon2"
-        name="posIcon"
-        value="2"
-        onclick="convertPosIcon()"
-        disabled
-      />
-      <label for="posIcon2">Type 2</label>
+        <input
+          type="radio"
+          id="fesPosIcon2"
+          name="fesPosIcon"
+          value="2"
+          onclick="setFesPosIcon()"
+        />
+        <label for="fesPosIcon2">Type 2</label>
+      </fieldset>
     </div>
 
     <!-- 캡쳐버튼 -->

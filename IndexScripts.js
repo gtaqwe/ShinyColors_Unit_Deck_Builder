@@ -98,7 +98,7 @@ async function init() {
   setDeckSpace("F", fDeckSpaceVal);
 
   convertFesImg($("#fesImgConvertBtn").is(":checked"));
-  setPosImg($("#posImgConvertBtn").is(":checked"));
+  setFesPosIcon();
 }
 
 function viewReset(posAry) {
@@ -651,7 +651,7 @@ function setSelectCard(divId, imgPath, cardAddr) {
     })
   );
 
-  setPosImg($("#posImgConvertBtn").is(":checked"));
+  setFesPosIcon();
 
   // 카드의 특훈 설정이 가능하도록 설정 및 설정되어 있는 특훈을 적용
   var offset = divId.split("_")[1];
@@ -759,20 +759,19 @@ function convertFesImg(fesChk) {
 /**
  * 포지션 이미지 설정
  */
-function setPosImg(posChk) {
-  if (posChk) {
-    // 포지션 아이콘 종류 선택 활성화
-    $("#posIcon1").prop("disabled", false);
-    $("#posIcon2").prop("disabled", false);
+function setFesPosIcon() {
+  posIconType = $(`input[name="fesPosIcon"]:checked`).val();
 
-    posIconType = $(`input[name="posIcon"]:checked`).val();
+  // 포지션 div 삭제
+  FES_POSITION.forEach((pos) => {
+    $(`#selectedIdolView_${pos}_pos`).remove();
+  });
 
+  // 포지션 아이콘 타입 선택시 해당하는 아이콘 표시
+  if (posIconType != 0) {
     FES_POSITION.forEach((pos) => {
-      if (
-        // 해당위치에 카드를 이미 선택 & 포지션 표시가 되어있지 않은 경우
-        $(`#selectedIdolView_${pos}_card`).length > 0 &&
-        $(`#selectedIdolView_${pos}_pos`).length == 0
-      ) {
+      // 해당위치에 카드를 이미 선택한 경우에만 아이콘 표시
+      if ($(`#selectedIdolView_${pos}_card`).length > 0) {
         // 포지션 아이콘을 표시
         $(`#selectedIdolView_${pos}`).append(
           $("<img>", {
@@ -787,31 +786,7 @@ function setPosImg(posChk) {
         );
       }
     });
-  } else {
-    // 포지션 아이콘 종류 선택 비활성화
-    $("#posIcon1").prop("disabled", true);
-    $("#posIcon2").prop("disabled", true);
-
-    // 포지션 표시를 끈 경우 포지션 div 삭제
-    FES_POSITION.forEach((pos) => {
-      $(`#selectedIdolView_${pos}_pos`).remove();
-    });
   }
-}
-
-/**
- * 포지션 아이콘 표시 설정에 따라 아이콘을 변경
- */
-function convertPosIcon() {
-  posIconType = $(`input[name="posIcon"]:checked`).val();
-  FES_POSITION.forEach((pos) => {
-    if ($(`#selectedIdolView_${pos}_pos`).attr("src") != undefined) {
-      $(`#selectedIdolView_${pos}_pos`).attr(
-        "src",
-        `./img/assets/${pos}_Position_${posIconType}.png`
-      );
-    }
-  });
 }
 
 /**
