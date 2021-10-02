@@ -64,6 +64,7 @@ async function init() {
   // 페스덱 리셋버튼 설정
   $("#fDeckReset").click(function () {
     viewReset(FES_POSITION.map((v) => `${v}_card`));
+    viewReset(FES_POSITION.map((v) => `${v}_pos`));
   });
 
   // Query Parameter
