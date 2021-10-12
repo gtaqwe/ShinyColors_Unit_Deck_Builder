@@ -288,6 +288,9 @@
 				},
 				{
 					"card_addr": "meguru_s_sr4"
+				},
+				{
+					"card_addr": "meguru_s_sr5"
 				}
 			],
 			"P_R": [
@@ -787,6 +790,9 @@
 				},
 				{
 					"card_addr": "kaho_p_ssr5"
+				},
+				{
+					"card_addr": "kaho_p_ssr6"
 				}
 			],
 			"P_SR": [
@@ -1481,6 +1487,9 @@
 				},
 				{
 					"card_addr": "chiyuki_s_ssr6"
+				},
+				{
+					"card_addr": "chiyuki_s_ssr7"
 				}
 			],
 			"S_SR": [
