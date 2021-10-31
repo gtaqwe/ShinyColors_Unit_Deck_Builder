@@ -1396,6 +1396,9 @@
 				},
 				{
 					"card_addr": "tenka_s_ssr6"
+				},
+				{
+					"card_addr": "tenka_s_ssr7"
 				}
 			],
 			"S_SR": [
@@ -1656,6 +1659,9 @@
 				},
 				{
 					"card_addr": "fuyuko_s_ssr5"
+				},
+				{
+					"card_addr": "fuyuko_s_ssr6"
 				}
 			],
 			"S_SR": [
@@ -1699,6 +1705,9 @@
 				},
 				{
 					"card_addr": "mei_p_ssr4"
+				},
+				{
+					"card_addr": "mei_p_ssr5"
 				}
 			],
 			"P_SR": [
