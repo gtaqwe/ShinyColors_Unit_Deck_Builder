@@ -618,10 +618,27 @@ function viewCardDialog(parentObj, obj, cardType, offset) {
     });
 
     // 각 등급별 구분 라인 추가
-    if (typeIdx + 1 < type_list.length) {
-      $(cardDialogDivId).append("<hr>");
-    }
+    $(cardDialogDivId).append("<hr>");
   }
+
+  // 구체적인 카드 선택이 아닌 경우 처리
+  // 구체적인 카드 선택이 아니기에 Other로 처리
+  var idolName = obj.idol_en_name.toLowerCase();
+  $(cardDialogDivId).append(
+    $("<img>", {
+      id: `${idolName}_char`,
+      src: `./img/icon_char/${idolName}.png`,
+      width: "96px",
+      height: "96px",
+      class: "dialogImg",
+      onerror: "this.src='./img/assets/Blank_Idol.png'",
+    })
+  );
+  $(`#${idolName}_char`).click(function () {
+    var selDivId = `#selectedIdolView_${divOffset}`;
+    setSelectCard(selDivId, `icon_char/`, idolName);
+    $(cardDialogDivId).dialog("close");
+  });
 
   var dialogTitle = getLanguageStringByData(viewLanguage, "selectCard");
 
