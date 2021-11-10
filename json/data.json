@@ -635,6 +635,9 @@
 				},
 				{
 					"card_addr": "yuika_p_sr3"
+				},
+				{
+					"card_addr": "yuika_p_sr4"
 				}
 			],
 			"S_SSR": [
@@ -704,6 +707,9 @@
 				},
 				{
 					"card_addr": "kiriko_p_ssr5"
+				},
+				{
+					"card_addr": "kiriko_p_ssr6"
 				}
 			],
 			"P_SR": [
@@ -922,6 +928,9 @@
 				},
 				{
 					"card_addr": "chiyoko_s_ssr6"
+				},
+				{
+					"card_addr": "chiyoko_s_ssr7"
 				}
 			],
 			"S_SR": [
