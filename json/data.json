@@ -908,6 +908,9 @@
 				},
 				{
 					"card_addr": "chiyoko_p_sr3"
+				},
+				{
+					"card_addr": "chiyoko_p_sr4"
 				}
 			],
 			"S_SSR": [
@@ -2064,6 +2067,9 @@
 				},
 				{
 					"card_addr": "mikoto_p_ssr1"
+				},
+				{
+					"card_addr": "mikoto_p_ssr2"
 				}
 			],
 			"P_SR": [
