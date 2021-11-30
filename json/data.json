@@ -575,6 +575,9 @@
 				},
 				{
 					"card_addr": "sakuya_s_sr3"
+				},
+				{
+					"card_addr": "sakuya_s_sr4"
 				}
 			],
 			"P_R": [
@@ -1023,6 +1026,9 @@
 				},
 				{
 					"card_addr": "juri_s_ssr5"
+				},
+				{
+					"card_addr": "juri_s_ssr6"
 				}
 			],
 			"S_SR": [
@@ -1273,6 +1279,9 @@
 				},
 				{
 					"card_addr": "amana_p_ssr6"
+				},
+				{
+					"card_addr": "amana_p_ssr7"
 				}
 			],
 			"P_SR": [
