@@ -427,6 +427,9 @@
 				},
 				{
 					"card_addr": "mamimi_p_ssr6"
+				},
+				{
+					"card_addr": "mamimi_p_ssr7"
 				}
 			],
 			"P_SR": [
@@ -661,6 +664,9 @@
 				},
 				{
 					"card_addr": "yuika_s_ssr6"
+				},
+				{
+					"card_addr": "yuika_s_ssr7"
 				}
 			],
 			"S_SR": [
@@ -2049,6 +2055,9 @@
 				},
 				{
 					"card_addr": "nichika_s_ssr2"
+				},
+				{
+					"card_addr": "nichika_s_ssr3"
 				}
 			],
 			"S_SR": [],
