@@ -274,6 +274,9 @@
 				},
 				{
 					"card_addr": "meguru_s_ssr7"
+				},
+				{
+					"card_addr": "meguru_s_ssr8"
 				}
 			],
 			"S_SR": [
@@ -1927,6 +1930,9 @@
 				},
 				{
 					"card_addr": "koito_p_ssr2"
+				},
+				{
+					"card_addr": "koito_p_ssr3"
 				}
 			],
 			"P_SR": [
@@ -2093,6 +2099,9 @@
 			"P_SR": [
 				{
 					"card_addr": "mikoto_p_sr0"
+				},
+				{
+					"card_addr": "mikoto_p_sr1"
 				}
 			],
 			"S_SSR": [
