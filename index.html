@@ -174,23 +174,8 @@
         </label>
       </div>
 
-      <!-- 캡쳐 -->
-      <div style="display: inline-block">
-        <input
-          type="button"
-          value="Deck Capture (x1)"
-          onclick="captureScreen('PRODUCE_DECK', 'Produce', 1)"
-        />
-
-        <input
-          type="button"
-          value="Deck Capture (x2)"
-          onclick="captureScreen('PRODUCE_DECK', 'Produce', 2)"
-        />
-      </div>
-
       <!-- 아이콘간 여백 설정 -->
-      <div style="display: inline-block">
+      <div>
         <fieldset style="width: max-content">
           <legend data-lang="insertSpace">구분 여백 표시</legend>
 
@@ -223,6 +208,37 @@
           <label for="p_deck_space3" data-lang="psSpace">PS 구분</label>
         </fieldset>
       </div>
+
+      <!-- 캡쳐 -->
+      <div style="margin: 0px; display: inline-block">
+        <div>
+          <input
+            type="button"
+            value="Produce Deck Capture (x1)"
+            onclick="captureScreen('PRODUCE_DECK', 'Produce', 1)"
+          />
+
+          <input
+            type="button"
+            value="Produce Deck Capture (x2)"
+            onclick="captureScreen('PRODUCE_DECK', 'Produce', 2)"
+          />
+        </div>
+
+        <div>
+          <input
+            type="button"
+            value="Support Deck Capture (x1)"
+            onclick="captureScreen('SUPPORT_DECK', 'Support', 1)"
+          />
+
+          <input
+            type="button"
+            value="Support Deck Capture (x2)"
+            onclick="captureScreen('SUPPORT_DECK', 'Support', 2)"
+          />
+        </div>
+      </div>
     </div>
 
     <!-- 덱 표시 -->
@@ -232,15 +248,20 @@
         <div id="PRODUCE_DECK" style="width: max-content; display: flex; text-align: right">
           <div id="selectedIdolView_0" class="idol_view" style="display: inline-block"></div>
           <div id="p_space_div_1"></div>
-          <div id="selectedIdolView_1" class="idol_view" style="display: inline-block"></div>
-          <div id="p_space_div_2"></div>
-          <div id="selectedIdolView_2" class="idol_view" style="display: inline-block"></div>
-          <div id="p_space_div_3"></div>
-          <div id="selectedIdolView_3" class="idol_view" style="display: inline-block"></div>
-          <div id="p_space_div_4"></div>
-          <div id="selectedIdolView_4" class="idol_view" style="display: inline-block"></div>
-          <div id="p_space_div_5"></div>
-          <div id="selectedIdolView_5" class="idol_view" style="display: inline-block"></div>
+          <div
+            id="SUPPORT_DECK"
+            style="margin: 0px; width: max-content; display: flex; text-align: right"
+          >
+            <div id="selectedIdolView_1" class="idol_view" style="display: inline-block"></div>
+            <div id="p_space_div_2"></div>
+            <div id="selectedIdolView_2" class="idol_view" style="display: inline-block"></div>
+            <div id="p_space_div_3"></div>
+            <div id="selectedIdolView_3" class="idol_view" style="display: inline-block"></div>
+            <div id="p_space_div_4"></div>
+            <div id="selectedIdolView_4" class="idol_view" style="display: inline-block"></div>
+            <div id="p_space_div_5"></div>
+            <div id="selectedIdolView_5" class="idol_view" style="display: inline-block"></div>
+          </div>
         </div>
       </fieldset>
     </div>
@@ -393,12 +414,12 @@
       <div>
         <input
           type="button"
-          value="Deck URL (Produce)"
+          value="Fes Deck URL (Produce)"
           onclick="viewDeckUrl('#PRODUCE_DECK_URL', true, false)"
         />
         <input
           type="button"
-          value="Deck URL (Produce + Fes)"
+          value="Fes Deck URL (Produce + Fes)"
           onclick="viewDeckUrl('#PRODUCE_DECK_URL', true, true)"
         />
         <input type="button" value="URL Copy" onclick="CopyToClipboard('PRODUCE_DECK_URL')" />
