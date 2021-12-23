@@ -414,12 +414,12 @@
       <div>
         <input
           type="button"
-          value="Fes Deck URL (Produce)"
+          value="Deck URL (Produce)"
           onclick="viewDeckUrl('#PRODUCE_DECK_URL', true, false)"
         />
         <input
           type="button"
-          value="Fes Deck URL (Produce + Fes)"
+          value="Deck URL (Produce + Fes)"
           onclick="viewDeckUrl('#PRODUCE_DECK_URL', true, true)"
         />
         <input type="button" value="URL Copy" onclick="CopyToClipboard('PRODUCE_DECK_URL')" />
@@ -572,25 +572,8 @@
       </fieldset>
     </div>
 
-    <!-- 캡쳐버튼 -->
-    <div style="display: inline-block">
-      <input
-        type="button"
-        value="Deck Capture (x1)"
-        onclick="captureScreen('FES_DECK', 'Fes', 1)"
-        class="Capturebutton"
-      />
-
-      <input
-        type="button"
-        value="Deck Capture (x2)"
-        onclick="captureScreen('FES_DECK', 'Fes', 2)"
-        class="Capturebutton"
-      />
-    </div>
-
     <!-- 아이콘간 여백 설정 -->
-    <div style="display: inline-block">
+    <div>
       <fieldset style="width: max-content">
         <legend data-lang="insertSpace">구분 여백 표시</legend>
 
@@ -613,6 +596,25 @@
         />
         <label for="f_deck_space2" data-lang="posSpace">포지션 구분</label>
       </fieldset>
+    </div>
+
+    <!-- 캡쳐버튼 -->
+    <div style="margin: 0px; display: inline-block">
+      <div>
+        <input
+          type="button"
+          value="Fes Deck Capture (x1)"
+          onclick="captureScreen('FES_DECK', 'Fes', 1)"
+          class="Capturebutton"
+        />
+
+        <input
+          type="button"
+          value="Fes Deck Capture (x2)"
+          onclick="captureScreen('FES_DECK', 'Fes', 2)"
+          class="Capturebutton"
+        />
+      </div>
     </div>
 
     <!-- 덱 표시 -->
