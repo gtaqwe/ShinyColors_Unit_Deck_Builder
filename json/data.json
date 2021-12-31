@@ -375,6 +375,9 @@
 				},
 				{
 					"card_addr": "kogane_s_ssr7"
+				},
+				{
+					"card_addr": "kogane_s_ssr8"
 				}
 			],
 			"S_SR": [
@@ -1093,6 +1096,9 @@
 				},
 				{
 					"card_addr": "rinze_p_ssr6"
+				},
+				{
+					"card_addr": "rinze_p_ssr7"
 				}
 			],
 			"P_SR": [
@@ -1429,6 +1435,9 @@
 				},
 				{
 					"card_addr": "tenka_s_ssr7"
+				},
+				{
+					"card_addr": "tenka_s_ssr8"
 				}
 			],
 			"S_SR": [
@@ -2011,6 +2020,9 @@
 				},
 				{
 					"card_addr": "hinana_s_ssr2"
+				},
+				{
+					"card_addr": "hinana_s_ssr3"
 				}
 			],
 			"S_SR": [
