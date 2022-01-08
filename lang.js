@@ -15,6 +15,8 @@ $.lang.ko = {
   specialTrainingSetting: "특훈 설정",
   showPosition: "포지션 표시",
   posIcon: "포지션 아이콘",
+  showExSkill: "EX스킬 표시",
+  selectEx: "EX스킬 선택",
 };
 
 $.lang.ja = {
@@ -32,4 +34,6 @@ $.lang.ja = {
   specialTrainingSetting: "特訓設定",
   showPosition: "ポジション表示",
   posIcon: "ポジションアイコン",
+  showExSkill: "EXスキル表示",
+  selectEx: "EXスキル選択",
 };

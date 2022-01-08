@@ -20,16 +20,38 @@ input[type="button"] {
   position: relative;
 }
 
-.idol_view {
-  width: 96px;
+.idol_view,
+.idol_view_st {
   height: 96px;
   margin: 0px;
 }
 
+.idol_view {
+  width: 96px;
+}
+
 .idol_view_st {
   width: 102px;
-  height: 96px;
+}
+
+.ex_view,
+.ex_view_st {
+  width: 76px;
+  height: 76px;
+}
+
+.ex_view {
+  padding: 0px 10px;
+}
+
+.ex_view_st {
+  padding-left: 16px;
+  padding-right: 10px;
+}
+
+.noMargin_inlineBlock {
   margin: 0px;
+  display: inline-block;
 }
 
 .dialogWindow {

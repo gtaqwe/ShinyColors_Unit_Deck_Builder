@@ -13,6 +13,7 @@
   <body>
     <div id="idolDialogDiv" class="dialogWindow" style="display: none; text-align: center"></div>
     <div id="cardDialogDiv" class="dialogWindow" style="display: none"></div>
+    <div id="exDialogDiv" class="dialogWindow" style="display: none"></div>
 
     <div id="languageSetting" style="display: none">
       <select id="languageSelect" style="height: 30px" onchange="changeLanguage()">
@@ -45,6 +46,11 @@
           />
           <br />
           <div id="selectedIdolCharViewDiv_Produce" class="selected_idol_char_view"></div>
+          <center>
+            <input type="button" id="produce_ex_1" value="EX 1" />
+            <input type="button" id="produce_ex_2" value="EX 2" />
+            <input type="button" id="produce_ex_3" value="EX 3" />
+          </center>
         </div>
       </fieldset>
 
@@ -68,6 +74,11 @@
           />
           <br />
           <div id="selectedIdolCharViewDiv_Support_1" class="selected_idol_char_view"></div>
+          <center>
+            <input type="button" id="support_1_ex_1" value="EX 1" />
+            <input type="button" id="support_1_ex_2" value="EX 2" />
+            <input type="button" id="support_1_ex_3" value="EX 3" />
+          </center>
         </div>
       </fieldset>
 
@@ -89,6 +100,11 @@
           />
           <br />
           <div id="selectedIdolCharViewDiv_Support_2" class="selected_idol_char_view"></div>
+          <center>
+            <input type="button" id="support_2_ex_1" value="EX 1" />
+            <input type="button" id="support_2_ex_2" value="EX 2" />
+            <input type="button" id="support_2_ex_3" value="EX 3" />
+          </center>
         </div>
       </fieldset>
 
@@ -110,6 +126,11 @@
           />
           <br />
           <div id="selectedIdolCharViewDiv_Support_3" class="selected_idol_char_view"></div>
+          <center>
+            <input type="button" id="support_3_ex_1" value="EX 1" />
+            <input type="button" id="support_3_ex_2" value="EX 2" />
+            <input type="button" id="support_3_ex_3" value="EX 3" />
+          </center>
         </div>
       </fieldset>
 
@@ -131,6 +152,11 @@
           />
           <br />
           <div id="selectedIdolCharViewDiv_Support_4" class="selected_idol_char_view"></div>
+          <center>
+            <input type="button" id="support_4_ex_1" value="EX 1" />
+            <input type="button" id="support_4_ex_2" value="EX 2" />
+            <input type="button" id="support_4_ex_3" value="EX 3" />
+          </center>
         </div>
       </fieldset>
 
@@ -152,6 +178,11 @@
           />
           <br />
           <div id="selectedIdolCharViewDiv_Support_5" class="selected_idol_char_view"></div>
+          <center>
+            <input type="button" id="support_5_ex_1" value="EX 1" />
+            <input type="button" id="support_5_ex_2" value="EX 2" />
+            <input type="button" id="support_5_ex_3" value="EX 3" />
+          </center>
         </div>
       </fieldset>
     </div>
@@ -173,6 +204,8 @@
           <span data-lang="showInsight">히라메키 표시</span>
         </label>
       </div>
+
+      <hr />
 
       <!-- 아이콘간 여백 설정 -->
       <div>
@@ -209,8 +242,24 @@
         </fieldset>
       </div>
 
+      <!-- EX스킬 표시 -->
+      <div style="display: flex">
+        <label style="margin: 5px 10px">
+          <label class="switch">
+            <input
+              type="checkbox"
+              id="exConvertBtn"
+              onchange="convertExSkill($('#exConvertBtn').is(':checked'))"
+            />
+            <span class="slider round"></span>
+          </label>
+
+          <span data-lang="showExSkill">EX스킬 표시</span>
+        </label>
+      </div>
+
       <!-- 캡쳐 -->
-      <div style="margin: 0px; display: inline-block">
+      <div class="noMargin_inlineBlock">
         <div>
           <input
             type="button"
@@ -246,21 +295,39 @@
       <fieldset id="PRODUCE_DECK_FIELD" style="width: max-content">
         <legend>Produce Deck</legend>
         <div id="PRODUCE_DECK" style="width: max-content; display: flex; text-align: right">
-          <div id="selectedIdolView_0" class="idol_view" style="display: inline-block"></div>
-          <div id="p_space_div_1"></div>
+          <div class="noMargin_inlineBlock">
+            <div id="selectedIdolView_0" class="idol_view"></div>
+            <div id="selectedIdol_0_ex" class="ex_skill_view"></div>
+          </div>
+          <div class="p_space_div_1"></div>
           <div
             id="SUPPORT_DECK"
             style="margin: 0px; width: max-content; display: flex; text-align: right"
           >
-            <div id="selectedIdolView_1" class="idol_view" style="display: inline-block"></div>
-            <div id="p_space_div_2"></div>
-            <div id="selectedIdolView_2" class="idol_view" style="display: inline-block"></div>
-            <div id="p_space_div_3"></div>
-            <div id="selectedIdolView_3" class="idol_view" style="display: inline-block"></div>
-            <div id="p_space_div_4"></div>
-            <div id="selectedIdolView_4" class="idol_view" style="display: inline-block"></div>
-            <div id="p_space_div_5"></div>
-            <div id="selectedIdolView_5" class="idol_view" style="display: inline-block"></div>
+            <div class="noMargin_inlineBlock">
+              <div id="selectedIdolView_1" class="idol_view"></div>
+              <div id="selectedIdol_1_ex" class="ex_skill_view"></div>
+            </div>
+            <div class="p_space_div_2"></div>
+            <div class="noMargin_inlineBlock">
+              <div id="selectedIdolView_2" class="idol_view"></div>
+              <div id="selectedIdol_2_ex" class="ex_skill_view"></div>
+            </div>
+            <div class="p_space_div_3"></div>
+            <div class="noMargin_inlineBlock">
+              <div id="selectedIdolView_3" class="idol_view"></div>
+              <div id="selectedIdol_3_ex" class="ex_skill_view"></div>
+            </div>
+            <div class="p_space_div_4"></div>
+            <div class="noMargin_inlineBlock">
+              <div id="selectedIdolView_4" class="idol_view"></div>
+              <div id="selectedIdol_4_ex" class="ex_skill_view"></div>
+            </div>
+            <div class="p_space_div_5"></div>
+            <div class="noMargin_inlineBlock">
+              <div id="selectedIdolView_5" class="idol_view"></div>
+              <div id="selectedIdol_5_ex" class="ex_skill_view"></div>
+            </div>
           </div>
         </div>
       </fieldset>
@@ -572,6 +639,8 @@
       </fieldset>
     </div>
 
+    <hr />
+
     <!-- 아이콘간 여백 설정 -->
     <div>
       <fieldset style="width: max-content">
@@ -599,7 +668,7 @@
     </div>
 
     <!-- 캡쳐버튼 -->
-    <div style="margin: 0px; display: inline-block">
+    <div class="noMargin_inlineBlock">
       <div>
         <input
           type="button"
@@ -622,13 +691,13 @@
       <legend>Fes Deck</legend>
       <div id="FES_DECK" style="width: max-content; display: flex">
         <div id="selectedIdolView_Leader" class="idol_view" style="display: inline-block"></div>
-        <div id="f_space_div_1"></div>
+        <div class="f_space_div_1"></div>
         <div id="selectedIdolView_Vocal" class="idol_view" style="display: inline-block"></div>
-        <div id="f_space_div_2"></div>
+        <div class="f_space_div_2"></div>
         <div id="selectedIdolView_Center" class="idol_view" style="display: inline-block"></div>
-        <div id="f_space_div_3"></div>
+        <div class="f_space_div_3"></div>
         <div id="selectedIdolView_Dance" class="idol_view" style="display: inline-block"></div>
-        <div id="f_space_div_4"></div>
+        <div class="f_space_div_4"></div>
         <div id="selectedIdolView_Visual" class="idol_view" style="display: inline-block"></div>
       </div>
     </fieldset>

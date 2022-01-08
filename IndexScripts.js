@@ -3,6 +3,7 @@ const S_TYPE_LIST = ["S_SSR", "S_SR", "S_R", "S_N"];
 const FES_POSITION = ["Leader", "Vocal", "Center", "Dance", "Visual"];
 const cardDialogDivId = "#cardDialogDiv";
 const idolDialogDivId = "#idolDialogDiv";
+const exDialogDivId = "#exDialogDiv";
 const spaceSize = 3;
 var jsonData;
 var viewLanguage;
@@ -32,6 +33,45 @@ async function init() {
         viewIdolDialog(this, jsonData, `selectedIdolCharViewDiv_Support_${pos}`, "S", pos);
       });
     });
+
+  // Ex Skill
+  [...Array(6).keys()].forEach((pos) => {
+    [...Array(3).keys()]
+      .map((v) => v + 1)
+      .forEach((exPos) => {
+        $(`#selectedIdol_${pos}_ex`).append(
+          $("<div>", { id: `selectedIdol_${pos}_ex_${exPos}`, class: "ex_view" })
+        );
+        $(`#selectedIdol_${pos}_ex_${exPos}`).append(
+          $("<img>", { id: `selectedIdol_${pos}_ex_${exPos}_icon`, src: "./img/ex_skill/none.png" })
+        );
+      });
+  });
+
+  // Produce Idol Ex Skill Button Setting
+  [...Array(3).keys()]
+    .map((v) => v + 1)
+    .forEach((exPos) => {
+      $(`#produce_ex_${exPos}`).click(function () {
+        viewExDialog(this, "P", 0, exPos);
+      });
+    });
+
+  // Support Idol Ex Skill Button Setting
+  [...Array(5).keys()]
+    .map((v) => v + 1)
+    .forEach((divPos) => {
+      [...Array(3).keys()]
+        .map((v) => v + 1)
+        .forEach((exPos) => {
+          $(`#support_${divPos}_ex_${exPos}`).click(function () {
+            viewExDialog(this, "S", divPos, exPos);
+          });
+        });
+    });
+
+  // EX 스킬 표시 초기화
+  convertExSkill($("#exConvertBtn").is(":checked"));
 
   // Fes Deck
   FES_POSITION.forEach((pos, idx) => {
@@ -697,6 +737,10 @@ function convertSpecialTrainingImg(stChk) {
         $(`#specialTrainingInput_${num}`).prop("disabled", false);
       }
       $(".specialTrainingStar").css("visibility", "visible");
+
+      for (var exIdx = 1; exIdx <= 3; exIdx++) {
+        $(`#selectedIdol_${num}_ex_${exIdx}`).attr("class", "ex_view_st");
+      }
     }
     // 특훈 비표시
     // 1. 각 위치의 Div의 세팅 수정
@@ -706,6 +750,10 @@ function convertSpecialTrainingImg(stChk) {
       $(`#selectedIdolView_${num}`).attr("class", "idol_view");
       $(`#specialTrainingInput_${num}`).prop("disabled", true);
       $(".specialTrainingStar").css("visibility", "hidden");
+
+      for (var exIdx = 1; exIdx <= 3; exIdx++) {
+        $(`#selectedIdol_${num}_ex_${exIdx}`).attr("class", "ex_view");
+      }
     }
   });
 }
@@ -877,15 +925,91 @@ function setDeckSpace(deckType, spaceType) {
     else spaceAry = [1, 0, 0, 0, 0];
 
     spaceAry.forEach((space, i) => {
-      $(`#p_space_div_${i + 1}`).css("margin", `0px ${space * spaceSize}px`);
+      $(`.p_space_div_${i + 1}`).css("margin", `0px ${space * spaceSize}px`);
     });
   } else {
     if (spaceType == "1") spaceAry = [0, 0, 0, 0];
     else spaceAry = [1, 1, 1, 1];
 
     spaceAry.forEach((space, i) => {
-      $(`#f_space_div_${i + 1}`).css("margin", `0px ${space * spaceSize}px`);
+      $(`.f_space_div_${i + 1}`).css("margin", `0px ${space * spaceSize}px`);
     });
+  }
+}
+
+/**
+ * EX Skill
+ */
+function viewExDialog(parentObj, cardType, divOffset, exOffset) {
+  $(exDialogDivId).html("");
+  var exNum = 0;
+  var exPrefix = cardType.toLowerCase();
+  var exList;
+
+  if (cardType == "P") {
+    exNum = 76;
+  } else if (cardType == "S") {
+    exNum = 59;
+  }
+
+  exList = [...Array(exNum + 1).keys()].map((v) => {
+    var exNameSrc = `${exPrefix}_${v}`;
+    if (v == 0) exNameSrc = "none";
+    return exNameSrc;
+  });
+
+  exList.forEach((exNameSrc) => {
+    // EX스킬 아이콘 표시
+    $(exDialogDivId).append(
+      $("<img>", {
+        id: `ex_${exNameSrc}`,
+        src: `./img/ex_skill/${exNameSrc}.png`,
+        width: "76px",
+        height: "76px",
+        class: "dialogImg",
+        onerror: "this.src='./img/ex_skill/none.png'",
+      })
+    );
+
+    // EX스킬 아이콘 클릭시 처리
+    $(`#ex_${exNameSrc}`).click(function () {
+      var selDivId = `#selectedIdol_${divOffset}_ex_${exOffset}`;
+      $(selDivId).html(
+        $("<img>", {
+          id: `${selDivId.replace("#", "")}_icon`,
+          src: `./img/ex_skill/${exNameSrc}.png`,
+          width: "76px",
+          height: "76px",
+          onerror: "this.src='./img/ex_skill/none.png'",
+        })
+      );
+      $(exDialogDivId).dialog("close");
+    });
+  });
+
+  var dialogTitle = getLanguageStringByData(viewLanguage, "selectEx");
+  // 다이얼로그 세팅
+  $(exDialogDivId).dialog({
+    modal: true,
+    title: dialogTitle,
+    position: { my: "left top", at: "center", of: parentObj, collision: "fit" },
+    width: "600px",
+  });
+
+  $(".ui-widget-overlay").click(function () {
+    $(exDialogDivId).dialog("close");
+  });
+}
+
+function convertExSkill(exChk) {
+  for (var offset = 0; offset <= 5; offset++) {
+    var exDiv = $(`#selectedIdol_${offset}_ex`);
+
+    if (exChk == true) {
+      exDiv.css("display", "block");
+    } else {
+      exDiv.css("display", "none");
+    }
   }
 }
 
