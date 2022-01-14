@@ -19,18 +19,41 @@ async function init() {
     jsonData = JSON.parse(resp);
   });
 
-  // Produce Deck
-  // Produce Position
+  /*********************
+   * Produce Deck
+   *********************/
+
+  /**
+   * Produce Position
+   */
+  // 아이돌 선택 버튼 처리
   $("#idolCharBtn_Produce").click(function () {
     viewIdolDialog(this, jsonData, "selectedIdolCharViewDiv_Produce", "P", 0);
   });
 
-  // Support Position
+  // 덱에 설정된 카드 아이콘을 클릭해서 카드 변경
+  $(`#selectedIdolView_0`).click(function () {
+    let selectedIdolName = $(`#selectedIdolCharViewDiv_Produce`).children("img").attr("name");
+    setCardByDeckViewDiv(jsonData, selectedIdolName, `selectedIdolView_0`, "P", 0);
+  });
+
+  /**
+   * Support Position
+   */
   [...Array(5).keys()]
     .map((v) => v + 1)
     .forEach((pos) => {
+      // 아이돌 선택 버튼 처리
       $(`#idolCharBtn_Support_${pos}`).click(function () {
         viewIdolDialog(this, jsonData, `selectedIdolCharViewDiv_Support_${pos}`, "S", pos);
+      });
+
+      // 덱에 설정된 카드 아이콘을 클릭해서 카드 변경
+      $(`#selectedIdolView_${pos}`).click(function () {
+        let selectedIdolName = $(`#selectedIdolCharViewDiv_Support_${pos}`)
+          .children("img")
+          .attr("name");
+        setCardByDeckViewDiv(jsonData, selectedIdolName, `selectedIdolView_${pos}`, "S", pos);
       });
     });
 
@@ -55,6 +78,10 @@ async function init() {
       $(`#produce_ex_${exPos}`).click(function () {
         viewExDialog(this, "P", 0, exPos);
       });
+
+      $(`#selectedIdol_0_ex_${exPos}`).click(function () {
+        viewExDialog(this, "P", 0, exPos);
+      });
     });
 
   // Support Idol Ex Skill Button Setting
@@ -67,16 +94,33 @@ async function init() {
           $(`#support_${divPos}_ex_${exPos}`).click(function () {
             viewExDialog(this, "S", divPos, exPos);
           });
+
+          $(`#selectedIdol_${divPos}_ex_${exPos}`).click(function () {
+            viewExDialog(this, "S", divPos, exPos);
+          });
         });
     });
 
   // EX 스킬 표시 초기화
   convertExSkill($("#exConvertBtn").is(":checked"));
 
-  // Fes Deck
+  /*********************
+   * Fes Deck
+   *********************/
+
+  /**
+   * Fes Position
+   */
   FES_POSITION.forEach((pos, idx) => {
+    // 아이돌 선택 버튼 처리
     $(`#idolCharBtn_${pos}`).click(function () {
       viewIdolDialog(this, jsonData, `selectedIdolCharViewDiv_${pos}`, "F", idx);
+    });
+
+    // 덱에 설정된 카드 아이콘을 클릭해서 카드 변경
+    $(`#selectedIdolView_${pos}`).click(function () {
+      let selectedIdolName = $(`#selectedIdolCharViewDiv_${pos}`).children("img").attr("name");
+      setCardByDeckViewDiv(jsonData, selectedIdolName, `selectedIdolCharViewDiv_${pos}`, "F", idx);
     });
   });
 
@@ -89,6 +133,7 @@ async function init() {
   $("#pDeckReset").click(function () {
     const pDeckCardPosAry = [...Array(6).keys()];
     viewReset(pDeckCardPosAry.map((v) => `${v}_card`));
+    exReset();
 
     // 특훈 초기화
     pDeckCardPosAry.forEach((pos) => {
@@ -142,10 +187,45 @@ async function init() {
   setFesPosIcon();
 }
 
+/**
+ * 덱의 카드 아이콘을 초기화
+ */
 function viewReset(posAry) {
   posAry.forEach((pos) => {
     $(`#selectedIdolView_${pos}`).remove();
   });
+}
+
+/**
+ * EX스킬 아이콘을 초기화
+ */
+function exReset() {
+  [...Array(6).keys()].forEach((divPos) => {
+    [...Array(3).keys()]
+      .map((v) => v + 1)
+      .forEach((exPos) => {
+        $(`#selectedIdol_${divPos}_ex_${exPos}`)
+          .children("img")
+          .attr("src", "./img/ex_skill/none.png");
+      });
+  });
+}
+
+/**
+ * 카드 덱의 아이콘을 선택해서 카드 재선택
+ */
+function setCardByDeckViewDiv(jsonData, selectedIdolName, divId, cardType, offset) {
+  let selectedIdx = Object.values(jsonData).findIndex((obj) => {
+    return obj.idol_en_name.toLowerCase() == selectedIdolName;
+  });
+
+  if (selectedIdx !== -1) {
+    let name = jsonData[selectedIdx].idol_en_name.toLowerCase();
+    let insight = jsonData[selectedIdx].insight;
+    let idolIdx = selectedIdx;
+
+    viewCard(divId, name, insight, idolIdx, cardType, offset);
+  }
 }
 
 /**
