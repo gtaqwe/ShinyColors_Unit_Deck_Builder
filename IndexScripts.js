@@ -760,6 +760,23 @@ function viewCardDialog(parentObj, obj, cardType, offset) {
     $(cardDialogDivId).dialog("close");
   });
 
+  // 카드 미선택 아이콘 선택 처리
+  $(cardDialogDivId).append(
+    $("<img>", {
+      id: `none_card`,
+      src: `./img/assets/Blank_Idol.png`,
+      width: "96px",
+      height: "96px",
+      class: "dialogImg",
+      onerror: "this.src='./img/assets/Blank_Idol.png'",
+    })
+  );
+  $(`#none_card`).click(function () {
+    var selDivId = `#selectedIdolView_${divOffset}`;
+    setSelectCard(selDivId, `assets/`, "Blank_Idol");
+    $(cardDialogDivId).dialog("close");
+  });
+
   var dialogTitle = getLanguageStringByData(viewLanguage, "selectCard");
 
   // 다이얼로그 세팅
