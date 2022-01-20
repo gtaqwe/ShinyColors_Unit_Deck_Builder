@@ -26,6 +26,9 @@
 				},
 				{
 					"card_addr": "mano_p_ssr6"
+				},
+				{
+					"card_addr": "mano_p_ssr7"
 				}
 			],
 			"P_SR": [
@@ -837,6 +840,9 @@
 				},
 				{
 					"card_addr": "kaho_p_sr4"
+				},
+				{
+					"card_addr": "kaho_p_sr5"
 				}
 			],
 			"S_SSR": [
@@ -1900,6 +1906,9 @@
 				},
 				{
 					"card_addr": "madoka_p_sr1"
+				},
+				{
+					"card_addr": "madoka_p_sr2"
 				}
 			],
 			"S_SSR": [
