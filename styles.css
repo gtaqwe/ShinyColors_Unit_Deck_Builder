@@ -49,6 +49,11 @@ input[type="button"] {
   padding-right: 10px;
 }
 
+.idol_view_insight {
+  margin: 0px;
+  height: 35px;
+}
+
 .noMargin_inlineBlock {
   margin: 0px;
   display: inline-block;

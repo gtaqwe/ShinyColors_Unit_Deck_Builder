@@ -104,6 +104,9 @@ async function init() {
   // EX 스킬 표시 초기화
   convertExSkill($("#exConvertBtn").is(":checked"));
 
+  // 히라메키 표시 초기화
+  convertInsightImg($("#insightConvertBtn").is(":checked"));
+
   /*********************
    * Fes Deck
    *********************/
@@ -574,7 +577,7 @@ function viewIdolDialog(parentObj, obj, divId, cardType, offset) {
     // 서포터 아이돌 목록에 히라메키 아이콘을 표시
     var insightChk = $("#insightConvertBtn").is(":checked");
     if (cardType == "S" && insightChk == true)
-      $(`#idolDiv_${idolNameSrc}`).append($("<img>", getInsightImg(idolInsight)));
+      $(`#idolDiv_${idolNameSrc}`).append($("<img>", getInsightImg(idolInsight, 1)));
   }
 
   var dialogTitle = getLanguageStringByData(viewLanguage, "selectIdol");
@@ -607,11 +610,18 @@ function getIdolImg(name, insight) {
 /**
  * 히라메키 이미지 Return
  */
-function getInsightImg(insight) {
-  return {
-    src: `./img/assets/${insight}_Insight.png`,
-    style: "position: absolute; width: 35px; height: 35px; bottom: 0px; right: 0px;",
-  };
+function getInsightImg(insight, type) {
+  if (type == 1) {
+    return {
+      src: `./img/assets/${insight}_Insight_${type}.png`,
+      style: "position: absolute; width: 35px; height: 35px; bottom: 0px; right: 0px;",
+    };
+  } else if (type == 2) {
+    return {
+      src: `./img/assets/${insight}_Insight_${type}.png`,
+      style: "width: 96px; height: 35px; bottom: 0px; right: 0px;",
+    };
+  }
 }
 
 /**
@@ -656,13 +666,13 @@ function setCardList(insight, idolIdx, cardType, offset) {
   // 서포터 카드의 경우
   else if (cardType == "S") {
     $(`#idolCardBtn_Support_${offset}`).click(function () {
-      viewCardDialog(this, jsonData[idolIdx], cardType, offset);
+      viewCardDialog(this, jsonData[idolIdx], cardType, offset, insight);
     });
     $(`#idolCardBtn_Support_${offset}`).css("visibility", "visible");
 
     var insightChk = $("#insightConvertBtn").is(":checked");
     if (insightChk == true) {
-      $(`#selectedIdolCharViewDiv_Support_${offset}`).append($("<img>", getInsightImg(insight)));
+      $(`#selectedIdolCharViewDiv_Support_${offset}`).append($("<img>", getInsightImg(insight, 1)));
     }
   }
   // 페스 카드의 경우
@@ -677,7 +687,7 @@ function setCardList(insight, idolIdx, cardType, offset) {
 /**
  * 카드 선택 버튼 클릭시 각 아이돌의 카드 이미지를 보여주는 다이얼로그를 표시
  */
-function viewCardDialog(parentObj, obj, cardType, offset) {
+function viewCardDialog(parentObj, obj, cardType, offset, insight = "") {
   var type_list;
   var divOffset;
   var imgPath;
@@ -732,8 +742,13 @@ function viewCardDialog(parentObj, obj, cardType, offset) {
       // 카드 선택시 덱에 입력
       $(`#${card.card_addr}`).click(function () {
         var selDivId = `#selectedIdolView_${divOffset}`;
-        setSelectCard(selDivId, imgPath, this.id);
+        setSelectCard(selDivId, imgPath, this.id, insight);
         $(cardDialogDivId).dialog("close");
+
+        // 카드 타입이 S인 경우 히라메키 표시 초기화
+        if (cardType == "S") {
+          convertInsightImg($("#insightConvertBtn").is(":checked"));
+        }
       });
     });
 
@@ -795,16 +810,20 @@ function viewCardDialog(parentObj, obj, cardType, offset) {
 /**
  * 카드 선택시 해당되는 위치에 카드 이미지 설정
  */
-function setSelectCard(divId, imgPath, cardAddr) {
-  $(divId).html(
-    $("<img>", {
-      id: `${divId.replace("#", "")}_card`,
-      src: `./img/${imgPath}${cardAddr}.png`,
-      width: "96px",
-      height: "96px",
-      onerror: "this.src='./img/assets/Blank_Idol.png'",
-    })
-  );
+function setSelectCard(divId, imgPath, cardAddr, insight = "") {
+  var imgObj = {
+    id: `${divId.replace("#", "")}_card`,
+    src: `./img/${imgPath}${cardAddr}.png`,
+    width: "96px",
+    height: "96px",
+    onerror: "this.src='./img/assets/Blank_Idol.png'",
+  };
+
+  if (insight != "") {
+    imgObj["insight"] = insight;
+  }
+
+  $(divId).html($("<img>", imgObj));
 
   setFesPosIcon();
 
@@ -988,25 +1007,52 @@ function convertFesDeckImg(fesChk) {
  * 서포터 아이돌 이미지에 히라메키 아이콘 표시 설정
  */
 function convertInsightImg(insightChk) {
-  for (var offset = 1; offset <= 5; offset++) {
-    var imgCode = $(`#selectedIdolCharViewDiv_Support_${offset}`).children("img");
+  [...Array(5).keys()]
+    .map((v) => v + 1)
+    .forEach((offset) => {
+      var imgCode = $(`#selectedIdolCharViewDiv_Support_${offset}`).children("img");
 
-    if (imgCode.length > 0) {
-      var idolNameSrc = imgCode.attr("name");
-      var insight = imgCode.attr("insight");
-
+      // 아이돌, 카드선택 히라메키 표시
       $(`#selectedIdolCharViewDiv_Support_${offset}`).html("");
-      if (insightChk == true) {
-        $(`#selectedIdolCharViewDiv_Support_${offset}`).append(
-          $("<img>", getIdolImg(idolNameSrc, insight))
-        );
-        $(`#selectedIdolCharViewDiv_Support_${offset}`).append($("<img>", getInsightImg(insight)));
-      } else {
-        $(`#selectedIdolCharViewDiv_Support_${offset}`).append(
-          $("<img>", getIdolImg(idolNameSrc, insight))
-        );
+      if (imgCode.length > 0) {
+        var idolNameSrc = imgCode.attr("name");
+        var insight = imgCode.attr("insight");
+
+        if (insightChk == true) {
+          $(`#selectedIdolCharViewDiv_Support_${offset}`).append(
+            $("<img>", getIdolImg(idolNameSrc, insight))
+          );
+          $(`#selectedIdolCharViewDiv_Support_${offset}`).append(
+            $("<img>", getInsightImg(insight, 1))
+          );
+        } else {
+          $(`#selectedIdolCharViewDiv_Support_${offset}`).append(
+            $("<img>", getIdolImg(idolNameSrc, insight))
+          );
+        }
       }
-    }
+
+      // 덱 히라메키 표시
+      $(`#selectedIdol_${offset}_insight`).html("");
+      var selectedCard = $(`#selectedIdolView_${offset}`).children("img");
+
+      if (insightChk == true) {
+        $(`#selectedIdol_${offset}_insight`).css("display", "block");
+        if (imgCode.length > 0 && selectedCard.length > 0) {
+          // 카드에 저장된 히라메키 정보를 취득
+          var insightByCard = selectedCard.attr("insight");
+          $(`#selectedIdol_${offset}_insight`).append($("<img>", getInsightImg(insightByCard, 2)));
+        }
+      } else {
+        $(`#selectedIdol_${offset}_insight`).css("display", "none");
+      }
+    });
+
+  // 프로듀스 카드는 히라메키가 없지만 레이아웃을 맞추기 위해 조정
+  if (insightChk == true) {
+    $(`#selectedIdol_0_insight`).css("display", "block");
+  } else {
+    $(`#selectedIdol_0_insight`).css("display", "none");
   }
 }
 
