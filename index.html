@@ -189,22 +189,6 @@
 
     <!-- Options -->
     <div>
-      <!-- 히라메키 -->
-      <div style="display: flex">
-        <label style="margin: 5px 10px">
-          <label class="switch">
-            <input
-              type="checkbox"
-              id="insightConvertBtn"
-              onchange="convertInsightImg($('#insightConvertBtn').is(':checked'))"
-            />
-            <span class="slider round"></span>
-          </label>
-
-          <span data-lang="showInsight">히라메키 표시</span>
-        </label>
-      </div>
-
       <hr />
 
       <!-- 아이콘간 여백 설정 -->
@@ -242,22 +226,38 @@
         </fieldset>
       </div>
 
-      <!-- EX스킬 표시 -->
-      <div style="display: flex">
-        <label style="margin: 5px 10px">
-          <label class="switch">
-            <input
-              type="checkbox"
-              id="exConvertBtn"
-              onchange="convertExSkill($('#exConvertBtn').is(':checked'))"
-            />
-            <span class="slider round"></span>
+      <div style="margin: 0px">
+        <!-- 히라메키 -->
+        <div style="margin: 0px; display: inline-flex">
+          <label style="margin: 5px 10px">
+            <label class="switch">
+              <input
+                type="checkbox"
+                id="insightConvertBtn"
+                onchange="convertInsightImg($('#insightConvertBtn').is(':checked'))"
+              />
+              <span class="slider round"></span>
+            </label>
+
+            <span data-lang="showInsight">히라메키 표시</span>
           </label>
+        </div>
+        <!-- EX스킬 표시 -->
+        <div style="margin: 0px; display: inline-flex">
+          <label style="margin: 5px 10px">
+            <label class="switch">
+              <input
+                type="checkbox"
+                id="exConvertBtn"
+                onchange="convertExSkill($('#exConvertBtn').is(':checked'))"
+              />
+              <span class="slider round"></span>
+            </label>
 
-          <span data-lang="showExSkill">EX스킬 표시</span>
-        </label>
+            <span data-lang="showExSkill">EX스킬 표시</span>
+          </label>
+        </div>
       </div>
-
       <!-- 캡쳐 -->
       <div class="noMargin_inlineBlock">
         <div>
