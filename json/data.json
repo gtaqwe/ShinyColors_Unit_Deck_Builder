@@ -361,6 +361,9 @@
 				},
 				{
 					"card_addr": "kogane_p_sr4"
+				},
+				{
+					"card_addr": "kogane_p_sr5"
 				}
 			],
 			"S_SSR": [
@@ -1212,6 +1215,9 @@
 				},
 				{
 					"card_addr": "natsuha_p_ssr6"
+				},
+				{
+					"card_addr": "natsuha_p_ssr7"
 				}
 			],
 			"P_SR": [
@@ -2152,6 +2158,9 @@
 				},
 				{
 					"card_addr": "mikoto_s_ssr3"
+				},
+				{
+					"card_addr": "mikoto_s_ssr4"
 				}
 			],
 			"S_SR": [
