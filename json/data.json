@@ -1519,6 +1519,9 @@
 				},
 				{
 					"card_addr": "chiyuki_p_ssr6"
+				},
+				{
+					"card_addr": "chiyuki_p_ssr7"
 				}
 			],
 			"P_SR": [
@@ -1881,6 +1884,9 @@
 				},
 				{
 					"card_addr": "toru_s_sr2"
+				},
+				{
+					"card_addr": "toru_s_sr3"
 				}
 			],
 			"P_R": [
