@@ -135,7 +135,7 @@ async function init() {
   // 프로듀스덱 리셋버튼 설정
   $("#pDeckReset").click(function () {
     const pDeckCardPosAry = [...Array(6).keys()];
-    viewReset(pDeckCardPosAry.map((v) => `${v}_card`));
+    viewListReset(pDeckCardPosAry.map((v) => `${v}_card`));
     exReset();
 
     // 특훈 초기화
@@ -151,8 +151,8 @@ async function init() {
 
   // 페스덱 리셋버튼 설정
   $("#fDeckReset").click(function () {
-    viewReset(FES_POSITION.map((v) => `${v}_card`));
-    viewReset(FES_POSITION.map((v) => `${v}_pos`));
+    viewListReset(FES_POSITION.map((v) => `${v}_card`));
+    viewListReset(FES_POSITION.map((v) => `${v}_pos`));
   });
 
   // Query Parameter
@@ -191,12 +191,19 @@ async function init() {
 }
 
 /**
- * 덱의 카드 아이콘을 초기화
+ * 덱의 복수의 카드 아이콘을 초기화
  */
-function viewReset(posAry) {
-  posAry.forEach((pos) => {
-    $(`#selectedIdolView_${pos}`).remove();
+function viewListReset(posList) {
+  posList.forEach((posId) => {
+    viewReset(posId);
   });
+}
+
+/**
+ * 덱의 단일의 카드 아이콘을 초기화
+ */
+function viewReset(posId) {
+  $(`#selectedIdolView_${posId}`).remove();
 }
 
 /**
