@@ -104,8 +104,8 @@ async function init() {
   // EX 스킬 표시 초기화
   convertExSkill($("#exConvertBtn").is(":checked"));
 
-  // 히라메키 표시 초기화
-  convertInsightImg($("#insightConvertBtn").is(":checked"));
+  // 옵션 능력 표시 초기화
+  convertOptionAbilityImg($(':radio[name="option_ability"]:checked').val());
 
   /*********************
    * Fes Deck
@@ -582,7 +582,7 @@ function viewIdolDialog(parentObj, obj, divId, cardType, offset) {
 
     // 히라메키 표시가 체크되어있는 경우
     // 서포터 아이돌 목록에 히라메키 아이콘을 표시
-    var insightChk = $("#insightConvertBtn").is(":checked");
+    var insightChk = $(':radio[name="option_ability"]:checked').val() == "insight";
     if (cardType == "S" && insightChk == true)
       $(`#idolDiv_${idolNameSrc}`).append($("<img>", getInsightImg(idolInsight, 1)));
   }
@@ -631,6 +631,20 @@ function getInsightImg(insight, type) {
   }
 }
 
+function getIdeaImg(idea) {
+  return {
+    src: `./img/assets/${idea}_Idea.png`,
+    style: "width: 96px; height: 35px; bottom: 0px; right: 0px;",
+  };
+}
+
+function getProficiencyImg(prof) {
+  return {
+    src: `./img/assets/${prof}_Prof.png`,
+    style: "width: 96px; height: 35px; bottom: 0px; right: 0px;",
+  };
+}
+
 /**
  * 아이돌 선택시 해당 아이돌의 카드를 표시하도록 세팅 후
  * 선택 할 수 있도록 카드 다이얼로그를 전개
@@ -677,7 +691,7 @@ function setCardList(insight, idolIdx, cardType, offset) {
     });
     $(`#idolCardBtn_Support_${offset}`).css("visibility", "visible");
 
-    var insightChk = $("#insightConvertBtn").is(":checked");
+    var insightChk = $(':radio[name="option_ability"]:checked').val() == "insight";
     if (insightChk == true) {
       $(`#selectedIdolCharViewDiv_Support_${offset}`).append($("<img>", getInsightImg(insight, 1)));
     }
@@ -746,15 +760,26 @@ function viewCardDialog(parentObj, obj, cardType, offset, insight = "") {
         })
       );
 
+      let optionAbility;
+      if (cardType == "S") {
+        optionAbility = {
+          idea: card["card_idea"],
+          insight: insight,
+          proficiency: card["card_prof"].join("_"),
+        };
+      } else {
+        optionAbility = undefined;
+      }
+
       // 카드 선택시 덱에 입력
       $(`#${card.card_addr}`).click(function () {
         var selDivId = `#selectedIdolView_${divOffset}`;
-        setSelectCard(selDivId, imgPath, this.id, insight);
+        setSelectCard(selDivId, imgPath, this.id, optionAbility);
         $(cardDialogDivId).dialog("close");
 
         // 카드 타입이 S인 경우 히라메키 표시 초기화
         if (cardType == "S") {
-          convertInsightImg($("#insightConvertBtn").is(":checked"));
+          convertOptionAbilityImg($(':radio[name="option_ability"]:checked').val());
         }
       });
     });
@@ -778,7 +803,12 @@ function viewCardDialog(parentObj, obj, cardType, offset, insight = "") {
   );
   $(`#${idolName}_char`).click(function () {
     var selDivId = `#selectedIdolView_${divOffset}`;
-    setSelectCard(selDivId, `icon_char/`, idolName);
+    optionAbility = {
+      idea: "",
+      insight: insight,
+      proficiency: "",
+    };
+    setSelectCard(selDivId, `icon_char/`, idolName, optionAbility);
     $(cardDialogDivId).dialog("close");
   });
 
@@ -817,7 +847,7 @@ function viewCardDialog(parentObj, obj, cardType, offset, insight = "") {
 /**
  * 카드 선택시 해당되는 위치에 카드 이미지 설정
  */
-function setSelectCard(divId, imgPath, cardAddr, insight = "") {
+function setSelectCard(divId, imgPath, cardAddr, optionAbility = undefined) {
   var imgObj = {
     id: `${divId.replace("#", "")}_card`,
     src: `./img/${imgPath}${cardAddr}.png`,
@@ -826,11 +856,23 @@ function setSelectCard(divId, imgPath, cardAddr, insight = "") {
     onerror: "this.src='./img/assets/Blank_Idol.png'",
   };
 
-  if (insight != "") {
-    imgObj["insight"] = insight;
+  if (optionAbility != undefined) {
+    if (optionAbility["idea"] != "") {
+      imgObj["idea"] = optionAbility["idea"];
+    }
+
+    if (optionAbility["insight"] != "") {
+      imgObj["insight"] = optionAbility["insight"];
+    }
+
+    if (optionAbility["proficiency"] != "") {
+      imgObj["proficiency"] = optionAbility["proficiency"];
+    }
   }
 
   $(divId).html($("<img>", imgObj));
+
+  convertOptionAbilityImg($(':radio[name="option_ability"]:checked').val());
 
   setFesPosIcon();
 
@@ -1011,21 +1053,21 @@ function convertFesDeckImg(fesChk) {
 }
 
 /**
- * 서포터 아이돌 이미지에 히라메키 아이콘 표시 설정
+ * 서포터 아이돌 이미지에 각 옵션 능력 아이콘 표시 설정
  */
-function convertInsightImg(insightChk) {
+function convertOptionAbilityImg(optionVal) {
   [...Array(5).keys()]
     .map((v) => v + 1)
     .forEach((offset) => {
       var imgCode = $(`#selectedIdolCharViewDiv_Support_${offset}`).children("img");
 
-      // 아이돌, 카드선택 히라메키 표시
+      // 히라메키 선택시, 아이돌선택과 카드선택에 히라메키 표시
       $(`#selectedIdolCharViewDiv_Support_${offset}`).html("");
       if (imgCode.length > 0) {
         var idolNameSrc = imgCode.attr("name");
         var insight = imgCode.attr("insight");
 
-        if (insightChk == true) {
+        if (optionVal == "insight") {
           $(`#selectedIdolCharViewDiv_Support_${offset}`).append(
             $("<img>", getIdolImg(idolNameSrc, insight))
           );
@@ -1040,26 +1082,52 @@ function convertInsightImg(insightChk) {
       }
 
       // 덱 히라메키 표시
-      $(`#selectedIdol_${offset}_insight`).html("");
+      $(`#selectedIdol_${offset}_option`).html("");
       var selectedCard = $(`#selectedIdolView_${offset}`).children("img");
 
-      if (insightChk == true) {
-        $(`#selectedIdol_${offset}_insight`).css("display", "block");
+      if (optionVal == "idea") {
+        $(`#selectedIdol_${offset}_option`).css("display", "block");
+        if (imgCode.length > 0 && selectedCard.length > 0) {
+          // 카드에 저장된 아이디어 정보를 취득
+          var optionByCard = selectedCard.attr("idea");
+          if (optionByCard != undefined) {
+            $(`#selectedIdol_${offset}_option`).append($("<img>", getIdeaImg(optionByCard)));
+          } else {
+            $(`#selectedIdol_${offset}_option`).css("display", "none");
+          }
+        }
+      } else if (optionVal == "insight") {
+        $(`#selectedIdol_${offset}_option`).css("display", "block");
         if (imgCode.length > 0 && selectedCard.length > 0) {
           // 카드에 저장된 히라메키 정보를 취득
-          var insightByCard = selectedCard.attr("insight");
-          $(`#selectedIdol_${offset}_insight`).append($("<img>", getInsightImg(insightByCard, 2)));
+          var optionByCard = selectedCard.attr("insight");
+          if (optionByCard != undefined) {
+            $(`#selectedIdol_${offset}_option`).append($("<img>", getInsightImg(optionByCard, 2)));
+          } else {
+            $(`#selectedIdol_${offset}_option`).css("display", "none");
+          }
+        }
+      } else if (optionVal == "proficiency") {
+        $(`#selectedIdol_${offset}_option`).css("display", "block");
+        if (imgCode.length > 0 && selectedCard.length > 0) {
+          // 카드에 저장된 숙련도 정보를 취득
+          var optionByCard = selectedCard.attr("proficiency");
+          if (optionByCard != undefined) {
+            $(`#selectedIdol_${offset}_option`).append($("<img>", getProficiencyImg(optionByCard)));
+          } else {
+            $(`#selectedIdol_${offset}_option`).css("display", "none");
+          }
         }
       } else {
-        $(`#selectedIdol_${offset}_insight`).css("display", "none");
+        $(`#selectedIdol_${offset}_option`).css("display", "none");
       }
     });
 
-  // 프로듀스 카드는 히라메키가 없지만 레이아웃을 맞추기 위해 조정
-  if (insightChk == true) {
-    $(`#selectedIdol_0_insight`).css("display", "block");
+  // 프로듀스 카드는 옵션이 없지만 레이아웃을 맞추기 위해 조정
+  if (optionVal != "none") {
+    $(`#selectedIdol_0_option`).css("display", "block");
   } else {
-    $(`#selectedIdol_0_insight`).css("display", "none");
+    $(`#selectedIdol_0_option`).css("display", "none");
   }
 }
 

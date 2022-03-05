@@ -53,48 +53,108 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "mano_s_ssr1"
+					"card_addr": "mano_s_ssr1",
+					"card_idea": "Talk",
+					"card_prof": [
+						"VocalProwess",
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "mano_s_ssr2"
+					"card_addr": "mano_s_ssr2",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "mano_s_ssr3"
+					"card_addr": "mano_s_ssr3",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "mano_s_ssr4"
+					"card_addr": "mano_s_ssr4",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"VocalProwess",
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "mano_s_ssr5"
+					"card_addr": "mano_s_ssr5",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "mano_s_ssr6"
+					"card_addr": "mano_s_ssr6",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "mano_s_ssr7"
+					"card_addr": "mano_s_ssr7",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "mano_s_ssr8"
+					"card_addr": "mano_s_ssr8",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess",
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "mano_s_ssr9"
+					"card_addr": "mano_s_ssr9",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "mano_s_ssr10"
+					"card_addr": "mano_s_ssr10",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Focus",
+						"Teamwork"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "mano_s_sr1"
+					"card_addr": "mano_s_sr1",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "mano_s_sr2"
+					"card_addr": "mano_s_sr2",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "mano_s_sr3"
+					"card_addr": "mano_s_sr3",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "mano_s_sr4"
+					"card_addr": "mano_s_sr4",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				}
 			],
 			"P_R": [
@@ -104,7 +164,11 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "mano_s_r0"
+					"card_addr": "mano_s_r0",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				}
 			]
 		}
@@ -157,48 +221,110 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "hiori_s_ssr1"
+					"card_addr": "hiori_s_ssr1",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability",
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "hiori_s_ssr2"
+					"card_addr": "hiori_s_ssr2",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "hiori_s_ssr3"
+					"card_addr": "hiori_s_ssr3",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Stability",
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "hiori_s_ssr4"
+					"card_addr": "hiori_s_ssr4",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus",
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "hiori_s_ssr5"
+					"card_addr": "hiori_s_ssr5",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Stability",
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "hiori_s_ssr6"
+					"card_addr": "hiori_s_ssr6",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Stability",
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "hiori_s_ssr7"
+					"card_addr": "hiori_s_ssr7",
+					"card_idea": "Talk",
+					"card_prof": [
+						"VocalProwess",
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "hiori_s_ssr8"
+					"card_addr": "hiori_s_ssr8",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "hiori_s_sr1"
+					"card_addr": "hiori_s_sr1",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "hiori_s_sr2"
+					"card_addr": "hiori_s_sr2",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "hiori_s_sr3"
+					"card_addr": "hiori_s_sr3",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "hiori_s_sr4"
+					"card_addr": "hiori_s_sr4",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "hiori_s_sr5"
+					"card_addr": "hiori_s_sr5",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "hiori_s_sr6"
+					"card_addr": "hiori_s_sr6",
+					"card_idea": "Visual",
+					"card_prof": [
+						"VocalProwess"
+					]
 				}
 			],
 			"P_R": [
@@ -208,7 +334,11 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "hiori_s_r0"
+					"card_addr": "hiori_s_r0",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				}
 			]
 		}
@@ -264,45 +394,100 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "meguru_s_ssr1"
+					"card_addr": "meguru_s_ssr1",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Stability",
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "meguru_s_ssr2"
+					"card_addr": "meguru_s_ssr2",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "meguru_s_ssr3"
+					"card_addr": "meguru_s_ssr3",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "meguru_s_ssr4"
+					"card_addr": "meguru_s_ssr4",
+					"card_idea": "Dance",
+					"card_prof": [
+						"VocalProwess",
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "meguru_s_ssr5"
+					"card_addr": "meguru_s_ssr5",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability",
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "meguru_s_ssr6"
+					"card_addr": "meguru_s_ssr6",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "meguru_s_ssr7"
+					"card_addr": "meguru_s_ssr7",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "meguru_s_ssr8"
+					"card_addr": "meguru_s_ssr8",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "meguru_s_sr1"
+					"card_addr": "meguru_s_sr1",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "meguru_s_sr2"
+					"card_addr": "meguru_s_sr2",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "meguru_s_sr3"
+					"card_addr": "meguru_s_sr3",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "meguru_s_sr4"
+					"card_addr": "meguru_s_sr4",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "meguru_s_sr5"
+					"card_addr": "meguru_s_sr5",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				}
 			],
 			"P_R": [
@@ -312,7 +497,11 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "meguru_s_r0"
+					"card_addr": "meguru_s_r0",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				}
 			]
 		}
@@ -368,42 +557,94 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "kogane_s_ssr1"
+					"card_addr": "kogane_s_ssr1",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "kogane_s_ssr2"
+					"card_addr": "kogane_s_ssr2",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess",
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "kogane_s_ssr3"
+					"card_addr": "kogane_s_ssr3",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "kogane_s_ssr4"
+					"card_addr": "kogane_s_ssr4",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability",
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "kogane_s_ssr5"
+					"card_addr": "kogane_s_ssr5",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "kogane_s_ssr6"
+					"card_addr": "kogane_s_ssr6",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Expressiveness",
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "kogane_s_ssr7"
+					"card_addr": "kogane_s_ssr7",
+					"card_idea": "Talk",
+					"card_prof": [
+						"VocalProwess",
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "kogane_s_ssr8"
+					"card_addr": "kogane_s_ssr8",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Focus"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "kogane_s_sr1"
+					"card_addr": "kogane_s_sr1",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "kogane_s_sr2"
+					"card_addr": "kogane_s_sr2",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "kogane_s_sr3"
+					"card_addr": "kogane_s_sr3",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "kogane_s_sr4"
+					"card_addr": "kogane_s_sr4",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				}
 			],
 			"P_R": [
@@ -413,7 +654,11 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "kogane_s_r0"
+					"card_addr": "kogane_s_r0",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				}
 			]
 		}
@@ -469,36 +714,80 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "mamimi_s_ssr1"
+					"card_addr": "mamimi_s_ssr1",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "mamimi_s_ssr2"
+					"card_addr": "mamimi_s_ssr2",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Expressiveness",
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "mamimi_s_ssr3"
+					"card_addr": "mamimi_s_ssr3",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "mamimi_s_ssr4"
+					"card_addr": "mamimi_s_ssr4",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Stability",
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "mamimi_s_ssr5"
+					"card_addr": "mamimi_s_ssr5",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess",
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "mamimi_s_ssr6"
+					"card_addr": "mamimi_s_ssr6",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "mamimi_s_ssr7"
+					"card_addr": "mamimi_s_ssr7",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess",
+						"Expressiveness"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "mamimi_s_sr1"
+					"card_addr": "mamimi_s_sr1",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "mamimi_s_sr2"
+					"card_addr": "mamimi_s_sr2",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "mamimi_s_sr3"
+					"card_addr": "mamimi_s_sr3",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				}
 			],
 			"P_R": [
@@ -508,12 +797,20 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "mamimi_s_r0"
+					"card_addr": "mamimi_s_r0",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				}
 			],
 			"S_N": [
 				{
-					"card_addr": "mamimi_s_n0"
+					"card_addr": "mamimi_s_n0",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				}
 			]
 		}
@@ -566,39 +863,88 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "sakuya_s_ssr1"
+					"card_addr": "sakuya_s_ssr1",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Expressiveness",
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "sakuya_s_ssr2"
+					"card_addr": "sakuya_s_ssr2",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess",
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "sakuya_s_ssr3"
+					"card_addr": "sakuya_s_ssr3",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Stability",
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "sakuya_s_ssr4"
+					"card_addr": "sakuya_s_ssr4",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability",
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "sakuya_s_ssr5"
+					"card_addr": "sakuya_s_ssr5",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "sakuya_s_ssr6"
+					"card_addr": "sakuya_s_ssr6",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "sakuya_s_ssr7"
+					"card_addr": "sakuya_s_ssr7",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Stability",
+						"Teamwork"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "sakuya_s_sr1"
+					"card_addr": "sakuya_s_sr1",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "sakuya_s_sr2"
+					"card_addr": "sakuya_s_sr2",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "sakuya_s_sr3"
+					"card_addr": "sakuya_s_sr3",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "sakuya_s_sr4"
+					"card_addr": "sakuya_s_sr4",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				}
 			],
 			"P_R": [
@@ -608,12 +954,20 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "sakuya_s_r0"
+					"card_addr": "sakuya_s_r0",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				}
 			],
 			"S_N": [
 				{
-					"card_addr": "sakuya_s_n0"
+					"card_addr": "sakuya_s_n0",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				}
 			]
 		}
@@ -666,39 +1020,87 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "yuika_s_ssr1"
+					"card_addr": "yuika_s_ssr1",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "yuika_s_ssr2"
+					"card_addr": "yuika_s_ssr2",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness",
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "yuika_s_ssr3"
+					"card_addr": "yuika_s_ssr3",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "yuika_s_ssr4"
+					"card_addr": "yuika_s_ssr4",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess",
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "yuika_s_ssr5"
+					"card_addr": "yuika_s_ssr5",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess",
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "yuika_s_ssr6"
+					"card_addr": "yuika_s_ssr6",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "yuika_s_ssr7"
+					"card_addr": "yuika_s_ssr7",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness",
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "yuika_s_ssr8"
+					"card_addr": "yuika_s_ssr8",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Focus"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "yuika_s_sr1"
+					"card_addr": "yuika_s_sr1",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "yuika_s_sr2"
+					"card_addr": "yuika_s_sr2",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "yuika_s_sr3"
+					"card_addr": "yuika_s_sr3",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				}
 			],
 			"P_R": [
@@ -708,7 +1110,11 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "yuika_s_r0"
+					"card_addr": "yuika_s_r0",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				}
 			]
 		}
@@ -764,36 +1170,79 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "kiriko_s_ssr1"
+					"card_addr": "kiriko_s_ssr1",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "kiriko_s_ssr2"
+					"card_addr": "kiriko_s_ssr2",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Stability",
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "kiriko_s_ssr3"
+					"card_addr": "kiriko_s_ssr3",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Expressiveness",
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "kiriko_s_ssr4"
+					"card_addr": "kiriko_s_ssr4",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "kiriko_s_ssr5"
+					"card_addr": "kiriko_s_ssr5",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "kiriko_s_ssr6"
+					"card_addr": "kiriko_s_ssr6",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess",
+						"Stability"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "kiriko_s_sr1"
+					"card_addr": "kiriko_s_sr1",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "kiriko_s_sr2"
+					"card_addr": "kiriko_s_sr2",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "kiriko_s_sr3"
+					"card_addr": "kiriko_s_sr3",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "kiriko_s_sr4"
+					"card_addr": "kiriko_s_sr4",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				}
 			],
 			"P_R": [
@@ -803,7 +1252,11 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "kiriko_s_r0"
+					"card_addr": "kiriko_s_r0",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				}
 			]
 		}
@@ -862,36 +1315,79 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "kaho_s_ssr1"
+					"card_addr": "kaho_s_ssr1",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness",
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "kaho_s_ssr2"
+					"card_addr": "kaho_s_ssr2",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "kaho_s_ssr3"
+					"card_addr": "kaho_s_ssr3",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"VocalProwess",
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "kaho_s_ssr4"
+					"card_addr": "kaho_s_ssr4",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "kaho_s_ssr5"
+					"card_addr": "kaho_s_ssr5",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess",
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "kaho_s_ssr6"
+					"card_addr": "kaho_s_ssr6",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "kaho_s_sr1"
+					"card_addr": "kaho_s_sr1",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "kaho_s_sr2"
+					"card_addr": "kaho_s_sr2",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "kaho_s_sr3"
+					"card_addr": "kaho_s_sr3",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "kaho_s_sr4"
+					"card_addr": "kaho_s_sr4",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				}
 			],
 			"P_R": [
@@ -901,7 +1397,11 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "kaho_s_r0"
+					"card_addr": "kaho_s_r0",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				}
 			]
 		}
@@ -954,39 +1454,85 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "chiyoko_s_ssr1"
+					"card_addr": "chiyoko_s_ssr1",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "chiyoko_s_ssr2"
+					"card_addr": "chiyoko_s_ssr2",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability",
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "chiyoko_s_ssr3"
+					"card_addr": "chiyoko_s_ssr3",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "chiyoko_s_ssr4"
+					"card_addr": "chiyoko_s_ssr4",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "chiyoko_s_ssr5"
+					"card_addr": "chiyoko_s_ssr5",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "chiyoko_s_ssr6"
+					"card_addr": "chiyoko_s_ssr6",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "chiyoko_s_ssr7"
+					"card_addr": "chiyoko_s_ssr7",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess",
+						"Focus"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "chiyoko_s_sr1"
+					"card_addr": "chiyoko_s_sr1",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "chiyoko_s_sr2"
+					"card_addr": "chiyoko_s_sr2",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "chiyoko_s_sr3"
+					"card_addr": "chiyoko_s_sr3",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "chiyoko_s_sr4"
+					"card_addr": "chiyoko_s_sr4",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				}
 			],
 			"P_R": [
@@ -996,7 +1542,11 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "chiyoko_s_r0"
+					"card_addr": "chiyoko_s_r0",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				}
 			]
 		}
@@ -1049,36 +1599,81 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "juri_s_ssr1"
+					"card_addr": "juri_s_ssr1",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "juri_s_ssr2"
+					"card_addr": "juri_s_ssr2",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Stability",
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "juri_s_ssr3"
+					"card_addr": "juri_s_ssr3",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Stability",
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "juri_s_ssr4"
+					"card_addr": "juri_s_ssr4",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness",
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "juri_s_ssr5"
+					"card_addr": "juri_s_ssr5",
+					"card_idea": "Dance",
+					"card_prof": [
+						"VocalProwess",
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "juri_s_ssr6"
+					"card_addr": "juri_s_ssr6",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability",
+						"Focus"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "juri_s_sr1"
+					"card_addr": "juri_s_sr1",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "juri_s_sr2"
+					"card_addr": "juri_s_sr2",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "juri_s_sr3"
+					"card_addr": "juri_s_sr3",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "juri_s_sr4"
+					"card_addr": "juri_s_sr4",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				}
 			],
 			"P_R": [
@@ -1088,7 +1683,11 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "juri_s_r0"
+					"card_addr": "juri_s_r0",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				}
 			]
 		}
@@ -1147,39 +1746,86 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "rinze_s_ssr1"
+					"card_addr": "rinze_s_ssr1",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "rinze_s_ssr2"
+					"card_addr": "rinze_s_ssr2",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess",
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "rinze_s_ssr3"
+					"card_addr": "rinze_s_ssr3",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "rinze_s_ssr4"
+					"card_addr": "rinze_s_ssr4",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability",
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "rinze_s_ssr5"
+					"card_addr": "rinze_s_ssr5",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "rinze_s_ssr6"
+					"card_addr": "rinze_s_ssr6",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "rinze_s_ssr7"
+					"card_addr": "rinze_s_ssr7",
+					"card_idea": "Talk",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "rinze_s_ssr8"
+					"card_addr": "rinze_s_ssr8",
+					"card_idea": "Dance",
+					"card_prof": [
+						"VocalProwess",
+						"Teamwork"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "rinze_s_sr1"
+					"card_addr": "rinze_s_sr1",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "rinze_s_sr2"
+					"card_addr": "rinze_s_sr2",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "rinze_s_sr3"
+					"card_addr": "rinze_s_sr3",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				}
 			],
 			"P_R": [
@@ -1189,7 +1835,11 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "rinze_s_r0"
+					"card_addr": "rinze_s_r0",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				}
 			]
 		}
@@ -1245,39 +1895,86 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "natsuha_s_ssr1"
+					"card_addr": "natsuha_s_ssr1",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "natsuha_s_ssr2"
+					"card_addr": "natsuha_s_ssr2",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"VocalProwess",
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "natsuha_s_ssr3"
+					"card_addr": "natsuha_s_ssr3",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "natsuha_s_ssr4"
+					"card_addr": "natsuha_s_ssr4",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess",
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "natsuha_s_ssr5"
+					"card_addr": "natsuha_s_ssr5",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Stability",
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "natsuha_s_ssr6"
+					"card_addr": "natsuha_s_ssr6",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "natsuha_s_ssr7"
+					"card_addr": "natsuha_s_ssr7",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "natsuha_s_sr1"
+					"card_addr": "natsuha_s_sr1",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "natsuha_s_sr2"
+					"card_addr": "natsuha_s_sr2",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "natsuha_s_sr3"
+					"card_addr": "natsuha_s_sr3",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "natsuha_s_sr4"
+					"card_addr": "natsuha_s_sr4",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				}
 			],
 			"P_R": [
@@ -1287,12 +1984,20 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "natsuha_s_r0"
+					"card_addr": "natsuha_s_r0",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				}
 			],
 			"S_N": [
 				{
-					"card_addr": "natsuha_s_n0"
+					"card_addr": "natsuha_s_n0",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				}
 			]
 		}
@@ -1348,39 +2053,84 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "amana_s_ssr1"
+					"card_addr": "amana_s_ssr1",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "amana_s_ssr2"
+					"card_addr": "amana_s_ssr2",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "amana_s_ssr3"
+					"card_addr": "amana_s_ssr3",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "amana_s_ssr4"
+					"card_addr": "amana_s_ssr4",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "amana_s_ssr5"
+					"card_addr": "amana_s_ssr5",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "amana_s_ssr6"
+					"card_addr": "amana_s_ssr6",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "amana_s_ssr7"
+					"card_addr": "amana_s_ssr7",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"VocalProwess",
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "amana_s_ssr8"
+					"card_addr": "amana_s_ssr8",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"Expressiveness"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "amana_s_sr1"
+					"card_addr": "amana_s_sr1",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "amana_s_sr2"
+					"card_addr": "amana_s_sr2",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "amana_s_sr3"
+					"card_addr": "amana_s_sr3",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				}
 			],
 			"P_R": [
@@ -1390,7 +2140,11 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "amana_s_r0"
+					"card_addr": "amana_s_r0",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				}
 			]
 		}
@@ -1446,42 +2200,93 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "tenka_s_ssr1"
+					"card_addr": "tenka_s_ssr1",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "tenka_s_ssr2"
+					"card_addr": "tenka_s_ssr2",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Expressiveness",
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "tenka_s_ssr3"
+					"card_addr": "tenka_s_ssr3",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "tenka_s_ssr4"
+					"card_addr": "tenka_s_ssr4",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "tenka_s_ssr5"
+					"card_addr": "tenka_s_ssr5",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Expressiveness",
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "tenka_s_ssr6"
+					"card_addr": "tenka_s_ssr6",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "tenka_s_ssr7"
+					"card_addr": "tenka_s_ssr7",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"VocalProwess",
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "tenka_s_ssr8"
+					"card_addr": "tenka_s_ssr8",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Stability"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "tenka_s_sr1"
+					"card_addr": "tenka_s_sr1",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "tenka_s_sr2"
+					"card_addr": "tenka_s_sr2",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "tenka_s_sr3"
+					"card_addr": "tenka_s_sr3",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "tenka_s_sr4"
+					"card_addr": "tenka_s_sr4",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				}
 			],
 			"P_R": [
@@ -1491,12 +2296,20 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "tenka_s_r0"
+					"card_addr": "tenka_s_r0",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				}
 			],
 			"S_N": [
 				{
-					"card_addr": "tenka_s_n0"
+					"card_addr": "tenka_s_n0",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				}
 			]
 		}
@@ -1555,39 +2368,85 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "chiyuki_s_ssr1"
+					"card_addr": "chiyuki_s_ssr1",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "chiyuki_s_ssr2"
+					"card_addr": "chiyuki_s_ssr2",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "chiyuki_s_ssr3"
+					"card_addr": "chiyuki_s_ssr3",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "chiyuki_s_ssr4"
+					"card_addr": "chiyuki_s_ssr4",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "chiyuki_s_ssr5"
+					"card_addr": "chiyuki_s_ssr5",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Expressiveness",
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "chiyuki_s_ssr6"
+					"card_addr": "chiyuki_s_ssr6",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "chiyuki_s_ssr7"
+					"card_addr": "chiyuki_s_ssr7",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess",
+						"Expressiveness"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "chiyuki_s_sr1"
+					"card_addr": "chiyuki_s_sr1",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "chiyuki_s_sr2"
+					"card_addr": "chiyuki_s_sr2",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "chiyuki_s_sr3"
+					"card_addr": "chiyuki_s_sr3",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "chiyuki_s_sr4"
+					"card_addr": "chiyuki_s_sr4",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				}
 			],
 			"P_R": [
@@ -1597,7 +2456,11 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "chiyuki_s_r0"
+					"card_addr": "chiyuki_s_r0",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				}
 			]
 		}
@@ -1647,30 +2510,65 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "asahi_s_ssr1"
+					"card_addr": "asahi_s_ssr1",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "asahi_s_ssr2"
+					"card_addr": "asahi_s_ssr2",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Stability",
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "asahi_s_ssr3"
+					"card_addr": "asahi_s_ssr3",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Stability",
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "asahi_s_ssr4"
+					"card_addr": "asahi_s_ssr4",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "asahi_s_ssr5"
+					"card_addr": "asahi_s_ssr5",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability",
+						"Expressiveness"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "asahi_s_sr1"
+					"card_addr": "asahi_s_sr1",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "asahi_s_sr2"
+					"card_addr": "asahi_s_sr2",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "asahi_s_sr3"
+					"card_addr": "asahi_s_sr3",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				}
 			],
 			"P_R": [
@@ -1680,7 +2578,11 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "asahi_s_r0"
+					"card_addr": "asahi_s_r0",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				}
 			]
 		}
@@ -1724,30 +2626,64 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "fuyuko_s_ssr1"
+					"card_addr": "fuyuko_s_ssr1",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "fuyuko_s_ssr2"
+					"card_addr": "fuyuko_s_ssr2",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"VocalProwess",
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "fuyuko_s_ssr3"
+					"card_addr": "fuyuko_s_ssr3",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability",
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "fuyuko_s_ssr4"
+					"card_addr": "fuyuko_s_ssr4",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "fuyuko_s_ssr5"
+					"card_addr": "fuyuko_s_ssr5",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "fuyuko_s_ssr6"
+					"card_addr": "fuyuko_s_ssr6",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "fuyuko_s_sr1"
+					"card_addr": "fuyuko_s_sr1",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "fuyuko_s_sr2"
+					"card_addr": "fuyuko_s_sr2",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				}
 			],
 			"P_R": [
@@ -1757,7 +2693,11 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "fuyuko_s_r0"
+					"card_addr": "fuyuko_s_r0",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				}
 			]
 		}
@@ -1804,30 +2744,64 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "mei_s_ssr1"
+					"card_addr": "mei_s_ssr1",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "mei_s_ssr2"
+					"card_addr": "mei_s_ssr2",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Expressiveness",
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "mei_s_ssr3"
+					"card_addr": "mei_s_ssr3",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Stability",
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "mei_s_ssr4"
+					"card_addr": "mei_s_ssr4",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "mei_s_ssr5"
+					"card_addr": "mei_s_ssr5",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "mei_s_sr1"
+					"card_addr": "mei_s_sr1",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "mei_s_sr2"
+					"card_addr": "mei_s_sr2",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "mei_s_sr3"
+					"card_addr": "mei_s_sr3",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				}
 			],
 			"P_R": [
@@ -1837,7 +2811,11 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "mei_s_r0"
+					"card_addr": "mei_s_r0",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				}
 			]
 		}
@@ -1875,27 +2853,58 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "toru_s_ssr1"
+					"card_addr": "toru_s_ssr1",
+					"card_idea": "Talk",
+					"card_prof": [
+						"VocalProwess",
+						"Focus"
+					]
 				},
 				{
-					"card_addr": "toru_s_ssr2"
+					"card_addr": "toru_s_ssr2",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Expressiveness",
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "toru_s_ssr3"
+					"card_addr": "toru_s_ssr3",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "toru_s_ssr4"
+					"card_addr": "toru_s_ssr4",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness",
+						"Focus"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "toru_s_sr1"
+					"card_addr": "toru_s_sr1",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "toru_s_sr2"
+					"card_addr": "toru_s_sr2",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "toru_s_sr3"
+					"card_addr": "toru_s_sr3",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				}
 			],
 			"P_R": [
@@ -1905,7 +2914,11 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "toru_s_r0"
+					"card_addr": "toru_s_r0",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				}
 			]
 		}
@@ -1943,21 +2956,42 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "madoka_s_ssr1"
+					"card_addr": "madoka_s_ssr1",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "madoka_s_ssr2"
+					"card_addr": "madoka_s_ssr2",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "madoka_s_ssr3"
+					"card_addr": "madoka_s_ssr3",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Expressiveness",
+						"Focus"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "madoka_s_sr1"
+					"card_addr": "madoka_s_sr1",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				},
 				{
-					"card_addr": "madoka_s_sr2"
+					"card_addr": "madoka_s_sr2",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				}
 			],
 			"P_R": [
@@ -1967,7 +3001,11 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "madoka_s_r0"
+					"card_addr": "madoka_s_r0",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				}
 			]
 		}
@@ -2002,21 +3040,42 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "koito_s_ssr1"
+					"card_addr": "koito_s_ssr1",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Focus",
+						"Teamwork"
+					]
 				},
 				{
-					"card_addr": "koito_s_ssr2"
+					"card_addr": "koito_s_ssr2",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "koito_s_ssr3"
+					"card_addr": "koito_s_ssr3",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "koito_s_sr1"
+					"card_addr": "koito_s_sr1",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "koito_s_sr2"
+					"card_addr": "koito_s_sr2",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				}
 			],
 			"P_R": [
@@ -2026,7 +3085,11 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "koito_s_r0"
+					"card_addr": "koito_s_r0",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				}
 			]
 		}
@@ -2064,18 +3127,36 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "hinana_s_ssr1"
+					"card_addr": "hinana_s_ssr1",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "hinana_s_ssr2"
+					"card_addr": "hinana_s_ssr2",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Stability",
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "hinana_s_ssr3"
+					"card_addr": "hinana_s_ssr3",
+					"card_idea": "Visual",
+					"card_prof": [
+						"VocalProwess",
+						"Expressiveness"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "hinana_s_sr1"
+					"card_addr": "hinana_s_sr1",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				}
 			],
 			"P_R": [
@@ -2085,7 +3166,11 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "hinana_s_r0"
+					"card_addr": "hinana_s_r0",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				}
 			]
 		}
@@ -2117,13 +3202,27 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "nichika_s_ssr1"
+					"card_addr": "nichika_s_ssr1",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "nichika_s_ssr2"
+					"card_addr": "nichika_s_ssr2",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess",
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "nichika_s_ssr3"
+					"card_addr": "nichika_s_ssr3",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Stability",
+						"Expressiveness"
+					]
 				}
 			],
 			"S_SR": [],
@@ -2134,7 +3233,11 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "nichika_s_r0"
+					"card_addr": "nichika_s_r0",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				}
 			]
 		}
@@ -2166,21 +3269,43 @@
 			],
 			"S_SSR": [
 				{
-					"card_addr": "mikoto_s_ssr1"
+					"card_addr": "mikoto_s_ssr1",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				},
 				{
-					"card_addr": "mikoto_s_ssr2"
+					"card_addr": "mikoto_s_ssr2",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Stability",
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "mikoto_s_ssr3"
+					"card_addr": "mikoto_s_ssr3",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"Expressiveness"
+					]
 				},
 				{
-					"card_addr": "mikoto_s_ssr4"
+					"card_addr": "mikoto_s_ssr4",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness",
+						"Teamwork"
+					]
 				}
 			],
 			"S_SR": [
 				{
-					"card_addr": "mikoto_s_sr1"
+					"card_addr": "mikoto_s_sr1",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				}
 			],
 			"P_R": [
@@ -2190,7 +3315,11 @@
 			],
 			"S_R": [
 				{
-					"card_addr": "mikoto_s_r0"
+					"card_addr": "mikoto_s_r0",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Teamwork"
+					]
 				}
 			]
 		}

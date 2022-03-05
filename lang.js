@@ -17,6 +17,11 @@ $.lang.ko = {
   posIcon: "포지션 아이콘",
   showExSkill: "EX스킬 표시",
   selectEx: "EX스킬 선택",
+  showOptionAbility: "능력 표시",
+  noShow: "미표시",
+  idea: "아이디어",
+  insight: "히라메키",
+  proficiency: "악곡 숙련도",
 };
 
 $.lang.ja = {
@@ -36,4 +41,9 @@ $.lang.ja = {
   posIcon: "ポジションアイコン",
   showExSkill: "EXスキル表示",
   selectEx: "EXスキル選択",
+  showOptionAbility: "能力表示",
+  noShow: "非表示",
+  idea: "アイデア",
+  insight: "ひらめき",
+  proficiency: "楽曲熟練度",
 };
