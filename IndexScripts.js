@@ -501,7 +501,7 @@ function getFesDeckUrl() {
 /**
  * Div의 텍스트를 클립보드에 복사
  */
-function CopyToClipboard(containerid) {
+function copyToClipboard(containerid) {
   // Create a new textarea element and give it id='temp_element'
   const textarea = document.createElement("textarea");
   textarea.id = "temp_element";
@@ -631,6 +631,9 @@ function getInsightImg(insight, type) {
   }
 }
 
+/**
+ * 아이디어 이미지 Return
+ */
 function getIdeaImg(idea) {
   return {
     src: `./img/assets/${idea}_Idea.png`,
@@ -638,10 +641,24 @@ function getIdeaImg(idea) {
   };
 }
 
+/**
+ * 악곡숙련도 이미지 Return
+ */
 function getProficiencyImg(prof) {
   return {
     src: `./img/assets/${prof}_Prof.png`,
     style: "width: 96px; height: 35px; bottom: 0px; right: 0px;",
+  };
+}
+
+/**
+ * 옵션 능력의 Object를 Return
+ */
+function getOptionAbility(idea, insight, proficiency) {
+  return {
+    idea: idea,
+    insight: insight,
+    proficiency: proficiency,
   };
 }
 
@@ -760,15 +777,10 @@ function viewCardDialog(parentObj, obj, cardType, offset, insight = "") {
         })
       );
 
-      let optionAbility;
+      let optionAbility = undefined;
+      // 서포트 카드의 경우엔 옵션 능력을 표시할 수 있도록 데이터 취득
       if (cardType == "S") {
-        optionAbility = {
-          idea: card["card_idea"],
-          insight: insight,
-          proficiency: card["card_prof"].join("_"),
-        };
-      } else {
-        optionAbility = undefined;
+        optionAbility = getOptionAbility(card["card_idea"], insight, card["card_prof"].join("_"));
       }
 
       // 카드 선택시 덱에 입력
@@ -803,11 +815,10 @@ function viewCardDialog(parentObj, obj, cardType, offset, insight = "") {
   );
   $(`#${idolName}_char`).click(function () {
     var selDivId = `#selectedIdolView_${divOffset}`;
-    optionAbility = {
-      idea: "",
-      insight: insight,
-      proficiency: "",
-    };
+
+    // 구체적인 카드 선택이 아닌 경우의 옵션 데이터 처리
+    // 히라메키를 제외한 나머지 옵션 능력은 알 수 없음
+    optionAbility = getOptionAbility("", insight, "");
     setSelectCard(selDivId, `icon_char/`, idolName, optionAbility);
     $(cardDialogDivId).dialog("close");
   });
@@ -856,15 +867,19 @@ function setSelectCard(divId, imgPath, cardAddr, optionAbility = undefined) {
     onerror: "this.src='./img/assets/Blank_Idol.png'",
   };
 
+  // 옵션 능력의 데이터를 가지고 있도록 처리
   if (optionAbility != undefined) {
+    // 아이디어
     if (optionAbility["idea"] != "") {
       imgObj["idea"] = optionAbility["idea"];
     }
 
+    // 히라메키
     if (optionAbility["insight"] != "") {
       imgObj["insight"] = optionAbility["insight"];
     }
 
+    // 악곡 숙련도
     if (optionAbility["proficiency"] != "") {
       imgObj["proficiency"] = optionAbility["proficiency"];
     }
@@ -872,9 +887,8 @@ function setSelectCard(divId, imgPath, cardAddr, optionAbility = undefined) {
 
   $(divId).html($("<img>", imgObj));
 
+  // 옵션 능력 표시 선택에 따른 표시의 처리
   convertOptionAbilityImg($(':radio[name="option_ability"]:checked').val());
-
-  setFesPosIcon();
 
   // 카드의 특훈 설정이 가능하도록 설정 및 설정되어 있는 특훈을 적용
   var offset = divId.split("_")[1];
@@ -885,6 +899,9 @@ function setSelectCard(divId, imgPath, cardAddr, optionAbility = undefined) {
     }
     convertSpecialTrainingImg($("#specialTrainingConvertBtn").is(":checked"));
   }
+
+  // 페스덱 카드의 포지션 이미지 설정
+  setFesPosIcon();
 }
 
 /**
