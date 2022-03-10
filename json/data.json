@@ -788,6 +788,13 @@
 					"card_prof": [
 						"Expressiveness"
 					]
+				},
+				{
+					"card_addr": "mamimi_s_sr4",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				}
 			],
 			"P_R": [
@@ -2779,6 +2786,14 @@
 					"card_prof": [
 						"VocalProwess"
 					]
+				},
+				{
+					"card_addr": "mei_s_ssr6",
+					"card_idea": "Visual",
+					"card_prof": [
+						"VocalProwess",
+						"Expressiveness"
+					]
 				}
 			],
 			"S_SR": [
@@ -2941,6 +2956,9 @@
 				},
 				{
 					"card_addr": "madoka_p_ssr3"
+				},
+				{
+					"card_addr": "madoka_p_ssr4"
 				}
 			],
 			"P_SR": [
