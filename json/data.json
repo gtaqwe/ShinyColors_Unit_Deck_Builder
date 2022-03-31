@@ -2194,6 +2194,9 @@
 				},
 				{
 					"card_addr": "tenka_p_ssr6"
+				},
+				{
+					"card_addr": "tenka_p_ssr7"
 				}
 			],
 			"P_SR": [
@@ -2434,6 +2437,13 @@
 					"card_prof": [
 						"VocalProwess",
 						"Expressiveness"
+					]
+				},
+				{
+					"card_addr": "chiyuki_s_ssr8",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
 					]
 				}
 			],
@@ -3008,6 +3018,14 @@
 						"Expressiveness",
 						"Focus"
 					]
+				},
+				{
+					"card_addr": "madoka_s_ssr4",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"Focus",
+						"Teamwork"
+					]
 				}
 			],
 			"S_SR": [
@@ -3091,6 +3109,13 @@
 					"card_idea": "Dance",
 					"card_prof": [
 						"Stability"
+					]
+				},
+				{
+					"card_addr": "koito_s_ssr4",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Teamwork"
 					]
 				}
 			],
