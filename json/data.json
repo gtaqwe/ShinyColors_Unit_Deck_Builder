@@ -29,6 +29,9 @@
 				},
 				{
 					"card_addr": "mano_p_ssr7"
+				},
+				{
+					"card_addr": "mano_p_ssr8"
 				}
 			],
 			"P_SR": [
@@ -1376,6 +1379,13 @@
 					"card_prof": [
 						"Focus"
 					]
+				},
+				{
+					"card_addr": "kaho_s_ssr7",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Teamwork"
+					]
 				}
 			],
 			"S_SR": [
@@ -1550,6 +1560,13 @@
 					"card_idea": "Dance",
 					"card_prof": [
 						"Stability"
+					]
+				},
+				{
+					"card_addr": "chiyoko_s_sr5",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
 					]
 				}
 			],
