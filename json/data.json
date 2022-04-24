@@ -169,6 +169,13 @@
 					"card_prof": [
 						"Stability"
 					]
+				},
+				{
+					"card_addr": "mano_s_sr5",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
+					]
 				}
 			],
 			"P_R": [
@@ -658,6 +665,13 @@
 					"card_idea": "Visual",
 					"card_prof": [
 						"Expressiveness"
+					]
+				},
+				{
+					"card_addr": "kogane_s_sr5",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
 					]
 				}
 			],
@@ -1415,6 +1429,13 @@
 					"card_idea": "Vocal",
 					"card_prof": [
 						"VocalProwess"
+					]
+				},
+				{
+					"card_addr": "kaho_s_sr5",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
 					]
 				}
 			],
