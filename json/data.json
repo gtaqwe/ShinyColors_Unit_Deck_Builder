@@ -2170,6 +2170,14 @@
 					"card_prof": [
 						"Expressiveness"
 					]
+				},
+				{
+					"card_addr": "amana_s_ssr9",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability",
+						"Expressiveness"
+					]
 				}
 			],
 			"S_SR": [
@@ -3332,6 +3340,13 @@
 						"Stability",
 						"Expressiveness"
 					]
+				},
+				{
+					"card_addr": "nichika_s_ssr4",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				}
 			],
 			"S_SR": [],
@@ -3366,6 +3381,9 @@
 				},
 				{
 					"card_addr": "mikoto_p_ssr2"
+				},
+				{
+					"card_addr": "mikoto_p_ssr3"
 				}
 			],
 			"P_SR": [
