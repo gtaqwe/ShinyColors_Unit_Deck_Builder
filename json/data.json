@@ -673,6 +673,13 @@
 					"card_prof": [
 						"VocalProwess"
 					]
+				},
+				{
+					"card_addr": "kogane_s_sr6",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				}
 			],
 			"P_R": [
@@ -1034,6 +1041,9 @@
 				},
 				{
 					"card_addr": "yuika_p_ssr6"
+				},
+				{
+					"card_addr": "yuika_p_ssr7"
 				}
 			],
 			"P_SR": [
@@ -2006,6 +2016,14 @@
 					"card_idea": "Dance",
 					"card_prof": [
 						"Stability"
+					]
+				},
+				{
+					"card_addr": "natsuha_s_ssr8",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Expressiveness",
+						"Focus"
 					]
 				}
 			],
