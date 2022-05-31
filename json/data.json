@@ -957,6 +957,14 @@
 						"Stability",
 						"Teamwork"
 					]
+				},
+				{
+					"card_addr": "sakuya_s_ssr8",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"VocalProwess",
+						"Expressiveness"
+					]
 				}
 			],
 			"S_SR": [
@@ -2958,6 +2966,9 @@
 				},
 				{
 					"card_addr": "toru_p_ssr3"
+				},
+				{
+					"card_addr": "toru_p_ssr4"
 				}
 			],
 			"P_SR": [
@@ -3106,6 +3117,14 @@
 					"card_prof": [
 						"Focus",
 						"Teamwork"
+					]
+				},
+				{
+					"card_addr": "madoka_s_ssr5",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"VocalProwess",
+						"Expressiveness"
 					]
 				}
 			],
