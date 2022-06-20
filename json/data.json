@@ -745,6 +745,9 @@
 				},
 				{
 					"card_addr": "mamimi_p_sr4"
+				},
+				{
+					"card_addr": "mamimi_p_sr5"
 				}
 			],
 			"S_SSR": [
@@ -1500,6 +1503,9 @@
 				},
 				{
 					"card_addr": "chiyoko_p_ssr6"
+				},
+				{
+					"card_addr": "chiyoko_p_ssr7"
 				}
 			],
 			"P_SR": [
@@ -2535,6 +2541,14 @@
 					"card_idea": "Dance",
 					"card_prof": [
 						"Stability"
+					]
+				},
+				{
+					"card_addr": "chiyuki_s_ssr9",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus",
+						"Teamwork"
 					]
 				}
 			],
