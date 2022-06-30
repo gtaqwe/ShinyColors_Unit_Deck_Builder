@@ -472,6 +472,14 @@
 					"card_prof": [
 						"Stability"
 					]
+				},
+				{
+					"card_addr": "meguru_s_ssr9",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability",
+						"Teamwork"
+					]
 				}
 			],
 			"S_SR": [
@@ -1265,6 +1273,14 @@
 				{
 					"card_addr": "kiriko_s_ssr6",
 					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess",
+						"Stability"
+					]
+				},
+				{
+					"card_addr": "kiriko_s_ssr7",
+					"card_idea": "Dance",
 					"card_prof": [
 						"VocalProwess",
 						"Stability"
@@ -2812,6 +2828,14 @@
 						"VocalProwess",
 						"Stability"
 					]
+				},
+				{
+					"card_addr": "fuyuko_s_ssr8",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess",
+						"Stability"
+					]
 				}
 			],
 			"S_SR": [
@@ -2870,6 +2894,9 @@
 				},
 				{
 					"card_addr": "mei_p_ssr5"
+				},
+				{
+					"card_addr": "mei_p_ssr6"
 				}
 			],
 			"P_SR": [
