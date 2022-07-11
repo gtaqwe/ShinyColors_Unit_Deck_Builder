@@ -2695,6 +2695,14 @@
 						"Stability",
 						"Expressiveness"
 					]
+				},
+				{
+					"card_addr": "asahi_s_ssr6",
+					"card_idea": "Dance",
+					"card_prof": [
+						"VocalProwess",
+						"Stability"
+					]
 				}
 			],
 			"S_SR": [
@@ -3237,6 +3245,9 @@
 				},
 				{
 					"card_addr": "koito_p_ssr3"
+				},
+				{
+					"card_addr": "koito_p_ssr4"
 				}
 			],
 			"P_SR": [
@@ -3451,7 +3462,15 @@
 					]
 				}
 			],
-			"S_SR": [],
+			"S_SR": [
+				{
+					"card_addr": "nichika_s_sr1",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
+				}
+			],
 			"P_R": [
 				{
 					"card_addr": "nichika_p_r0"
