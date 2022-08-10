@@ -221,6 +221,9 @@
 				},
 				{
 					"card_addr": "hiori_p_ssr6"
+				},
+				{
+					"card_addr": "hiori_p_ssr7"
 				}
 			],
 			"P_SR": [
@@ -1174,6 +1177,13 @@
 					"card_idea": "Appeal",
 					"card_prof": [
 						"Teamwork"
+					]
+				},
+				{
+					"card_addr": "yuika_s_sr4",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
 					]
 				}
 			],
@@ -3095,6 +3105,14 @@
 						"Expressiveness",
 						"Focus"
 					]
+				},
+				{
+					"card_addr": "toru_s_ssr5",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness",
+						"Teamwork"
+					]
 				}
 			],
 			"S_SR": [
@@ -3406,6 +3424,13 @@
 					"card_idea": "Vocal",
 					"card_prof": [
 						"VocalProwess"
+					]
+				},
+				{
+					"card_addr": "hinana_s_sr2",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
 					]
 				}
 			],
