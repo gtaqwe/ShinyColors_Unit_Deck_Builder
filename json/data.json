@@ -139,6 +139,14 @@
 						"Expressiveness",
 						"Teamwork"
 					]
+				},
+				{
+					"card_addr": "mano_s_ssr12",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"Stability",
+						"Expressiveness"
+					]
 				}
 			],
 			"S_SR": [
@@ -397,6 +405,9 @@
 				},
 				{
 					"card_addr": "meguru_p_ssr7"
+				},
+				{
+					"card_addr": "meguru_p_ssr8"
 				}
 			],
 			"P_SR": [
@@ -1936,6 +1947,14 @@
 					"card_idea": "Dance",
 					"card_prof": [
 						"VocalProwess",
+						"Teamwork"
+					]
+				},
+				{
+					"card_addr": "rinze_s_ssr9",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness",
 						"Teamwork"
 					]
 				}
