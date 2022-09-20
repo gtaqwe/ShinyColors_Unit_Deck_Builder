@@ -249,6 +249,9 @@
 				},
 				{
 					"card_addr": "hiori_p_sr4"
+				},
+				{
+					"card_addr": "hiori_p_sr5"
 				}
 			],
 			"S_SSR": [
@@ -2722,6 +2725,9 @@
 				},
 				{
 					"card_addr": "asahi_p_ssr5"
+				},
+				{
+					"card_addr": "asahi_p_ssr6"
 				}
 			],
 			"P_SR": [
