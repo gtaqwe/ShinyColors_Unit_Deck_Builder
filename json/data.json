@@ -505,6 +505,14 @@
 						"Stability",
 						"Teamwork"
 					]
+				},
+				{
+					"card_addr": "meguru_s_ssr10",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Stability",
+						"Expressiveness"
+					]
 				}
 			],
 			"S_SR": [
@@ -930,6 +938,9 @@
 				},
 				{
 					"card_addr": "sakuya_p_ssr6"
+				},
+				{
+					"card_addr": "sakuya_p_ssr7"
 				}
 			],
 			"P_SR": [
@@ -1329,6 +1340,13 @@
 					"card_prof": [
 						"VocalProwess",
 						"Stability"
+					]
+				},
+				{
+					"card_addr": "kiriko_s_ssr8",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"VocalProwess"
 					]
 				}
 			],
@@ -2469,6 +2487,14 @@
 					"card_addr": "tenka_s_ssr8",
 					"card_idea": "Visual",
 					"card_prof": [
+						"Stability"
+					]
+				},
+				{
+					"card_addr": "tenka_s_ssr9",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess",
 						"Stability"
 					]
 				}
