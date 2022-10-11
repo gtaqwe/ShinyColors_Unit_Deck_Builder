@@ -2064,6 +2064,9 @@
 				},
 				{
 					"card_addr": "natsuha_p_ssr7"
+				},
+				{
+					"card_addr": "natsuha_p_ssr8"
 				}
 			],
 			"P_SR": [
@@ -3158,6 +3161,9 @@
 				},
 				{
 					"card_addr": "toru_p_sr2"
+				},
+				{
+					"card_addr": "toru_p_sr3"
 				}
 			],
 			"S_SSR": [
@@ -3413,6 +3419,14 @@
 					"card_idea": "Talk",
 					"card_prof": [
 						"Teamwork"
+					]
+				},
+				{
+					"card_addr": "koito_s_ssr5",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess",
+						"Focus"
 					]
 				}
 			],
