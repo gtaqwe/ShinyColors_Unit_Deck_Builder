@@ -2016,6 +2016,13 @@
 					"card_prof": [
 						"VocalProwess"
 					]
+				},
+				{
+					"card_addr": "rinze_s_sr5",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
+					]
 				}
 			],
 			"P_R": [
@@ -2887,6 +2894,9 @@
 				},
 				{
 					"card_addr": "fuyuko_p_ssr5"
+				},
+				{
+					"card_addr": "fuyuko_p_ssr6"
 				}
 			],
 			"P_SR": [
@@ -3617,6 +3627,14 @@
 					"card_idea": "Visual",
 					"card_prof": [
 						"Expressiveness"
+					]
+				},
+				{
+					"card_addr": "nichika_s_ssr5",
+					"card_idea": "Appeal",
+					"card_prof": [
+						"Focus",
+						"Teamwork"
 					]
 				}
 			],
