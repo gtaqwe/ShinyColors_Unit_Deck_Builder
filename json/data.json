@@ -550,6 +550,13 @@
 					"card_prof": [
 						"Stability"
 					]
+				},
+				{
+					"card_addr": "meguru_s_sr6",
+					"card_idea": "Talk",
+					"card_prof": [
+						"Focus"
+					]
 				}
 			],
 			"P_R": [
@@ -3655,6 +3662,13 @@
 			"S_SR": [
 				{
 					"card_addr": "nichika_s_sr1",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
+				},
+				{
+					"card_addr": "nichika_s_sr2",
 					"card_idea": "Visual",
 					"card_prof": [
 						"Expressiveness"
