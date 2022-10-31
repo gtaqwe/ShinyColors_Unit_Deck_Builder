@@ -1355,6 +1355,14 @@
 					"card_prof": [
 						"VocalProwess"
 					]
+				},
+				{
+					"card_addr": "kiriko_s_ssr9",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability",
+						"Focus"
+					]
 				}
 			],
 			"S_SR": [
@@ -1830,6 +1838,13 @@
 						"Stability",
 						"Focus"
 					]
+				},
+				{
+					"card_addr": "juri_s_ssr7",
+					"card_idea": "Talk",
+					"card_prof": [
+						"VocalProwess"
+					]
 				}
 			],
 			"S_SR": [
@@ -1908,6 +1923,9 @@
 				},
 				{
 					"card_addr": "rinze_p_ssr7"
+				},
+				{
+					"card_addr": "rinze_p_ssr8"
 				}
 			],
 			"P_SR": [
