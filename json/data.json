@@ -32,6 +32,9 @@
 				},
 				{
 					"card_addr": "mano_p_ssr8"
+				},
+				{
+					"card_addr": "mano_p_ssr9"
 				}
 			],
 			"P_SR": [
@@ -1845,6 +1848,14 @@
 					"card_prof": [
 						"VocalProwess"
 					]
+				},
+				{
+					"card_addr": "juri_s_ssr8",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness",
+						"Focus"
+					]
 				}
 			],
 			"S_SR": [
@@ -3492,6 +3503,13 @@
 					"card_idea": "Visual",
 					"card_prof": [
 						"Expressiveness"
+					]
+				},
+				{
+					"card_addr": "koito_s_sr3",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
 					]
 				}
 			],
