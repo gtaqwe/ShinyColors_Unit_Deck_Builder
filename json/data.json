@@ -187,6 +187,13 @@
 					"card_prof": [
 						"Stability"
 					]
+				},
+				{
+					"card_addr": "mano_s_sr6",
+					"card_idea": "Visual",
+					"card_prof": [
+						"Expressiveness"
+					]
 				}
 			],
 			"P_R": [
@@ -782,6 +789,9 @@
 				},
 				{
 					"card_addr": "mamimi_p_ssr7"
+				},
+				{
+					"card_addr": "mamimi_p_ssr8"
 				}
 			],
 			"P_SR": [
@@ -3653,6 +3663,9 @@
 				},
 				{
 					"card_addr": "nichika_p_sr1"
+				},
+				{
+					"card_addr": "nichika_p_sr2"
 				}
 			],
 			"S_SSR": [
