@@ -1,3859 +1,3859 @@
 [
-	{
-		"idol_ko_name": "마노",
-		"idol_ja_name": "櫻木 真乃",
-		"idol_en_name": "Mano",
-		"insight": "Vocal",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "mano_p_ssr0"
-				},
-				{
-					"card_addr": "mano_p_ssr1"
-				},
-				{
-					"card_addr": "mano_p_ssr2"
-				},
-				{
-					"card_addr": "mano_p_ssr3"
-				},
-				{
-					"card_addr": "mano_p_ssr4"
-				},
-				{
-					"card_addr": "mano_p_ssr5"
-				},
-				{
-					"card_addr": "mano_p_ssr6"
-				},
-				{
-					"card_addr": "mano_p_ssr7"
-				},
-				{
-					"card_addr": "mano_p_ssr8"
-				},
-				{
-					"card_addr": "mano_p_ssr9"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "mano_p_sr0"
-				},
-				{
-					"card_addr": "mano_p_sr1"
-				},
-				{
-					"card_addr": "mano_p_sr2"
-				},
-				{
-					"card_addr": "mano_p_sr3"
-				},
-				{
-					"card_addr": "mano_p_sr4"
-				},
-				{
-					"card_addr": "mano_p_sr5"
-				},
-				{
-					"card_addr": "mano_p_sr6"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "mano_s_ssr1",
-					"card_idea": "Talk",
-					"card_prof": [
-						"VocalProwess",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "mano_s_ssr2",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "mano_s_ssr3",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "mano_s_ssr4",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"VocalProwess",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "mano_s_ssr5",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "mano_s_ssr6",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "mano_s_ssr7",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "mano_s_ssr8",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess",
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "mano_s_ssr9",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "mano_s_ssr10",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Focus",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "mano_s_ssr11",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "mano_s_ssr12",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"Stability",
-						"Expressiveness"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "mano_s_sr1",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "mano_s_sr2",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "mano_s_sr3",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "mano_s_sr4",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "mano_s_sr5",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "mano_s_sr6",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "mano_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "mano_s_r0",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "히오리",
-		"idol_ja_name": "風野 灯織",
-		"idol_en_name": "Hiori",
-		"insight": "Visual",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "hiori_p_ssr0"
-				},
-				{
-					"card_addr": "hiori_p_ssr1"
-				},
-				{
-					"card_addr": "hiori_p_ssr2"
-				},
-				{
-					"card_addr": "hiori_p_ssr3"
-				},
-				{
-					"card_addr": "hiori_p_ssr4"
-				},
-				{
-					"card_addr": "hiori_p_ssr5"
-				},
-				{
-					"card_addr": "hiori_p_ssr6"
-				},
-				{
-					"card_addr": "hiori_p_ssr7"
-				},
-				{
-					"card_addr": "hiori_p_ssr8"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "hiori_p_sr0"
-				},
-				{
-					"card_addr": "hiori_p_sr1"
-				},
-				{
-					"card_addr": "hiori_p_sr2"
-				},
-				{
-					"card_addr": "hiori_p_sr3"
-				},
-				{
-					"card_addr": "hiori_p_sr4"
-				},
-				{
-					"card_addr": "hiori_p_sr5"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "hiori_s_ssr1",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability",
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "hiori_s_ssr2",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "hiori_s_ssr3",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Stability",
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "hiori_s_ssr4",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "hiori_s_ssr5",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Stability",
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "hiori_s_ssr6",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Stability",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "hiori_s_ssr7",
-					"card_idea": "Talk",
-					"card_prof": [
-						"VocalProwess",
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "hiori_s_ssr8",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "hiori_s_ssr9",
-					"card_idea": "Visual",
-					"card_prof": [
-						"VocalProwess",
-						"Focus"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "hiori_s_sr1",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "hiori_s_sr2",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "hiori_s_sr3",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "hiori_s_sr4",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "hiori_s_sr5",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "hiori_s_sr6",
-					"card_idea": "Visual",
-					"card_prof": [
-						"VocalProwess"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "hiori_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "hiori_s_r0",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "메구루",
-		"idol_ja_name": "八宮 めぐる",
-		"idol_en_name": "Meguru",
-		"insight": "Dance",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "meguru_p_ssr0"
-				},
-				{
-					"card_addr": "meguru_p_ssr1"
-				},
-				{
-					"card_addr": "meguru_p_ssr2"
-				},
-				{
-					"card_addr": "meguru_p_ssr3"
-				},
-				{
-					"card_addr": "meguru_p_ssr4"
-				},
-				{
-					"card_addr": "meguru_p_ssr5"
-				},
-				{
-					"card_addr": "meguru_p_ssr6"
-				},
-				{
-					"card_addr": "meguru_p_ssr7"
-				},
-				{
-					"card_addr": "meguru_p_ssr8"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "meguru_p_sr0"
-				},
-				{
-					"card_addr": "meguru_p_sr1"
-				},
-				{
-					"card_addr": "meguru_p_sr2"
-				},
-				{
-					"card_addr": "meguru_p_sr3"
-				},
-				{
-					"card_addr": "meguru_p_sr4"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "meguru_s_ssr1",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Stability",
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "meguru_s_ssr2",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "meguru_s_ssr3",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "meguru_s_ssr4",
-					"card_idea": "Dance",
-					"card_prof": [
-						"VocalProwess",
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "meguru_s_ssr5",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability",
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "meguru_s_ssr6",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "meguru_s_ssr7",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "meguru_s_ssr8",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "meguru_s_ssr9",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "meguru_s_ssr10",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Stability",
-						"Expressiveness"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "meguru_s_sr1",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "meguru_s_sr2",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "meguru_s_sr3",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "meguru_s_sr4",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "meguru_s_sr5",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "meguru_s_sr6",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "meguru_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "meguru_s_r0",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "코가네",
-		"idol_ja_name": "月岡 恋鐘",
-		"idol_en_name": "Kogane",
-		"insight": "Mental",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "kogane_p_ssr0"
-				},
-				{
-					"card_addr": "kogane_p_ssr1"
-				},
-				{
-					"card_addr": "kogane_p_ssr2"
-				},
-				{
-					"card_addr": "kogane_p_ssr3"
-				},
-				{
-					"card_addr": "kogane_p_ssr4"
-				},
-				{
-					"card_addr": "kogane_p_ssr5"
-				},
-				{
-					"card_addr": "kogane_p_ssr6"
-				},
-				{
-					"card_addr": "kogane_p_ssr7"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "kogane_p_sr0"
-				},
-				{
-					"card_addr": "kogane_p_sr1"
-				},
-				{
-					"card_addr": "kogane_p_sr2"
-				},
-				{
-					"card_addr": "kogane_p_sr3"
-				},
-				{
-					"card_addr": "kogane_p_sr4"
-				},
-				{
-					"card_addr": "kogane_p_sr5"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "kogane_s_ssr1",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "kogane_s_ssr2",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "kogane_s_ssr3",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "kogane_s_ssr4",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "kogane_s_ssr5",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "kogane_s_ssr6",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Expressiveness",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "kogane_s_ssr7",
-					"card_idea": "Talk",
-					"card_prof": [
-						"VocalProwess",
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "kogane_s_ssr8",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Focus"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "kogane_s_sr1",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "kogane_s_sr2",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "kogane_s_sr3",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "kogane_s_sr4",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "kogane_s_sr5",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "kogane_s_sr6",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "kogane_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "kogane_s_r0",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "마미미",
-		"idol_ja_name": "田中 摩美々",
-		"idol_en_name": "Mamimi",
-		"insight": "Visual",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "mamimi_p_ssr0"
-				},
-				{
-					"card_addr": "mamimi_p_ssr1"
-				},
-				{
-					"card_addr": "mamimi_p_ssr2"
-				},
-				{
-					"card_addr": "mamimi_p_ssr3"
-				},
-				{
-					"card_addr": "mamimi_p_ssr4"
-				},
-				{
-					"card_addr": "mamimi_p_ssr5"
-				},
-				{
-					"card_addr": "mamimi_p_ssr6"
-				},
-				{
-					"card_addr": "mamimi_p_ssr7"
-				},
-				{
-					"card_addr": "mamimi_p_ssr8"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "mamimi_p_sr0"
-				},
-				{
-					"card_addr": "mamimi_p_sr1"
-				},
-				{
-					"card_addr": "mamimi_p_sr2"
-				},
-				{
-					"card_addr": "mamimi_p_sr3"
-				},
-				{
-					"card_addr": "mamimi_p_sr4"
-				},
-				{
-					"card_addr": "mamimi_p_sr5"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "mamimi_s_ssr1",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "mamimi_s_ssr2",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Expressiveness",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "mamimi_s_ssr3",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "mamimi_s_ssr4",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Stability",
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "mamimi_s_ssr5",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess",
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "mamimi_s_ssr6",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "mamimi_s_ssr7",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess",
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "mamimi_s_ssr8",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "mamimi_s_sr1",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "mamimi_s_sr2",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "mamimi_s_sr3",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "mamimi_s_sr4",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "mamimi_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "mamimi_s_r0",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				}
-			],
-			"S_N": [
-				{
-					"card_addr": "mamimi_s_n0",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "사쿠야",
-		"idol_ja_name": "白瀬 咲耶",
-		"idol_en_name": "Sakuya",
-		"insight": "Visual",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "sakuya_p_ssr0"
-				},
-				{
-					"card_addr": "sakuya_p_ssr1"
-				},
-				{
-					"card_addr": "sakuya_p_ssr2"
-				},
-				{
-					"card_addr": "sakuya_p_ssr3"
-				},
-				{
-					"card_addr": "sakuya_p_ssr4"
-				},
-				{
-					"card_addr": "sakuya_p_ssr5"
-				},
-				{
-					"card_addr": "sakuya_p_ssr6"
-				},
-				{
-					"card_addr": "sakuya_p_ssr7"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "sakuya_p_sr0"
-				},
-				{
-					"card_addr": "sakuya_p_sr1"
-				},
-				{
-					"card_addr": "sakuya_p_sr2"
-				},
-				{
-					"card_addr": "sakuya_p_sr3"
-				},
-				{
-					"card_addr": "sakuya_p_sr4"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "sakuya_s_ssr1",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Expressiveness",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "sakuya_s_ssr2",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "sakuya_s_ssr3",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Stability",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "sakuya_s_ssr4",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability",
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "sakuya_s_ssr5",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "sakuya_s_ssr6",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "sakuya_s_ssr7",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Stability",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "sakuya_s_ssr8",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"VocalProwess",
-						"Expressiveness"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "sakuya_s_sr1",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "sakuya_s_sr2",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "sakuya_s_sr3",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "sakuya_s_sr4",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "sakuya_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "sakuya_s_r0",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				}
-			],
-			"S_N": [
-				{
-					"card_addr": "sakuya_s_n0",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "유이카",
-		"idol_ja_name": "三峰 結華",
-		"idol_en_name": "Yuika",
-		"insight": "Dance",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "yuika_p_ssr0"
-				},
-				{
-					"card_addr": "yuika_p_ssr1"
-				},
-				{
-					"card_addr": "yuika_p_ssr2"
-				},
-				{
-					"card_addr": "yuika_p_ssr3"
-				},
-				{
-					"card_addr": "yuika_p_ssr4"
-				},
-				{
-					"card_addr": "yuika_p_ssr5"
-				},
-				{
-					"card_addr": "yuika_p_ssr6"
-				},
-				{
-					"card_addr": "yuika_p_ssr7"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "yuika_p_sr0"
-				},
-				{
-					"card_addr": "yuika_p_sr1"
-				},
-				{
-					"card_addr": "yuika_p_sr2"
-				},
-				{
-					"card_addr": "yuika_p_sr3"
-				},
-				{
-					"card_addr": "yuika_p_sr4"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "yuika_s_ssr1",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "yuika_s_ssr2",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "yuika_s_ssr3",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "yuika_s_ssr4",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess",
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "yuika_s_ssr5",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "yuika_s_ssr6",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "yuika_s_ssr7",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "yuika_s_ssr8",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Focus"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "yuika_s_sr1",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "yuika_s_sr2",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "yuika_s_sr3",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "yuika_s_sr4",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "yuika_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "yuika_s_r0",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "키리코",
-		"idol_ja_name": "幽谷 霧子",
-		"idol_en_name": "Kiriko",
-		"insight": "Vocal",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "kiriko_p_ssr0"
-				},
-				{
-					"card_addr": "kiriko_p_ssr1"
-				},
-				{
-					"card_addr": "kiriko_p_ssr2"
-				},
-				{
-					"card_addr": "kiriko_p_ssr3"
-				},
-				{
-					"card_addr": "kiriko_p_ssr4"
-				},
-				{
-					"card_addr": "kiriko_p_ssr5"
-				},
-				{
-					"card_addr": "kiriko_p_ssr6"
-				},
-				{
-					"card_addr": "kiriko_p_ssr7"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "kiriko_p_sr0"
-				},
-				{
-					"card_addr": "kiriko_p_sr1"
-				},
-				{
-					"card_addr": "kiriko_p_sr2"
-				},
-				{
-					"card_addr": "kiriko_p_sr3"
-				},
-				{
-					"card_addr": "kiriko_p_sr4"
-				},
-				{
-					"card_addr": "kiriko_p_sr5"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "kiriko_s_ssr1",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "kiriko_s_ssr2",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Stability",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "kiriko_s_ssr3",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Expressiveness",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "kiriko_s_ssr4",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "kiriko_s_ssr5",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "kiriko_s_ssr6",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess",
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "kiriko_s_ssr7",
-					"card_idea": "Dance",
-					"card_prof": [
-						"VocalProwess",
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "kiriko_s_ssr8",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "kiriko_s_ssr9",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability",
-						"Focus"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "kiriko_s_sr1",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "kiriko_s_sr2",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "kiriko_s_sr3",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "kiriko_s_sr4",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "kiriko_s_sr5",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "kiriko_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "kiriko_s_r0",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "카호",
-		"idol_ja_name": "小宮 果穂",
-		"idol_en_name": "Kaho",
-		"insight": "Vocal",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "kaho_p_ssr0"
-				},
-				{
-					"card_addr": "kaho_p_ssr1"
-				},
-				{
-					"card_addr": "kaho_p_ssr2"
-				},
-				{
-					"card_addr": "kaho_p_ssr3"
-				},
-				{
-					"card_addr": "kaho_p_ssr4"
-				},
-				{
-					"card_addr": "kaho_p_ssr5"
-				},
-				{
-					"card_addr": "kaho_p_ssr6"
-				},
-				{
-					"card_addr": "kaho_p_ssr7"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "kaho_p_sr0"
-				},
-				{
-					"card_addr": "kaho_p_sr1"
-				},
-				{
-					"card_addr": "kaho_p_sr2"
-				},
-				{
-					"card_addr": "kaho_p_sr3"
-				},
-				{
-					"card_addr": "kaho_p_sr4"
-				},
-				{
-					"card_addr": "kaho_p_sr5"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "kaho_s_ssr1",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "kaho_s_ssr2",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "kaho_s_ssr3",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"VocalProwess",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "kaho_s_ssr4",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "kaho_s_ssr5",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess",
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "kaho_s_ssr6",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "kaho_s_ssr7",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "kaho_s_ssr8",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "kaho_s_sr1",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "kaho_s_sr2",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "kaho_s_sr3",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "kaho_s_sr4",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "kaho_s_sr5",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "kaho_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "kaho_s_r0",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "치요코",
-		"idol_ja_name": "園田 智代子",
-		"idol_en_name": "Chiyoko",
-		"insight": "Mental",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "chiyoko_p_ssr0"
-				},
-				{
-					"card_addr": "chiyoko_p_ssr1"
-				},
-				{
-					"card_addr": "chiyoko_p_ssr2"
-				},
-				{
-					"card_addr": "chiyoko_p_ssr3"
-				},
-				{
-					"card_addr": "chiyoko_p_ssr4"
-				},
-				{
-					"card_addr": "chiyoko_p_ssr5"
-				},
-				{
-					"card_addr": "chiyoko_p_ssr6"
-				},
-				{
-					"card_addr": "chiyoko_p_ssr7"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "chiyoko_p_sr0"
-				},
-				{
-					"card_addr": "chiyoko_p_sr1"
-				},
-				{
-					"card_addr": "chiyoko_p_sr2"
-				},
-				{
-					"card_addr": "chiyoko_p_sr3"
-				},
-				{
-					"card_addr": "chiyoko_p_sr4"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "chiyoko_s_ssr1",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "chiyoko_s_ssr2",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "chiyoko_s_ssr3",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "chiyoko_s_ssr4",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "chiyoko_s_ssr5",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "chiyoko_s_ssr6",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "chiyoko_s_ssr7",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess",
-						"Focus"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "chiyoko_s_sr1",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "chiyoko_s_sr2",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "chiyoko_s_sr3",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "chiyoko_s_sr4",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "chiyoko_s_sr5",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "chiyoko_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "chiyoko_s_r0",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "쥬리",
-		"idol_ja_name": "西城 樹里",
-		"idol_en_name": "Juri",
-		"insight": "Dance",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "juri_p_ssr0"
-				},
-				{
-					"card_addr": "juri_p_ssr1"
-				},
-				{
-					"card_addr": "juri_p_ssr2"
-				},
-				{
-					"card_addr": "juri_p_ssr3"
-				},
-				{
-					"card_addr": "juri_p_ssr4"
-				},
-				{
-					"card_addr": "juri_p_ssr5"
-				},
-				{
-					"card_addr": "juri_p_ssr6"
-				},
-				{
-					"card_addr": "juri_p_ssr7"
-				},
-				{
-					"card_addr": "juri_p_ssr8"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "juri_p_sr0"
-				},
-				{
-					"card_addr": "juri_p_sr1"
-				},
-				{
-					"card_addr": "juri_p_sr2"
-				},
-				{
-					"card_addr": "juri_p_sr3"
-				},
-				{
-					"card_addr": "juri_p_sr4"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "juri_s_ssr1",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "juri_s_ssr2",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Stability",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "juri_s_ssr3",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Stability",
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "juri_s_ssr4",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "juri_s_ssr5",
-					"card_idea": "Dance",
-					"card_prof": [
-						"VocalProwess",
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "juri_s_ssr6",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "juri_s_ssr7",
-					"card_idea": "Talk",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "juri_s_ssr8",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness",
-						"Focus"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "juri_s_sr1",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "juri_s_sr2",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "juri_s_sr3",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "juri_s_sr4",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "juri_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "juri_s_r0",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "린제",
-		"idol_ja_name": "杜野 凛世",
-		"idol_en_name": "Rinze",
-		"insight": "Dance",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "rinze_p_ssr0"
-				},
-				{
-					"card_addr": "rinze_p_ssr1"
-				},
-				{
-					"card_addr": "rinze_p_ssr2"
-				},
-				{
-					"card_addr": "rinze_p_ssr3"
-				},
-				{
-					"card_addr": "rinze_p_ssr4"
-				},
-				{
-					"card_addr": "rinze_p_ssr5"
-				},
-				{
-					"card_addr": "rinze_p_ssr6"
-				},
-				{
-					"card_addr": "rinze_p_ssr7"
-				},
-				{
-					"card_addr": "rinze_p_ssr8"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "rinze_p_sr0"
-				},
-				{
-					"card_addr": "rinze_p_sr1"
-				},
-				{
-					"card_addr": "rinze_p_sr2"
-				},
-				{
-					"card_addr": "rinze_p_sr3"
-				},
-				{
-					"card_addr": "rinze_p_sr4"
-				},
-				{
-					"card_addr": "rinze_p_sr5"
-				},
-				{
-					"card_addr": "rinze_p_sr6"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "rinze_s_ssr1",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "rinze_s_ssr2",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "rinze_s_ssr3",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "rinze_s_ssr4",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "rinze_s_ssr5",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "rinze_s_ssr6",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "rinze_s_ssr7",
-					"card_idea": "Talk",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "rinze_s_ssr8",
-					"card_idea": "Dance",
-					"card_prof": [
-						"VocalProwess",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "rinze_s_ssr9",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness",
-						"Teamwork"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "rinze_s_sr1",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "rinze_s_sr2",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "rinze_s_sr3",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "rinze_s_sr4",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "rinze_s_sr5",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "rinze_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "rinze_s_r0",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "나츠하",
-		"idol_ja_name": "有栖川 夏葉",
-		"idol_en_name": "Natsuha",
-		"insight": "Mental",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "natsuha_p_ssr0"
-				},
-				{
-					"card_addr": "natsuha_p_ssr1"
-				},
-				{
-					"card_addr": "natsuha_p_ssr2"
-				},
-				{
-					"card_addr": "natsuha_p_ssr3"
-				},
-				{
-					"card_addr": "natsuha_p_ssr4"
-				},
-				{
-					"card_addr": "natsuha_p_ssr5"
-				},
-				{
-					"card_addr": "natsuha_p_ssr6"
-				},
-				{
-					"card_addr": "natsuha_p_ssr7"
-				},
-				{
-					"card_addr": "natsuha_p_ssr8"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "natsuha_p_sr0"
-				},
-				{
-					"card_addr": "natsuha_p_sr1"
-				},
-				{
-					"card_addr": "natsuha_p_sr2"
-				},
-				{
-					"card_addr": "natsuha_p_sr3"
-				},
-				{
-					"card_addr": "natsuha_p_sr4"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "natsuha_s_ssr1",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "natsuha_s_ssr2",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"VocalProwess",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "natsuha_s_ssr3",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "natsuha_s_ssr4",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "natsuha_s_ssr5",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Stability",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "natsuha_s_ssr6",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "natsuha_s_ssr7",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "natsuha_s_ssr8",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Expressiveness",
-						"Focus"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "natsuha_s_sr1",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "natsuha_s_sr2",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "natsuha_s_sr3",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "natsuha_s_sr4",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "natsuha_s_sr5",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "natsuha_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "natsuha_s_r0",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				}
-			],
-			"S_N": [
-				{
-					"card_addr": "natsuha_s_n0",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "아마나",
-		"idol_ja_name": "大崎 甘奈",
-		"idol_en_name": "Amana",
-		"insight": "Visual",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "amana_p_ssr0"
-				},
-				{
-					"card_addr": "amana_p_ssr1"
-				},
-				{
-					"card_addr": "amana_p_ssr2"
-				},
-				{
-					"card_addr": "amana_p_ssr3"
-				},
-				{
-					"card_addr": "amana_p_ssr4"
-				},
-				{
-					"card_addr": "amana_p_ssr5"
-				},
-				{
-					"card_addr": "amana_p_ssr6"
-				},
-				{
-					"card_addr": "amana_p_ssr7"
-				},
-				{
-					"card_addr": "amana_p_ssr8"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "amana_p_sr0"
-				},
-				{
-					"card_addr": "amana_p_sr1"
-				},
-				{
-					"card_addr": "amana_p_sr2"
-				},
-				{
-					"card_addr": "amana_p_sr3"
-				},
-				{
-					"card_addr": "amana_p_sr4"
-				},
-				{
-					"card_addr": "amana_p_sr5"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "amana_s_ssr1",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "amana_s_ssr2",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "amana_s_ssr3",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "amana_s_ssr4",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "amana_s_ssr5",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "amana_s_ssr6",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "amana_s_ssr7",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"VocalProwess",
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "amana_s_ssr8",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "amana_s_ssr9",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability",
-						"Expressiveness"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "amana_s_sr1",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "amana_s_sr2",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "amana_s_sr3",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "amana_s_sr4",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "amana_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "amana_s_r0",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "텐카",
-		"idol_ja_name": "大崎 甜花",
-		"idol_en_name": "Tenka",
-		"insight": "Visual",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "tenka_p_ssr0"
-				},
-				{
-					"card_addr": "tenka_p_ssr1"
-				},
-				{
-					"card_addr": "tenka_p_ssr2"
-				},
-				{
-					"card_addr": "tenka_p_ssr3"
-				},
-				{
-					"card_addr": "tenka_p_ssr4"
-				},
-				{
-					"card_addr": "tenka_p_ssr5"
-				},
-				{
-					"card_addr": "tenka_p_ssr6"
-				},
-				{
-					"card_addr": "tenka_p_ssr7"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "tenka_p_sr0"
-				},
-				{
-					"card_addr": "tenka_p_sr1"
-				},
-				{
-					"card_addr": "tenka_p_sr2"
-				},
-				{
-					"card_addr": "tenka_p_sr3"
-				},
-				{
-					"card_addr": "tenka_p_sr4"
-				},
-				{
-					"card_addr": "tenka_p_sr5"
-				},
-				{
-					"card_addr": "tenka_p_sr6"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "tenka_s_ssr1",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "tenka_s_ssr2",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Expressiveness",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "tenka_s_ssr3",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "tenka_s_ssr4",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "tenka_s_ssr5",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Expressiveness",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "tenka_s_ssr6",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "tenka_s_ssr7",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"VocalProwess",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "tenka_s_ssr8",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "tenka_s_ssr9",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess",
-						"Stability"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "tenka_s_sr1",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "tenka_s_sr2",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "tenka_s_sr3",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "tenka_s_sr4",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "tenka_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "tenka_s_r0",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				}
-			],
-			"S_N": [
-				{
-					"card_addr": "tenka_s_n0",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "치유키",
-		"idol_ja_name": "桑山 千雪",
-		"idol_en_name": "Chiyuki",
-		"insight": "Vocal",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "chiyuki_p_ssr0"
-				},
-				{
-					"card_addr": "chiyuki_p_ssr1"
-				},
-				{
-					"card_addr": "chiyuki_p_ssr2"
-				},
-				{
-					"card_addr": "chiyuki_p_ssr3"
-				},
-				{
-					"card_addr": "chiyuki_p_ssr4"
-				},
-				{
-					"card_addr": "chiyuki_p_ssr5"
-				},
-				{
-					"card_addr": "chiyuki_p_ssr6"
-				},
-				{
-					"card_addr": "chiyuki_p_ssr7"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "chiyuki_p_sr0"
-				},
-				{
-					"card_addr": "chiyuki_p_sr1"
-				},
-				{
-					"card_addr": "chiyuki_p_sr2"
-				},
-				{
-					"card_addr": "chiyuki_p_sr3"
-				},
-				{
-					"card_addr": "chiyuki_p_sr4"
-				},
-				{
-					"card_addr": "chiyuki_p_sr5"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "chiyuki_s_ssr1",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "chiyuki_s_ssr2",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "chiyuki_s_ssr3",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "chiyuki_s_ssr4",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "chiyuki_s_ssr5",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Expressiveness",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "chiyuki_s_ssr6",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "chiyuki_s_ssr7",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess",
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "chiyuki_s_ssr8",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "chiyuki_s_ssr9",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus",
-						"Teamwork"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "chiyuki_s_sr1",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "chiyuki_s_sr2",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "chiyuki_s_sr3",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "chiyuki_s_sr4",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "chiyuki_s_sr5",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "chiyuki_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "chiyuki_s_r0",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "아사히",
-		"idol_ja_name": "芹沢 あさひ",
-		"idol_en_name": "Asahi",
-		"insight": "Dance",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "asahi_p_ssr0"
-				},
-				{
-					"card_addr": "asahi_p_ssr1"
-				},
-				{
-					"card_addr": "asahi_p_ssr2"
-				},
-				{
-					"card_addr": "asahi_p_ssr3"
-				},
-				{
-					"card_addr": "asahi_p_ssr4"
-				},
-				{
-					"card_addr": "asahi_p_ssr5"
-				},
-				{
-					"card_addr": "asahi_p_ssr6"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "asahi_p_sr0"
-				},
-				{
-					"card_addr": "asahi_p_sr1"
-				},
-				{
-					"card_addr": "asahi_p_sr2"
-				},
-				{
-					"card_addr": "asahi_p_sr3"
-				},
-				{
-					"card_addr": "asahi_p_sr4"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "asahi_s_ssr1",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "asahi_s_ssr2",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Stability",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "asahi_s_ssr3",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Stability",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "asahi_s_ssr4",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "asahi_s_ssr5",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability",
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "asahi_s_ssr6",
-					"card_idea": "Dance",
-					"card_prof": [
-						"VocalProwess",
-						"Stability"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "asahi_s_sr1",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "asahi_s_sr2",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "asahi_s_sr3",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "asahi_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "asahi_s_r0",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "후유코",
-		"idol_ja_name": "黛 冬優子",
-		"idol_en_name": "Fuyuko",
-		"insight": "Vocal",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "fuyuko_p_ssr0"
-				},
-				{
-					"card_addr": "fuyuko_p_ssr1"
-				},
-				{
-					"card_addr": "fuyuko_p_ssr2"
-				},
-				{
-					"card_addr": "fuyuko_p_ssr3"
-				},
-				{
-					"card_addr": "fuyuko_p_ssr4"
-				},
-				{
-					"card_addr": "fuyuko_p_ssr5"
-				},
-				{
-					"card_addr": "fuyuko_p_ssr6"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "fuyuko_p_sr0"
-				},
-				{
-					"card_addr": "fuyuko_p_sr1"
-				},
-				{
-					"card_addr": "fuyuko_p_sr2"
-				},
-				{
-					"card_addr": "fuyuko_p_sr3"
-				},
-				{
-					"card_addr": "fuyuko_p_sr4"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "fuyuko_s_ssr1",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "fuyuko_s_ssr2",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"VocalProwess",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "fuyuko_s_ssr3",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability",
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "fuyuko_s_ssr4",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "fuyuko_s_ssr5",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "fuyuko_s_ssr6",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "fuyuko_s_ssr7",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess",
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "fuyuko_s_ssr8",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess",
-						"Stability"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "fuyuko_s_sr1",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "fuyuko_s_sr2",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "fuyuko_s_sr3",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "fuyuko_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "fuyuko_s_r0",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "메이",
-		"idol_ja_name": "和泉 愛依",
-		"idol_en_name": "Mei",
-		"insight": "Mental",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "mei_p_ssr0"
-				},
-				{
-					"card_addr": "mei_p_ssr1"
-				},
-				{
-					"card_addr": "mei_p_ssr2"
-				},
-				{
-					"card_addr": "mei_p_ssr3"
-				},
-				{
-					"card_addr": "mei_p_ssr4"
-				},
-				{
-					"card_addr": "mei_p_ssr5"
-				},
-				{
-					"card_addr": "mei_p_ssr6"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "mei_p_sr0"
-				},
-				{
-					"card_addr": "mei_p_sr1"
-				},
-				{
-					"card_addr": "mei_p_sr2"
-				},
-				{
-					"card_addr": "mei_p_sr3"
-				},
-				{
-					"card_addr": "mei_p_sr4"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "mei_s_ssr1",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "mei_s_ssr2",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Expressiveness",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "mei_s_ssr3",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Stability",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "mei_s_ssr4",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "mei_s_ssr5",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "mei_s_ssr6",
-					"card_idea": "Visual",
-					"card_prof": [
-						"VocalProwess",
-						"Expressiveness"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "mei_s_sr1",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "mei_s_sr2",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "mei_s_sr3",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "mei_s_sr4",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "mei_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "mei_s_r0",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "토오루",
-		"idol_ja_name": "浅倉 透",
-		"idol_en_name": "Toru",
-		"insight": "Visual",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "toru_p_ssr0"
-				},
-				{
-					"card_addr": "toru_p_ssr1"
-				},
-				{
-					"card_addr": "toru_p_ssr2"
-				},
-				{
-					"card_addr": "toru_p_ssr3"
-				},
-				{
-					"card_addr": "toru_p_ssr4"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "toru_p_sr0"
-				},
-				{
-					"card_addr": "toru_p_sr1"
-				},
-				{
-					"card_addr": "toru_p_sr2"
-				},
-				{
-					"card_addr": "toru_p_sr3"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "toru_s_ssr1",
-					"card_idea": "Talk",
-					"card_prof": [
-						"VocalProwess",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "toru_s_ssr2",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Expressiveness",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "toru_s_ssr3",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "toru_s_ssr4",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "toru_s_ssr5",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness",
-						"Teamwork"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "toru_s_sr1",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "toru_s_sr2",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "toru_s_sr3",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "toru_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "toru_s_r0",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "마도카",
-		"idol_ja_name": "樋口 円香",
-		"idol_en_name": "Madoka",
-		"insight": "Vocal",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "madoka_p_ssr0"
-				},
-				{
-					"card_addr": "madoka_p_ssr1"
-				},
-				{
-					"card_addr": "madoka_p_ssr2"
-				},
-				{
-					"card_addr": "madoka_p_ssr3"
-				},
-				{
-					"card_addr": "madoka_p_ssr4"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "madoka_p_sr0"
-				},
-				{
-					"card_addr": "madoka_p_sr1"
-				},
-				{
-					"card_addr": "madoka_p_sr2"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "madoka_s_ssr1",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "madoka_s_ssr2",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "madoka_s_ssr3",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Expressiveness",
-						"Focus"
-					]
-				},
-				{
-					"card_addr": "madoka_s_ssr4",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"Focus",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "madoka_s_ssr5",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"VocalProwess",
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "madoka_s_ssr6",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"Stability",
-						"Focus"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "madoka_s_sr1",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "madoka_s_sr2",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "madoka_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "madoka_s_r0",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "코이토",
-		"idol_ja_name": "福丸 小糸",
-		"idol_en_name": "Koito",
-		"insight": "Mental",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "koito_p_ssr0"
-				},
-				{
-					"card_addr": "koito_p_ssr1"
-				},
-				{
-					"card_addr": "koito_p_ssr2"
-				},
-				{
-					"card_addr": "koito_p_ssr3"
-				},
-				{
-					"card_addr": "koito_p_ssr4"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "koito_p_sr0"
-				},
-				{
-					"card_addr": "koito_p_sr1"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "koito_s_ssr1",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Focus",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "koito_s_ssr2",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "koito_s_ssr3",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				},
-				{
-					"card_addr": "koito_s_ssr4",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "koito_s_ssr5",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess",
-						"Focus"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "koito_s_sr1",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "koito_s_sr2",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "koito_s_sr3",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "koito_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "koito_s_r0",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "히나나",
-		"idol_ja_name": "市川 雛菜",
-		"idol_en_name": "Hinana",
-		"insight": "Dance",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "hinana_p_ssr0"
-				},
-				{
-					"card_addr": "hinana_p_ssr1"
-				},
-				{
-					"card_addr": "hinana_p_ssr2"
-				},
-				{
-					"card_addr": "hinana_p_ssr3"
-				},
-				{
-					"card_addr": "hinana_p_ssr4"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "hinana_p_sr0"
-				},
-				{
-					"card_addr": "hinana_p_sr1"
-				},
-				{
-					"card_addr": "hinana_p_sr2"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "hinana_s_ssr1",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "hinana_s_ssr2",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Stability",
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "hinana_s_ssr3",
-					"card_idea": "Visual",
-					"card_prof": [
-						"VocalProwess",
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "hinana_s_ssr4",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"Teamwork"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "hinana_s_sr1",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "hinana_s_sr2",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "hinana_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "hinana_s_r0",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "니치카",
-		"idol_ja_name": "七草 にちか",
-		"idol_en_name": "Nichika",
-		"insight": "Dance",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "nichika_p_ssr0"
-				},
-				{
-					"card_addr": "nichika_p_ssr1"
-				},
-				{
-					"card_addr": "nichika_p_ssr2"
-				},
-				{
-					"card_addr": "nichika_p_ssr3"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "nichika_p_sr0"
-				},
-				{
-					"card_addr": "nichika_p_sr1"
-				},
-				{
-					"card_addr": "nichika_p_sr2"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "nichika_s_ssr1",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "nichika_s_ssr2",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess",
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "nichika_s_ssr3",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Stability",
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "nichika_s_ssr4",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "nichika_s_ssr5",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Focus",
-						"Teamwork"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "nichika_s_sr1",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "nichika_s_sr2",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "nichika_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "nichika_s_r0",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Focus"
-					]
-				}
-			]
-		}
-	},
-	{
-		"idol_ko_name": "미코토",
-		"idol_ja_name": "緋田 美琴",
-		"idol_en_name": "Mikoto",
-		"insight": "Visual",
-		"card_data": {
-			"P_SSR": [
-				{
-					"card_addr": "mikoto_p_ssr0"
-				},
-				{
-					"card_addr": "mikoto_p_ssr1"
-				},
-				{
-					"card_addr": "mikoto_p_ssr2"
-				},
-				{
-					"card_addr": "mikoto_p_ssr3"
-				}
-			],
-			"P_SR": [
-				{
-					"card_addr": "mikoto_p_sr0"
-				},
-				{
-					"card_addr": "mikoto_p_sr1"
-				},
-				{
-					"card_addr": "mikoto_p_sr2"
-				}
-			],
-			"S_SSR": [
-				{
-					"card_addr": "mikoto_s_ssr1",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "mikoto_s_ssr2",
-					"card_idea": "Talk",
-					"card_prof": [
-						"Stability",
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "mikoto_s_ssr3",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"Expressiveness"
-					]
-				},
-				{
-					"card_addr": "mikoto_s_ssr4",
-					"card_idea": "Visual",
-					"card_prof": [
-						"Expressiveness",
-						"Teamwork"
-					]
-				},
-				{
-					"card_addr": "mikoto_s_ssr5",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess",
-						"Teamwork"
-					]
-				}
-			],
-			"S_SR": [
-				{
-					"card_addr": "mikoto_s_sr1",
-					"card_idea": "Vocal",
-					"card_prof": [
-						"VocalProwess"
-					]
-				},
-				{
-					"card_addr": "mikoto_s_sr2",
-					"card_idea": "Dance",
-					"card_prof": [
-						"Stability"
-					]
-				}
-			],
-			"P_R": [
-				{
-					"card_addr": "mikoto_p_r0"
-				}
-			],
-			"S_R": [
-				{
-					"card_addr": "mikoto_s_r0",
-					"card_idea": "Appeal",
-					"card_prof": [
-						"Teamwork"
-					]
-				}
-			]
-		}
-	}
+  {
+    "idol_ko_name": "마노",
+    "idol_ja_name": "櫻木 真乃",
+    "idol_en_name": "Mano",
+    "insight": "Vocal",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "mano_p_ssr0"
+        },
+        {
+          "card_addr": "mano_p_ssr1"
+        },
+        {
+          "card_addr": "mano_p_ssr2"
+        },
+        {
+          "card_addr": "mano_p_ssr3"
+        },
+        {
+          "card_addr": "mano_p_ssr4"
+        },
+        {
+          "card_addr": "mano_p_ssr5"
+        },
+        {
+          "card_addr": "mano_p_ssr6"
+        },
+        {
+          "card_addr": "mano_p_ssr7"
+        },
+        {
+          "card_addr": "mano_p_ssr8"
+        },
+        {
+          "card_addr": "mano_p_ssr9"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "mano_p_sr0"
+        },
+        {
+          "card_addr": "mano_p_sr1"
+        },
+        {
+          "card_addr": "mano_p_sr2"
+        },
+        {
+          "card_addr": "mano_p_sr3"
+        },
+        {
+          "card_addr": "mano_p_sr4"
+        },
+        {
+          "card_addr": "mano_p_sr5"
+        },
+        {
+          "card_addr": "mano_p_sr6"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "mano_s_ssr1",
+          "card_idea": "Talk",
+          "card_prof": [
+            "VocalProwess",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "mano_s_ssr2",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "mano_s_ssr3",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "mano_s_ssr4",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "VocalProwess",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "mano_s_ssr5",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "mano_s_ssr6",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "mano_s_ssr7",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "mano_s_ssr8",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "mano_s_ssr9",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "mano_s_ssr10",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Focus",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "mano_s_ssr11",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "mano_s_ssr12",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "Stability",
+            "Expressiveness"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "mano_s_sr1",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "mano_s_sr2",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "mano_s_sr3",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "mano_s_sr4",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "mano_s_sr5",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "mano_s_sr6",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "mano_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "mano_s_r0",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "히오리",
+    "idol_ja_name": "風野 灯織",
+    "idol_en_name": "Hiori",
+    "insight": "Visual",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "hiori_p_ssr0"
+        },
+        {
+          "card_addr": "hiori_p_ssr1"
+        },
+        {
+          "card_addr": "hiori_p_ssr2"
+        },
+        {
+          "card_addr": "hiori_p_ssr3"
+        },
+        {
+          "card_addr": "hiori_p_ssr4"
+        },
+        {
+          "card_addr": "hiori_p_ssr5"
+        },
+        {
+          "card_addr": "hiori_p_ssr6"
+        },
+        {
+          "card_addr": "hiori_p_ssr7"
+        },
+        {
+          "card_addr": "hiori_p_ssr8"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "hiori_p_sr0"
+        },
+        {
+          "card_addr": "hiori_p_sr1"
+        },
+        {
+          "card_addr": "hiori_p_sr2"
+        },
+        {
+          "card_addr": "hiori_p_sr3"
+        },
+        {
+          "card_addr": "hiori_p_sr4"
+        },
+        {
+          "card_addr": "hiori_p_sr5"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "hiori_s_ssr1",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability",
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "hiori_s_ssr2",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "hiori_s_ssr3",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Stability",
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "hiori_s_ssr4",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "hiori_s_ssr5",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Stability",
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "hiori_s_ssr6",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Stability",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "hiori_s_ssr7",
+          "card_idea": "Talk",
+          "card_prof": [
+            "VocalProwess",
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "hiori_s_ssr8",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "hiori_s_ssr9",
+          "card_idea": "Visual",
+          "card_prof": [
+            "VocalProwess",
+            "Focus"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "hiori_s_sr1",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "hiori_s_sr2",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "hiori_s_sr3",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "hiori_s_sr4",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "hiori_s_sr5",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "hiori_s_sr6",
+          "card_idea": "Visual",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "hiori_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "hiori_s_r0",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "메구루",
+    "idol_ja_name": "八宮 めぐる",
+    "idol_en_name": "Meguru",
+    "insight": "Dance",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "meguru_p_ssr0"
+        },
+        {
+          "card_addr": "meguru_p_ssr1"
+        },
+        {
+          "card_addr": "meguru_p_ssr2"
+        },
+        {
+          "card_addr": "meguru_p_ssr3"
+        },
+        {
+          "card_addr": "meguru_p_ssr4"
+        },
+        {
+          "card_addr": "meguru_p_ssr5"
+        },
+        {
+          "card_addr": "meguru_p_ssr6"
+        },
+        {
+          "card_addr": "meguru_p_ssr7"
+        },
+        {
+          "card_addr": "meguru_p_ssr8"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "meguru_p_sr0"
+        },
+        {
+          "card_addr": "meguru_p_sr1"
+        },
+        {
+          "card_addr": "meguru_p_sr2"
+        },
+        {
+          "card_addr": "meguru_p_sr3"
+        },
+        {
+          "card_addr": "meguru_p_sr4"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "meguru_s_ssr1",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Stability",
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "meguru_s_ssr2",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "meguru_s_ssr3",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "meguru_s_ssr4",
+          "card_idea": "Dance",
+          "card_prof": [
+            "VocalProwess",
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "meguru_s_ssr5",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability",
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "meguru_s_ssr6",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "meguru_s_ssr7",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "meguru_s_ssr8",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "meguru_s_ssr9",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "meguru_s_ssr10",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Stability",
+            "Expressiveness"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "meguru_s_sr1",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "meguru_s_sr2",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "meguru_s_sr3",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "meguru_s_sr4",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "meguru_s_sr5",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "meguru_s_sr6",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "meguru_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "meguru_s_r0",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "코가네",
+    "idol_ja_name": "月岡 恋鐘",
+    "idol_en_name": "Kogane",
+    "insight": "Mental",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "kogane_p_ssr0"
+        },
+        {
+          "card_addr": "kogane_p_ssr1"
+        },
+        {
+          "card_addr": "kogane_p_ssr2"
+        },
+        {
+          "card_addr": "kogane_p_ssr3"
+        },
+        {
+          "card_addr": "kogane_p_ssr4"
+        },
+        {
+          "card_addr": "kogane_p_ssr5"
+        },
+        {
+          "card_addr": "kogane_p_ssr6"
+        },
+        {
+          "card_addr": "kogane_p_ssr7"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "kogane_p_sr0"
+        },
+        {
+          "card_addr": "kogane_p_sr1"
+        },
+        {
+          "card_addr": "kogane_p_sr2"
+        },
+        {
+          "card_addr": "kogane_p_sr3"
+        },
+        {
+          "card_addr": "kogane_p_sr4"
+        },
+        {
+          "card_addr": "kogane_p_sr5"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "kogane_s_ssr1",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "kogane_s_ssr2",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "kogane_s_ssr3",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "kogane_s_ssr4",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "kogane_s_ssr5",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "kogane_s_ssr6",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Expressiveness",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "kogane_s_ssr7",
+          "card_idea": "Talk",
+          "card_prof": [
+            "VocalProwess",
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "kogane_s_ssr8",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Focus"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "kogane_s_sr1",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "kogane_s_sr2",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "kogane_s_sr3",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "kogane_s_sr4",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "kogane_s_sr5",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "kogane_s_sr6",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "kogane_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "kogane_s_r0",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "마미미",
+    "idol_ja_name": "田中 摩美々",
+    "idol_en_name": "Mamimi",
+    "insight": "Visual",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "mamimi_p_ssr0"
+        },
+        {
+          "card_addr": "mamimi_p_ssr1"
+        },
+        {
+          "card_addr": "mamimi_p_ssr2"
+        },
+        {
+          "card_addr": "mamimi_p_ssr3"
+        },
+        {
+          "card_addr": "mamimi_p_ssr4"
+        },
+        {
+          "card_addr": "mamimi_p_ssr5"
+        },
+        {
+          "card_addr": "mamimi_p_ssr6"
+        },
+        {
+          "card_addr": "mamimi_p_ssr7"
+        },
+        {
+          "card_addr": "mamimi_p_ssr8"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "mamimi_p_sr0"
+        },
+        {
+          "card_addr": "mamimi_p_sr1"
+        },
+        {
+          "card_addr": "mamimi_p_sr2"
+        },
+        {
+          "card_addr": "mamimi_p_sr3"
+        },
+        {
+          "card_addr": "mamimi_p_sr4"
+        },
+        {
+          "card_addr": "mamimi_p_sr5"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "mamimi_s_ssr1",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "mamimi_s_ssr2",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Expressiveness",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "mamimi_s_ssr3",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "mamimi_s_ssr4",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Stability",
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "mamimi_s_ssr5",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "mamimi_s_ssr6",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "mamimi_s_ssr7",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "mamimi_s_ssr8",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "mamimi_s_sr1",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "mamimi_s_sr2",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "mamimi_s_sr3",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "mamimi_s_sr4",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "mamimi_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "mamimi_s_r0",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        }
+      ],
+      "S_N": [
+        {
+          "card_addr": "mamimi_s_n0",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "사쿠야",
+    "idol_ja_name": "白瀬 咲耶",
+    "idol_en_name": "Sakuya",
+    "insight": "Visual",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "sakuya_p_ssr0"
+        },
+        {
+          "card_addr": "sakuya_p_ssr1"
+        },
+        {
+          "card_addr": "sakuya_p_ssr2"
+        },
+        {
+          "card_addr": "sakuya_p_ssr3"
+        },
+        {
+          "card_addr": "sakuya_p_ssr4"
+        },
+        {
+          "card_addr": "sakuya_p_ssr5"
+        },
+        {
+          "card_addr": "sakuya_p_ssr6"
+        },
+        {
+          "card_addr": "sakuya_p_ssr7"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "sakuya_p_sr0"
+        },
+        {
+          "card_addr": "sakuya_p_sr1"
+        },
+        {
+          "card_addr": "sakuya_p_sr2"
+        },
+        {
+          "card_addr": "sakuya_p_sr3"
+        },
+        {
+          "card_addr": "sakuya_p_sr4"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "sakuya_s_ssr1",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Expressiveness",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "sakuya_s_ssr2",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "sakuya_s_ssr3",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Stability",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "sakuya_s_ssr4",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability",
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "sakuya_s_ssr5",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "sakuya_s_ssr6",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "sakuya_s_ssr7",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Stability",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "sakuya_s_ssr8",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "VocalProwess",
+            "Expressiveness"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "sakuya_s_sr1",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "sakuya_s_sr2",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "sakuya_s_sr3",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "sakuya_s_sr4",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "sakuya_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "sakuya_s_r0",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        }
+      ],
+      "S_N": [
+        {
+          "card_addr": "sakuya_s_n0",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "유이카",
+    "idol_ja_name": "三峰 結華",
+    "idol_en_name": "Yuika",
+    "insight": "Dance",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "yuika_p_ssr0"
+        },
+        {
+          "card_addr": "yuika_p_ssr1"
+        },
+        {
+          "card_addr": "yuika_p_ssr2"
+        },
+        {
+          "card_addr": "yuika_p_ssr3"
+        },
+        {
+          "card_addr": "yuika_p_ssr4"
+        },
+        {
+          "card_addr": "yuika_p_ssr5"
+        },
+        {
+          "card_addr": "yuika_p_ssr6"
+        },
+        {
+          "card_addr": "yuika_p_ssr7"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "yuika_p_sr0"
+        },
+        {
+          "card_addr": "yuika_p_sr1"
+        },
+        {
+          "card_addr": "yuika_p_sr2"
+        },
+        {
+          "card_addr": "yuika_p_sr3"
+        },
+        {
+          "card_addr": "yuika_p_sr4"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "yuika_s_ssr1",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "yuika_s_ssr2",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "yuika_s_ssr3",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "yuika_s_ssr4",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "yuika_s_ssr5",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "yuika_s_ssr6",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "yuika_s_ssr7",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "yuika_s_ssr8",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Focus"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "yuika_s_sr1",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "yuika_s_sr2",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "yuika_s_sr3",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "yuika_s_sr4",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "yuika_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "yuika_s_r0",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "키리코",
+    "idol_ja_name": "幽谷 霧子",
+    "idol_en_name": "Kiriko",
+    "insight": "Vocal",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "kiriko_p_ssr0"
+        },
+        {
+          "card_addr": "kiriko_p_ssr1"
+        },
+        {
+          "card_addr": "kiriko_p_ssr2"
+        },
+        {
+          "card_addr": "kiriko_p_ssr3"
+        },
+        {
+          "card_addr": "kiriko_p_ssr4"
+        },
+        {
+          "card_addr": "kiriko_p_ssr5"
+        },
+        {
+          "card_addr": "kiriko_p_ssr6"
+        },
+        {
+          "card_addr": "kiriko_p_ssr7"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "kiriko_p_sr0"
+        },
+        {
+          "card_addr": "kiriko_p_sr1"
+        },
+        {
+          "card_addr": "kiriko_p_sr2"
+        },
+        {
+          "card_addr": "kiriko_p_sr3"
+        },
+        {
+          "card_addr": "kiriko_p_sr4"
+        },
+        {
+          "card_addr": "kiriko_p_sr5"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "kiriko_s_ssr1",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "kiriko_s_ssr2",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Stability",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "kiriko_s_ssr3",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Expressiveness",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "kiriko_s_ssr4",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "kiriko_s_ssr5",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "kiriko_s_ssr6",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "kiriko_s_ssr7",
+          "card_idea": "Dance",
+          "card_prof": [
+            "VocalProwess",
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "kiriko_s_ssr8",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "kiriko_s_ssr9",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability",
+            "Focus"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "kiriko_s_sr1",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "kiriko_s_sr2",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "kiriko_s_sr3",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "kiriko_s_sr4",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "kiriko_s_sr5",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "kiriko_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "kiriko_s_r0",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "카호",
+    "idol_ja_name": "小宮 果穂",
+    "idol_en_name": "Kaho",
+    "insight": "Vocal",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "kaho_p_ssr0"
+        },
+        {
+          "card_addr": "kaho_p_ssr1"
+        },
+        {
+          "card_addr": "kaho_p_ssr2"
+        },
+        {
+          "card_addr": "kaho_p_ssr3"
+        },
+        {
+          "card_addr": "kaho_p_ssr4"
+        },
+        {
+          "card_addr": "kaho_p_ssr5"
+        },
+        {
+          "card_addr": "kaho_p_ssr6"
+        },
+        {
+          "card_addr": "kaho_p_ssr7"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "kaho_p_sr0"
+        },
+        {
+          "card_addr": "kaho_p_sr1"
+        },
+        {
+          "card_addr": "kaho_p_sr2"
+        },
+        {
+          "card_addr": "kaho_p_sr3"
+        },
+        {
+          "card_addr": "kaho_p_sr4"
+        },
+        {
+          "card_addr": "kaho_p_sr5"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "kaho_s_ssr1",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "kaho_s_ssr2",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "kaho_s_ssr3",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "VocalProwess",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "kaho_s_ssr4",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "kaho_s_ssr5",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "kaho_s_ssr6",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "kaho_s_ssr7",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "kaho_s_ssr8",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "kaho_s_sr1",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "kaho_s_sr2",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "kaho_s_sr3",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "kaho_s_sr4",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "kaho_s_sr5",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "kaho_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "kaho_s_r0",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "치요코",
+    "idol_ja_name": "園田 智代子",
+    "idol_en_name": "Chiyoko",
+    "insight": "Mental",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "chiyoko_p_ssr0"
+        },
+        {
+          "card_addr": "chiyoko_p_ssr1"
+        },
+        {
+          "card_addr": "chiyoko_p_ssr2"
+        },
+        {
+          "card_addr": "chiyoko_p_ssr3"
+        },
+        {
+          "card_addr": "chiyoko_p_ssr4"
+        },
+        {
+          "card_addr": "chiyoko_p_ssr5"
+        },
+        {
+          "card_addr": "chiyoko_p_ssr6"
+        },
+        {
+          "card_addr": "chiyoko_p_ssr7"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "chiyoko_p_sr0"
+        },
+        {
+          "card_addr": "chiyoko_p_sr1"
+        },
+        {
+          "card_addr": "chiyoko_p_sr2"
+        },
+        {
+          "card_addr": "chiyoko_p_sr3"
+        },
+        {
+          "card_addr": "chiyoko_p_sr4"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "chiyoko_s_ssr1",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "chiyoko_s_ssr2",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "chiyoko_s_ssr3",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "chiyoko_s_ssr4",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "chiyoko_s_ssr5",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "chiyoko_s_ssr6",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "chiyoko_s_ssr7",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Focus"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "chiyoko_s_sr1",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "chiyoko_s_sr2",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "chiyoko_s_sr3",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "chiyoko_s_sr4",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "chiyoko_s_sr5",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "chiyoko_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "chiyoko_s_r0",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "쥬리",
+    "idol_ja_name": "西城 樹里",
+    "idol_en_name": "Juri",
+    "insight": "Dance",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "juri_p_ssr0"
+        },
+        {
+          "card_addr": "juri_p_ssr1"
+        },
+        {
+          "card_addr": "juri_p_ssr2"
+        },
+        {
+          "card_addr": "juri_p_ssr3"
+        },
+        {
+          "card_addr": "juri_p_ssr4"
+        },
+        {
+          "card_addr": "juri_p_ssr5"
+        },
+        {
+          "card_addr": "juri_p_ssr6"
+        },
+        {
+          "card_addr": "juri_p_ssr7"
+        },
+        {
+          "card_addr": "juri_p_ssr8"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "juri_p_sr0"
+        },
+        {
+          "card_addr": "juri_p_sr1"
+        },
+        {
+          "card_addr": "juri_p_sr2"
+        },
+        {
+          "card_addr": "juri_p_sr3"
+        },
+        {
+          "card_addr": "juri_p_sr4"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "juri_s_ssr1",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "juri_s_ssr2",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Stability",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "juri_s_ssr3",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Stability",
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "juri_s_ssr4",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "juri_s_ssr5",
+          "card_idea": "Dance",
+          "card_prof": [
+            "VocalProwess",
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "juri_s_ssr6",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "juri_s_ssr7",
+          "card_idea": "Talk",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "juri_s_ssr8",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness",
+            "Focus"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "juri_s_sr1",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "juri_s_sr2",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "juri_s_sr3",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "juri_s_sr4",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "juri_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "juri_s_r0",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "린제",
+    "idol_ja_name": "杜野 凛世",
+    "idol_en_name": "Rinze",
+    "insight": "Dance",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "rinze_p_ssr0"
+        },
+        {
+          "card_addr": "rinze_p_ssr1"
+        },
+        {
+          "card_addr": "rinze_p_ssr2"
+        },
+        {
+          "card_addr": "rinze_p_ssr3"
+        },
+        {
+          "card_addr": "rinze_p_ssr4"
+        },
+        {
+          "card_addr": "rinze_p_ssr5"
+        },
+        {
+          "card_addr": "rinze_p_ssr6"
+        },
+        {
+          "card_addr": "rinze_p_ssr7"
+        },
+        {
+          "card_addr": "rinze_p_ssr8"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "rinze_p_sr0"
+        },
+        {
+          "card_addr": "rinze_p_sr1"
+        },
+        {
+          "card_addr": "rinze_p_sr2"
+        },
+        {
+          "card_addr": "rinze_p_sr3"
+        },
+        {
+          "card_addr": "rinze_p_sr4"
+        },
+        {
+          "card_addr": "rinze_p_sr5"
+        },
+        {
+          "card_addr": "rinze_p_sr6"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "rinze_s_ssr1",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "rinze_s_ssr2",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "rinze_s_ssr3",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "rinze_s_ssr4",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "rinze_s_ssr5",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "rinze_s_ssr6",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "rinze_s_ssr7",
+          "card_idea": "Talk",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "rinze_s_ssr8",
+          "card_idea": "Dance",
+          "card_prof": [
+            "VocalProwess",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "rinze_s_ssr9",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness",
+            "Teamwork"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "rinze_s_sr1",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "rinze_s_sr2",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "rinze_s_sr3",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "rinze_s_sr4",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "rinze_s_sr5",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "rinze_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "rinze_s_r0",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "나츠하",
+    "idol_ja_name": "有栖川 夏葉",
+    "idol_en_name": "Natsuha",
+    "insight": "Mental",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "natsuha_p_ssr0"
+        },
+        {
+          "card_addr": "natsuha_p_ssr1"
+        },
+        {
+          "card_addr": "natsuha_p_ssr2"
+        },
+        {
+          "card_addr": "natsuha_p_ssr3"
+        },
+        {
+          "card_addr": "natsuha_p_ssr4"
+        },
+        {
+          "card_addr": "natsuha_p_ssr5"
+        },
+        {
+          "card_addr": "natsuha_p_ssr6"
+        },
+        {
+          "card_addr": "natsuha_p_ssr7"
+        },
+        {
+          "card_addr": "natsuha_p_ssr8"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "natsuha_p_sr0"
+        },
+        {
+          "card_addr": "natsuha_p_sr1"
+        },
+        {
+          "card_addr": "natsuha_p_sr2"
+        },
+        {
+          "card_addr": "natsuha_p_sr3"
+        },
+        {
+          "card_addr": "natsuha_p_sr4"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "natsuha_s_ssr1",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "natsuha_s_ssr2",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "VocalProwess",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "natsuha_s_ssr3",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "natsuha_s_ssr4",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "natsuha_s_ssr5",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Stability",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "natsuha_s_ssr6",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "natsuha_s_ssr7",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "natsuha_s_ssr8",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Expressiveness",
+            "Focus"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "natsuha_s_sr1",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "natsuha_s_sr2",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "natsuha_s_sr3",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "natsuha_s_sr4",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "natsuha_s_sr5",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "natsuha_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "natsuha_s_r0",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        }
+      ],
+      "S_N": [
+        {
+          "card_addr": "natsuha_s_n0",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "아마나",
+    "idol_ja_name": "大崎 甘奈",
+    "idol_en_name": "Amana",
+    "insight": "Visual",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "amana_p_ssr0"
+        },
+        {
+          "card_addr": "amana_p_ssr1"
+        },
+        {
+          "card_addr": "amana_p_ssr2"
+        },
+        {
+          "card_addr": "amana_p_ssr3"
+        },
+        {
+          "card_addr": "amana_p_ssr4"
+        },
+        {
+          "card_addr": "amana_p_ssr5"
+        },
+        {
+          "card_addr": "amana_p_ssr6"
+        },
+        {
+          "card_addr": "amana_p_ssr7"
+        },
+        {
+          "card_addr": "amana_p_ssr8"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "amana_p_sr0"
+        },
+        {
+          "card_addr": "amana_p_sr1"
+        },
+        {
+          "card_addr": "amana_p_sr2"
+        },
+        {
+          "card_addr": "amana_p_sr3"
+        },
+        {
+          "card_addr": "amana_p_sr4"
+        },
+        {
+          "card_addr": "amana_p_sr5"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "amana_s_ssr1",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "amana_s_ssr2",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "amana_s_ssr3",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "amana_s_ssr4",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "amana_s_ssr5",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "amana_s_ssr6",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "amana_s_ssr7",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "VocalProwess",
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "amana_s_ssr8",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "amana_s_ssr9",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability",
+            "Expressiveness"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "amana_s_sr1",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "amana_s_sr2",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "amana_s_sr3",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "amana_s_sr4",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "amana_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "amana_s_r0",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "텐카",
+    "idol_ja_name": "大崎 甜花",
+    "idol_en_name": "Tenka",
+    "insight": "Visual",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "tenka_p_ssr0"
+        },
+        {
+          "card_addr": "tenka_p_ssr1"
+        },
+        {
+          "card_addr": "tenka_p_ssr2"
+        },
+        {
+          "card_addr": "tenka_p_ssr3"
+        },
+        {
+          "card_addr": "tenka_p_ssr4"
+        },
+        {
+          "card_addr": "tenka_p_ssr5"
+        },
+        {
+          "card_addr": "tenka_p_ssr6"
+        },
+        {
+          "card_addr": "tenka_p_ssr7"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "tenka_p_sr0"
+        },
+        {
+          "card_addr": "tenka_p_sr1"
+        },
+        {
+          "card_addr": "tenka_p_sr2"
+        },
+        {
+          "card_addr": "tenka_p_sr3"
+        },
+        {
+          "card_addr": "tenka_p_sr4"
+        },
+        {
+          "card_addr": "tenka_p_sr5"
+        },
+        {
+          "card_addr": "tenka_p_sr6"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "tenka_s_ssr1",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "tenka_s_ssr2",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Expressiveness",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "tenka_s_ssr3",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "tenka_s_ssr4",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "tenka_s_ssr5",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Expressiveness",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "tenka_s_ssr6",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "tenka_s_ssr7",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "VocalProwess",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "tenka_s_ssr8",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "tenka_s_ssr9",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Stability"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "tenka_s_sr1",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "tenka_s_sr2",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "tenka_s_sr3",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "tenka_s_sr4",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "tenka_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "tenka_s_r0",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        }
+      ],
+      "S_N": [
+        {
+          "card_addr": "tenka_s_n0",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "치유키",
+    "idol_ja_name": "桑山 千雪",
+    "idol_en_name": "Chiyuki",
+    "insight": "Vocal",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "chiyuki_p_ssr0"
+        },
+        {
+          "card_addr": "chiyuki_p_ssr1"
+        },
+        {
+          "card_addr": "chiyuki_p_ssr2"
+        },
+        {
+          "card_addr": "chiyuki_p_ssr3"
+        },
+        {
+          "card_addr": "chiyuki_p_ssr4"
+        },
+        {
+          "card_addr": "chiyuki_p_ssr5"
+        },
+        {
+          "card_addr": "chiyuki_p_ssr6"
+        },
+        {
+          "card_addr": "chiyuki_p_ssr7"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "chiyuki_p_sr0"
+        },
+        {
+          "card_addr": "chiyuki_p_sr1"
+        },
+        {
+          "card_addr": "chiyuki_p_sr2"
+        },
+        {
+          "card_addr": "chiyuki_p_sr3"
+        },
+        {
+          "card_addr": "chiyuki_p_sr4"
+        },
+        {
+          "card_addr": "chiyuki_p_sr5"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "chiyuki_s_ssr1",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "chiyuki_s_ssr2",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "chiyuki_s_ssr3",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "chiyuki_s_ssr4",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "chiyuki_s_ssr5",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Expressiveness",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "chiyuki_s_ssr6",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "chiyuki_s_ssr7",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "chiyuki_s_ssr8",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "chiyuki_s_ssr9",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus",
+            "Teamwork"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "chiyuki_s_sr1",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "chiyuki_s_sr2",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "chiyuki_s_sr3",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "chiyuki_s_sr4",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "chiyuki_s_sr5",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "chiyuki_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "chiyuki_s_r0",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "아사히",
+    "idol_ja_name": "芹沢 あさひ",
+    "idol_en_name": "Asahi",
+    "insight": "Dance",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "asahi_p_ssr0"
+        },
+        {
+          "card_addr": "asahi_p_ssr1"
+        },
+        {
+          "card_addr": "asahi_p_ssr2"
+        },
+        {
+          "card_addr": "asahi_p_ssr3"
+        },
+        {
+          "card_addr": "asahi_p_ssr4"
+        },
+        {
+          "card_addr": "asahi_p_ssr5"
+        },
+        {
+          "card_addr": "asahi_p_ssr6"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "asahi_p_sr0"
+        },
+        {
+          "card_addr": "asahi_p_sr1"
+        },
+        {
+          "card_addr": "asahi_p_sr2"
+        },
+        {
+          "card_addr": "asahi_p_sr3"
+        },
+        {
+          "card_addr": "asahi_p_sr4"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "asahi_s_ssr1",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "asahi_s_ssr2",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Stability",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "asahi_s_ssr3",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Stability",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "asahi_s_ssr4",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "asahi_s_ssr5",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability",
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "asahi_s_ssr6",
+          "card_idea": "Dance",
+          "card_prof": [
+            "VocalProwess",
+            "Stability"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "asahi_s_sr1",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "asahi_s_sr2",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "asahi_s_sr3",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "asahi_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "asahi_s_r0",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "후유코",
+    "idol_ja_name": "黛 冬優子",
+    "idol_en_name": "Fuyuko",
+    "insight": "Vocal",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "fuyuko_p_ssr0"
+        },
+        {
+          "card_addr": "fuyuko_p_ssr1"
+        },
+        {
+          "card_addr": "fuyuko_p_ssr2"
+        },
+        {
+          "card_addr": "fuyuko_p_ssr3"
+        },
+        {
+          "card_addr": "fuyuko_p_ssr4"
+        },
+        {
+          "card_addr": "fuyuko_p_ssr5"
+        },
+        {
+          "card_addr": "fuyuko_p_ssr6"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "fuyuko_p_sr0"
+        },
+        {
+          "card_addr": "fuyuko_p_sr1"
+        },
+        {
+          "card_addr": "fuyuko_p_sr2"
+        },
+        {
+          "card_addr": "fuyuko_p_sr3"
+        },
+        {
+          "card_addr": "fuyuko_p_sr4"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "fuyuko_s_ssr1",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "fuyuko_s_ssr2",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "VocalProwess",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "fuyuko_s_ssr3",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability",
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "fuyuko_s_ssr4",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "fuyuko_s_ssr5",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "fuyuko_s_ssr6",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "fuyuko_s_ssr7",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "fuyuko_s_ssr8",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Stability"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "fuyuko_s_sr1",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "fuyuko_s_sr2",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "fuyuko_s_sr3",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "fuyuko_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "fuyuko_s_r0",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "메이",
+    "idol_ja_name": "和泉 愛依",
+    "idol_en_name": "Mei",
+    "insight": "Mental",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "mei_p_ssr0"
+        },
+        {
+          "card_addr": "mei_p_ssr1"
+        },
+        {
+          "card_addr": "mei_p_ssr2"
+        },
+        {
+          "card_addr": "mei_p_ssr3"
+        },
+        {
+          "card_addr": "mei_p_ssr4"
+        },
+        {
+          "card_addr": "mei_p_ssr5"
+        },
+        {
+          "card_addr": "mei_p_ssr6"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "mei_p_sr0"
+        },
+        {
+          "card_addr": "mei_p_sr1"
+        },
+        {
+          "card_addr": "mei_p_sr2"
+        },
+        {
+          "card_addr": "mei_p_sr3"
+        },
+        {
+          "card_addr": "mei_p_sr4"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "mei_s_ssr1",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "mei_s_ssr2",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Expressiveness",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "mei_s_ssr3",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Stability",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "mei_s_ssr4",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "mei_s_ssr5",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "mei_s_ssr6",
+          "card_idea": "Visual",
+          "card_prof": [
+            "VocalProwess",
+            "Expressiveness"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "mei_s_sr1",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "mei_s_sr2",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "mei_s_sr3",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "mei_s_sr4",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "mei_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "mei_s_r0",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "토오루",
+    "idol_ja_name": "浅倉 透",
+    "idol_en_name": "Toru",
+    "insight": "Visual",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "toru_p_ssr0"
+        },
+        {
+          "card_addr": "toru_p_ssr1"
+        },
+        {
+          "card_addr": "toru_p_ssr2"
+        },
+        {
+          "card_addr": "toru_p_ssr3"
+        },
+        {
+          "card_addr": "toru_p_ssr4"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "toru_p_sr0"
+        },
+        {
+          "card_addr": "toru_p_sr1"
+        },
+        {
+          "card_addr": "toru_p_sr2"
+        },
+        {
+          "card_addr": "toru_p_sr3"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "toru_s_ssr1",
+          "card_idea": "Talk",
+          "card_prof": [
+            "VocalProwess",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "toru_s_ssr2",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Expressiveness",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "toru_s_ssr3",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "toru_s_ssr4",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "toru_s_ssr5",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness",
+            "Teamwork"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "toru_s_sr1",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "toru_s_sr2",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "toru_s_sr3",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "toru_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "toru_s_r0",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "마도카",
+    "idol_ja_name": "樋口 円香",
+    "idol_en_name": "Madoka",
+    "insight": "Vocal",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "madoka_p_ssr0"
+        },
+        {
+          "card_addr": "madoka_p_ssr1"
+        },
+        {
+          "card_addr": "madoka_p_ssr2"
+        },
+        {
+          "card_addr": "madoka_p_ssr3"
+        },
+        {
+          "card_addr": "madoka_p_ssr4"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "madoka_p_sr0"
+        },
+        {
+          "card_addr": "madoka_p_sr1"
+        },
+        {
+          "card_addr": "madoka_p_sr2"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "madoka_s_ssr1",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "madoka_s_ssr2",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "madoka_s_ssr3",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Expressiveness",
+            "Focus"
+          ]
+        },
+        {
+          "card_addr": "madoka_s_ssr4",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "Focus",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "madoka_s_ssr5",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "VocalProwess",
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "madoka_s_ssr6",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "Stability",
+            "Focus"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "madoka_s_sr1",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "madoka_s_sr2",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "madoka_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "madoka_s_r0",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "코이토",
+    "idol_ja_name": "福丸 小糸",
+    "idol_en_name": "Koito",
+    "insight": "Mental",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "koito_p_ssr0"
+        },
+        {
+          "card_addr": "koito_p_ssr1"
+        },
+        {
+          "card_addr": "koito_p_ssr2"
+        },
+        {
+          "card_addr": "koito_p_ssr3"
+        },
+        {
+          "card_addr": "koito_p_ssr4"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "koito_p_sr0"
+        },
+        {
+          "card_addr": "koito_p_sr1"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "koito_s_ssr1",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Focus",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "koito_s_ssr2",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "koito_s_ssr3",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "koito_s_ssr4",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "koito_s_ssr5",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Focus"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "koito_s_sr1",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "koito_s_sr2",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "koito_s_sr3",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "koito_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "koito_s_r0",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "히나나",
+    "idol_ja_name": "市川 雛菜",
+    "idol_en_name": "Hinana",
+    "insight": "Dance",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "hinana_p_ssr0"
+        },
+        {
+          "card_addr": "hinana_p_ssr1"
+        },
+        {
+          "card_addr": "hinana_p_ssr2"
+        },
+        {
+          "card_addr": "hinana_p_ssr3"
+        },
+        {
+          "card_addr": "hinana_p_ssr4"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "hinana_p_sr0"
+        },
+        {
+          "card_addr": "hinana_p_sr1"
+        },
+        {
+          "card_addr": "hinana_p_sr2"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "hinana_s_ssr1",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "hinana_s_ssr2",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Stability",
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "hinana_s_ssr3",
+          "card_idea": "Visual",
+          "card_prof": [
+            "VocalProwess",
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "hinana_s_ssr4",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "hinana_s_sr1",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "hinana_s_sr2",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "hinana_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "hinana_s_r0",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "니치카",
+    "idol_ja_name": "七草 にちか",
+    "idol_en_name": "Nichika",
+    "insight": "Dance",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "nichika_p_ssr0"
+        },
+        {
+          "card_addr": "nichika_p_ssr1"
+        },
+        {
+          "card_addr": "nichika_p_ssr2"
+        },
+        {
+          "card_addr": "nichika_p_ssr3"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "nichika_p_sr0"
+        },
+        {
+          "card_addr": "nichika_p_sr1"
+        },
+        {
+          "card_addr": "nichika_p_sr2"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "nichika_s_ssr1",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "nichika_s_ssr2",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "nichika_s_ssr3",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Stability",
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "nichika_s_ssr4",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "nichika_s_ssr5",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Focus",
+            "Teamwork"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "nichika_s_sr1",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "nichika_s_sr2",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "nichika_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "nichika_s_r0",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "idol_ko_name": "미코토",
+    "idol_ja_name": "緋田 美琴",
+    "idol_en_name": "Mikoto",
+    "insight": "Visual",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "mikoto_p_ssr0"
+        },
+        {
+          "card_addr": "mikoto_p_ssr1"
+        },
+        {
+          "card_addr": "mikoto_p_ssr2"
+        },
+        {
+          "card_addr": "mikoto_p_ssr3"
+        }
+      ],
+      "P_SR": [
+        {
+          "card_addr": "mikoto_p_sr0"
+        },
+        {
+          "card_addr": "mikoto_p_sr1"
+        },
+        {
+          "card_addr": "mikoto_p_sr2"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "mikoto_s_ssr1",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "mikoto_s_ssr2",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Stability",
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "mikoto_s_ssr3",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "mikoto_s_ssr4",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness",
+            "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "mikoto_s_ssr5",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Teamwork"
+          ]
+        }
+      ],
+      "S_SR": [
+        {
+          "card_addr": "mikoto_s_sr1",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "mikoto_s_sr2",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        }
+      ],
+      "P_R": [
+        {
+          "card_addr": "mikoto_p_r0"
+        }
+      ],
+      "S_R": [
+        {
+          "card_addr": "mikoto_s_r0",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
+        }
+      ]
+    }
+  }
 ]
