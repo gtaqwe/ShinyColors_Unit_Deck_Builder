@@ -242,6 +242,9 @@
 				},
 				{
 					"card_addr": "hiori_p_ssr7"
+				},
+				{
+					"card_addr": "hiori_p_ssr8"
 				}
 			],
 			"P_SR": [
@@ -2964,6 +2967,9 @@
 				},
 				{
 					"card_addr": "fuyuko_p_sr3"
+				},
+				{
+					"card_addr": "fuyuko_p_sr4"
 				}
 			],
 			"S_SSR": [
@@ -3180,6 +3186,13 @@
 					"card_idea": "Appeal",
 					"card_prof": [
 						"Teamwork"
+					]
+				},
+				{
+					"card_addr": "mei_s_sr4",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess"
 					]
 				}
 			],
@@ -3801,6 +3814,14 @@
 						"Expressiveness",
 						"Teamwork"
 					]
+				},
+				{
+					"card_addr": "mikoto_s_ssr5",
+					"card_idea": "Vocal",
+					"card_prof": [
+						"VocalProwess",
+						"Teamwork"
+					]
 				}
 			],
 			"S_SR": [
@@ -3809,6 +3830,13 @@
 					"card_idea": "Vocal",
 					"card_prof": [
 						"VocalProwess"
+					]
+				},
+				{
+					"card_addr": "mikoto_s_sr2",
+					"card_idea": "Dance",
+					"card_prof": [
+						"Stability"
 					]
 				}
 			],
