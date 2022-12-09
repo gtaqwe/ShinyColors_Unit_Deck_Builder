@@ -381,6 +381,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "hiori_s_sr7",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -1044,6 +1051,13 @@
           "card_prof": [
             "VocalProwess",
             "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "sakuya_s_ssr9",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
           ]
         }
       ],
@@ -2885,6 +2899,13 @@
             "VocalProwess",
             "Stability"
           ]
+        },
+        {
+          "card_addr": "asahi_s_ssr7",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Focus"
+          ]
         }
       ],
       "S_SR": [
@@ -3350,6 +3371,9 @@
         },
         {
           "card_addr": "madoka_p_ssr4"
+        },
+        {
+          "card_addr": "madoka_p_ssr5"
         }
       ],
       "P_SR": [
