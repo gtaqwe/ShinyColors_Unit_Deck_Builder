@@ -456,6 +456,9 @@
         },
         {
           "card_addr": "meguru_p_sr4"
+        },
+        {
+          "card_addr": "meguru_p_sr5"
         }
       ],
       "S_SSR": [
@@ -1255,6 +1258,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "yuika_s_sr5",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
         }
       ],
       "P_R": [
@@ -1478,6 +1488,9 @@
         },
         {
           "card_addr": "kaho_p_ssr7"
+        },
+        {
+          "card_addr": "kaho_p_ssr8"
         }
       ],
       "P_SR": [
