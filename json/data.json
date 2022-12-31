@@ -1727,6 +1727,13 @@
             "VocalProwess",
             "Focus"
           ]
+        },
+        {
+          "card_addr": "chiyoko_s_ssr8",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Teamwork"
+          ]
         }
       ],
       "S_SR": [
@@ -2590,6 +2597,13 @@
             "VocalProwess",
             "Stability"
           ]
+        },
+        {
+          "card_addr": "tenka_s_ssr10",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "S_SR": [
@@ -2677,6 +2691,9 @@
         },
         {
           "card_addr": "chiyuki_p_ssr7"
+        },
+        {
+          "card_addr": "chiyuki_p_ssr8"
         }
       ],
       "P_SR": [
