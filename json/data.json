@@ -1440,6 +1440,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "kiriko_s_sr6",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -3215,6 +3222,14 @@
             "VocalProwess",
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "mei_s_ssr7",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability",
+            "Teamwork"
+          ]
         }
       ],
       "S_SR": [
@@ -3627,6 +3642,9 @@
         },
         {
           "card_addr": "hinana_p_ssr4"
+        },
+        {
+          "card_addr": "hinana_p_ssr5"
         }
       ],
       "P_SR": [
