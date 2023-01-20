@@ -1156,6 +1156,9 @@
         },
         {
           "card_addr": "yuika_p_ssr7"
+        },
+        {
+          "card_addr": "yuika_p_ssr8"
         }
       ],
       "P_SR": [
@@ -1853,6 +1856,9 @@
         },
         {
           "card_addr": "juri_p_sr4"
+        },
+        {
+          "card_addr": "juri_p_sr5"
         }
       ],
       "S_SSR": [
@@ -2440,6 +2446,14 @@
           "card_prof": [
             "Stability",
             "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "amana_s_ssr10",
+          "card_idea": "Dance",
+          "card_prof": [
+            "VocalProwess",
+            "Stability"
           ]
         }
       ],
