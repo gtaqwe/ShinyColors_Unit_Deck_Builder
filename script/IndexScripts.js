@@ -252,7 +252,7 @@ function getJSON(jsonFile) {
  * 이미지 캡쳐 다운로드
  */
 function captureScreen(frameId, fName, scale) {
-  var captureName = `${fName}_Deck_x${scale}.png`;
+  var captureName = `${fName}_Deck_x${scale}_${getTimeString()}.png`;
 
   // 이미지 배율 설정
   imgScale = window.devicePixelRatio * scale;
@@ -271,4 +271,16 @@ function downloadURI(uri, filename) {
   link.download = filename;
   link.href = uri;
   link.click();
+}
+
+function getTimeString() {
+  let d = new Date();
+  let year = d.getFullYear();
+  let month = ("0" + (d.getMonth() + 1)).slice(-2);
+  let day = ("0" + d.getDate()).slice(-2);
+  let hour = ("0" + d.getHours()).slice(-2);
+  let minute = ("0" + d.getMinutes()).slice(-2);
+  let second = ("0" + d.getSeconds()).slice(-2);
+  let millisecond = ("00" + d.getMilliseconds()).slice(-3);
+  return year + month + day + "_" + hour + minute + second + millisecond;
 }
