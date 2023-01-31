@@ -446,6 +446,9 @@
         },
         {
           "card_addr": "meguru_p_ssr8"
+        },
+        {
+          "card_addr": "meguru_p_ssr9"
         }
       ],
       "P_SR": [
@@ -2263,6 +2266,13 @@
             "Expressiveness",
             "Focus"
           ]
+        },
+        {
+          "card_addr": "natsuha_s_ssr9",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus"
+          ]
         }
       ],
       "S_SR": [
@@ -2892,6 +2902,9 @@
         },
         {
           "card_addr": "asahi_p_ssr6"
+        },
+        {
+          "card_addr": "asahi_p_ssr7"
         }
       ],
       "P_SR": [
@@ -3250,6 +3263,13 @@
           "card_prof": [
             "Stability",
             "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "mei_s_ssr8",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
           ]
         }
       ],
@@ -3761,6 +3781,9 @@
         },
         {
           "card_addr": "nichika_p_ssr3"
+        },
+        {
+          "card_addr": "nichika_p_ssr4"
         }
       ],
       "P_SR": [
