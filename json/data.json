@@ -1592,6 +1592,14 @@
           "card_prof": [
             "Focus"
           ]
+        },
+        {
+          "card_addr": "kaho_s_ssr9",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Focus"
+          ]
         }
       ],
       "S_SR": [
@@ -2857,6 +2865,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "chiyuki_s_sr6",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -3340,6 +3355,9 @@
         },
         {
           "card_addr": "toru_p_ssr4"
+        },
+        {
+          "card_addr": "toru_p_ssr5"
         }
       ],
       "P_SR": [
