@@ -720,6 +720,13 @@
           "card_prof": [
             "Focus"
           ]
+        },
+        {
+          "card_addr": "kogane_s_ssr9",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Focus"
+          ]
         }
       ],
       "S_SR": [
@@ -2551,6 +2558,9 @@
         },
         {
           "card_addr": "tenka_p_ssr7"
+        },
+        {
+          "card_addr": "tenka_p_ssr8"
         }
       ],
       "P_SR": [
@@ -3600,6 +3610,9 @@
         },
         {
           "card_addr": "koito_p_sr1"
+        },
+        {
+          "card_addr": "koito_p_sr2"
         }
       ],
       "S_SSR": [
