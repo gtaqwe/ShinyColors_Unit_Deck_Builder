@@ -22,6 +22,7 @@ $.lang.ko = {
   idea: "아이디어",
   insight: "히라메키",
   proficiency: "악곡 숙련도",
+  showNoneCard: "미선택 아이콘 표시",
 };
 
 $.lang.ja = {
@@ -46,4 +47,5 @@ $.lang.ja = {
   idea: "アイデア",
   insight: "ひらめき",
   proficiency: "楽曲熟練度",
+  showNoneCard: "未選択のアイコン表示",
 };

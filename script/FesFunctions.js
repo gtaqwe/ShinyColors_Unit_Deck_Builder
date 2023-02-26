@@ -12,8 +12,11 @@ function setFesPosIcon() {
   // 포지션 아이콘 타입 선택시 해당하는 아이콘 표시
   if (posIconType != 0) {
     FES_POSITION.forEach((pos) => {
-      // 해당위치에 카드를 이미 선택한 경우에만 아이콘 표시
-      if ($(`#selectedIdolView_${pos}_card`).length > 0) {
+      // 해당위치에 카드를 이미 선택한 경우 And 미선택 카드 아이콘이 아닌 경우에만 포지션 아이콘 표시
+      if (
+        $(`#selectedIdolView_${pos}_card`).length > 0 &&
+        $(`#selectedIdolView_${pos}_card`).attr("src") !== `${blankIdolIcon}`
+      ) {
         // 포지션 아이콘을 표시
         $(`#selectedIdolView_${pos}`).append(
           $("<img>", {
@@ -67,6 +70,38 @@ function convertFesDeckImg(fesChk) {
         imgUrl = imgUrl.replace("icon_fes/", "icon_normal/");
       }
       $(`#selectedIdolView_${pos}_card`).attr("src", imgUrl);
+    }
+  });
+}
+
+/**
+ * 프로듀스 덱을 초기화
+ */
+function fesViewListReset(fDeckCardPosAry) {
+  fDeckCardPosAry.forEach((pos) => {
+    // 덱의 카드 아이콘을 초기화
+    viewReset(`${pos}_card`);
+
+    // 덱의 포지션 아이콘을 초기화
+    viewReset(`${pos}_pos`);
+  });
+}
+
+/**
+ * 프로듀스덱 미선택 카드의 아이콘 표시
+ */
+function convertFesNoneCardIcon(iconChk) {
+  FES_POSITION.forEach((divPos) => {
+    var selDivId = `#selectedIdolView_${divPos}`;
+    if (iconChk) {
+      if ($(selDivId).children("img").length < 1) {
+        setSelectCard(selDivId, `assets/`, "Blank_Idol");
+      }
+    } else {
+      if ($(`${selDivId}_card`).attr("src") == blankIdolIcon) {
+        viewReset(`${divPos}_card`);
+        viewReset(`${divPos}_pos`);
+      }
     }
   });
 }

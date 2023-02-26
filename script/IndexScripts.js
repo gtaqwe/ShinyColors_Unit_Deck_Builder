@@ -127,24 +127,12 @@ async function init() {
   // 프로듀스덱 리셋버튼 설정
   $("#pDeckReset").click(function () {
     const pDeckCardPosAry = [...Array(6).keys()];
-    viewListReset(pDeckCardPosAry.map((v) => `${v}_card`));
-    exReset();
-
-    // 특훈 초기화
-    pDeckCardPosAry.forEach((pos) => {
-      $(`#specialTrainingInput_${pos}`).val(0);
-      setSpecialTraining(pos, $(`#specialTrainingInput_${pos}`).val());
-    });
-    // 특훈 설정 비활성화
-    // 현재 설정상태를 변경 후 원래대로 복구
-    convertSpecialTrainingImg(!$("#specialTrainingConvertBtn").is(":checked"));
-    convertSpecialTrainingImg($("#specialTrainingConvertBtn").is(":checked"));
+    produceViewListReset(pDeckCardPosAry);
   });
 
   // 페스덱 리셋버튼 설정
   $("#fDeckReset").click(function () {
-    viewListReset(FES_POSITION.map((v) => `${v}_card`));
-    viewListReset(FES_POSITION.map((v) => `${v}_pos`));
+    fesViewListReset(FES_POSITION);
   });
 
   // Query Parameter

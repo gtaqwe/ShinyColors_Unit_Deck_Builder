@@ -23,7 +23,9 @@
       <hr />
     </div>
 
-    <!-- Produce Deck -->
+    <!------------------------------------------------>
+    <!----------------- Produce Deck ----------------->
+    <!------------------------------------------------>
     <h1>Produce Deck</h1>
 
     <!-- Card Select -->
@@ -286,6 +288,25 @@
           </label>
         </div>
       </div>
+
+      <div style="margin: 0px">
+        <!-- EX스킬 표시 -->
+        <div style="margin: 0px; display: inline-flex">
+          <label style="margin: 5px 10px">
+            <label class="switch">
+              <input
+                type="checkbox"
+                id="showProduceNoneCardIconConvertBtn"
+                onchange="convertProduceNoneCardIcon($('#showProduceNoneCardIconConvertBtn').is(':checked'))"
+              />
+              <span class="slider round"></span>
+            </label>
+
+            <span data-lang="showNoneCard">미선택 아이콘 표시</span>
+          </label>
+        </div>
+      </div>
+
       <!-- 캡쳐 -->
       <div class="noMargin_inlineBlock">
         <div>
@@ -535,7 +556,9 @@
     <hr style="margin: 50px 0px" />
     <!--------------------------------------------------------------------------->
 
-    <!-- Fes Deck -->
+    <!-------------------------------------------->
+    <!----------------- Fes Deck ----------------->
+    <!-------------------------------------------->
     <h1>Fes Deck</h1>
 
     <!-- Card Select -->
@@ -621,25 +644,36 @@
       </fieldset>
     </div>
 
-    <!-- Options -->
-    <!-- 아이콘 -->
-    <div>
-      <label style="margin: 5px 10px">
-        <label class="switch">
-          <input
-            type="checkbox"
-            id="fesImgConvertBtn"
-            checked
-            onchange="convertFesImg($('#fesImgConvertBtn').is(':checked'))"
-          />
-          <span class="slider round"></span>
-        </label>
+    <hr />
 
-        <span id="toggleStr" style="display: inline-block"></span>
-      </label>
+    <!-- Options -->
+    <!-- 포지션 표시 -->
+    <div>
+      <!-- 아이콘간 여백 설정 -->
+      <fieldset style="width: max-content">
+        <legend data-lang="insertSpace">구분 여백 표시</legend>
+
+        <input
+          type="radio"
+          id="f_deck_space1"
+          name="f_deck_space"
+          value="1"
+          onclick="setDeckSpace('F', $('#f_deck_space1').val())"
+          checked
+        />
+        <label for="f_deck_space1" data-lang="noSpace">구분 없음</label>
+
+        <input
+          type="radio"
+          id="f_deck_space2"
+          name="f_deck_space"
+          value="2"
+          onclick="setDeckSpace('F', $('#f_deck_space2').val())"
+        />
+        <label for="f_deck_space2" data-lang="posSpace">포지션 구분</label>
+      </fieldset>
     </div>
 
-    <!-- 포지션 표시 -->
     <div>
       <fieldset style="width: max-content">
         <legend data-lang="showPosition">포지션 표시</legend>
@@ -673,32 +707,39 @@
       </fieldset>
     </div>
 
-    <hr />
-
-    <!-- 아이콘간 여백 설정 -->
+    <!-- 아이콘 -->
     <div>
-      <fieldset style="width: max-content">
-        <legend data-lang="insertSpace">구분 여백 표시</legend>
+      <label style="margin: 5px 10px">
+        <label class="switch">
+          <input
+            type="checkbox"
+            id="fesImgConvertBtn"
+            checked
+            onchange="convertFesImg($('#fesImgConvertBtn').is(':checked'))"
+          />
+          <span class="slider round"></span>
+        </label>
 
-        <input
-          type="radio"
-          id="f_deck_space1"
-          name="f_deck_space"
-          value="1"
-          onclick="setDeckSpace('F', $('#f_deck_space1').val())"
-          checked
-        />
-        <label for="f_deck_space1" data-lang="noSpace">구분 없음</label>
+        <span id="toggleStr" style="display: inline-block"></span>
+      </label>
+    </div>
 
-        <input
-          type="radio"
-          id="f_deck_space2"
-          name="f_deck_space"
-          value="2"
-          onclick="setDeckSpace('F', $('#f_deck_space2').val())"
-        />
-        <label for="f_deck_space2" data-lang="posSpace">포지션 구분</label>
-      </fieldset>
+    <div style="margin: 0px">
+      <!-- EX스킬 표시 -->
+      <div style="margin: 0px; display: inline-flex">
+        <label style="margin: 5px 10px">
+          <label class="switch">
+            <input
+              type="checkbox"
+              id="showFesNoneCardIconConvertBtn"
+              onchange="convertFesNoneCardIcon($('#showFesNoneCardIconConvertBtn').is(':checked'))"
+            />
+            <span class="slider round"></span>
+          </label>
+
+          <span data-lang="showNoneCard">미선택 아이콘 표시</span>
+        </label>
+      </div>
     </div>
 
     <!-- 캡쳐버튼 -->

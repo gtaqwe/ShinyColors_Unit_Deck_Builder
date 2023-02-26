@@ -182,7 +182,7 @@ function viewCardDialog(parentObj, obj, cardType, offset, insight = "") {
           width: "96px",
           height: "96px",
           class: "dialogImg",
-          onerror: "this.src='./img/assets/Blank_Idol.png'",
+          onerror: `this.src="${blankIdolIcon}"`,
         })
       );
 
@@ -219,7 +219,7 @@ function viewCardDialog(parentObj, obj, cardType, offset, insight = "") {
       width: "96px",
       height: "96px",
       class: "dialogImg",
-      onerror: "this.src='./img/assets/Blank_Idol.png'",
+      onerror: `this.src="${blankIdolIcon}"`,
     })
   );
   $(`#${idolName}_char`).click(function () {
@@ -236,11 +236,11 @@ function viewCardDialog(parentObj, obj, cardType, offset, insight = "") {
   $(cardDialogDivId).append(
     $("<img>", {
       id: `none_card`,
-      src: `./img/assets/Blank_Idol.png`,
+      src: blankIdolIcon,
       width: "96px",
       height: "96px",
       class: "dialogImg",
-      onerror: "this.src='./img/assets/Blank_Idol.png'",
+      onerror: `this.src="${blankIdolIcon}"`,
     })
   );
   $(`#none_card`).click(function () {
@@ -273,7 +273,7 @@ function setSelectCard(divId, imgPath, cardAddr, optionAbility = undefined) {
     src: `./img/${imgPath}${cardAddr}.png`,
     width: "96px",
     height: "96px",
-    onerror: "this.src='./img/assets/Blank_Idol.png'",
+    onerror: `this.src="${blankIdolIcon}"`,
   };
 
   // 옵션 능력의 데이터를 가지고 있도록 처리
@@ -311,15 +311,6 @@ function setSelectCard(divId, imgPath, cardAddr, optionAbility = undefined) {
 
   // 페스덱 카드의 포지션 이미지 설정
   setFesPosIcon();
-}
-
-/**
- * 덱의 복수의 카드 아이콘을 초기화
- */
-function viewListReset(posList) {
-  posList.forEach((posId) => {
-    viewReset(posId);
-  });
 }
 
 /**

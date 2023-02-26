@@ -185,6 +185,7 @@ function convertOptionAbilityImg(optionVal) {
       var selectedCard = $(`#selectedIdolView_${offset}`).children("img");
 
       if (optionVal == "idea") {
+        // 덱에 아이디어 표시
         $(`#selectedIdol_${offset}_option`).css("display", "block");
         if (imgCode.length > 0 && selectedCard.length > 0) {
           // 카드에 저장된 아이디어 정보를 취득
@@ -192,10 +193,15 @@ function convertOptionAbilityImg(optionVal) {
           if (optionByCard != undefined) {
             $(`#selectedIdol_${offset}_option`).append($("<img>", getIdeaImg(optionByCard)));
           } else {
-            $(`#selectedIdol_${offset}_option`).css("display", "none");
+            $(`#selectedIdol_${offset}_option`).append(
+              $("<img>", {
+                src: "",
+              })
+            );
           }
         }
       } else if (optionVal == "insight") {
+        // 덱에 히라메키 표시
         $(`#selectedIdol_${offset}_option`).css("display", "block");
         if (imgCode.length > 0 && selectedCard.length > 0) {
           // 카드에 저장된 히라메키 정보를 취득
@@ -203,10 +209,15 @@ function convertOptionAbilityImg(optionVal) {
           if (optionByCard != undefined) {
             $(`#selectedIdol_${offset}_option`).append($("<img>", getInsightImg(optionByCard, 2)));
           } else {
-            $(`#selectedIdol_${offset}_option`).css("display", "none");
+            $(`#selectedIdol_${offset}_option`).append(
+              $("<img>", {
+                src: "",
+              })
+            );
           }
         }
       } else if (optionVal == "proficiency") {
+        // 덱에 악곡숙련도 표시
         $(`#selectedIdol_${offset}_option`).css("display", "block");
         if (imgCode.length > 0 && selectedCard.length > 0) {
           // 카드에 저장된 숙련도 정보를 취득
@@ -214,7 +225,11 @@ function convertOptionAbilityImg(optionVal) {
           if (optionByCard != undefined) {
             $(`#selectedIdol_${offset}_option`).append($("<img>", getProficiencyImg(optionByCard)));
           } else {
-            $(`#selectedIdol_${offset}_option`).css("display", "none");
+            $(`#selectedIdol_${offset}_option`).append(
+              $("<img>", {
+                src: "",
+              })
+            );
           }
         }
       } else {
@@ -309,14 +324,81 @@ function convertExSkill(exChk) {
 /**
  * EX스킬 아이콘을 초기화
  */
-function exReset() {
+function exReset(divPos) {
+  [...Array(3).keys()]
+    .map((v) => v + 1)
+    .forEach((exPos) => {
+      $(`#selectedIdol_${divPos}_ex_${exPos}`)
+        .children("img")
+        .attr("src", "./img/ex_skill/none.png");
+    });
+}
+
+/**
+ * 프로듀스 덱을 초기화
+ */
+function produceViewListReset(pDeckCardPosAry) {
+  pDeckCardPosAry.forEach((pos) => {
+    // 덱의 카드 아이콘을 초기화
+    viewReset(`${pos}_card`);
+
+    // EX 초기화
+    exReset(pos);
+
+    // 특훈 초기화
+    $(`#specialTrainingInput_${pos}`).val(0);
+    setSpecialTraining(pos, $(`#specialTrainingInput_${pos}`).val());
+
+    // 옵션(아이디어, 히라메키, 악곡숙련도) 초기화
+    $(`#selectedIdol_${pos}_option`).html("");
+    $(`#selectedIdol_${pos}_option`).append(
+      $("<img>", {
+        src: "",
+      })
+    );
+  });
+
+  // 특훈 설정 비활성화
+  // 현재 설정상태를 변경 후 원래대로 복구
+  convertSpecialTrainingImg(!$("#specialTrainingConvertBtn").is(":checked"));
+  convertSpecialTrainingImg($("#specialTrainingConvertBtn").is(":checked"));
+}
+
+/**
+ * 프로듀스덱 미선택 카드의 아이콘 표시
+ */
+function convertProduceNoneCardIcon(iconChk) {
   [...Array(6).keys()].forEach((divPos) => {
-    [...Array(3).keys()]
-      .map((v) => v + 1)
-      .forEach((exPos) => {
-        $(`#selectedIdol_${divPos}_ex_${exPos}`)
-          .children("img")
-          .attr("src", "./img/ex_skill/none.png");
-      });
+    var selDivId = `#selectedIdolView_${divPos}`;
+    if (iconChk) {
+      if ($(selDivId).children("img").length < 1) {
+        setSelectCard(selDivId, `assets/`, "Blank_Idol");
+      }
+    } else {
+      if ($(`${selDivId}_card`).attr("src") == `${blankIdolIcon}`) {
+        // 덱 아이콘 초기화
+        viewReset(`${divPos}_card`);
+
+        // EX 초기화
+        exReset(divPos);
+
+        // 특훈 초기화
+        $(`#specialTrainingInput_${divPos}`).val(0);
+        setSpecialTraining(divPos, $(`#specialTrainingInput_${divPos}`).val());
+
+        // 옵션(아이디어, 히라메키, 악곡숙련도) 초기화
+        $(`#selectedIdol_${divPos}_option`).html("");
+        $(`#selectedIdol_${divPos}_option`).append(
+          $("<img>", {
+            src: "",
+          })
+        );
+
+        // 특훈 설정 비활성화
+        // 현재 설정상태를 변경 후 원래대로 복구
+        convertSpecialTrainingImg(!$("#specialTrainingConvertBtn").is(":checked"));
+        convertSpecialTrainingImg($("#specialTrainingConvertBtn").is(":checked"));
+      }
+    }
   });
 }

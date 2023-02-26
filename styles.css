@@ -153,7 +153,6 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .number-input button {
   outline: none;
-  -webkit-appearance: none;
   background-color: transparent;
   border: solid #ddd;
   align-items: center;
