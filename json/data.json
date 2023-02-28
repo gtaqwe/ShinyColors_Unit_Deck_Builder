@@ -344,6 +344,14 @@
             "VocalProwess",
             "Focus"
           ]
+        },
+        {
+          "card_addr": "hiori_s_ssr10",
+          "card_idea": "Visual",
+          "card_prof": [
+            "VocalProwess",
+            "Stability"
+          ]
         }
       ],
       "S_SR": [
@@ -2930,6 +2938,9 @@
         },
         {
           "card_addr": "asahi_p_ssr7"
+        },
+        {
+          "card_addr": "asahi_p_ssr8"
         }
       ],
       "P_SR": [
@@ -3976,6 +3987,13 @@
           "card_prof": [
             "VocalProwess",
             "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "mikoto_s_ssr7",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
           ]
         }
       ],
