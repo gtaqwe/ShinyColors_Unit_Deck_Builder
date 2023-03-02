@@ -1865,6 +1865,9 @@
         },
         {
           "card_addr": "juri_p_ssr8"
+        },
+        {
+          "card_addr": "juri_p_ssr9"
         }
       ],
       "P_SR": [
@@ -3499,6 +3502,9 @@
         },
         {
           "card_addr": "madoka_p_ssr5"
+        },
+        {
+          "card_addr": "madoka_p_ssr6"
         }
       ],
       "P_SR": [
