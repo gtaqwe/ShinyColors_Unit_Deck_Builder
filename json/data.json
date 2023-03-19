@@ -403,6 +403,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "hiori_s_sr8",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -646,6 +653,9 @@
         },
         {
           "card_addr": "kogane_p_ssr7"
+        },
+        {
+          "card_addr": "kogane_p_ssr8"
         }
       ],
       "P_SR": [
@@ -2972,6 +2982,9 @@
         },
         {
           "card_addr": "asahi_p_sr4"
+        },
+        {
+          "card_addr": "asahi_p_sr5"
         }
       ],
       "S_SSR": [
