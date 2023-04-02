@@ -53,7 +53,7 @@ function viewIdolDialog(parentObj, obj, divId, cardType, offset) {
     // 히라메키 표시가 체크되어있는 경우
     // 서포터 아이돌 목록에 히라메키 아이콘을 표시
     var insightChk = $(':radio[name="option_ability"]:checked').val() == "insight";
-    if (cardType == "S" && insightChk == true)
+    if (cardType == "S" && insightChk == true && idolInsight != "")
       $(`#idolDiv_${idolNameSrc}`).append($("<img>", getInsightImg(idolInsight, 1)));
   }
 
@@ -63,7 +63,7 @@ function viewIdolDialog(parentObj, obj, divId, cardType, offset) {
     modal: true,
     title: dialogTitle,
     position: { my: "left top", at: "center", of: parentObj, collision: "fit" },
-    width: "600px",
+    width: "700px",
   });
 
   $(".ui-widget-overlay").click(function () {

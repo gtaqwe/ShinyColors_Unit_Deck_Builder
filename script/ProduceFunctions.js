@@ -170,9 +170,11 @@ function convertOptionAbilityImg(optionVal) {
           $(`#selectedIdolCharViewDiv_Support_${offset}`).append(
             $("<img>", getIdolImg(idolNameSrc, insight))
           );
-          $(`#selectedIdolCharViewDiv_Support_${offset}`).append(
-            $("<img>", getInsightImg(insight, 1))
-          );
+          if (insight != "") {
+            $(`#selectedIdolCharViewDiv_Support_${offset}`).append(
+              $("<img>", getInsightImg(insight, 1))
+            );
+          }
         } else {
           $(`#selectedIdolCharViewDiv_Support_${offset}`).append(
             $("<img>", getIdolImg(idolNameSrc, insight))

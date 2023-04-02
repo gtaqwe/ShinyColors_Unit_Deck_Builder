@@ -3464,6 +3464,14 @@
             "Expressiveness",
             "Teamwork"
           ]
+        },
+        {
+          "card_addr": "toru_s_ssr6",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Focus"
+          ]
         }
       ],
       "S_SR": [
@@ -3653,6 +3661,9 @@
         },
         {
           "card_addr": "koito_p_ssr4"
+        },
+        {
+          "card_addr": "koito_p_ssr5"
         }
       ],
       "P_SR": [
@@ -3814,6 +3825,13 @@
           "card_prof": [
             "Teamwork"
           ]
+        },
+        {
+          "card_addr": "hinana_s_ssr5",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "S_SR": [
@@ -3919,6 +3937,14 @@
           "card_prof": [
             "Focus",
             "Teamwork"
+          ]
+        },
+        {
+          "card_addr": "nichika_s_ssr6",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability",
+            "Focus"
           ]
         }
       ],
@@ -4070,6 +4096,24 @@
           ]
         }
       ]
+    }
+  },
+  {
+    "idol_ko_name": "루카",
+    "idol_ja_name": "斑鳩ルカ",
+    "idol_en_name": "Luca",
+    "insight": "",
+    "card_data": {
+      "P_SSR": [],
+      "P_SR": [],
+      "S_SSR": [],
+      "S_SR": [],
+      "P_R": [
+        {
+          "card_addr": "luca_p_r0"
+        }
+      ],
+      "S_R": []
     }
   }
 ]
