@@ -2434,6 +2434,9 @@
         },
         {
           "card_addr": "amana_p_ssr8"
+        },
+        {
+          "card_addr": "amana_p_ssr9"
         }
       ],
       "P_SR": [
@@ -3125,6 +3128,9 @@
         },
         {
           "card_addr": "fuyuko_p_ssr6"
+        },
+        {
+          "card_addr": "fuyuko_p_ssr7"
         }
       ],
       "P_SR": [
