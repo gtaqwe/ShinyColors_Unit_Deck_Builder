@@ -2360,6 +2360,20 @@
           "card_prof": [
             "Focus"
           ]
+        },
+        {
+          "card_addr": "natsuha_s_sr6",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "natsuha_s_sr7",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -4104,7 +4118,11 @@
     "idol_en_name": "Luca",
     "insight": "",
     "card_data": {
-      "P_SSR": [],
+      "P_SSR": [
+        {
+          "card_addr": "luca_p_ssr1"
+        }
+      ],
       "P_SR": [],
       "S_SSR": [],
       "S_SR": [],
