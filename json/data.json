@@ -925,6 +925,13 @@
           "card_prof": [
             "Focus"
           ]
+        },
+        {
+          "card_addr": "mamimi_s_ssr9",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Focus"
+          ]
         }
       ],
       "S_SR": [
@@ -2057,6 +2064,9 @@
         },
         {
           "card_addr": "rinze_p_ssr8"
+        },
+        {
+          "card_addr": "rinze_p_ssr9"
         }
       ],
       "P_SR": [
@@ -2561,6 +2571,13 @@
           "card_idea": "Visual",
           "card_prof": [
             "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "amana_s_sr5",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
           ]
         }
       ],
@@ -4122,14 +4139,21 @@
     "idol_ko_name": "루카",
     "idol_ja_name": "斑鳩ルカ",
     "idol_en_name": "Luca",
-    "insight": "",
+    "insight": "Vocal",
     "card_data": {
       "P_SSR": [
+        {
+          "card_addr": "luca_p_ssr0"
+        },
         {
           "card_addr": "luca_p_ssr1"
         }
       ],
-      "P_SR": [],
+      "P_SR": [
+        {
+          "card_addr": "luca_p_sr0"
+        }
+      ],
       "S_SSR": [],
       "S_SR": [],
       "P_R": [
@@ -4137,7 +4161,15 @@
           "card_addr": "luca_p_r0"
         }
       ],
-      "S_R": []
+      "S_R": [
+        {
+          "card_addr": "luca_s_r0",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        }
+      ]
     }
   }
 ]
