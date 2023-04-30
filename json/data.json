@@ -255,6 +255,9 @@
         },
         {
           "card_addr": "hiori_p_ssr9"
+        },
+        {
+          "card_addr": "hiori_p_ssr10"
         }
       ],
       "P_SR": [
@@ -563,6 +566,13 @@
           "card_prof": [
             "Stability",
             "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "meguru_s_ssr11",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
           ]
         }
       ],
@@ -1642,6 +1652,14 @@
           "card_prof": [
             "VocalProwess",
             "Focus"
+          ]
+        },
+        {
+          "card_addr": "kaho_s_ssr10",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Teamwork"
           ]
         }
       ],
