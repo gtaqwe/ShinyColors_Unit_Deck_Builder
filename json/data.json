@@ -1029,6 +1029,9 @@
         },
         {
           "card_addr": "sakuya_p_ssr7"
+        },
+        {
+          "card_addr": "sakuya_p_ssr8"
         }
       ],
       "P_SR": [
@@ -4016,6 +4019,13 @@
           "card_idea": "Visual",
           "card_prof": [
             "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "nichika_s_sr3",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
           ]
         }
       ],
