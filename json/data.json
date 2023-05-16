@@ -853,6 +853,9 @@
         },
         {
           "card_addr": "mamimi_p_ssr8"
+        },
+        {
+          "card_addr": "mamimi_p_ssr9"
         }
       ],
       "P_SR": [
@@ -1752,6 +1755,9 @@
         },
         {
           "card_addr": "chiyoko_p_ssr8"
+        },
+        {
+          "card_addr": "chiyoko_p_ssr9"
         }
       ],
       "P_SR": [
