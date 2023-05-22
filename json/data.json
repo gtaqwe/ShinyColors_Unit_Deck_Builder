@@ -2040,6 +2040,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "juri_s_sr5",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -2934,6 +2941,14 @@
             "Focus",
             "Teamwork"
           ]
+        },
+        {
+          "card_addr": "chiyuki_s_ssr10",
+          "card_idea": "Talk",
+          "card_prof": [
+            "VocalProwess",
+            "Expressiveness"
+          ]
         }
       ],
       "S_SR": [
@@ -3322,6 +3337,9 @@
         },
         {
           "card_addr": "mei_p_ssr6"
+        },
+        {
+          "card_addr": "mei_p_ssr7"
         }
       ],
       "P_SR": [
