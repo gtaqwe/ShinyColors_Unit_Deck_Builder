@@ -1300,6 +1300,13 @@
           "card_prof": [
             "Focus"
           ]
+        },
+        {
+          "card_addr": "yuika_s_ssr9",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "S_SR": [
@@ -1385,6 +1392,9 @@
         },
         {
           "card_addr": "kiriko_p_ssr7"
+        },
+        {
+          "card_addr": "kiriko_p_ssr8"
         }
       ],
       "P_SR": [
@@ -3680,6 +3690,13 @@
           "card_prof": [
             "Stability",
             "Focus"
+          ]
+        },
+        {
+          "card_addr": "madoka_s_ssr7",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
           ]
         }
       ],
