@@ -2291,6 +2291,9 @@
         },
         {
           "card_addr": "natsuha_p_ssr8"
+        },
+        {
+          "card_addr": "natsuha_p_ssr9"
         }
       ],
       "P_SR": [
@@ -3151,6 +3154,13 @@
           "card_idea": "Dance",
           "card_prof": [
             "Stability"
+          ]
+        },
+        {
+          "card_addr": "asahi_s_sr4",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
           ]
         }
       ],
@@ -4230,7 +4240,15 @@
           "card_addr": "luca_p_sr0"
         }
       ],
-      "S_SSR": [],
+      "S_SSR": [
+        {
+          "card_addr": "luca_s_ssr1",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        }
+      ],
       "S_SR": [],
       "P_R": [
         {
