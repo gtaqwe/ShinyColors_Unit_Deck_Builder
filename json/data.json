@@ -2020,6 +2020,14 @@
             "Expressiveness",
             "Focus"
           ]
+        },
+        {
+          "card_addr": "juri_s_ssr9",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability",
+            "Expressiveness"
+          ]
         }
       ],
       "S_SR": [
@@ -2677,6 +2685,9 @@
         },
         {
           "card_addr": "tenka_p_ssr8"
+        },
+        {
+          "card_addr": "tenka_p_ssr9"
         }
       ],
       "P_SR": [
@@ -3603,6 +3614,13 @@
           "card_idea": "Dance",
           "card_prof": [
             "Stability"
+          ]
+        },
+        {
+          "card_addr": "toru_s_sr4",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
           ]
         }
       ],
