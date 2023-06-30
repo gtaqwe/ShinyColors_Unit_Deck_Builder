@@ -1845,6 +1845,13 @@
           "card_prof": [
             "Teamwork"
           ]
+        },
+        {
+          "card_addr": "chiyoko_s_ssr9",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "S_SR": [
@@ -3966,6 +3973,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "hinana_s_ssr6",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "S_SR": [
@@ -4139,6 +4153,9 @@
         },
         {
           "card_addr": "mikoto_p_ssr3"
+        },
+        {
+          "card_addr": "mikoto_p_ssr4"
         }
       ],
       "P_SR": [
