@@ -119,7 +119,11 @@ function setCardList(insight, idolIdx, cardType, offset) {
 
     var insightChk = $(':radio[name="option_ability"]:checked').val() == "insight";
     if (insightChk == true) {
-      $(`#selectedIdolCharViewDiv_Support_${offset}`).append($("<img>", getInsightImg(insight, 1)));
+      if (insight != "") {
+        $(`#selectedIdolCharViewDiv_Support_${offset}`).append(
+          $("<img>", getInsightImg(insight, 1))
+        );
+      }
     }
   }
   // 페스 카드의 경우
@@ -189,6 +193,11 @@ function viewCardDialog(parentObj, obj, cardType, offset, insight = "") {
       let optionAbility = undefined;
       // 서포트 카드의 경우엔 옵션 능력을 표시할 수 있도록 데이터 취득
       if (cardType == "S") {
+        // 카드에 히라메키 정보가 있다면 카드 정보를 우선
+        if ("card_insight" in card) {
+          insight = card["card_insight"];
+        }
+
         optionAbility = getOptionAbility(card["card_idea"], insight, card["card_prof"].join("_"));
       }
 
@@ -212,25 +221,27 @@ function viewCardDialog(parentObj, obj, cardType, offset, insight = "") {
   // 구체적인 카드 선택이 아닌 경우 처리
   // 구체적인 카드 선택이 아니기에 Other로 처리
   var idolName = obj.idol_en_name.toLowerCase();
-  $(cardDialogDivId).append(
-    $("<img>", {
-      id: `${idolName}_char`,
-      src: `./img/icon_char/${idolName}.png`,
-      width: "96px",
-      height: "96px",
-      class: "dialogImg",
-      onerror: `this.src="${blankIdolIcon}"`,
-    })
-  );
-  $(`#${idolName}_char`).click(function () {
-    var selDivId = `#selectedIdolView_${divOffset}`;
+  if (idolName != "other") {
+    $(cardDialogDivId).append(
+      $("<img>", {
+        id: `${idolName}_char`,
+        src: `./img/icon_char/${idolName}.png`,
+        width: "96px",
+        height: "96px",
+        class: "dialogImg",
+        onerror: `this.src="${blankIdolIcon}"`,
+      })
+    );
+    $(`#${idolName}_char`).click(function () {
+      var selDivId = `#selectedIdolView_${divOffset}`;
 
-    // 구체적인 카드 선택이 아닌 경우의 옵션 데이터 처리
-    // 히라메키를 제외한 나머지 옵션 능력은 알 수 없음
-    optionAbility = getOptionAbility("", insight, "");
-    setSelectCard(selDivId, `icon_char/`, idolName, optionAbility);
-    $(cardDialogDivId).dialog("close");
-  });
+      // 구체적인 카드 선택이 아닌 경우의 옵션 데이터 처리
+      // 히라메키를 제외한 나머지 옵션 능력은 알 수 없음
+      optionAbility = getOptionAbility("", insight, "");
+      setSelectCard(selDivId, `icon_char/`, idolName, optionAbility);
+      $(cardDialogDivId).dialog("close");
+    });
+  }
 
   // 카드 미선택 아이콘 선택 처리
   $(cardDialogDivId).append(
