@@ -4317,5 +4317,28 @@
         }
       ]
     }
+  },
+  {
+    "idol_ko_name": "그외",
+    "idol_ja_name": "その他",
+    "idol_en_name": "Other",
+    "insight": "",
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "other_p_ssr0"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "other_s_ssr0",
+          "card_idea": "Visual",
+          "card_insight": "",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        }
+      ]
+    }
   }
 ]
