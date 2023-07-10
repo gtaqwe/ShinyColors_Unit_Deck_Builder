@@ -802,6 +802,13 @@
           "card_prof": [
             "Focus"
           ]
+        },
+        {
+          "card_addr": "kogane_s_sr7",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -1580,6 +1587,9 @@
         },
         {
           "card_addr": "kaho_p_ssr8"
+        },
+        {
+          "card_addr": "kaho_p_ssr9"
         }
       ],
       "P_SR": [
