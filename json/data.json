@@ -470,6 +470,9 @@
         },
         {
           "card_addr": "meguru_p_ssr9"
+        },
+        {
+          "card_addr": "meguru_p_ssr10"
         }
       ],
       "P_SR": [
@@ -2228,6 +2231,14 @@
             "Expressiveness",
             "Teamwork"
           ]
+        },
+        {
+          "card_addr": "rinze_s_ssr10",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability",
+            "Focus"
+          ]
         }
       ],
       "S_SR": [
@@ -3895,6 +3906,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "koito_s_sr4",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -4327,6 +4345,9 @@
       "P_SSR": [
         {
           "card_addr": "other_p_ssr0"
+        },
+        {
+          "card_addr": "other_p_ssr1"
         }
       ],
       "S_SSR": [
