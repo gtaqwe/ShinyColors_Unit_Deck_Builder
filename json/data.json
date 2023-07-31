@@ -3342,6 +3342,14 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "fuyuko_s_ssr10",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "VocalProwess",
+            "Expressiveness"
+          ]
         }
       ],
       "S_SR": [
@@ -3702,6 +3710,9 @@
         },
         {
           "card_addr": "madoka_p_ssr6"
+        },
+        {
+          "card_addr": "madoka_p_ssr7"
         }
       ],
       "P_SR": [
@@ -4044,6 +4055,13 @@
           "card_idea": "Visual",
           "card_prof": [
             "Expressiveness"
+          ]
+        },
+        {
+          "card_addr": "hinana_s_sr4",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
           ]
         }
       ],
