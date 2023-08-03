@@ -241,6 +241,9 @@ function viewCardDialog(parentObj, obj, cardType, offset, insight = "") {
       setSelectCard(selDivId, `icon_char/`, idolName, optionAbility);
       $(cardDialogDivId).dialog("close");
     });
+
+    // 라인 추가
+    $(cardDialogDivId).append("<hr>");
   }
 
   // 카드 미선택 아이콘 선택 처리
