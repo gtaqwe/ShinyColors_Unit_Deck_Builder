@@ -244,6 +244,32 @@ function viewCardDialog(parentObj, obj, cardType, offset, insight = "") {
 
     // 라인 추가
     $(cardDialogDivId).append("<hr>");
+  } else if (idolName == "other") {
+    let cardCount = obj["card_count"];
+    for (let idx = 0; idx < cardCount; idx++) {
+      console.log(idolName);
+      $(cardDialogDivId).append(
+        $("<img>", {
+          id: `${idolName}${idx + 1}_char`,
+          src: `./img/icon_char/${idolName}${idx + 1}.png`,
+          width: "96px",
+          height: "96px",
+          class: "dialogImg",
+          onerror: `this.src="${blankIdolIcon}"`,
+        })
+      );
+      $(`#${idolName}${idx + 1}_char`).click(function () {
+        var selDivId = `#selectedIdolView_${divOffset}`;
+        // 구체적인 카드 선택이 아닌 경우의 옵션 데이터 처리
+        // 히라메키를 제외한 나머지 옵션 능력은 알 수 없음
+        optionAbility = getOptionAbility("", insight, "");
+        setSelectCard(selDivId, `icon_char/`, `${idolName}${idx + 1}`, optionAbility);
+        $(cardDialogDivId).dialog("close");
+      });
+    }
+
+    // 라인 추가
+    $(cardDialogDivId).append("<hr>");
   }
 
   // 카드 미선택 아이콘 선택 처리
