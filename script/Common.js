@@ -247,7 +247,6 @@ function viewCardDialog(parentObj, obj, cardType, offset, insight = "") {
   } else if (idolName == "other") {
     let cardCount = obj["card_count"];
     for (let idx = 0; idx < cardCount; idx++) {
-      console.log(idolName);
       $(cardDialogDivId).append(
         $("<img>", {
           id: `${idolName}${idx + 1}_char`,
