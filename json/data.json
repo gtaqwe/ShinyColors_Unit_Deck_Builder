@@ -1333,6 +1333,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "yuika_s_ssr10",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Teamwork"
+          ]
         }
       ],
       "S_SR": [
@@ -1394,7 +1401,7 @@
         }
       ]
     },
-    "card_count": 31
+    "card_count": 32
   },
   {
     "idol_ko_name": "키리코",
@@ -2947,6 +2954,9 @@
         },
         {
           "card_addr": "chiyuki_p_ssr8"
+        },
+        {
+          "card_addr": "chiyuki_p_ssr9"
         }
       ],
       "P_SR": [
@@ -3104,7 +3114,7 @@
         }
       ]
     },
-    "card_count": 33
+    "card_count": 34
   },
   {
     "idol_ko_name": "아사히",
@@ -4405,6 +4415,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "luca_s_ssr2",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "S_SR": [],
@@ -4423,7 +4440,7 @@
         }
       ]
     },
-    "card_count": 6
+    "card_count": 7
   },
   {
     "idol_ko_name": "그외",
