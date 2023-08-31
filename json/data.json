@@ -2000,6 +2000,9 @@
         },
         {
           "card_addr": "juri_p_ssr9"
+        },
+        {
+          "card_addr": "juri_p_ssr10"
         }
       ],
       "P_SR": [
@@ -2146,7 +2149,7 @@
         }
       ]
     },
-    "card_count": 32
+    "card_count": 33
   },
   {
     "idol_ko_name": "린제",
@@ -2863,6 +2866,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "tenka_s_ssr11",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "S_SR": [
@@ -2919,7 +2929,7 @@
         }
       ]
     },
-    "card_count": 34
+    "card_count": 35
   },
   {
     "idol_ko_name": "치유키",
@@ -3684,6 +3694,13 @@
             "VocalProwess",
             "Focus"
           ]
+        },
+        {
+          "card_addr": "toru_s_ssr7",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Teamwork"
+          ]
         }
       ],
       "S_SR": [
@@ -3731,7 +3748,7 @@
         }
       ]
     },
-    "card_count": 22
+    "card_count": 23
   },
   {
     "idol_ko_name": "마도카",
