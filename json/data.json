@@ -150,6 +150,13 @@
             "Stability",
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "mano_s_ssr13",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "S_SR": [
@@ -218,7 +225,7 @@
         }
       ]
     },
-    "card_count": 38
+    "card_count": 39
   },
   {
     "idol_ko_name": "히오리",
@@ -1436,6 +1443,9 @@
         },
         {
           "card_addr": "kiriko_p_ssr8"
+        },
+        {
+          "card_addr": "kiriko_p_ssr9"
         }
       ],
       "P_SR": [
@@ -1587,7 +1597,7 @@
         }
       ]
     },
-    "card_count": 32
+    "card_count": 33
   },
   {
     "idol_ko_name": "카호",
@@ -3588,6 +3598,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "mei_s_sr5",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -3605,7 +3622,7 @@
         }
       ]
     },
-    "card_count": 27
+    "card_count": 28
   },
   {
     "idol_ko_name": "토오루",
