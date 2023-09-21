@@ -1193,6 +1193,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "sakuya_s_sr5",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -1219,7 +1226,7 @@
         }
       ]
     },
-    "card_count": 32
+    "card_count": 33
   },
   {
     "idol_ko_name": "유이카",
@@ -2590,6 +2597,9 @@
         },
         {
           "card_addr": "amana_p_ssr9"
+        },
+        {
+          "card_addr": "amana_p_ssr10"
         }
       ],
       "P_SR": [
@@ -2739,7 +2749,7 @@
         }
       ]
     },
-    "card_count": 33
+    "card_count": 34
   },
   {
     "idol_ko_name": "텐카",
@@ -4440,6 +4450,9 @@
       "P_SR": [
         {
           "card_addr": "luca_p_sr0"
+        },
+        {
+          "card_addr": "luca_p_sr1"
         }
       ],
       "S_SSR": [
@@ -4474,7 +4487,7 @@
         }
       ]
     },
-    "card_count": 7
+    "card_count": 8
   },
   {
     "idol_ko_name": "그외",
