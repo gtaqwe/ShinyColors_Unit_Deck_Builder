@@ -1261,6 +1261,9 @@
         },
         {
           "card_addr": "yuika_p_ssr8"
+        },
+        {
+          "card_addr": "yuika_p_ssr9"
         }
       ],
       "P_SR": [
@@ -1415,7 +1418,7 @@
         }
       ]
     },
-    "card_count": 32
+    "card_count": 33
   },
   {
     "idol_ko_name": "키리코",
@@ -3946,6 +3949,9 @@
         },
         {
           "card_addr": "koito_p_ssr5"
+        },
+        {
+          "card_addr": "koito_p_ssr6"
         }
       ],
       "P_SR": [
@@ -4043,7 +4049,7 @@
         }
       ]
     },
-    "card_count": 20
+    "card_count": 21
   },
   {
     "idol_ko_name": "히나나",
