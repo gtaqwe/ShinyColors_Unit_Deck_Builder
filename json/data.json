@@ -424,6 +424,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "hiori_s_sr9",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -441,7 +448,7 @@
         }
       ]
     },
-    "card_count": 37
+    "card_count": 38
   },
   {
     "idol_ko_name": "메구루",
@@ -4110,6 +4117,9 @@
         },
         {
           "card_addr": "hinana_p_ssr6"
+        },
+        {
+          "card_addr": "hinana_p_ssr7"
         }
       ],
       "P_SR": [
@@ -4214,7 +4224,7 @@
         }
       ]
     },
-    "card_count": 22
+    "card_count": 23
   },
   {
     "idol_ko_name": "니치카",
