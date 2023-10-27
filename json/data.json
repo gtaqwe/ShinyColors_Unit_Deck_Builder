@@ -157,6 +157,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "mano_s_ssr14",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "S_SR": [
@@ -225,7 +232,7 @@
         }
       ]
     },
-    "card_count": 39
+    "card_count": 40
   },
   {
     "idol_ko_name": "히오리",
@@ -976,6 +983,13 @@
           "card_prof": [
             "Focus"
           ]
+        },
+        {
+          "card_addr": "mamimi_s_ssr10",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "S_SR": [
@@ -1039,7 +1053,7 @@
         }
       ]
     },
-    "card_count": 34
+    "card_count": 35
   },
   {
     "idol_ko_name": "사쿠야",
@@ -1564,6 +1578,13 @@
             "Expressiveness",
             "Focus"
           ]
+        },
+        {
+          "card_addr": "kiriko_s_ssr11",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "S_SR": [
@@ -1625,7 +1646,7 @@
         }
       ]
     },
-    "card_count": 34
+    "card_count": 35
   },
   {
     "idol_ko_name": "카호",
@@ -1954,6 +1975,13 @@
             "Stability",
             "Focus"
           ]
+        },
+        {
+          "card_addr": "chiyoko_s_ssr11",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "S_SR": [
@@ -2008,7 +2036,7 @@
         }
       ]
     },
-    "card_count": 32
+    "card_count": 33
   },
   {
     "idol_ko_name": "쥬리",
@@ -2141,6 +2169,13 @@
             "Stability",
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "juri_s_ssr10",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "S_SR": [
@@ -2195,7 +2230,7 @@
         }
       ]
     },
-    "card_count": 33
+    "card_count": 34
   },
   {
     "idol_ko_name": "린제",
@@ -2734,6 +2769,13 @@
             "VocalProwess",
             "Stability"
           ]
+        },
+        {
+          "card_addr": "amana_s_ssr11",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "S_SR": [
@@ -2795,7 +2837,7 @@
         }
       ]
     },
-    "card_count": 35
+    "card_count": 36
   },
   {
     "idol_ko_name": "텐카",
