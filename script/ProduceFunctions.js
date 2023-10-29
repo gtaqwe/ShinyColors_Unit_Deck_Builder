@@ -49,6 +49,16 @@ function getProficiencyImg(prof) {
 }
 
 /**
+ * 아이디어, 히라메키, 악곡숙련도가 없는 경우의 이미지 Return
+ */
+function getNothingAbilityImg() {
+  return {
+    src: `./img/assets/Nothing_Ability.png`,
+    style: "width: 96px; height: 35px; bottom: 0px; right: 0px;",
+  };
+}
+
+/**
  * 옵션 능력의 Object를 Return
  */
 function getOptionAbility(idea, insight, proficiency) {
@@ -195,11 +205,7 @@ function convertOptionAbilityImg(optionVal) {
           if (optionByCard != undefined) {
             $(`#selectedIdol_${offset}_option`).append($("<img>", getIdeaImg(optionByCard)));
           } else {
-            $(`#selectedIdol_${offset}_option`).append(
-              $("<img>", {
-                src: "",
-              })
-            );
+            $(`#selectedIdol_${offset}_option`).append($("<img>", getNothingAbilityImg()));
           }
         }
       } else if (optionVal == "insight") {
@@ -211,11 +217,7 @@ function convertOptionAbilityImg(optionVal) {
           if (optionByCard != undefined) {
             $(`#selectedIdol_${offset}_option`).append($("<img>", getInsightImg(optionByCard, 2)));
           } else {
-            $(`#selectedIdol_${offset}_option`).append(
-              $("<img>", {
-                src: "",
-              })
-            );
+            $(`#selectedIdol_${offset}_option`).append($("<img>", getNothingAbilityImg()));
           }
         }
       } else if (optionVal == "proficiency") {
@@ -227,11 +229,7 @@ function convertOptionAbilityImg(optionVal) {
           if (optionByCard != undefined) {
             $(`#selectedIdol_${offset}_option`).append($("<img>", getProficiencyImg(optionByCard)));
           } else {
-            $(`#selectedIdol_${offset}_option`).append(
-              $("<img>", {
-                src: "",
-              })
-            );
+            $(`#selectedIdol_${offset}_option`).append($("<img>", getNothingAbilityImg()));
           }
         }
       } else {
