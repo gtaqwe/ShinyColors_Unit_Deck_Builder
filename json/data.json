@@ -1210,6 +1210,14 @@
           "card_addr": "sakuya_s_ssr11",
           "card_idea": null,
           "card_prof": []
+        },
+        {
+          "card_addr": "sakuya_s_ssr12",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness",
+            "Focus"
+          ]
         }
       ],
       "S_SR": [
@@ -1273,7 +1281,7 @@
         }
       ]
     },
-    "card_count": 34
+    "card_count": 35
   },
   {
     "idol_ko_name": "유이카",
@@ -1453,6 +1461,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "yuika_s_sr7",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -1470,7 +1485,7 @@
         }
       ]
     },
-    "card_count": 34
+    "card_count": 35
   },
   {
     "idol_ko_name": "키리코",
@@ -3503,6 +3518,9 @@
         },
         {
           "card_addr": "fuyuko_p_ssr7"
+        },
+        {
+          "card_addr": "fuyuko_p_ssr8"
         }
       ],
       "P_SR": [
@@ -3637,7 +3655,7 @@
         }
       ]
     },
-    "card_count": 28
+    "card_count": 29
   },
   {
     "idol_ko_name": "메이",
@@ -4624,7 +4642,7 @@
   },
   {
     "idol_ko_name": "루카",
-    "idol_ja_name": "斑鳩ルカ",
+    "idol_ja_name": "斑鳩 ルカ",
     "idol_en_name": "Luca",
     "insight": "Vocal",
     "card_data": {
