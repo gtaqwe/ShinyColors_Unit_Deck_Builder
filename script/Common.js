@@ -47,6 +47,7 @@ function viewIdolDialog(parentObj, obj, divId, cardType, offset) {
         width: "100px",
         height: "100px",
         class: "dialogImg",
+        onerror: `this.src="${blankIdolMainIcon}"`,
       })
     );
 

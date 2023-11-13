@@ -8,6 +8,7 @@ function getIdolImg(name, insight) {
     src: `./img/idol/${name}.png`,
     width: "96px",
     height: "96px",
+    onerror: `this.src="${blankIdolMainIcon}"`,
   };
 }
 

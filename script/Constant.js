@@ -7,3 +7,4 @@ const exDialogDivId = "#exDialogDiv";
 const spaceSize = 3;
 const defalutLanguage = "ko";
 const blankIdolIcon = "./img/assets/Blank_Idol.png";
+const blankIdolMainIcon = "./img/idol/other.png";
