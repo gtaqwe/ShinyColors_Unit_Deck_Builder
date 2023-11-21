@@ -1938,6 +1938,9 @@
         },
         {
           "card_addr": "chiyoko_p_ssr9"
+        },
+        {
+          "card_addr": "chiyoko_p_ssr10"
         }
       ],
       "P_SR": [
@@ -2091,7 +2094,7 @@
         }
       ]
     },
-    "card_count": 33
+    "card_count": 34
   },
   {
     "idol_ko_name": "쥬리",
@@ -3066,6 +3069,13 @@
           "card_addr": "tenka_s_ssr12",
           "card_idea": null,
           "card_prof": []
+        },
+        {
+          "card_addr": "tenka_s_ssr13",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "S_SR": [
@@ -3122,7 +3132,7 @@
         }
       ]
     },
-    "card_count": 36
+    "card_count": 37
   },
   {
     "idol_ko_name": "치유키",
@@ -3305,6 +3315,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "chiyuki_s_sr7",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -3322,7 +3339,7 @@
         }
       ]
     },
-    "card_count": 35
+    "card_count": 36
   },
   {
     "idol_ko_name": "아사히",
