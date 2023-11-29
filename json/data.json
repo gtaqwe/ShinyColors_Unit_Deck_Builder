@@ -3170,6 +3170,9 @@
         },
         {
           "card_addr": "chiyuki_p_ssr9"
+        },
+        {
+          "card_addr": "chiyuki_p_ssr10"
         }
       ],
       "P_SR": [
@@ -3339,7 +3342,7 @@
         }
       ]
     },
-    "card_count": 36
+    "card_count": 37
   },
   {
     "idol_ko_name": "아사히",
@@ -4111,6 +4114,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "madoka_s_sr4",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -4128,7 +4138,7 @@
         }
       ]
     },
-    "card_count": 24
+    "card_count": 25
   },
   {
     "idol_ko_name": "코이토",
