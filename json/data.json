@@ -443,6 +443,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "hiori_s_sr10",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -460,7 +467,7 @@
         }
       ]
     },
-    "card_count": 39
+    "card_count": 40
   },
   {
     "idol_ko_name": "메구루",
