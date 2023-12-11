@@ -716,6 +716,9 @@
         },
         {
           "card_addr": "kogane_p_ssr8"
+        },
+        {
+          "card_addr": "kogane_p_ssr9"
         }
       ],
       "P_SR": [
@@ -878,7 +881,7 @@
         }
       ]
     },
-    "card_count": 34
+    "card_count": 35
   },
   {
     "idol_ko_name": "마미미",
@@ -2641,6 +2644,13 @@
           "card_prof": [
             "Teamwork"
           ]
+        },
+        {
+          "card_addr": "natsuha_s_ssr12",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "S_SR": [
@@ -2718,7 +2728,7 @@
         }
       ]
     },
-    "card_count": 37
+    "card_count": 38
   },
   {
     "idol_ko_name": "아마나",
@@ -3469,6 +3479,14 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "asahi_s_ssr9",
+          "card_idea": "Dance",
+          "card_prof": [
+            "VocalProwess",
+            "Stability"
+          ]
         }
       ],
       "S_SR": [
@@ -3516,7 +3534,7 @@
         }
       ]
     },
-    "card_count": 29
+    "card_count": 30
   },
   {
     "idol_ko_name": "후유코",
@@ -4743,6 +4761,44 @@
       ]
     },
     "card_count": 9
+  },
+  {
+    "idol_ko_name": "하나",
+    "idol_ja_name": "鈴木 羽那",
+    "idol_en_name": "Hana",
+    "insight": "Visual",
+    "card_data": {
+      "P_SSR": [],
+      "P_SR": [],
+      "S_SSR": [],
+      "S_SR": [],
+      "P_R": [
+        {
+          "card_addr": "hana_p_r0"
+        }
+      ],
+      "S_R": []
+    },
+    "card_count": 1
+  },
+  {
+    "idol_ko_name": "하루키",
+    "idol_ja_name": "郁田 はるき",
+    "idol_en_name": "Haruki",
+    "insight": "Mental",
+    "card_data": {
+      "P_SSR": [],
+      "P_SR": [],
+      "S_SSR": [],
+      "S_SR": [],
+      "P_R": [
+        {
+          "card_addr": "haruki_p_r0"
+        }
+      ],
+      "S_R": []
+    },
+    "card_count": 1
   },
   {
     "idol_ko_name": "그외",
