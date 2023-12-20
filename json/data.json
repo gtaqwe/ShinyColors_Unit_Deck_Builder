@@ -1689,6 +1689,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "kiriko_s_sr7",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -1706,7 +1713,7 @@
         }
       ]
     },
-    "card_count": 36
+    "card_count": 37
   },
   {
     "idol_ko_name": "카호",
@@ -4768,7 +4775,11 @@
     "idol_en_name": "Hana",
     "insight": "Visual",
     "card_data": {
-      "P_SSR": [],
+      "P_SSR": [
+        {
+          "card_addr": "hana_p_ssr1"
+        }
+      ],
       "P_SR": [],
       "S_SSR": [],
       "S_SR": [],
@@ -4779,7 +4790,7 @@
       ],
       "S_R": []
     },
-    "card_count": 1
+    "card_count": 2
   },
   {
     "idol_ko_name": "하루키",
@@ -4787,7 +4798,11 @@
     "idol_en_name": "Haruki",
     "insight": "Mental",
     "card_data": {
-      "P_SSR": [],
+      "P_SSR": [
+        {
+          "card_addr": "haruki_p_ssr1"
+        }
+      ],
       "P_SR": [],
       "S_SSR": [],
       "S_SR": [],
@@ -4798,7 +4813,7 @@
       ],
       "S_R": []
     },
-    "card_count": 1
+    "card_count": 2
   },
   {
     "idol_ko_name": "그외",
