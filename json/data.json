@@ -2102,6 +2102,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "chiyoko_s_sr6",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -2119,7 +2126,7 @@
         }
       ]
     },
-    "card_count": 34
+    "card_count": 35
   },
   {
     "idol_ko_name": "쥬리",
@@ -2894,6 +2901,14 @@
             "Stability",
             "Focus"
           ]
+        },
+        {
+          "card_addr": "amana_s_ssr13",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Focus",
+            "Teamwork"
+          ]
         }
       ],
       "S_SR": [
@@ -2955,7 +2970,7 @@
         }
       ]
     },
-    "card_count": 37
+    "card_count": 38
   },
   {
     "idol_ko_name": "텐카",
@@ -4213,6 +4228,9 @@
         },
         {
           "card_addr": "koito_p_ssr6"
+        },
+        {
+          "card_addr": "koito_p_ssr7"
         }
       ],
       "P_SR": [
@@ -4310,7 +4328,7 @@
         }
       ]
     },
-    "card_count": 21
+    "card_count": 22
   },
   {
     "idol_ko_name": "히나나",
