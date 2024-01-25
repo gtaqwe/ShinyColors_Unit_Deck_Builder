@@ -1548,6 +1548,9 @@
         },
         {
           "card_addr": "kiriko_p_ssr9"
+        },
+        {
+          "card_addr": "kiriko_p_ssr10"
         }
       ],
       "P_SR": [
@@ -1728,7 +1731,7 @@
         }
       ]
     },
-    "card_count": 37
+    "card_count": 38
   },
   {
     "idol_ko_name": "카호",
@@ -3015,6 +3018,9 @@
         },
         {
           "card_addr": "tenka_p_ssr9"
+        },
+        {
+          "card_addr": "tenka_p_ssr10"
         }
       ],
       "P_SR": [
@@ -3189,7 +3195,7 @@
         }
       ]
     },
-    "card_count": 37
+    "card_count": 38
   },
   {
     "idol_ko_name": "치유키",
