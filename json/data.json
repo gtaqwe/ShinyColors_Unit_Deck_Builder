@@ -2332,6 +2332,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "juri_s_sr6",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -2349,7 +2356,7 @@
         }
       ]
     },
-    "card_count": 34
+    "card_count": 35
   },
   {
     "idol_ko_name": "린제",
@@ -3638,6 +3645,9 @@
         },
         {
           "card_addr": "fuyuko_p_ssr8"
+        },
+        {
+          "card_addr": "fuyuko_p_ssr9"
         }
       ],
       "P_SR": [
@@ -3772,7 +3782,7 @@
         }
       ]
     },
-    "card_count": 29
+    "card_count": 30
   },
   {
     "idol_ko_name": "메이",
