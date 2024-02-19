@@ -3765,6 +3765,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "fuyuko_s_sr4",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -3782,7 +3789,7 @@
         }
       ]
     },
-    "card_count": 30
+    "card_count": 31
   },
   {
     "idol_ko_name": "메이",
@@ -4138,6 +4145,9 @@
         },
         {
           "card_addr": "madoka_p_ssr7"
+        },
+        {
+          "card_addr": "madoka_p_ssr8"
         }
       ],
       "P_SR": [
@@ -4258,7 +4268,7 @@
         }
       ]
     },
-    "card_count": 25
+    "card_count": 26
   },
   {
     "idol_ko_name": "코이토",
@@ -4868,7 +4878,11 @@
           "card_addr": "hana_p_ssr1"
         }
       ],
-      "P_SR": [],
+      "P_SR": [
+        {
+          "card_addr": "hana_p_sr1"
+        }
+      ],
       "S_SSR": [
         {
           "card_addr": "hana_s_ssr1",
@@ -4901,7 +4915,7 @@
         }
       ]
     },
-    "card_count": 5
+    "card_count": 6
   },
   {
     "idol_ko_name": "하루키",
