@@ -4278,6 +4278,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "madoka_s_sr5",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -4295,7 +4302,7 @@
         }
       ]
     },
-    "card_count": 26
+    "card_count": 27
   },
   {
     "idol_ko_name": "코이토",
