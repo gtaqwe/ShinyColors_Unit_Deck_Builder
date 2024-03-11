@@ -164,6 +164,14 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "mano_s_ssr15",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Teamwork"
+          ]
         }
       ],
       "S_SR": [
@@ -232,7 +240,7 @@
         }
       ]
     },
-    "card_count": 40
+    "card_count": 41
   },
   {
     "idol_ko_name": "히오리",
@@ -1363,6 +1371,9 @@
         },
         {
           "card_addr": "yuika_p_ssr9"
+        },
+        {
+          "card_addr": "yuika_p_ssr10"
         }
       ],
       "P_SR": [
@@ -1529,7 +1540,7 @@
         }
       ]
     },
-    "card_count": 35
+    "card_count": 36
   },
   {
     "idol_ko_name": "키리코",
@@ -2570,6 +2581,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "rinze_s_sr7",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -2587,7 +2605,7 @@
         }
       ]
     },
-    "card_count": 37
+    "card_count": 38
   },
   {
     "idol_ko_name": "나츠하",
