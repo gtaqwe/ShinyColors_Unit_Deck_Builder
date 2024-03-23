@@ -750,6 +750,9 @@
         },
         {
           "card_addr": "kogane_p_ssr9"
+        },
+        {
+          "card_addr": "kogane_p_ssr10"
         }
       ],
       "P_SR": [
@@ -920,7 +923,7 @@
         }
       ]
     },
-    "card_count": 36
+    "card_count": 37
   },
   {
     "idol_ko_name": "마미미",
@@ -4761,6 +4764,9 @@
         },
         {
           "card_addr": "mikoto_p_ssr4"
+        },
+        {
+          "card_addr": "mikoto_p_ssr5"
         }
       ],
       "P_SR": [
@@ -4875,7 +4881,7 @@
         }
       ]
     },
-    "card_count": 21
+    "card_count": 22
   },
   {
     "idol_ko_name": "루카",
