@@ -3618,6 +3618,13 @@
             "VocalProwess",
             "Stability"
           ]
+        },
+        {
+          "card_addr": "asahi_s_ssr10",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "S_SR": [
@@ -3672,7 +3679,7 @@
         }
       ]
     },
-    "card_count": 31
+    "card_count": 32
   },
   {
     "idol_ko_name": "후유코",
