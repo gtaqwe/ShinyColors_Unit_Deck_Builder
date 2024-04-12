@@ -35,6 +35,9 @@
         },
         {
           "card_addr": "mano_p_ssr9"
+        },
+        {
+          "card_addr": "mano_p_ssr10"
         }
       ],
       "P_SR": [
@@ -261,7 +264,7 @@
         }
       ]
     },
-    "card_count": 44
+    "card_count": 45
   },
   {
     "idol_ko_name": "히오리",
@@ -4957,6 +4960,9 @@
         },
         {
           "card_addr": "luca_p_ssr2"
+        },
+        {
+          "card_addr": "luca_p_ssr3"
         }
       ],
       "P_SR": [
@@ -5007,7 +5013,7 @@
         }
       ]
     },
-    "card_count": 10
+    "card_count": 11
   },
   {
     "idol_ko_name": "하나",
