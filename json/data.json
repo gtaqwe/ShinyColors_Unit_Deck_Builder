@@ -2927,6 +2927,9 @@
         },
         {
           "card_addr": "amana_p_ssr10"
+        },
+        {
+          "card_addr": "amana_p_ssr11"
         }
       ],
       "P_SR": [
@@ -3113,7 +3116,7 @@
         }
       ]
     },
-    "card_count": 39
+    "card_count": 40
   },
   {
     "idol_ko_name": "텐카",
@@ -3302,6 +3305,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "tenka_s_sr5",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -3328,7 +3338,7 @@
         }
       ]
     },
-    "card_count": 38
+    "card_count": 39
   },
   {
     "idol_ko_name": "치유키",
@@ -4577,6 +4587,9 @@
         },
         {
           "card_addr": "hinana_p_ssr7"
+        },
+        {
+          "card_addr": "hinana_p_ssr8"
         }
       ],
       "P_SR": [
@@ -4689,7 +4702,7 @@
         }
       ]
     },
-    "card_count": 24
+    "card_count": 25
   },
   {
     "idol_ko_name": "니치카",
