@@ -3099,6 +3099,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "amana_s_sr7",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -3116,7 +3123,7 @@
         }
       ]
     },
-    "card_count": 40
+    "card_count": 41
   },
   {
     "idol_ko_name": "텐카",
@@ -3312,6 +3319,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "tenka_s_sr6",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -3338,7 +3352,7 @@
         }
       ]
     },
-    "card_count": 39
+    "card_count": 40
   },
   {
     "idol_ko_name": "치유키",
