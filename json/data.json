@@ -2030,6 +2030,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "kaho_s_sr7",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -2047,7 +2054,7 @@
         }
       ]
     },
-    "card_count": 38
+    "card_count": 39
   },
   {
     "idol_ko_name": "치요코",
@@ -2439,6 +2446,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "juri_s_sr7",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -2456,7 +2470,7 @@
         }
       ]
     },
-    "card_count": 36
+    "card_count": 37
   },
   {
     "idol_ko_name": "린제",
