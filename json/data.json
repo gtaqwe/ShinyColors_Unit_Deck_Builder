@@ -250,6 +250,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "mano_s_sr11",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -267,7 +274,7 @@
         }
       ]
     },
-    "card_count": 46
+    "card_count": 47
   },
   {
     "idol_ko_name": "히오리",
@@ -493,6 +500,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "hiori_s_sr11",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -510,7 +524,7 @@
         }
       ]
     },
-    "card_count": 41
+    "card_count": 42
   },
   {
     "idol_ko_name": "메구루",
