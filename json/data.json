@@ -1382,6 +1382,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "sakuya_s_sr6",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -1408,7 +1415,7 @@
         }
       ]
     },
-    "card_count": 37
+    "card_count": 38
   },
   {
     "idol_ko_name": "유이카",
@@ -2542,6 +2549,9 @@
         },
         {
           "card_addr": "rinze_p_ssr10"
+        },
+        {
+          "card_addr": "rinze_p_ssr11"
         }
       ],
       "P_SR": [
@@ -2715,7 +2725,7 @@
         }
       ]
     },
-    "card_count": 38
+    "card_count": 39
   },
   {
     "idol_ko_name": "나츠하",
@@ -5184,7 +5194,15 @@
         }
       ],
       "P_SR": [],
-      "S_SSR": [],
+      "S_SSR": [
+        {
+          "card_addr": "haruki_s_ssr1",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        }
+      ],
       "S_SR": [
         {
           "card_addr": "haruki_s_sr1",
@@ -5209,7 +5227,7 @@
         }
       ]
     },
-    "card_count": 6
+    "card_count": 7
   },
   {
     "idol_ko_name": "그외",
