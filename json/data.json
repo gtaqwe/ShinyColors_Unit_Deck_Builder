@@ -2929,6 +2929,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "natsuha_s_sr8",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -2955,7 +2962,7 @@
         }
       ]
     },
-    "card_count": 38
+    "card_count": 39
   },
   {
     "idol_ko_name": "아마나",
@@ -3465,6 +3472,9 @@
         },
         {
           "card_addr": "chiyuki_p_ssr11"
+        },
+        {
+          "card_addr": "chiyuki_p_ssr12"
         }
       ],
       "P_SR": [
@@ -3641,7 +3651,7 @@
         }
       ]
     },
-    "card_count": 39
+    "card_count": 40
   },
   {
     "idol_ko_name": "아사히",
@@ -3872,6 +3882,9 @@
         },
         {
           "card_addr": "fuyuko_p_ssr9"
+        },
+        {
+          "card_addr": "fuyuko_p_ssr10"
         }
       ],
       "P_SR": [
@@ -4013,7 +4026,7 @@
         }
       ]
     },
-    "card_count": 31
+    "card_count": 32
   },
   {
     "idol_ko_name": "메이",
