@@ -743,6 +743,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "meguru_s_sr8",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -760,7 +767,7 @@
         }
       ]
     },
-    "card_count": 41
+    "card_count": 42
   },
   {
     "idol_ko_name": "코가네",
@@ -2961,6 +2968,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "natsuha_s_sr9",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -2987,7 +3001,7 @@
         }
       ]
     },
-    "card_count": 39
+    "card_count": 40
   },
   {
     "idol_ko_name": "아마나",
