@@ -1684,6 +1684,9 @@
         },
         {
           "card_addr": "kiriko_p_ssr10"
+        },
+        {
+          "card_addr": "kiriko_p_ssr11"
         }
       ],
       "P_SR": [
@@ -1878,7 +1881,7 @@
         }
       ]
     },
-    "card_count": 40
+    "card_count": 41
   },
   {
     "idol_ko_name": "카호",
@@ -2671,6 +2674,14 @@
           "card_addr": "rinze_s_ssr11",
           "card_idea": null,
           "card_prof": []
+        },
+        {
+          "card_addr": "rinze_s_ssr12",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Focus"
+          ]
         }
       ],
       "S_SR": [
@@ -2746,7 +2757,7 @@
         }
       ]
     },
-    "card_count": 40
+    "card_count": 41
   },
   {
     "idol_ko_name": "나츠하",
@@ -5269,6 +5280,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "haruki_s_sr2",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -5286,7 +5304,7 @@
         }
       ]
     },
-    "card_count": 7
+    "card_count": 8
   },
   {
     "idol_ko_name": "그외",
