@@ -1180,6 +1180,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "mamimi_s_sr8",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -1206,7 +1213,7 @@
         }
       ]
     },
-    "card_count": 38
+    "card_count": 39
   },
   {
     "idol_ko_name": "사쿠야",
@@ -4196,6 +4203,14 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "mei_s_ssr9",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "VocalProwess",
+            "Teamwork"
+          ]
         }
       ],
       "S_SR": [
@@ -4250,7 +4265,7 @@
         }
       ]
     },
-    "card_count": 30
+    "card_count": 31
   },
   {
     "idol_ko_name": "토오루",
@@ -5020,6 +5035,9 @@
         },
         {
           "card_addr": "mikoto_p_ssr5"
+        },
+        {
+          "card_addr": "mikoto_p_ssr6"
         }
       ],
       "P_SR": [
@@ -5134,7 +5152,7 @@
         }
       ]
     },
-    "card_count": 22
+    "card_count": 23
   },
   {
     "idol_ko_name": "루카",
