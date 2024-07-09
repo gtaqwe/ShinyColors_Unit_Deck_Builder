@@ -924,6 +924,14 @@
             "Expressiveness",
             "Teamwork"
           ]
+        },
+        {
+          "card_addr": "kogane_s_ssr12",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability",
+            "Focus"
+          ]
         }
       ],
       "S_SR": [
@@ -999,7 +1007,7 @@
         }
       ]
     },
-    "card_count": 38
+    "card_count": 39
   },
   {
     "idol_ko_name": "마미미",
@@ -1661,6 +1669,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "yuika_s_sr9",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -1678,7 +1693,7 @@
         }
       ]
     },
-    "card_count": 38
+    "card_count": 39
   },
   {
     "idol_ko_name": "키리코",
@@ -2335,6 +2350,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "chiyoko_s_sr8",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -2352,7 +2374,7 @@
         }
       ]
     },
-    "card_count": 36
+    "card_count": 37
   },
   {
     "idol_ko_name": "쥬리",
@@ -3329,6 +3351,9 @@
         },
         {
           "card_addr": "tenka_p_ssr10"
+        },
+        {
+          "card_addr": "tenka_p_ssr11"
         }
       ],
       "P_SR": [
@@ -3517,7 +3542,7 @@
         }
       ]
     },
-    "card_count": 40
+    "card_count": 41
   },
   {
     "idol_ko_name": "치유키",
