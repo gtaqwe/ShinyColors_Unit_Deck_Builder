@@ -1982,6 +1982,9 @@
         },
         {
           "card_addr": "kaho_p_ssr11"
+        },
+        {
+          "card_addr": "kaho_p_ssr12"
         }
       ],
       "P_SR": [
@@ -2159,7 +2162,7 @@
         }
       ]
     },
-    "card_count": 39
+    "card_count": 40
   },
   {
     "idol_ko_name": "치요코",
@@ -2804,6 +2807,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "rinze_s_sr9",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -2821,7 +2831,7 @@
         }
       ]
     },
-    "card_count": 41
+    "card_count": 42
   },
   {
     "idol_ko_name": "나츠하",
@@ -4517,6 +4527,9 @@
         },
         {
           "card_addr": "madoka_p_ssr8"
+        },
+        {
+          "card_addr": "madoka_p_ssr9"
         }
       ],
       "P_SR": [
@@ -4659,7 +4672,7 @@
         }
       ]
     },
-    "card_count": 29
+    "card_count": 30
   },
   {
     "idol_ko_name": "코이토",
@@ -5046,6 +5059,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "nichika_s_sr4",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -5063,7 +5083,7 @@
         }
       ]
     },
-    "card_count": 21
+    "card_count": 22
   },
   {
     "idol_ko_name": "미코토",
