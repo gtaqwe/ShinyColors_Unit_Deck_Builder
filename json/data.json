@@ -3951,6 +3951,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "asahi_s_sr6",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -3968,7 +3975,7 @@
         }
       ]
     },
-    "card_count": 33
+    "card_count": 34
   },
   {
     "idol_ko_name": "후유코",
