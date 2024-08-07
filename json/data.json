@@ -4687,6 +4687,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "madoka_s_sr7",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -4704,7 +4711,7 @@
         }
       ]
     },
-    "card_count": 30
+    "card_count": 31
   },
   {
     "idol_ko_name": "코이토",
@@ -5009,6 +5016,9 @@
         },
         {
           "card_addr": "nichika_p_ssr6"
+        },
+        {
+          "card_addr": "nichika_p_ssr7"
         }
       ],
       "P_SR": [
@@ -5115,7 +5125,7 @@
         }
       ]
     },
-    "card_count": 22
+    "card_count": 23
   },
   {
     "idol_ko_name": "미코토",
@@ -5480,6 +5490,9 @@
         },
         {
           "card_addr": "other_p_ssr1"
+        },
+        {
+          "card_addr": "other_p_ssr2"
         }
       ],
       "S_SSR": [
@@ -5490,9 +5503,25 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "other_s_ssr1",
+          "card_idea": "Vocal",
+          "card_insight": "",
+          "card_prof": [
+            "VocalProwess"
+          ]
+        },
+        {
+          "card_addr": "other_s_ssr2",
+          "card_idea": "Visual",
+          "card_insight": "",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ]
     },
-    "card_count": 3
+    "card_count": 6
   }
 ]
