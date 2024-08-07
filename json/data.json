@@ -4,6 +4,7 @@
     "idol_ja_name": "櫻木 真乃",
     "idol_en_name": "Mano",
     "insight": "Vocal",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -281,6 +282,7 @@
     "idol_ja_name": "風野 灯織",
     "idol_en_name": "Hiori",
     "insight": "Visual",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -538,6 +540,7 @@
     "idol_ja_name": "八宮 めぐる",
     "idol_en_name": "Meguru",
     "insight": "Dance",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -788,6 +791,7 @@
     "idol_ja_name": "月岡 恋鐘",
     "idol_en_name": "Kogane",
     "insight": "Mental",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -1014,6 +1018,7 @@
     "idol_ja_name": "田中 摩美々",
     "idol_en_name": "Mamimi",
     "insight": "Visual",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -1249,6 +1254,7 @@
     "idol_ja_name": "白瀬 咲耶",
     "idol_en_name": "Sakuya",
     "insight": "Visual",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -1472,6 +1478,7 @@
     "idol_ja_name": "三峰 結華",
     "idol_en_name": "Yuika",
     "insight": "Dance",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -1700,6 +1707,7 @@
     "idol_ja_name": "幽谷 霧子",
     "idol_en_name": "Kiriko",
     "insight": "Vocal",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -1945,6 +1953,7 @@
     "idol_ja_name": "小宮 果穂",
     "idol_en_name": "Kaho",
     "insight": "Vocal",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -2169,6 +2178,7 @@
     "idol_ja_name": "園田 智代子",
     "idol_en_name": "Chiyoko",
     "insight": "Mental",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -2392,6 +2402,7 @@
     "idol_ja_name": "西城 樹里",
     "idol_en_name": "Juri",
     "insight": "Dance",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -2607,6 +2618,7 @@
     "idol_ja_name": "杜野 凛世",
     "idol_en_name": "Rinze",
     "insight": "Dance",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -2846,6 +2858,7 @@
     "idol_ja_name": "有栖川 夏葉",
     "idol_en_name": "Natsuha",
     "insight": "Mental",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -3083,6 +3096,7 @@
     "idol_ja_name": "大崎 甘奈",
     "idol_en_name": "Amana",
     "insight": "Visual",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -3335,6 +3349,7 @@
     "idol_ja_name": "大崎 甜花",
     "idol_en_name": "Tenka",
     "insight": "Visual",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -3567,6 +3582,7 @@
     "idol_ja_name": "桑山 千雪",
     "idol_en_name": "Chiyuki",
     "insight": "Vocal",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -3790,6 +3806,7 @@
     "idol_ja_name": "芹沢 あさひ",
     "idol_en_name": "Asahi",
     "insight": "Dance",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -3990,6 +4007,7 @@
     "idol_ja_name": "黛 冬優子",
     "idol_en_name": "Fuyuko",
     "insight": "Vocal",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -4175,6 +4193,7 @@
     "idol_ja_name": "和泉 愛依",
     "idol_en_name": "Mei",
     "insight": "Mental",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -4354,6 +4373,7 @@
     "idol_ja_name": "浅倉 透",
     "idol_en_name": "Toru",
     "insight": "Visual",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -4531,6 +4551,7 @@
     "idol_ja_name": "樋口 円香",
     "idol_en_name": "Madoka",
     "insight": "Vocal",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -4718,6 +4739,7 @@
     "idol_ja_name": "福丸 小糸",
     "idol_en_name": "Koito",
     "insight": "Mental",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -4847,6 +4869,7 @@
     "idol_ja_name": "市川 雛菜",
     "idol_en_name": "Hinana",
     "insight": "Dance",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -4994,6 +5017,7 @@
     "idol_ja_name": "七草 にちか",
     "idol_en_name": "Nichika",
     "insight": "Dance",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -5132,6 +5156,7 @@
     "idol_ja_name": "緋田 美琴",
     "idol_en_name": "Mikoto",
     "insight": "Visual",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -5282,6 +5307,7 @@
     "idol_ja_name": "斑鳩 ルカ",
     "idol_en_name": "Luca",
     "insight": "Vocal",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -5362,6 +5388,7 @@
     "idol_ja_name": "鈴木 羽那",
     "idol_en_name": "Hana",
     "insight": "Visual",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -5423,6 +5450,7 @@
     "idol_ja_name": "郁田 はるき",
     "idol_en_name": "Haruki",
     "insight": "Mental",
+    "tsubasa_production": true,
     "card_data": {
       "P_SSR": [
         {
@@ -5479,41 +5507,60 @@
     "card_count": 8
   },
   {
-    "idol_ko_name": "그외",
-    "idol_ja_name": "その他",
-    "idol_en_name": "Other",
+    "idol_ko_name": "루비",
+    "idol_ja_name": "ルビー",
+    "idol_en_name": "Ruby",
     "insight": "",
+    "tsubasa_production": false,
     "card_data": {
       "P_SSR": [
         {
-          "card_addr": "other_p_ssr0"
-        },
-        {
-          "card_addr": "other_p_ssr1"
-        },
-        {
-          "card_addr": "other_p_ssr2"
+          "card_addr": "ruby_p_ssr1"
         }
       ],
       "S_SSR": [
         {
-          "card_addr": "other_s_ssr0",
-          "card_idea": "Visual",
-          "card_insight": "",
-          "card_prof": [
-            "Expressiveness"
-          ]
-        },
-        {
-          "card_addr": "other_s_ssr1",
+          "card_addr": "ruby_s_ssr1",
           "card_idea": "Vocal",
           "card_insight": "",
           "card_prof": [
             "VocalProwess"
           ]
-        },
+        }
+      ]
+    },
+    "card_count": 2
+  },
+  {
+    "idol_ko_name": "카나",
+    "idol_ja_name": "かな",
+    "idol_en_name": "Kana",
+    "insight": "",
+    "tsubasa_production": false,
+    "card_data": {
+      "P_SSR": [
         {
-          "card_addr": "other_s_ssr2",
+          "card_addr": "kana_p_ssr1"
+        }
+      ]
+    },
+    "card_count": 1
+  },
+  {
+    "idol_ko_name": "MEM쵸",
+    "idol_ja_name": "MEMちょ",
+    "idol_en_name": "Memcho",
+    "insight": "",
+    "tsubasa_production": false,
+    "card_data": {
+      "P_SSR": [
+        {
+          "card_addr": "memcho_p_ssr1"
+        }
+      ],
+      "S_SSR": [
+        {
+          "card_addr": "memcho_s_ssr1",
           "card_idea": "Visual",
           "card_insight": "",
           "card_prof": [
@@ -5522,6 +5569,26 @@
         }
       ]
     },
-    "card_count": 6
+    "card_count": 2
+  },
+  {
+    "idol_ko_name": "아카네",
+    "idol_ja_name": "あかね",
+    "idol_en_name": "Akane",
+    "insight": "",
+    "tsubasa_production": false,
+    "card_data": {
+      "S_SSR": [
+        {
+          "card_addr": "akane_s_ssr1",
+          "card_idea": "Visual",
+          "card_insight": "",
+          "card_prof": [
+            "Expressiveness"
+          ]
+        }
+      ]
+    },
+    "card_count": 1
   }
 ]

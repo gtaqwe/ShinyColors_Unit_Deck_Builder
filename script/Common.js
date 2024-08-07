@@ -21,41 +21,47 @@ function setCardByDeckViewDiv(jsonData, selectedIdolName, divId, cardType, offse
  */
 function viewIdolDialog(parentObj, obj, divId, cardType, offset) {
   $(idolDialogDivId).html("");
+  console.log(obj);
+  var tsubasaIdol = [];
+  var otherIdol = [];
+
+  // 283프로와 그 외를 구분
   for (var idolIdx = 0; idolIdx < obj.length; idolIdx++) {
+    if (obj[idolIdx]["tsubasa_production"] == true) {
+      tsubasaIdol.push(obj[idolIdx]);
+    } else {
+      otherIdol.push(obj[idolIdx]);
+    }
+  }
+
+  var tsubasaIdolCount = tsubasaIdol.length;
+
+  // 283프로 아이돌 선택 버튼 세팅
+  for (var idolIdx = 0; idolIdx < tsubasaIdol.length; idolIdx++) {
     // 파일명이 모두 소문자 영문이기 때문에 영문명을 모두 소문자로
     // Mano -> mano
-    var idolNameSrc = obj[idolIdx]["idol_en_name"].toLowerCase();
-    var idolInsight = obj[idolIdx]["insight"];
+    var idolNameSrc = tsubasaIdol[idolIdx]["idol_en_name"].toLowerCase();
+    var idolInsight = tsubasaIdol[idolIdx]["insight"];
 
     var parameter = `'#${divId}', '${idolNameSrc}', '${idolInsight}', ${idolIdx}, '${cardType}', ${offset}`;
 
-    // 아이돌 목록 다이얼로그 표시
-    // 아이돌 선택시, 해당 아이돌의 카드 목록 전개하도록 세팅
-    $(idolDialogDivId).append(
-      $("<div>", {
-        id: `idolDiv_${idolNameSrc}`,
-        style: "display:inline-flex;position: relative;",
-        onclick: `viewCard(${parameter})`,
-      })
-    );
+    displayIdolListDialog(idolDialogDivId, idolNameSrc, cardType, parameter);
+  }
 
-    // 아이돌 이미지 세팅
-    $(`#idolDiv_${idolNameSrc}`).append(
-      $("<img>", {
-        id: `idol_${idolNameSrc}`,
-        src: `./img/idol/${idolNameSrc}.png`,
-        width: "100px",
-        height: "100px",
-        class: "dialogImg",
-        onerror: `this.src="${blankIdolMainIcon}"`,
-      })
-    );
+  $(idolDialogDivId).append("<hr>");
 
-    // 히라메키 표시가 체크되어있는 경우
-    // 서포터 아이돌 목록에 히라메키 아이콘을 표시
-    var insightChk = $(':radio[name="option_ability"]:checked').val() == "insight";
-    if (cardType == "S" && insightChk == true && idolInsight != "")
-      $(`#idolDiv_${idolNameSrc}`).append($("<img>", getInsightImg(idolInsight, 1)));
+  // 283프로 이외 아이돌 선택 버튼 세팅
+  for (var idolIdx = 0; idolIdx < otherIdol.length; idolIdx++) {
+    // 파일명이 모두 소문자 영문이기 때문에 영문명을 모두 소문자로
+    // Mano -> mano
+    var idolNameSrc = otherIdol[idolIdx]["idol_en_name"].toLowerCase();
+    var idolInsight = otherIdol[idolIdx]["insight"];
+
+    var parameter = `'#${divId}', '${idolNameSrc}', '${idolInsight}', ${
+      tsubasaIdolCount + idolIdx
+    }, '${cardType}', ${offset}`;
+
+    displayIdolListDialog(idolDialogDivId, idolNameSrc, cardType, parameter);
   }
 
   var dialogTitle = getLanguageStringByData(viewLanguage, "selectIdol");
@@ -70,6 +76,38 @@ function viewIdolDialog(parentObj, obj, divId, cardType, offset) {
   $(".ui-widget-overlay").click(function () {
     $(idolDialogDivId).dialog("close");
   });
+}
+
+/**
+ * 아이돌 목록 다이얼로그 표시
+ */
+function displayIdolListDialog(divId, idolNameSrc, cardType, parameter) {
+  // 아이돌 선택시, 해당 아이돌의 카드 목록 전개하도록 세팅
+  $(divId).append(
+    $("<div>", {
+      id: `idolDiv_${idolNameSrc}`,
+      style: "display:inline-flex;position: relative;",
+      onclick: `viewCard(${parameter})`,
+    })
+  );
+
+  // 아이돌 이미지 세팅
+  $(`#idolDiv_${idolNameSrc}`).append(
+    $("<img>", {
+      id: `idol_${idolNameSrc}`,
+      src: `./img/idol/${idolNameSrc}.png`,
+      width: "100px",
+      height: "100px",
+      class: "dialogImg",
+      onerror: `this.src="${blankIdolMainIcon}"`,
+    })
+  );
+
+  // 히라메키 표시가 체크되어있는 경우
+  // 서포터 아이돌 목록에 히라메키 아이콘을 표시
+  var insightChk = $(':radio[name="option_ability"]:checked').val() == "insight";
+  if (cardType == "S" && insightChk == true && idolInsight != "")
+    $(`#idolDiv_${idolNameSrc}`).append($("<img>", getInsightImg(idolInsight, 1)));
 }
 
 /**
@@ -222,55 +260,28 @@ function viewCardDialog(parentObj, obj, cardType, offset, insight = "") {
   // 구체적인 카드 선택이 아닌 경우 처리
   // 구체적인 카드 선택이 아니기에 Other로 처리
   var idolName = obj.idol_en_name.toLowerCase();
-  if (idolName != "other") {
-    $(cardDialogDivId).append(
-      $("<img>", {
-        id: `${idolName}_char`,
-        src: `./img/icon_char/${idolName}.png`,
-        width: "96px",
-        height: "96px",
-        class: "dialogImg",
-        onerror: `this.src="${blankIdolIcon}"`,
-      })
-    );
-    $(`#${idolName}_char`).click(function () {
-      var selDivId = `#selectedIdolView_${divOffset}`;
+  $(cardDialogDivId).append(
+    $("<img>", {
+      id: `${idolName}_char`,
+      src: `./img/icon_char/${idolName}.png`,
+      width: "96px",
+      height: "96px",
+      class: "dialogImg",
+      onerror: `this.src="${blankIdolIcon}"`,
+    })
+  );
+  $(`#${idolName}_char`).click(function () {
+    var selDivId = `#selectedIdolView_${divOffset}`;
 
-      // 구체적인 카드 선택이 아닌 경우의 옵션 데이터 처리
-      // 히라메키를 제외한 나머지 옵션 능력은 알 수 없음
-      optionAbility = getOptionAbility("", insight, "");
-      setSelectCard(selDivId, `icon_char/`, idolName, optionAbility);
-      $(cardDialogDivId).dialog("close");
-    });
+    // 구체적인 카드 선택이 아닌 경우의 옵션 데이터 처리
+    // 히라메키를 제외한 나머지 옵션 능력은 알 수 없음
+    optionAbility = getOptionAbility("", insight, "");
+    setSelectCard(selDivId, `icon_char/`, idolName, optionAbility);
+    $(cardDialogDivId).dialog("close");
+  });
 
-    // 라인 추가
-    $(cardDialogDivId).append("<hr>");
-  } else if (idolName == "other") {
-    let cardCount = obj["card_count"];
-    for (let idx = 0; idx < cardCount; idx++) {
-      $(cardDialogDivId).append(
-        $("<img>", {
-          id: `${idolName}${idx + 1}_char`,
-          src: `./img/icon_char/${idolName}${idx + 1}.png`,
-          width: "96px",
-          height: "96px",
-          class: "dialogImg",
-          onerror: `this.src="${blankIdolIcon}"`,
-        })
-      );
-      $(`#${idolName}${idx + 1}_char`).click(function () {
-        var selDivId = `#selectedIdolView_${divOffset}`;
-        // 구체적인 카드 선택이 아닌 경우의 옵션 데이터 처리
-        // 히라메키를 제외한 나머지 옵션 능력은 알 수 없음
-        optionAbility = getOptionAbility("", insight, "");
-        setSelectCard(selDivId, `icon_char/`, `${idolName}${idx + 1}`, optionAbility);
-        $(cardDialogDivId).dialog("close");
-      });
-    }
-
-    // 라인 추가
-    $(cardDialogDivId).append("<hr>");
-  }
+  // 라인 추가
+  $(cardDialogDivId).append("<hr>");
 
   // 카드 미선택 아이콘 선택 처리
   $(cardDialogDivId).append(
