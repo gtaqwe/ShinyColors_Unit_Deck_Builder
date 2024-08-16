@@ -5516,6 +5516,9 @@
       "P_SSR": [
         {
           "card_addr": "ruby_p_ssr1"
+        },
+        {
+          "card_addr": "ruby_p_ssr2"
         }
       ],
       "S_SSR": [
@@ -5529,7 +5532,7 @@
         }
       ]
     },
-    "card_count": 2
+    "card_count": 3
   },
   {
     "idol_ko_name": "카나",
@@ -5541,10 +5544,13 @@
       "P_SSR": [
         {
           "card_addr": "kana_p_ssr1"
+        },
+        {
+          "card_addr": "kana_p_ssr2"
         }
       ]
     },
-    "card_count": 1
+    "card_count": 2
   },
   {
     "idol_ko_name": "MEM쵸",
