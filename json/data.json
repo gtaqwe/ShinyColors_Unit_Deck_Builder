@@ -2213,6 +2213,9 @@
         },
         {
           "card_addr": "chiyoko_p_ssr10"
+        },
+        {
+          "card_addr": "chiyoko_p_ssr11"
         }
       ],
       "P_SR": [
@@ -2395,7 +2398,7 @@
         }
       ]
     },
-    "card_count": 38
+    "card_count": 39
   },
   {
     "idol_ko_name": "쥬리",
@@ -3063,6 +3066,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "natsuha_s_sr10",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -3089,7 +3099,7 @@
         }
       ]
     },
-    "card_count": 40
+    "card_count": 41
   },
   {
     "idol_ko_name": "아마나",
@@ -5355,6 +5365,14 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "luca_s_ssr4",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness",
+            "Focus"
+          ]
         }
       ],
       "S_SR": [
@@ -5381,7 +5399,7 @@
         }
       ]
     },
-    "card_count": 13
+    "card_count": 14
   },
   {
     "idol_ko_name": "하나",
