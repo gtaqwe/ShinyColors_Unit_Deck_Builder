@@ -317,6 +317,9 @@
         },
         {
           "card_addr": "hiori_p_ssr10"
+        },
+        {
+          "card_addr": "hiori_p_ssr11"
         }
       ],
       "P_SR": [
@@ -533,7 +536,7 @@
         }
       ]
     },
-    "card_count": 43
+    "card_count": 44
   },
   {
     "idol_ko_name": "메구루",
@@ -4849,6 +4852,13 @@
             "VocalProwess",
             "Focus"
           ]
+        },
+        {
+          "card_addr": "koito_s_ssr6",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Teamwork"
+          ]
         }
       ],
       "S_SR": [
@@ -4896,7 +4906,7 @@
         }
       ]
     },
-    "card_count": 22
+    "card_count": 23
   },
   {
     "idol_ko_name": "히나나",
@@ -5166,6 +5176,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "nichika_s_sr5",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -5183,7 +5200,7 @@
         }
       ]
     },
-    "card_count": 23
+    "card_count": 24
   },
   {
     "idol_ko_name": "미코토",
