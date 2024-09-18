@@ -3872,6 +3872,9 @@
         },
         {
           "card_addr": "asahi_p_ssr8"
+        },
+        {
+          "card_addr": "asahi_p_ssr9"
         }
       ],
       "P_SR": [
@@ -4037,7 +4040,7 @@
         }
       ]
     },
-    "card_count": 34
+    "card_count": 35
   },
   {
     "idol_ko_name": "후유코",
@@ -4889,6 +4892,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "koito_s_sr5",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -4906,7 +4916,7 @@
         }
       ]
     },
-    "card_count": 23
+    "card_count": 24
   },
   {
     "idol_ko_name": "히나나",
@@ -5146,6 +5156,14 @@
             "Stability",
             "Focus"
           ]
+        },
+        {
+          "card_addr": "nichika_s_ssr7",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Stability"
+          ]
         }
       ],
       "S_SR": [
@@ -5200,7 +5218,7 @@
         }
       ]
     },
-    "card_count": 24
+    "card_count": 25
   },
   {
     "idol_ko_name": "미코토",
