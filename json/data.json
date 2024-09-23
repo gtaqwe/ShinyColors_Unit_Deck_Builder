@@ -770,6 +770,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "meguru_s_sr10",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -787,7 +794,7 @@
         }
       ]
     },
-    "card_count": 43
+    "card_count": 44
   },
   {
     "idol_ko_name": "코가네",
@@ -1224,6 +1231,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "mamimi_s_sr10",
+          "card_idea": "Appeal",
+          "card_prof": [
+            "Teamwork"
+          ]
         }
       ],
       "P_R": [
@@ -1250,7 +1264,7 @@
         }
       ]
     },
-    "card_count": 40
+    "card_count": 41
   },
   {
     "idol_ko_name": "사쿠야",
@@ -2398,6 +2412,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "chiyoko_s_sr9",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -2415,7 +2436,7 @@
         }
       ]
     },
-    "card_count": 39
+    "card_count": 40
   },
   {
     "idol_ko_name": "쥬리",
@@ -3819,6 +3840,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "chiyuki_s_sr9",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -3836,7 +3864,7 @@
         }
       ]
     },
-    "card_count": 41
+    "card_count": 42
   },
   {
     "idol_ko_name": "아사히",
