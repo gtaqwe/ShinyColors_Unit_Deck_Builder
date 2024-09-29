@@ -836,6 +836,9 @@
         },
         {
           "card_addr": "kogane_p_ssr10"
+        },
+        {
+          "card_addr": "kogane_p_ssr11"
         }
       ],
       "P_SR": [
@@ -1021,7 +1024,7 @@
         }
       ]
     },
-    "card_count": 39
+    "card_count": 40
   },
   {
     "idol_ko_name": "마미미",
@@ -2584,6 +2587,13 @@
           "card_prof": [
             "Teamwork"
           ]
+        },
+        {
+          "card_addr": "juri_s_ssr12",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "S_SR": [
@@ -2652,7 +2662,7 @@
         }
       ]
     },
-    "card_count": 37
+    "card_count": 38
   },
   {
     "idol_ko_name": "린제",
@@ -3438,6 +3448,9 @@
         },
         {
           "card_addr": "tenka_p_ssr11"
+        },
+        {
+          "card_addr": "tenka_p_ssr12"
         }
       ],
       "P_SR": [
@@ -3626,7 +3639,7 @@
         }
       ]
     },
-    "card_count": 41
+    "card_count": 42
   },
   {
     "idol_ko_name": "치유키",
