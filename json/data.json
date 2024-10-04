@@ -179,6 +179,13 @@
             "VocalProwess",
             "Teamwork"
           ]
+        },
+        {
+          "card_addr": "mano_s_ssr16",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "S_SR": [
@@ -275,7 +282,7 @@
         }
       ]
     },
-    "card_count": 47
+    "card_count": 48
   },
   {
     "idol_ko_name": "히오리",
@@ -4064,6 +4071,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "asahi_s_sr7",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -4081,7 +4095,7 @@
         }
       ]
     },
-    "card_count": 35
+    "card_count": 36
   },
   {
     "idol_ko_name": "후유코",
@@ -4430,6 +4444,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "mei_s_sr6",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -4447,7 +4468,7 @@
         }
       ]
     },
-    "card_count": 31
+    "card_count": 32
   },
   {
     "idol_ko_name": "토오루",
