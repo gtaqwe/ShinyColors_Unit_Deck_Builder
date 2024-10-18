@@ -4092,6 +4092,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "asahi_s_sr8",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -4109,7 +4116,7 @@
         }
       ]
     },
-    "card_count": 36
+    "card_count": 37
   },
   {
     "idol_ko_name": "후유코",
@@ -4278,6 +4285,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "fuyuko_s_sr5",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -4295,7 +4309,7 @@
         }
       ]
     },
-    "card_count": 33
+    "card_count": 34
   },
   {
     "idol_ko_name": "메이",
