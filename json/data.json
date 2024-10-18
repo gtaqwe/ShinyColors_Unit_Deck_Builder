@@ -447,6 +447,13 @@
             "Expressiveness",
             "Focus"
           ]
+        },
+        {
+          "card_addr": "hiori_s_ssr13",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Focus"
+          ]
         }
       ],
       "S_SR": [
@@ -550,7 +557,7 @@
         }
       ]
     },
-    "card_count": 44
+    "card_count": 45
   },
   {
     "idol_ko_name": "메구루",
@@ -3400,6 +3407,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "amana_s_sr9",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -3417,7 +3431,7 @@
         }
       ]
     },
-    "card_count": 44
+    "card_count": 45
   },
   {
     "idol_ko_name": "텐카",
@@ -5574,6 +5588,9 @@
         },
         {
           "card_addr": "hana_p_ssr2"
+        },
+        {
+          "card_addr": "hana_p_ssr3"
         }
       ],
       "P_SR": [
@@ -5628,7 +5645,7 @@
         }
       ]
     },
-    "card_count": 9
+    "card_count": 10
   },
   {
     "idol_ko_name": "하루키",
