@@ -4825,6 +4825,13 @@
             "VocalProwess",
             "Stability"
           ]
+        },
+        {
+          "card_addr": "madoka_s_ssr10",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "S_SR": [
@@ -4893,7 +4900,7 @@
         }
       ]
     },
-    "card_count": 31
+    "card_count": 32
   },
   {
     "idol_ko_name": "코이토",
