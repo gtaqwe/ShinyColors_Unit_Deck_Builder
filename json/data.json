@@ -977,6 +977,14 @@
             "Stability",
             "Focus"
           ]
+        },
+        {
+          "card_addr": "kogane_s_ssr13",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Stability",
+            "Focus"
+          ]
         }
       ],
       "S_SR": [
@@ -1059,7 +1067,7 @@
         }
       ]
     },
-    "card_count": 41
+    "card_count": 42
   },
   {
     "idol_ko_name": "마미미",
@@ -1211,6 +1219,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "mamimi_s_ssr13",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "S_SR": [
@@ -1309,7 +1324,7 @@
         }
       ]
     },
-    "card_count": 42
+    "card_count": 43
   },
   {
     "idol_ko_name": "사쿠야",
@@ -1575,6 +1590,9 @@
         },
         {
           "card_addr": "yuika_p_ssr10"
+        },
+        {
+          "card_addr": "yuika_p_ssr11"
         }
       ],
       "P_SR": [
@@ -1762,7 +1780,7 @@
         }
       ]
     },
-    "card_count": 39
+    "card_count": 40
   },
   {
     "idol_ko_name": "키리코",
@@ -2413,6 +2431,14 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "chiyoko_s_ssr14",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess",
+            "Focus"
+          ]
         }
       ],
       "S_SR": [
@@ -2495,7 +2521,7 @@
         }
       ]
     },
-    "card_count": 41
+    "card_count": 42
   },
   {
     "idol_ko_name": "쥬리",
@@ -2883,6 +2909,13 @@
             "VocalProwess",
             "Focus"
           ]
+        },
+        {
+          "card_addr": "rinze_s_ssr13",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "S_SR": [
@@ -2972,7 +3005,7 @@
         }
       ]
     },
-    "card_count": 43
+    "card_count": 44
   },
   {
     "idol_ko_name": "나츠하",
