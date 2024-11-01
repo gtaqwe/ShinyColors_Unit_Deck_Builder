@@ -4965,6 +4965,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "madoka_s_sr8",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -4982,7 +4989,7 @@
         }
       ]
     },
-    "card_count": 32
+    "card_count": 33
   },
   {
     "idol_ko_name": "코이토",
@@ -5257,6 +5264,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "hinana_s_sr5",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -5274,7 +5288,7 @@
         }
       ]
     },
-    "card_count": 25
+    "card_count": 26
   },
   {
     "idol_ko_name": "니치카",
