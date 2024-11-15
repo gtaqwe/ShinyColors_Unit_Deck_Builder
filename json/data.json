@@ -985,6 +985,13 @@
             "Stability",
             "Focus"
           ]
+        },
+        {
+          "card_addr": "kogane_s_ssr14",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "S_SR": [
@@ -1067,7 +1074,7 @@
         }
       ]
     },
-    "card_count": 42
+    "card_count": 43
   },
   {
     "idol_ko_name": "마미미",
@@ -1522,6 +1529,20 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "sakuya_s_sr7",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "sakuya_s_sr8",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -1548,7 +1569,7 @@
         }
       ]
     },
-    "card_count": 38
+    "card_count": 40
   },
   {
     "idol_ko_name": "유이카",
