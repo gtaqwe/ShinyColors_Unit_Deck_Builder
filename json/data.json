@@ -1116,6 +1116,9 @@
         },
         {
           "card_addr": "mamimi_p_ssr10"
+        },
+        {
+          "card_addr": "mamimi_p_ssr11"
         }
       ],
       "P_SR": [
@@ -1331,7 +1334,7 @@
         }
       ]
     },
-    "card_count": 43
+    "card_count": 44
   },
   {
     "idol_ko_name": "사쿠야",
@@ -2037,6 +2040,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "kiriko_s_sr10",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -2054,7 +2064,7 @@
         }
       ]
     },
-    "card_count": 43
+    "card_count": 44
   },
   {
     "idol_ko_name": "카호",
@@ -3714,6 +3724,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "tenka_s_ssr14",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "S_SR": [
@@ -3791,7 +3808,7 @@
         }
       ]
     },
-    "card_count": 43
+    "card_count": 44
   },
   {
     "idol_ko_name": "치유키",
