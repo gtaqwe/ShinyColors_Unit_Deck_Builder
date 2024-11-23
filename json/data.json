@@ -4431,6 +4431,13 @@
             "VocalProwess",
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "fuyuko_s_ssr11",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "S_SR": [
@@ -4492,7 +4499,7 @@
         }
       ]
     },
-    "card_count": 35
+    "card_count": 36
   },
   {
     "idol_ko_name": "메이",
