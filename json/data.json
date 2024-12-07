@@ -2552,6 +2552,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "chiyoko_s_sr11",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -2569,7 +2576,7 @@
         }
       ]
     },
-    "card_count": 43
+    "card_count": 44
   },
   {
     "idol_ko_name": "쥬리",
@@ -2724,6 +2731,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "juri_s_ssr13",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "S_SR": [
@@ -2799,7 +2813,7 @@
         }
       ]
     },
-    "card_count": 39
+    "card_count": 40
   },
   {
     "idol_ko_name": "린제",
@@ -3282,6 +3296,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "natsuha_s_sr11",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -3308,7 +3329,7 @@
         }
       ]
     },
-    "card_count": 42
+    "card_count": 43
   },
   {
     "idol_ko_name": "아마나",
