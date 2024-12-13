@@ -5952,6 +5952,9 @@
         },
         {
           "card_addr": "haruki_p_ssr3"
+        },
+        {
+          "card_addr": "haruki_p_ssr4"
         }
       ],
       "P_SR": [
@@ -6002,7 +6005,7 @@
         }
       ]
     },
-    "card_count": 11
+    "card_count": 12
   },
   {
     "idol_ko_name": "하즈키",
