@@ -4912,6 +4912,20 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "toru_s_sr7",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
+        },
+        {
+          "card_addr": "toru_s_sr8",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -4929,7 +4943,7 @@
         }
       ]
     },
-    "card_count": 31
+    "card_count": 33
   },
   {
     "idol_ko_name": "마도카",
@@ -5114,6 +5128,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "madoka_s_sr9",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -5131,7 +5152,7 @@
         }
       ]
     },
-    "card_count": 33
+    "card_count": 34
   },
   {
     "idol_ko_name": "코이토",
@@ -5224,6 +5245,13 @@
           "card_prof": [
             "Teamwork"
           ]
+        },
+        {
+          "card_addr": "koito_s_ssr7",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "S_SR": [
@@ -5278,7 +5306,7 @@
         }
       ]
     },
-    "card_count": 25
+    "card_count": 26
   },
   {
     "idol_ko_name": "히나나",
