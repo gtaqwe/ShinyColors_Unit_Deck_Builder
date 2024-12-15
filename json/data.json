@@ -3830,6 +3830,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "tenka_s_sr8",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -3856,7 +3863,7 @@
         }
       ]
     },
-    "card_count": 45
+    "card_count": 46
   },
   {
     "idol_ko_name": "치유키",
