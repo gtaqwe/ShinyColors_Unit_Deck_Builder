@@ -736,6 +736,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "meguru_s_ssr15",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "S_SR": [
@@ -825,7 +832,7 @@
         }
       ]
     },
-    "card_count": 45
+    "card_count": 46
   },
   {
     "idol_ko_name": "코가네",
@@ -4329,6 +4336,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "asahi_s_sr10",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -4346,7 +4360,7 @@
         }
       ]
     },
-    "card_count": 39
+    "card_count": 40
   },
   {
     "idol_ko_name": "후유코",
@@ -5272,6 +5286,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "koito_s_ssr8",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "S_SR": [
@@ -5309,6 +5330,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "koito_s_sr6",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -5326,7 +5354,7 @@
         }
       ]
     },
-    "card_count": 26
+    "card_count": 28
   },
   {
     "idol_ko_name": "히나나",
@@ -6079,13 +6107,20 @@
             "VocalProwess",
             "Focus"
           ]
+        },
+        {
+          "card_addr": "hazuki_s_ssr3",
+          "card_idea": "Talk",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "S_SR": [],
       "P_R": [],
       "S_R": []
     },
-    "card_count": 2
+    "card_count": 3
   },
   {
     "idol_ko_name": "루비",
