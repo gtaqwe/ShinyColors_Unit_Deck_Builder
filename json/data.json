@@ -2245,6 +2245,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "kaho_s_ssr15",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "S_SR": [
@@ -2320,7 +2327,7 @@
         }
       ]
     },
-    "card_count": 43
+    "card_count": 44
   },
   {
     "idol_ko_name": "치요코",
