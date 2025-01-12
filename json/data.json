@@ -5702,6 +5702,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "nichika_s_sr6",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -5719,7 +5726,7 @@
         }
       ]
     },
-    "card_count": 25
+    "card_count": 26
   },
   {
     "idol_ko_name": "미코토",
@@ -5967,6 +5974,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "luca_s_sr2",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -5984,7 +5998,7 @@
         }
       ]
     },
-    "card_count": 15
+    "card_count": 16
   },
   {
     "idol_ko_name": "하나",
