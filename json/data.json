@@ -334,6 +334,9 @@
         },
         {
           "card_addr": "hiori_p_ssr11"
+        },
+        {
+          "card_addr": "hiori_p_ssr12"
         }
       ],
       "P_SR": [
@@ -564,7 +567,7 @@
         }
       ]
     },
-    "card_count": 46
+    "card_count": 47
   },
   {
     "idol_ko_name": "메구루",
@@ -1070,6 +1073,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "kogane_s_sr10",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -1087,7 +1097,7 @@
         }
       ]
     },
-    "card_count": 44
+    "card_count": 45
   },
   {
     "idol_ko_name": "마미미",
@@ -5598,6 +5608,9 @@
         },
         {
           "card_addr": "nichika_p_ssr7"
+        },
+        {
+          "card_addr": "nichika_p_ssr8"
         }
       ],
       "P_SR": [
@@ -5726,7 +5739,7 @@
         }
       ]
     },
-    "card_count": 26
+    "card_count": 27
   },
   {
     "idol_ko_name": "미코토",
