@@ -2906,6 +2906,9 @@
         },
         {
           "card_addr": "rinze_p_ssr12"
+        },
+        {
+          "card_addr": "rinze_p_ssr13"
         }
       ],
       "P_SR": [
@@ -3115,7 +3118,7 @@
         }
       ]
     },
-    "card_count": 45
+    "card_count": 46
   },
   {
     "idol_ko_name": "나츠하",
@@ -5590,6 +5593,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "hinana_s_sr6",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -5607,7 +5617,7 @@
         }
       ]
     },
-    "card_count": 26
+    "card_count": 27
   },
   {
     "idol_ko_name": "니치카",
