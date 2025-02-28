@@ -4357,6 +4357,14 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "asahi_s_ssr13",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness",
+            "Teamwork"
+          ]
         }
       ],
       "S_SR": [
@@ -4446,7 +4454,7 @@
         }
       ]
     },
-    "card_count": 41
+    "card_count": 42
   },
   {
     "idol_ko_name": "후유코",
@@ -5005,6 +5013,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "toru_s_ssr12",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "S_SR": [
@@ -5080,7 +5095,7 @@
         }
       ]
     },
-    "card_count": 34
+    "card_count": 35
   },
   {
     "idol_ko_name": "마도카",
@@ -5508,6 +5523,9 @@
         },
         {
           "card_addr": "hinana_p_ssr8"
+        },
+        {
+          "card_addr": "hinana_p_ssr9"
         }
       ],
       "P_SR": [
@@ -5634,7 +5652,7 @@
         }
       ]
     },
-    "card_count": 27
+    "card_count": 28
   },
   {
     "idol_ko_name": "니치카",
