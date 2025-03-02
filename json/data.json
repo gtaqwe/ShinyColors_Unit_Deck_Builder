@@ -2620,6 +2620,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "chiyoko_s_sr12",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -2637,7 +2644,7 @@
         }
       ]
     },
-    "card_count": 45
+    "card_count": 46
   },
   {
     "idol_ko_name": "쥬리",
@@ -5618,6 +5625,13 @@
             "Stability",
             "Focus"
           ]
+        },
+        {
+          "card_addr": "hinana_s_ssr8",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "S_SR": [
@@ -5679,7 +5693,7 @@
         }
       ]
     },
-    "card_count": 28
+    "card_count": 29
   },
   {
     "idol_ko_name": "니치카",
