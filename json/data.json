@@ -440,8 +440,10 @@
         },
         {
           "card_addr": "hiori_s_ssr11",
-          "card_idea": null,
-          "card_prof": []
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         },
         {
           "card_addr": "hiori_s_ssr12",
@@ -729,8 +731,10 @@
         },
         {
           "card_addr": "meguru_s_ssr12",
-          "card_idea": null,
-          "card_prof": []
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         },
         {
           "card_addr": "meguru_s_ssr13",
@@ -990,8 +994,10 @@
         },
         {
           "card_addr": "kogane_s_ssr10",
-          "card_idea": null,
-          "card_prof": []
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         },
         {
           "card_addr": "kogane_s_ssr11",
@@ -1516,8 +1522,10 @@
         },
         {
           "card_addr": "sakuya_s_ssr11",
-          "card_idea": null,
-          "card_prof": []
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         },
         {
           "card_addr": "sakuya_s_ssr12",
@@ -1751,8 +1759,10 @@
         },
         {
           "card_addr": "yuika_s_ssr11",
-          "card_idea": null,
-          "card_prof": []
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         },
         {
           "card_addr": "yuika_s_ssr12",
@@ -2250,8 +2260,10 @@
         },
         {
           "card_addr": "kaho_s_ssr11",
-          "card_idea": null,
-          "card_prof": []
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         },
         {
           "card_addr": "kaho_s_ssr12",
@@ -3019,8 +3031,10 @@
         },
         {
           "card_addr": "rinze_s_ssr11",
-          "card_idea": null,
-          "card_prof": []
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         },
         {
           "card_addr": "rinze_s_ssr12",
@@ -3276,8 +3290,10 @@
         },
         {
           "card_addr": "natsuha_s_ssr10",
-          "card_idea": null,
-          "card_prof": []
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         },
         {
           "card_addr": "natsuha_s_ssr11",
@@ -3838,8 +3854,10 @@
         },
         {
           "card_addr": "tenka_s_ssr12",
-          "card_idea": null,
-          "card_prof": []
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         },
         {
           "card_addr": "tenka_s_ssr13",
@@ -4099,8 +4117,10 @@
         },
         {
           "card_addr": "chiyuki_s_ssr11",
-          "card_idea": null,
-          "card_prof": []
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         },
         {
           "card_addr": "chiyuki_s_ssr12",
