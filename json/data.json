@@ -847,6 +847,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "meguru_s_sr11",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -864,7 +871,7 @@
         }
       ]
     },
-    "card_count": 47
+    "card_count": 48
   },
   {
     "idol_ko_name": "코가네",
@@ -1852,6 +1859,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "yuika_s_sr10",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -1869,7 +1883,7 @@
         }
       ]
     },
-    "card_count": 40
+    "card_count": 41
   },
   {
     "idol_ko_name": "키리코",
@@ -2894,6 +2908,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "juri_s_sr10",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -2911,7 +2932,7 @@
         }
       ]
     },
-    "card_count": 42
+    "card_count": 43
   },
   {
     "idol_ko_name": "린제",
@@ -3978,6 +3999,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "tenka_s_sr9",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "P_R": [
@@ -4004,7 +4032,7 @@
         }
       ]
     },
-    "card_count": 47
+    "card_count": 48
   },
   {
     "idol_ko_name": "치유키",
@@ -4169,6 +4197,13 @@
           "card_prof": [
             "Teamwork"
           ]
+        },
+        {
+          "card_addr": "chiyuki_s_ssr14",
+          "card_idea": "Visual",
+          "card_prof": [
+            "Expressiveness"
+          ]
         }
       ],
       "S_SR": [
@@ -4265,7 +4300,7 @@
         }
       ]
     },
-    "card_count": 45
+    "card_count": 46
   },
   {
     "idol_ko_name": "아사히",
@@ -4498,6 +4533,13 @@
           "card_prof": [
             "VocalProwess"
           ]
+        },
+        {
+          "card_addr": "asahi_s_sr11",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -4515,7 +4557,7 @@
         }
       ]
     },
-    "card_count": 42
+    "card_count": 43
   },
   {
     "idol_ko_name": "후유코",
@@ -5531,6 +5573,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "koito_s_sr7",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -5548,7 +5597,7 @@
         }
       ]
     },
-    "card_count": 28
+    "card_count": 29
   },
   {
     "idol_ko_name": "히나나",
@@ -5867,6 +5916,13 @@
           "card_prof": [
             "Stability"
           ]
+        },
+        {
+          "card_addr": "nichika_s_sr7",
+          "card_idea": "Vocal",
+          "card_prof": [
+            "VocalProwess"
+          ]
         }
       ],
       "P_R": [
@@ -5884,7 +5940,7 @@
         }
       ]
     },
-    "card_count": 27
+    "card_count": 28
   },
   {
     "idol_ko_name": "미코토",
@@ -6145,6 +6201,13 @@
           "card_prof": [
             "Expressiveness"
           ]
+        },
+        {
+          "card_addr": "luca_s_sr3",
+          "card_idea": "Dance",
+          "card_prof": [
+            "Stability"
+          ]
         }
       ],
       "P_R": [
@@ -6162,7 +6225,7 @@
         }
       ]
     },
-    "card_count": 17
+    "card_count": 18
   },
   {
     "idol_ko_name": "하나",
